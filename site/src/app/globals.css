@@ -308,40 +308,41 @@ body {
 
 /* ─── Callout boxes ─── */
 /*
- * Quiet left-border accent with a small overline label.
- * The label is light (500 weight) — it should whisper, not shout.
- * Tighter vertical spacing so the label and text feel unified.
+ * Left-border accent. The label is a small italic serif prefix —
+ * quiet and editorial, lets the border color do the heavy lifting.
+ * Specificity boosted with .prose prefix to override base font-size.
  */
 
-.callout {
+.prose .callout {
   margin: 1.75em 0;
   padding: 0 0 0 1.25em;
   border-left: 2px solid var(--color-text-secondary);
 }
 
-.callout-good {
+.prose .callout-good {
   border-left-color: var(--color-forest);
 }
 
-.callout-watch {
+.prose .callout-watch {
   border-left-color: var(--color-text-secondary);
 }
 
-.callout-label {
-  font-family: var(--font-sans);
-  font-size: 11px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+.prose .callout-label {
+  font-family: var(--font-serif);
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: normal;
   color: var(--color-text-secondary);
-  margin: 0 0 4px 0;
+  margin: 0 0 2px 0;
 }
 
-.callout-good .callout-label {
+.prose .callout-good .callout-label {
   color: var(--color-forest);
 }
 
-.callout-text {
+.prose .callout-text {
   font-family: var(--font-serif);
   font-size: 17px;
   line-height: 1.65;
@@ -354,44 +355,43 @@ body {
  * Bordered top and bottom. Overline label, then serif body.
  */
 
-.verdict {
+.prose .verdict {
   margin: 2.5em 0;
   padding: 1.75em 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.verdict-label {
-  font-family: var(--font-sans);
-  font-size: 11px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+.prose .verdict-label {
+  font-family: var(--font-serif);
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
   color: var(--color-text-secondary);
-  margin: 0 0 0.75em 0;
+  margin: 0 0 0.5em 0;
 }
 
-.verdict-body {
+.prose .verdict-body {
   font-family: var(--font-serif);
 }
 
-.verdict-body p {
+.prose .verdict-body p {
   font-size: 19px;
   line-height: 1.75;
   color: var(--color-text-on-light);
   margin-bottom: 1em;
 }
 
-.verdict-body p:last-child {
+.prose .verdict-body p:last-child {
   margin-bottom: 0;
 }
 
-.verdict-body strong {
+.prose .verdict-body strong {
   color: var(--color-text-on-light);
   font-weight: 600;
 }
 
-.verdict-body a {
+.prose .verdict-body a {
   color: var(--color-coral);
   text-decoration: underline;
   text-underline-offset: 3px;
