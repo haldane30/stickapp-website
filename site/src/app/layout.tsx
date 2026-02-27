@@ -1,24 +1,43 @@
 import type { Metadata } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
 
 /**
- * FONTS — Currently using system fonts via CSS variables in globals.css.
+ * FONTS
  *
- * When Justin selects the final typefaces:
- * 1. Import the font via next/font/google or next/font/local
- * 2. Apply the .variable class to the <html> tag
- * 3. The CSS variable (--font-serif / --font-sans) cascades everywhere automatically
+ * Lora — Editorial serif for body text and headlines.
+ * Warm, readable, with beautiful weight variation. Designed for
+ * extended reading. The Medium model: serif for everything you *read*.
  *
- * Example (uncomment and update when ready):
+ * Poppins — Geometric sans-serif for structural/UI elements: nav,
+ * buttons, metadata labels, H3 subheadings, specs lines. Clean and
+ * modern, lets the serif do the talking.
  *
- *   import { Playfair_Display, Inter } from "next/font/google";
- *   const serif = Playfair_Display({ subsets: ["latin"], display: "swap", variable: "--font-serif" });
- *   const sans = Inter({ subsets: ["latin"], display: "swap", variable: "--font-sans" });
- *   // Then add ${serif.variable} ${sans.variable} to the <html> className
+ * Note: Using next/font/local with files in public/fonts/ because
+ * Google Fonts CDN isn't available in the build environment.
+ * For production, swap to next/font/google imports for optimal loading.
  */
+const serif = localFont({
+  src: [
+    { path: "../../public/fonts/Lora-Variable.ttf", style: "normal" },
+    { path: "../../public/fonts/Lora-Italic-Variable.ttf", style: "italic" },
+  ],
+  display: "swap",
+  variable: "--font-serif",
+});
+
+const sans = localFont({
+  src: [
+    { path: "../../public/fonts/Poppins-Regular.ttf", weight: "400", style: "normal" },
+    { path: "../../public/fonts/Poppins-Medium.ttf", weight: "500", style: "normal" },
+    { path: "../../public/fonts/Poppins-Bold.ttf", weight: "700", style: "normal" },
+  ],
+  display: "swap",
+  variable: "--font-sans",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -68,7 +87,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${serif.variable} ${sans.variable}`}>
       <body className="antialiased">
         <JsonLd data={organizationSchema} />
         <Header />

@@ -3,18 +3,17 @@
 /*
  * Design tokens as CSS custom properties.
  *
- * FONTS: Currently using system serif/sans as placeholders.
- * When Justin selects the final typefaces, update the next/font import
- * in layout.tsx — the CSS variables will be injected automatically.
+ * FONTS:
+ * --font-serif: Source Serif 4 — body text, H1, H2 (editorial voice)
+ * --font-sans:  Inter — nav, H3, metadata, buttons, labels (structural voice)
  *
- * Everything downstream references these variables,
- * so a font swap is a single-file change.
+ * The next/font imports in layout.tsx inject these variables automatically.
  */
 
 @theme inline {
   /* ─── Fonts ─── */
-  --font-serif: Georgia, "Times New Roman", serif;
-  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: var(--font-serif, Georgia, "Times New Roman", serif);
+  --font-sans: var(--font-sans, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif);
 
   /* ─── Colors: Canvas ─── */
   --color-canvas-dark: #0f0f0f;
@@ -38,7 +37,7 @@
 
 :root {
   /* ─── Spacing (responsive) ─── */
-  --section-padding-y: 160px;
+  --section-padding-y: 120px;
   --content-max-width: 1280px;
   --reading-max-width: 720px;
   --grid-gap: 48px;
@@ -46,14 +45,14 @@
 
 @media (max-width: 1279px) {
   :root {
-    --section-padding-y: 120px;
+    --section-padding-y: 96px;
     --grid-gap: 32px;
   }
 }
 
 @media (max-width: 767px) {
   :root {
-    --section-padding-y: 80px;
+    --section-padding-y: 64px;
     --grid-gap: 24px;
   }
 }
@@ -87,46 +86,63 @@ body {
 
 /* ═══════════════════════════════════════════════════════════════════════════
    PROSE — Editorial typography for blog posts and game guides.
-   Inspired by Medium: generous whitespace, clear hierarchy, content breathes.
+
+   The serif (Source Serif 4) carries all the reading — body, H1, H2.
+   The sans (Inter) handles structural moments — H3, metadata, labels.
+   This creates the medium.com-style reading experience: warm, immersive,
+   with clear hierarchy shifts that guide the eye.
    ═══════════════════════════════════════════════════════════════════════════ */
 
 .prose {
   max-width: var(--reading-max-width);
-  font-size: 18px;
-  line-height: 1.8;
+  font-family: var(--font-serif);
+  font-size: 19px;
+  line-height: 1.75;
   color: var(--color-text-on-light);
+  letter-spacing: -0.003em;
 }
+
+/* ─── Headings ─── */
 
 .prose h1 {
   font-family: var(--font-serif);
-  font-size: clamp(32px, 4vw, 48px);
-  line-height: 1.15;
-  margin-top: 2.5em;
-  margin-bottom: 0.5em;
+  font-size: clamp(32px, 4vw, 44px);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-top: 2em;
+  margin-bottom: 0.4em;
   color: var(--color-text-on-light);
 }
 
 .prose h2 {
   font-family: var(--font-serif);
-  font-size: clamp(24px, 3vw, 32px);
-  line-height: 1.25;
-  margin-top: 2.5em;
-  margin-bottom: 0.25em;
+  font-size: clamp(24px, 2.8vw, 30px);
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+  margin-top: 2em;
+  margin-bottom: 0.3em;
   color: var(--color-text-on-light);
 }
 
 .prose h3 {
   font-family: var(--font-sans);
+  font-size: clamp(16px, 1.5vw, 19px);
   font-weight: 600;
-  font-size: clamp(17px, 2vw, 22px);
-  line-height: 1.35;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
   margin-top: 2em;
   margin-bottom: 0.5em;
-  color: var(--color-text-on-light);
+  color: var(--color-text-secondary);
 }
 
+/* ─── Body elements ─── */
+
 .prose p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.4em;
 }
 
 .prose a {
@@ -151,18 +167,18 @@ body {
 
 .prose ul,
 .prose ol {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.4em;
   padding-left: 1.5em;
 }
 
 .prose li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.4em;
 }
 
 .prose blockquote {
   border-left: 2px solid var(--color-text-secondary);
   padding-left: 1.5em;
-  margin: 2em 0;
+  margin: 1.75em 0;
   font-style: italic;
   color: var(--color-text-secondary);
 }
@@ -170,7 +186,7 @@ body {
 .prose hr {
   border: none;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
-  margin: 3em 0;
+  margin: 2.5em 0;
 }
 
 /* ─── Prose tables ─── */
@@ -178,8 +194,9 @@ body {
 .prose table {
   width: 100%;
   border-collapse: collapse;
-  margin: 2em 0;
-  font-size: 15px;
+  margin: 1.75em 0;
+  font-family: var(--font-sans);
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -189,20 +206,21 @@ body {
 
 .prose th {
   text-align: left;
-  padding: 10px 14px 10px 0;
+  padding: 8px 16px 8px 0;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 11px;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: var(--color-text-secondary);
 }
 
 .prose td {
   text-align: left;
-  padding: 10px 14px 10px 0;
+  padding: 10px 16px 10px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   color: var(--color-text-on-light);
   vertical-align: top;
+  font-size: 14px;
 }
 
 .prose td:first-child {
@@ -222,19 +240,22 @@ body {
 
 .review-section {
   margin-top: 0.5em;
-  margin-bottom: 3em;
+  margin-bottom: 2.5em;
 }
 
 .review-name {
   font-family: var(--font-serif);
-  font-size: clamp(24px, 3vw, 32px);
-  line-height: 1.25;
+  font-size: clamp(24px, 2.8vw, 30px);
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
   color: var(--color-text-on-light);
-  margin: 0 0 0.25em 0;
+  margin: 0 0 0.15em 0;
 }
 
 .review-specs {
-  font-size: 14px;
+  font-family: var(--font-sans);
+  font-size: 13px;
   color: var(--color-text-secondary);
   letter-spacing: 0.02em;
   margin-bottom: 1.25em;
@@ -242,11 +263,16 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
+.review-body {
+  font-family: var(--font-serif);
+}
+
 .review-body p {
-  font-size: 18px;
-  line-height: 1.8;
+  font-size: 19px;
+  line-height: 1.75;
   color: var(--color-text-on-light);
-  margin-bottom: 1.5em;
+  margin-bottom: 1.4em;
+  letter-spacing: -0.003em;
 }
 
 .review-body p:last-child {
@@ -282,12 +308,13 @@ body {
 }
 
 .callout-label {
-  font-size: 12px;
+  font-family: var(--font-sans);
+  font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   color: var(--color-text-secondary);
-  margin: 0 0 4px 0;
+  margin: 0 0 6px 0;
 }
 
 .callout-good .callout-label {
@@ -295,7 +322,8 @@ body {
 }
 
 .callout-text {
-  font-size: 16px;
+  font-family: var(--font-serif);
+  font-size: 17px;
   line-height: 1.65;
   color: var(--color-text-on-light);
   margin: 0;
@@ -305,22 +333,29 @@ body {
 /* Separated by rules, not boxed. Feels editorial. */
 
 .verdict {
-  margin: 3em 0;
+  margin: 2.5em 0;
   padding: 2em 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .verdict-label {
-  font-family: var(--font-serif);
-  font-size: clamp(20px, 2.5vw, 26px);
-  color: var(--color-text-on-light);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-secondary);
   margin: 0 0 1em 0;
 }
 
+.verdict-body {
+  font-family: var(--font-serif);
+}
+
 .verdict-body p {
-  font-size: 18px;
-  line-height: 1.8;
+  font-size: 19px;
+  line-height: 1.75;
   color: var(--color-text-on-light);
   margin-bottom: 1em;
 }
@@ -344,17 +379,19 @@ body {
 /* ─── FAQ section ─── */
 
 .faq-section {
-  margin-top: 3em;
-  padding-top: 2.5em;
+  margin-top: 2.5em;
+  padding-top: 2em;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .faq-heading {
   font-family: var(--font-serif);
-  font-size: clamp(24px, 3vw, 32px);
-  line-height: 1.25;
+  font-size: clamp(24px, 2.8vw, 30px);
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
   color: var(--color-text-on-light);
-  margin: 0 0 1.5em 0;
+  margin: 0 0 1.25em 0;
 }
 
 .faq-list {
@@ -376,13 +413,14 @@ body {
 .faq-question {
   font-family: var(--font-sans);
   font-weight: 600;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.4;
   color: var(--color-text-on-light);
   margin: 0 0 0.5em 0;
 }
 
 .faq-answer {
+  font-family: var(--font-serif);
   font-size: 16px;
   line-height: 1.7;
   color: var(--color-text-secondary);

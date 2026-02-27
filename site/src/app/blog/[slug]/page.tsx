@@ -144,57 +144,86 @@ export default async function BlogPostPage({
       {faqSchema && <JsonLd data={faqSchema} />}
 
       {/* ─── Hero ─────────────────────────────────────────────────────── */}
-      <section className="section-dark pt-32 pb-16">
+      <section className="section-dark" style={{ padding: "128px 0 64px" }}>
         <div className="mx-auto max-w-[var(--reading-max-width)] px-6">
           {/* Breadcrumb */}
-          <nav className="text-sm text-[var(--color-text-secondary)] mb-8">
+          <nav
+            className="mb-10"
+            style={{
+              fontFamily: "var(--font-sans)",
+              fontSize: "13px",
+              color: "var(--color-text-secondary)",
+            }}
+          >
             <Link
               href="/"
               className="hover:text-[var(--color-coral)] transition-colors"
             >
               Home
             </Link>
-            <span className="mx-2">/</span>
+            <span className="mx-2 opacity-40">/</span>
             <Link
               href="/blog"
               className="hover:text-[var(--color-coral)] transition-colors"
             >
               Blog
             </Link>
-            <span className="mx-2">/</span>
+            <span className="mx-2 opacity-40">/</span>
             <span className="text-[var(--color-text-on-dark)]">
               {meta.title}
             </span>
           </nav>
 
           {/* Category & reading time */}
-          <div className="flex items-center gap-4 mb-6">
-            <span className="text-xs font-semibold uppercase tracking-wider text-[var(--color-coral)]">
+          <div
+            className="flex items-center gap-3 mb-5"
+            style={{ fontFamily: "var(--font-sans)", fontSize: "12px" }}
+          >
+            <span
+              className="font-semibold uppercase text-[var(--color-coral)]"
+              style={{ letterSpacing: "0.1em" }}
+            >
               {categoryLabels[meta.category] || meta.category}
             </span>
-            <span className="text-xs text-[var(--color-text-secondary)]">
+            <span className="text-[var(--color-text-secondary)] opacity-40">
+              ·
+            </span>
+            <span className="text-[var(--color-text-secondary)]">
               {meta.readingTime}
             </span>
           </div>
 
           {/* Title */}
           <h1
-            className="font-serif text-[var(--color-text-on-dark)]"
+            className="text-[var(--color-text-on-dark)]"
             style={{
-              fontSize: "clamp(32px, 4vw, 52px)",
+              fontFamily: "var(--font-serif)",
+              fontSize: "clamp(32px, 4.5vw, 48px)",
+              fontWeight: 700,
               lineHeight: 1.15,
+              letterSpacing: "-0.02em",
             }}
           >
             {meta.title}
           </h1>
 
           {/* Description */}
-          <p className="mt-6 text-lg text-[var(--color-text-secondary)] leading-relaxed max-w-2xl">
+          <p
+            className="mt-5 text-[var(--color-text-secondary)] max-w-2xl"
+            style={{
+              fontFamily: "var(--font-serif)",
+              fontSize: "18px",
+              lineHeight: 1.6,
+            }}
+          >
             {meta.description}
           </p>
 
           {/* Date */}
-          <p className="mt-6 text-sm text-[var(--color-text-secondary)]">
+          <p
+            className="mt-5 text-[var(--color-text-secondary)]"
+            style={{ fontFamily: "var(--font-sans)", fontSize: "13px" }}
+          >
             Published{" "}
             {new Date(meta.publishedAt).toLocaleDateString("en-US", {
               year: "numeric",
@@ -216,12 +245,9 @@ export default async function BlogPostPage({
       </section>
 
       {/* ─── Content ──────────────────────────────────────────────────── */}
-      <section
-        className="section-light"
-        style={{ padding: "var(--section-padding-y) 0" }}
-      >
+      <section className="section-light" style={{ padding: "64px 0 var(--section-padding-y)" }}>
         <div className="mx-auto max-w-[var(--reading-max-width)] px-6">
-          <article className="prose text-[var(--color-text-on-light)]">
+          <article className="prose">
             <MDXRemote
               source={content}
               components={mdxComponents}
@@ -239,19 +265,29 @@ export default async function BlogPostPage({
       <section className="section-dark" style={{ padding: "80px 0" }}>
         <div className="mx-auto max-w-[var(--reading-max-width)] px-6 text-center">
           <h2
-            className="font-serif text-[var(--color-text-on-dark)]"
-            style={{ fontSize: "clamp(24px, 3vw, 36px)", lineHeight: 1.2 }}
+            className="text-[var(--color-text-on-dark)]"
+            style={{
+              fontFamily: "var(--font-serif)",
+              fontSize: "clamp(24px, 3vw, 32px)",
+              fontWeight: 700,
+              lineHeight: 1.25,
+              letterSpacing: "-0.015em",
+            }}
           >
             Track every game from one scorecard.
           </h2>
-          <p className="mt-4 text-[var(--color-text-secondary)]">
+          <p
+            className="mt-4 text-[var(--color-text-secondary)]"
+            style={{ fontFamily: "var(--font-sans)", fontSize: "15px" }}
+          >
             Nassau, Skins, Wolf, and 9 more — with the math that&apos;s always
             right.
           </p>
           <div className="mt-8">
             <a
               href="/#download"
-              className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white font-medium text-base px-8 py-4 rounded-full transition-colors"
+              className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white text-sm font-medium px-8 py-4 rounded-full transition-colors"
+              style={{ fontFamily: "var(--font-sans)" }}
             >
               Download on the App Store
             </a>
