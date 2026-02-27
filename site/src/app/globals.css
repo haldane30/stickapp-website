@@ -10,7 +10,7 @@
  * TYPE SCALE (named tokens, flexible usage):
  *
  *   display     Serif  700  32–48px  Page titles (hero H1)
- *   title       Serif  700  24–30px  Section headings (H2)
+ *   title       Serif  700  28–36px  Section headings (H2)
  *   heading     Sans   700  20–24px  Content sub-heads, review names
  *   subheading  Sans   600  17–19px  FAQ questions, smaller content heads
  *   body        Serif  400  19px     Reading text, FAQ answers
@@ -126,10 +126,10 @@ body {
 /* title — section headings */
 .prose h2 {
   font-family: var(--font-serif);
-  font-size: clamp(24px, 2.8vw, 30px);
+  font-size: clamp(28px, 3.2vw, 36px);
   font-weight: 700;
-  line-height: 1.25;
-  letter-spacing: -0.015em;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
   margin-top: 2.25em;
   margin-bottom: 0.5em;
   color: var(--color-text-on-light);
@@ -403,10 +403,10 @@ body {
 
 .prose .faq-heading {
   font-family: var(--font-serif);
-  font-size: clamp(24px, 2.8vw, 30px);
+  font-size: clamp(28px, 3.2vw, 36px);
   font-weight: 700;
-  line-height: 1.25;
-  letter-spacing: -0.015em;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
   color: var(--color-text-on-light);
   margin: 0 0 1em 0;
 }
