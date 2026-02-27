@@ -4,19 +4,22 @@
  * Design System — stickapp.golf
  *
  * FONTS:
- *   --font-serif: Source Serif 4 — body text, page title (H1), section heads (H2)
- *   --font-sans:  Figtree — sub-headings (H3), review names, nav, meta, buttons
+ *   --font-serif: Source Serif 4 — reading text, major headings
+ *   --font-sans:  Figtree — structural UI, sub-headings, metadata
  *
- * HIERARCHY (most prominent → least):
- *   H1 (page title):    Source Serif 4, 700, 32–48px
- *   H2 (section head):  Source Serif 4, 700, 24–30px — real, bold headings
- *   H3 (sub-head):      Figtree, 700, 18–22px — sans contrast, still bold
- *   Overline:           Figtree, 500, 11px uppercase — quiet labels only
- *   Body:               Source Serif 4, 400, 19px
- *   Meta:               Figtree, 400, 13–14px
+ * TYPE SCALE (named tokens, flexible usage):
  *
- * The serif → sans shift from H2 to H3 creates a natural hierarchy break.
- * Both are bold so there's confidence at every level.
+ *   display     Serif  700  32–48px  Page titles (hero H1)
+ *   title       Serif  700  24–30px  Section headings (H2)
+ *   heading     Sans   700  20–24px  Content sub-heads, review names
+ *   subheading  Sans   600  17–19px  FAQ questions, smaller content heads
+ *   body        Serif  400  19px     Reading text, FAQ answers
+ *   small       Serif  400  17px     Callout text
+ *   caption     Mixed  400  13–14px  Specs, dates, callout labels
+ *   overline    Sans   500  11px     Table headers, uppercase micro-labels
+ *
+ * The serif → sans shift from title to heading creates natural hierarchy.
+ * FAQ answers use full body size + color — they're real content, not footnotes.
  */
 
 @theme inline {
@@ -95,10 +98,6 @@ body {
 
 /* ═══════════════════════════════════════════════════════════════════════════
    PROSE — Editorial typography for blog posts and game guides.
-
-   Source Serif 4 for reading: body, H1, H2.
-   Figtree for structure: H3, tables, metadata.
-   The serif → sans shift from H2 to H3 creates natural hierarchy.
    ═══════════════════════════════════════════════════════════════════════════ */
 
 .prose {
@@ -112,6 +111,7 @@ body {
 
 /* ─── Headings ─── */
 
+/* display — page title */
 .prose h1 {
   font-family: var(--font-serif);
   font-size: clamp(32px, 4vw, 44px);
@@ -123,10 +123,7 @@ body {
   color: var(--color-text-on-light);
 }
 
-/*
- * H2 — Bold serif section headings. These carry real weight.
- * "Why This Guide Exists", "The Quick Comparison", "The Reviews"
- */
+/* title — section headings */
 .prose h2 {
   font-family: var(--font-serif);
   font-size: clamp(24px, 2.8vw, 30px);
@@ -138,10 +135,7 @@ body {
   color: var(--color-text-on-light);
 }
 
-/*
- * H3 — Bold sans sub-headings. The font shift from serif H2 to sans H3
- * creates an obvious hierarchy break without needing to go smaller.
- */
+/* heading — content sub-heads */
 .prose h3 {
   font-family: var(--font-sans);
   font-size: clamp(18px, 2vw, 22px);
@@ -251,8 +245,8 @@ body {
 
 /* ─── App Review sections ─── */
 /*
- * Review names use bold Figtree (same as H3) — they ARE content sub-heads.
- * Specs line is quiet metadata underneath.
+ * Review names use "heading" scale — bold Figtree at 20–24px.
+ * Larger than FAQ questions, smaller than section H2s.
  */
 
 .review-section {
@@ -260,17 +254,17 @@ body {
   margin-bottom: 3em;
 }
 
-.review-name {
+.prose .review-name {
   font-family: var(--font-sans);
-  font-size: clamp(18px, 2vw, 22px);
+  font-size: clamp(20px, 2.2vw, 24px);
   font-weight: 700;
-  line-height: 1.35;
+  line-height: 1.3;
   letter-spacing: -0.01em;
   color: var(--color-text-on-light);
   margin: 0 0 0.2em 0;
 }
 
-.review-specs {
+.prose .review-specs {
   font-family: var(--font-sans);
   font-size: 13px;
   font-weight: 400;
@@ -308,9 +302,8 @@ body {
 
 /* ─── Callout boxes ─── */
 /*
- * Left-border accent. The label is a small italic serif prefix —
- * quiet and editorial, lets the border color do the heavy lifting.
- * Specificity boosted with .prose prefix to override base font-size.
+ * Left-border accent. Italic serif label at caption size.
+ * Specificity boosted with .prose to override base font-size.
  */
 
 .prose .callout {
@@ -351,9 +344,6 @@ body {
 }
 
 /* ─── Verdict / Bottom Line ─── */
-/*
- * Bordered top and bottom. Overline label, then serif body.
- */
 
 .prose .verdict {
   margin: 2.5em 0;
@@ -399,64 +389,69 @@ body {
 }
 
 /* ─── FAQ section ─── */
+/*
+ * FAQ heading uses "title" scale (matches H2).
+ * Questions use "subheading" — bold sans at 17–19px, smaller than review names.
+ * Answers use full body size + primary text color — not footnotes.
+ */
 
-.faq-section {
+.prose .faq-section {
   margin-top: 2.5em;
   padding-top: 2em;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.faq-heading {
+.prose .faq-heading {
   font-family: var(--font-serif);
   font-size: clamp(24px, 2.8vw, 30px);
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -0.015em;
   color: var(--color-text-on-light);
-  margin: 0 0 1.25em 0;
+  margin: 0 0 1em 0;
 }
 
-.faq-list {
+.prose .faq-list {
   display: flex;
   flex-direction: column;
   gap: 0;
 }
 
-.faq-item {
+.prose .faq-item {
   padding: 1.25em 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
-.faq-item:last-child {
+.prose .faq-item:last-child {
   border-bottom: none;
   padding-bottom: 0;
 }
 
-.faq-question {
+.prose .faq-question {
   font-family: var(--font-sans);
   font-weight: 600;
-  font-size: 16px;
+  font-size: clamp(17px, 1.5vw, 19px);
   line-height: 1.4;
   color: var(--color-text-on-light);
   margin: 0 0 0.4em 0;
 }
 
-.faq-answer {
+.prose .faq-answer {
   font-family: var(--font-serif);
-  font-size: 16px;
-  line-height: 1.7;
-  color: var(--color-text-secondary);
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--color-text-on-light);
 }
 
-.faq-answer p {
-  margin-bottom: 0.5em;
+.prose .faq-answer p {
+  margin-bottom: 0.75em;
 }
 
-.faq-answer p:last-child {
+.prose .faq-answer p:last-child {
   margin-bottom: 0;
 }
 
-.faq-answer a {
+.prose .faq-answer a {
   color: var(--color-coral);
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -465,8 +460,6 @@ body {
 /* ═══════════════════════════════════════════════════════════════════════════
    UTILITY STYLES
    ═══════════════════════════════════════════════════════════════════════════ */
-
-/* ─── Ken Burns drift animation for hero ─── */
 
 @keyframes ken-burns {
   0% {
@@ -481,8 +474,6 @@ body {
   animation: ken-burns 15s ease-in-out infinite alternate;
 }
 
-/* ─── Card hover effect ─── */
-
 .card-hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -491,8 +482,6 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
-
-/* ─── Focus styles for accessibility ─── */
 
 :focus-visible {
   outline: 2px solid var(--color-coral);
