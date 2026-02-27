@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import { getBlogPost, getBlogPostSlugs, getAllBlogPosts } from "@/lib/content";
 import { JsonLd } from "@/components/JsonLd";
 import { mdxComponents } from "@/components/mdx";
@@ -221,7 +222,15 @@ export default async function BlogPostPage({
       >
         <div className="mx-auto max-w-[var(--reading-max-width)] px-6">
           <article className="prose text-[var(--color-text-on-light)]">
-            <MDXRemote source={content} components={mdxComponents} />
+            <MDXRemote
+              source={content}
+              components={mdxComponents}
+              options={{
+                mdxOptions: {
+                  remarkPlugins: [remarkGfm],
+                },
+              }}
+            />
           </article>
         </div>
       </section>

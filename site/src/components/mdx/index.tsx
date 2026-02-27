@@ -41,6 +41,7 @@ export function AppReview({
 
   return (
     <div className="review-section">
+      <h2 className="review-name">{name}</h2>
       <p className="review-specs">{specs.join("  ·  ")}</p>
       <div className="review-body">{children}</div>
     </div>

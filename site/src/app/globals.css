@@ -222,7 +222,15 @@ body {
 
 .review-section {
   margin-top: 0.5em;
-  margin-bottom: 2.5em;
+  margin-bottom: 3em;
+}
+
+.review-name {
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 3vw, 32px);
+  line-height: 1.25;
+  color: var(--color-text-on-light);
+  margin: 0 0 0.25em 0;
 }
 
 .review-specs {
