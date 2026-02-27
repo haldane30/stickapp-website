@@ -1,0 +1,205 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens as CSS custom properties.
+ *
+ * FONTS: Currently using system serif/sans as placeholders.
+ * When Justin selects the final typefaces, update the next/font import
+ * in layout.tsx — the CSS variables will be injected automatically.
+ *
+ * Everything downstream references these variables,
+ * so a font swap is a single-file change.
+ */
+
+@theme inline {
+  /* ─── Fonts ─── */
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* ─── Colors: Canvas ─── */
+  --color-canvas-dark: #0f0f0f;
+  --color-canvas-light: #faf8f5;
+
+  /* ─── Colors: Text ─── */
+  --color-text-on-dark: #f0ebe3;
+  --color-text-on-light: #1a1a1a;
+  --color-text-secondary: #8a8580;
+
+  /* ─── Colors: Accent ─── */
+  --color-coral: #e8735a;
+  --color-coral-hover: #d4604a;
+  --color-forest: #2a4a3a;
+  --color-gold: #c4a45a;
+
+  /* ─── Colors: Semantic ─── */
+  --color-positive: #2e9e5b;
+  --color-negative: #e54d42;
+}
+
+:root {
+  /* ─── Spacing (responsive) ─── */
+  --section-padding-y: 160px;
+  --content-max-width: 1280px;
+  --reading-max-width: 720px;
+  --grid-gap: 48px;
+}
+
+@media (max-width: 1279px) {
+  :root {
+    --section-padding-y: 120px;
+    --grid-gap: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --section-padding-y: 80px;
+    --grid-gap: 24px;
+  }
+}
+
+/* ─── Base styles ─── */
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text-on-light);
+  background-color: var(--color-canvas-light);
+  line-height: 1.6;
+}
+
+/* ─── Section rhythm ─── */
+
+.section-dark {
+  background-color: var(--color-canvas-dark);
+  color: var(--color-text-on-dark);
+}
+
+.section-light {
+  background-color: var(--color-canvas-light);
+  color: var(--color-text-on-light);
+}
+
+/* ─── Prose styling for MDX content ─── */
+
+.prose {
+  max-width: var(--reading-max-width);
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+.prose h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1.15;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.prose h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1.2;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+}
+
+.prose h3 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: clamp(18px, 2vw, 24px);
+  line-height: 1.3;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.prose p {
+  margin-bottom: 1.25em;
+}
+
+.prose a {
+  color: var(--color-coral);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.prose a:hover {
+  color: var(--color-coral-hover);
+}
+
+.prose ul,
+.prose ol {
+  margin-bottom: 1.25em;
+  padding-left: 1.5em;
+}
+
+.prose li {
+  margin-bottom: 0.5em;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+}
+
+.prose th,
+.prose td {
+  text-align: left;
+  padding: 0.75em 1em;
+  border-bottom: 1px solid #e5e2de;
+}
+
+.prose th {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-secondary);
+}
+
+.prose blockquote {
+  border-left: 3px solid var(--color-coral);
+  padding-left: 1.25em;
+  margin: 1.5em 0;
+  font-style: italic;
+  color: var(--color-text-secondary);
+}
+
+/* ─── Ken Burns drift animation for hero ─── */
+
+@keyframes ken-burns {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.animate-ken-burns {
+  animation: ken-burns 15s ease-in-out infinite alternate;
+}
+
+/* ─── Card hover effect ─── */
+
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* ─── Focus styles for accessibility ─── */
+
+:focus-visible {
+  outline: 2px solid var(--color-coral);
+  outline-offset: 2px;
+}
