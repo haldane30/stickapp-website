@@ -13,8 +13,9 @@
 import React from "react";
 
 // ─── App Review ──────────────────────────────────────────────────────────────
-// Renders as a section with a quiet metadata line — no card, no container.
-// The H2 comes from markdown. This just adds the specs underneath.
+// Renders as a section with the app name as a content heading (h3) and a
+// quiet specs line underneath. The parent H2 in markdown ("The Reviews")
+// acts as the section label; this h3 is the visually prominent element.
 
 export function AppReview({
   name,
@@ -41,7 +42,7 @@ export function AppReview({
 
   return (
     <div className="review-section">
-      <h2 className="review-name">{name}</h2>
+      <h3 className="review-name">{name}</h3>
       <p className="review-specs">{specs.join("  ·  ")}</p>
       <div className="review-body">{children}</div>
     </div>

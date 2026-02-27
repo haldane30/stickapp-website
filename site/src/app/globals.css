@@ -1,13 +1,22 @@
 @import "tailwindcss";
 
 /*
- * Design tokens as CSS custom properties.
+ * Design System — stickapp.golf
  *
  * FONTS:
- * --font-serif: Source Serif 4 — body text, H1, H2 (editorial voice)
- * --font-sans:  Inter — nav, H3, metadata, buttons, labels (structural voice)
+ *   --font-serif: Source Serif 4 — body text, page titles (H1), content headings
+ *   --font-sans:  Figtree — navigation, section labels (H2), metadata, buttons
  *
- * The next/font imports in layout.tsx inject these variables automatically.
+ * HIERARCHY (most prominent → least):
+ *   H1 (page title):    Source Serif 4, 700, 32-48px — used once per page
+ *   H3 (content head):  Source Serif 4, 600, 22-28px — review names, sub-topics
+ *   H2 (section label): Figtree, 600, 11-12px uppercase — quiet wayfinding
+ *   Body:               Source Serif 4, 400, 19px — the reading experience
+ *   Meta:               Figtree, 400-500, 12-14px — specs, dates, labels
+ *
+ * This inverts the typical H2 > H3 visual weight. H2s act as section dividers
+ * (small, uppercase, sans) while H3s are the visually prominent content headings.
+ * Think of H2 as a chapter tab and H3 as the chapter title.
  */
 
 @theme inline {
@@ -87,10 +96,8 @@ body {
 /* ═══════════════════════════════════════════════════════════════════════════
    PROSE — Editorial typography for blog posts and game guides.
 
-   The serif (Source Serif 4) carries all the reading — body, H1, H2.
-   The sans (Inter) handles structural moments — H3, metadata, labels.
-   This creates the medium.com-style reading experience: warm, immersive,
-   with clear hierarchy shifts that guide the eye.
+   Source Serif 4 carries the reading — body, H1, content headings (H3).
+   Figtree handles structure — section labels (H2), metadata, tables.
    ═══════════════════════════════════════════════════════════════════════════ */
 
 .prose {
@@ -104,39 +111,52 @@ body {
 
 /* ─── Headings ─── */
 
+/*
+ * H1 — Page title. Largest, boldest. Used once in the hero.
+ */
 .prose h1 {
   font-family: var(--font-serif);
   font-size: clamp(32px, 4vw, 44px);
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.15;
   letter-spacing: -0.02em;
   margin-top: 2em;
   margin-bottom: 0.4em;
   color: var(--color-text-on-light);
 }
 
+/*
+ * H2 — Section label. Small, uppercase, sans-serif.
+ * Acts as a quiet wayfinding marker: "The Reviews", "The Quick Comparison".
+ * Visually subordinate to H3 — this is intentional.
+ */
 .prose h2 {
-  font-family: var(--font-serif);
-  font-size: clamp(24px, 2.8vw, 30px);
-  font-weight: 700;
-  line-height: 1.3;
-  letter-spacing: -0.015em;
-  margin-top: 2em;
-  margin-bottom: 0.3em;
-  color: var(--color-text-on-light);
-}
-
-.prose h3 {
   font-family: var(--font-sans);
-  font-size: clamp(16px, 1.5vw, 19px);
+  font-size: 12px;
   font-weight: 600;
   line-height: 1.4;
-  letter-spacing: -0.01em;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  margin-top: 2em;
-  margin-bottom: 0.5em;
+  letter-spacing: 0.1em;
   color: var(--color-text-secondary);
+  margin-top: 3.5em;
+  margin-bottom: 1.5em;
+  padding-bottom: 0.75em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/*
+ * H3 — Content heading. Serif, medium-large, the main visual anchor.
+ * Review names, subsection titles — the thing you're actually reading.
+ */
+.prose h3 {
+  font-family: var(--font-serif);
+  font-size: clamp(22px, 2.5vw, 28px);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin-top: 2em;
+  margin-bottom: 0.25em;
+  color: var(--color-text-on-light);
 }
 
 /* ─── Body elements ─── */
@@ -237,18 +257,22 @@ body {
    ═══════════════════════════════════════════════════════════════════════════ */
 
 /* ─── App Review sections ─── */
+/*
+ * The review-name uses the same style as prose H3 — it IS the content
+ * heading. The H2 above it ("The Reviews") is just the section label.
+ */
 
 .review-section {
-  margin-top: 0.5em;
-  margin-bottom: 2.5em;
+  margin-top: 0.25em;
+  margin-bottom: 3em;
 }
 
 .review-name {
   font-family: var(--font-serif);
-  font-size: clamp(24px, 2.8vw, 30px);
-  font-weight: 700;
+  font-size: clamp(22px, 2.5vw, 28px);
+  font-weight: 600;
   line-height: 1.3;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.01em;
   color: var(--color-text-on-light);
   margin: 0 0 0.15em 0;
 }
@@ -256,11 +280,10 @@ body {
 .review-specs {
   font-family: var(--font-sans);
   font-size: 13px;
+  font-weight: 400;
   color: var(--color-text-secondary);
-  letter-spacing: 0.02em;
-  margin-bottom: 1.25em;
-  padding-bottom: 1.25em;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  letter-spacing: 0.01em;
+  margin-bottom: 1.5em;
 }
 
 .review-body {
@@ -385,13 +408,13 @@ body {
 }
 
 .faq-heading {
-  font-family: var(--font-serif);
-  font-size: clamp(24px, 2.8vw, 30px);
-  font-weight: 700;
-  line-height: 1.3;
-  letter-spacing: -0.015em;
-  color: var(--color-text-on-light);
-  margin: 0 0 1.25em 0;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-secondary);
+  margin: 0 0 1.5em 0;
 }
 
 .faq-list {
@@ -411,9 +434,9 @@ body {
 }
 
 .faq-question {
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.4;
   color: var(--color-text-on-light);
   margin: 0 0 0.5em 0;

@@ -8,22 +8,21 @@ import { JsonLd } from "@/components/JsonLd";
 /**
  * FONTS
  *
- * Lora — Editorial serif for body text and headlines.
- * Warm, readable, with beautiful weight variation. Designed for
- * extended reading. The Medium model: serif for everything you *read*.
+ * Source Serif 4 — Editorial serif for body text and major headlines (H1).
+ * Designed by Frank Grießhammer at Adobe. Has an optical size (opsz) axis
+ * that automatically adjusts letterforms for headlines vs body. Variable
+ * font covers all weights from ExtraLight to Black.
  *
- * Poppins — Geometric sans-serif for structural/UI elements: nav,
- * buttons, metadata labels, H3 subheadings, specs lines. Clean and
- * modern, lets the serif do the talking.
+ * Figtree — Warm geometric sans-serif by Erik Kennedy. Used for navigation,
+ * buttons, section headers (H2, H3), metadata, labels, and all structural
+ * UI. Friendly and modern without being childish.
  *
- * Note: Using next/font/local with files in public/fonts/ because
- * Google Fonts CDN isn't available in the build environment.
- * For production, swap to next/font/google imports for optimal loading.
+ * Using next/font/local because Google Fonts CDN isn't reachable at build time.
  */
 const serif = localFont({
   src: [
-    { path: "../../public/fonts/Lora-Variable.ttf", style: "normal" },
-    { path: "../../public/fonts/Lora-Italic-Variable.ttf", style: "italic" },
+    { path: "../../public/fonts/SourceSerif4-VariableFont_opsz,wght.ttf", style: "normal" },
+    { path: "../../public/fonts/SourceSerif4-Italic-VariableFont_opsz,wght.ttf", style: "italic" },
   ],
   display: "swap",
   variable: "--font-serif",
@@ -31,9 +30,8 @@ const serif = localFont({
 
 const sans = localFont({
   src: [
-    { path: "../../public/fonts/Poppins-Regular.ttf", weight: "400", style: "normal" },
-    { path: "../../public/fonts/Poppins-Medium.ttf", weight: "500", style: "normal" },
-    { path: "../../public/fonts/Poppins-Bold.ttf", weight: "700", style: "normal" },
+    { path: "../../public/fonts/Figtree-VariableFont_wght.ttf", style: "normal" },
+    { path: "../../public/fonts/Figtree-Italic-VariableFont_wght.ttf", style: "italic" },
   ],
   display: "swap",
   variable: "--font-sans",
