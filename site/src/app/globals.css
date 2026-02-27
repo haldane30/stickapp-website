@@ -85,56 +85,73 @@ body {
   color: var(--color-text-on-light);
 }
 
-/* ─── Prose styling for MDX content ─── */
+/* ═══════════════════════════════════════════════════════════════════════════
+   PROSE — Editorial typography for blog posts and game guides.
+   Inspired by Medium: generous whitespace, clear hierarchy, content breathes.
+   ═══════════════════════════════════════════════════════════════════════════ */
 
 .prose {
   max-width: var(--reading-max-width);
   font-size: 18px;
-  line-height: 1.75;
+  line-height: 1.8;
+  color: var(--color-text-on-light);
 }
 
 .prose h1 {
   font-family: var(--font-serif);
   font-size: clamp(32px, 4vw, 48px);
   line-height: 1.15;
-  margin-top: 2em;
+  margin-top: 2.5em;
   margin-bottom: 0.5em;
+  color: var(--color-text-on-light);
 }
 
 .prose h2 {
   font-family: var(--font-serif);
-  font-size: clamp(24px, 3vw, 36px);
-  line-height: 1.2;
-  margin-top: 1.75em;
-  margin-bottom: 0.5em;
+  font-size: clamp(24px, 3vw, 32px);
+  line-height: 1.25;
+  margin-top: 2.5em;
+  margin-bottom: 0.25em;
+  color: var(--color-text-on-light);
 }
 
 .prose h3 {
   font-family: var(--font-sans);
   font-weight: 600;
-  font-size: clamp(18px, 2vw, 24px);
-  line-height: 1.3;
-  margin-top: 1.5em;
+  font-size: clamp(17px, 2vw, 22px);
+  line-height: 1.35;
+  margin-top: 2em;
   margin-bottom: 0.5em;
+  color: var(--color-text-on-light);
 }
 
 .prose p {
-  margin-bottom: 1.25em;
+  margin-bottom: 1.5em;
 }
 
 .prose a {
   color: var(--color-coral);
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
 
 .prose a:hover {
   color: var(--color-coral-hover);
 }
 
+.prose strong {
+  color: var(--color-text-on-light);
+  font-weight: 600;
+}
+
+.prose em {
+  font-style: italic;
+}
+
 .prose ul,
 .prose ol {
-  margin-bottom: 1.25em;
+  margin-bottom: 1.5em;
   padding-left: 1.5em;
 }
 
@@ -142,169 +159,226 @@ body {
   margin-bottom: 0.5em;
 }
 
+.prose blockquote {
+  border-left: 2px solid var(--color-text-secondary);
+  padding-left: 1.5em;
+  margin: 2em 0;
+  font-style: italic;
+  color: var(--color-text-secondary);
+}
+
+.prose hr {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  margin: 3em 0;
+}
+
+/* ─── Prose tables ─── */
+
 .prose table {
   width: 100%;
   border-collapse: collapse;
   margin: 2em 0;
-  border-radius: 12px;
-  overflow: hidden;
-  border: 1px solid rgba(0, 0, 0, 0.08);
   font-size: 15px;
+  line-height: 1.5;
 }
 
 .prose thead {
-  background-color: var(--color-canvas-dark);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .prose th {
   text-align: left;
-  padding: 12px 16px;
+  padding: 10px 14px 10px 0;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   color: var(--color-text-secondary);
-  border-bottom: none;
 }
 
 .prose td {
   text-align: left;
-  padding: 12px 16px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 10px 14px 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   color: var(--color-text-on-light);
+  vertical-align: top;
 }
 
-.prose tbody tr:nth-child(even) {
-  background-color: rgba(0, 0, 0, 0.015);
-}
-
-.prose tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.03);
+.prose td:first-child {
+  font-weight: 600;
 }
 
 .prose tbody tr:last-child td {
   border-bottom: none;
 }
 
-/* Bold first cell in table body rows for app names etc */
-.prose td:first-child {
-  font-weight: 600;
+/* ═══════════════════════════════════════════════════════════════════════════
+   BLOG COMPONENTS — Editorial-style components for MDX content.
+   Warm palette only. No cards, no boxes. Content flows like a magazine.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ─── App Review sections ─── */
+
+.review-section {
+  margin-top: 0.5em;
+  margin-bottom: 2.5em;
 }
 
-.prose blockquote {
-  border-left: 3px solid var(--color-coral);
-  padding-left: 1.25em;
-  margin: 1.5em 0;
-  font-style: italic;
+.review-specs {
+  font-size: 14px;
   color: var(--color-text-secondary);
+  letter-spacing: 0.02em;
+  margin-bottom: 1.25em;
+  padding-bottom: 1.25em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
-/* Strong text in prose gets a slight color boost */
-.prose strong {
+.review-body p {
+  font-size: 18px;
+  line-height: 1.8;
   color: var(--color-text-on-light);
-  font-weight: 600;
+  margin-bottom: 1.5em;
 }
 
-/* ─── Comparison table (enhanced wrapper) ─── */
-
-.comparison-table table {
-  width: 100%;
-  border-collapse: collapse;
-  border-radius: 12px;
-  overflow: hidden;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  font-size: 15px;
+.review-body p:last-child {
+  margin-bottom: 0;
 }
 
-.comparison-table thead {
-  background-color: var(--color-canvas-dark);
+.review-body a {
+  color: var(--color-coral);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
 
-.comparison-table th {
-  text-align: left;
-  padding: 12px 16px;
-  font-weight: 600;
+.review-body a:hover {
+  color: var(--color-coral-hover);
+}
+
+/* ─── Callout boxes ─── */
+/* Subtle left-border treatment. Uses our warm palette only. */
+
+.callout {
+  margin: 1.5em 0;
+  padding: 0 0 0 1.25em;
+  border-left: 2px solid var(--color-text-secondary);
+}
+
+.callout-good {
+  border-left-color: var(--color-forest);
+}
+
+.callout-watch {
+  border-left-color: var(--color-text-secondary);
+}
+
+.callout-label {
   font-size: 12px;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--color-text-secondary);
+  margin: 0 0 4px 0;
 }
 
-.comparison-table td {
-  text-align: left;
-  padding: 12px 16px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  color: var(--color-text-on-light);
-  font-size: 15px;
+.callout-good .callout-label {
+  color: var(--color-forest);
 }
 
-.comparison-table td:first-child {
-  font-weight: 600;
-}
-
-.comparison-table tbody tr:nth-child(even) {
-  background-color: rgba(0, 0, 0, 0.015);
-}
-
-.comparison-table tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.03);
-}
-
-/* Highlight Stick row (first data row) */
-.comparison-table tbody tr:first-child {
-  background-color: rgba(232, 115, 90, 0.05);
-}
-
-.comparison-table tbody tr:first-child:hover {
-  background-color: rgba(232, 115, 90, 0.08);
-}
-
-/* ─── Prose inside app review cards ─── */
-
-.prose-card p {
+.callout-text {
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.65;
+  color: var(--color-text-on-light);
+  margin: 0;
+}
+
+/* ─── Verdict / Bottom Line ─── */
+/* Separated by rules, not boxed. Feels editorial. */
+
+.verdict {
+  margin: 3em 0;
+  padding: 2em 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.verdict-label {
+  font-family: var(--font-serif);
+  font-size: clamp(20px, 2.5vw, 26px);
+  color: var(--color-text-on-light);
+  margin: 0 0 1em 0;
+}
+
+.verdict-body p {
+  font-size: 18px;
+  line-height: 1.8;
   color: var(--color-text-on-light);
   margin-bottom: 1em;
 }
 
-.prose-card p:last-child {
+.verdict-body p:last-child {
   margin-bottom: 0;
 }
 
-.prose-card a {
-  color: var(--color-coral);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-.prose-card a:hover {
-  color: var(--color-coral-hover);
-}
-
-/* ─── Verdict box content ─── */
-
-.verdict-content p {
-  color: var(--color-text-on-dark);
-  margin-bottom: 0.75em;
-}
-
-.verdict-content p:last-child {
-  margin-bottom: 0;
-}
-
-.verdict-content strong {
-  color: var(--color-coral);
+.verdict-body strong {
+  color: var(--color-text-on-light);
   font-weight: 600;
 }
 
-.verdict-content a {
+.verdict-body a {
   color: var(--color-coral);
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
 
-/* ─── FAQ answer styling ─── */
+/* ─── FAQ section ─── */
+
+.faq-section {
+  margin-top: 3em;
+  padding-top: 2.5em;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.faq-heading {
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 3vw, 32px);
+  line-height: 1.25;
+  color: var(--color-text-on-light);
+  margin: 0 0 1.5em 0;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.faq-item {
+  padding: 1.25em 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.faq-question {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.4;
+  color: var(--color-text-on-light);
+  margin: 0 0 0.5em 0;
+}
+
+.faq-answer {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+}
 
 .faq-answer p {
   margin-bottom: 0.5em;
@@ -317,8 +391,12 @@ body {
 .faq-answer a {
   color: var(--color-coral);
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 3px;
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   UTILITY STYLES
+   ═══════════════════════════════════════════════════════════════════════════ */
 
 /* ─── Ken Burns drift animation for hero ─── */
 
