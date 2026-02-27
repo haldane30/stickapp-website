@@ -285,15 +285,26 @@ export default function Home() {
             The golf betting playbook.
           </h2>
 
-          {/* Blog post placeholders */}
+          {/* Blog posts — mix of live + placeholder */}
           <div className="mt-14 grid md:grid-cols-3 gap-8">
+            {/* Live post */}
+            <a href="/blog/best-golf-betting-apps-2026" className="group">
+              <div className="aspect-[16/10] rounded-xl bg-[var(--color-canvas-dark)]/5 mb-5 overflow-hidden">
+                <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/10 to-transparent" />
+              </div>
+              <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-secondary)] mb-2">
+                Comparison
+              </p>
+              <h3 className="font-serif text-xl text-[var(--color-text-on-light)] group-hover:text-[var(--color-coral)] transition-colors">
+                Best Golf Betting Apps in 2026
+              </h3>
+              <p className="mt-2 text-sm text-[var(--color-text-secondary)] leading-relaxed">
+                An honest look at every app that tracks your golf bets — including ours.
+              </p>
+            </a>
+
+            {/* Placeholder posts — replace with live links as content is published */}
             {[
-              {
-                category: "Comparison",
-                title: "Best Golf Betting Apps in 2026",
-                excerpt:
-                  "An honest look at every app that tracks your golf bets — including ours.",
-              },
               {
                 category: "Strategy",
                 title: "Nassau Press Strategy",
@@ -307,20 +318,21 @@ export default function Home() {
                   "Everything you need to know to start betting with your group.",
               },
             ].map((post) => (
-              <article key={post.title} className="group cursor-pointer">
-                {/* Image placeholder */}
+              <article key={post.title} className="group cursor-pointer opacity-60">
                 <div className="aspect-[16/10] rounded-xl bg-[var(--color-canvas-dark)]/5 mb-5 overflow-hidden">
                   <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/10 to-transparent" />
                 </div>
-
                 <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-secondary)] mb-2">
                   {post.category}
                 </p>
-                <h3 className="font-serif text-xl text-[var(--color-text-on-light)] group-hover:text-[var(--color-coral)] transition-colors">
+                <h3 className="font-serif text-xl text-[var(--color-text-on-light)]">
                   {post.title}
                 </h3>
                 <p className="mt-2 text-sm text-[var(--color-text-secondary)] leading-relaxed">
                   {post.excerpt}
+                </p>
+                <p className="mt-2 text-xs text-[var(--color-text-secondary)] italic">
+                  Coming soon
                 </p>
               </article>
             ))}
