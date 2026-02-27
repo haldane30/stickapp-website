@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getBlogPost, getBlogPostSlugs, getAllBlogPosts } from "@/lib/content";
 import { JsonLd } from "@/components/JsonLd";
+import { mdxComponents } from "@/components/mdx";
 import Link from "next/link";
 
 // ─── Static params for all blog posts ──────────────────────────────────────
@@ -118,10 +119,28 @@ export default async function BlogPostPage({
     },
   };
 
+  // FAQ schema — only if post has FAQ data in frontmatter
+  const faqSchema =
+    meta.faq && meta.faq.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: meta.faq.map((item) => ({
+            "@type": "Question",
+            name: item.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.answer,
+            },
+          })),
+        }
+      : null;
+
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
       <JsonLd data={articleSchema} />
+      {faqSchema && <JsonLd data={faqSchema} />}
 
       {/* ─── Hero ─────────────────────────────────────────────────────── */}
       <section className="section-dark pt-32 pb-16">
@@ -202,7 +221,7 @@ export default async function BlogPostPage({
       >
         <div className="mx-auto max-w-[var(--reading-max-width)] px-6">
           <article className="prose text-[var(--color-text-on-light)]">
-            <MDXRemote source={content} />
+            <MDXRemote source={content} components={mdxComponents} />
           </article>
         </div>
       </section>

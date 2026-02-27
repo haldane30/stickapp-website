@@ -145,22 +145,50 @@ body {
 .prose table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 1.5em;
+  margin: 2em 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 15px;
 }
 
-.prose th,
-.prose td {
-  text-align: left;
-  padding: 0.75em 1em;
-  border-bottom: 1px solid #e5e2de;
+.prose thead {
+  background-color: var(--color-canvas-dark);
 }
 
 .prose th {
+  text-align: left;
+  padding: 12px 16px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   color: var(--color-text-secondary);
+  border-bottom: none;
+}
+
+.prose td {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  color: var(--color-text-on-light);
+}
+
+.prose tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.015);
+}
+
+.prose tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.prose tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Bold first cell in table body rows for app names etc */
+.prose td:first-child {
+  font-weight: 600;
 }
 
 .prose blockquote {
@@ -169,6 +197,127 @@ body {
   margin: 1.5em 0;
   font-style: italic;
   color: var(--color-text-secondary);
+}
+
+/* Strong text in prose gets a slight color boost */
+.prose strong {
+  color: var(--color-text-on-light);
+  font-weight: 600;
+}
+
+/* ─── Comparison table (enhanced wrapper) ─── */
+
+.comparison-table table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 15px;
+}
+
+.comparison-table thead {
+  background-color: var(--color-canvas-dark);
+}
+
+.comparison-table th {
+  text-align: left;
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-secondary);
+}
+
+.comparison-table td {
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  color: var(--color-text-on-light);
+  font-size: 15px;
+}
+
+.comparison-table td:first-child {
+  font-weight: 600;
+}
+
+.comparison-table tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.015);
+}
+
+.comparison-table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* Highlight Stick row (first data row) */
+.comparison-table tbody tr:first-child {
+  background-color: rgba(232, 115, 90, 0.05);
+}
+
+.comparison-table tbody tr:first-child:hover {
+  background-color: rgba(232, 115, 90, 0.08);
+}
+
+/* ─── Prose inside app review cards ─── */
+
+.prose-card p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--color-text-on-light);
+  margin-bottom: 1em;
+}
+
+.prose-card p:last-child {
+  margin-bottom: 0;
+}
+
+.prose-card a {
+  color: var(--color-coral);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.prose-card a:hover {
+  color: var(--color-coral-hover);
+}
+
+/* ─── Verdict box content ─── */
+
+.verdict-content p {
+  color: var(--color-text-on-dark);
+  margin-bottom: 0.75em;
+}
+
+.verdict-content p:last-child {
+  margin-bottom: 0;
+}
+
+.verdict-content strong {
+  color: var(--color-coral);
+  font-weight: 600;
+}
+
+.verdict-content a {
+  color: var(--color-coral);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ─── FAQ answer styling ─── */
+
+.faq-answer p {
+  margin-bottom: 0.5em;
+}
+
+.faq-answer p:last-child {
+  margin-bottom: 0;
+}
+
+.faq-answer a {
+  color: var(--color-coral);
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* ─── Ken Burns drift animation for hero ─── */

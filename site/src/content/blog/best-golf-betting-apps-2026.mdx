@@ -15,6 +15,19 @@ keywords:
   - wolf golf app
   - golf money games app
   - golf side games app
+faq:
+  - question: "What is the best free golf betting app?"
+    answer: "GolfApp is currently the most functional free option, covering about 8 game types with GPS features included. Fairgame Golf also offers a free tier with basic betting support. For serious betting groups, the free options are limited — paid apps like Skins App, Beezer Golf, and Stick Golf offer significantly more depth."
+  - question: "Do golf betting apps track handicaps?"
+    answer: "Most golf betting apps let you enter player handicaps and calculate net scores. Stick Golf, Skins App, and 18 Birdies all support handicap-adjusted scoring. The quality of implementation varies — some apps just subtract strokes, while others handle stroke index allocation correctly across all 18 holes."
+  - question: "Can everyone in the group see the scores on their own phone?"
+    answer: "Not all apps support multi-device sync. Stick Golf and 18 Birdies offer real-time sync where every player sees live scores on their own device. Some apps only let the scorekeeper enter data, which means everyone else has to ask or wait."
+  - question: "What is Nassau in golf betting?"
+    answer: "A Nassau is three separate bets in one: the front nine, the back nine, and the overall 18 holes. It's the most popular golf betting format. Most betting apps support Nassau, but the quality varies — especially around press tracking, which is the feature that makes Nassau interesting (and complicated)."
+  - question: "How much do golf betting apps cost?"
+    answer: "Prices range from free (GolfApp, Fairgame Golf) to $99.99/year (18 Birdies). Most dedicated betting apps fall in the $10–$60/year range. Golf Bettor is the cheapest paid option at $9.99/year, while Stick Golf is $59.99/year with a 3-round free trial."
+  - question: "Are golf betting apps legal?"
+    answer: "Golf betting apps track friendly wagers between players in your group — they don't involve sportsbooks or gambling operators. Tracking what your foursome owes each other is legal everywhere. The apps are essentially scorekeeping tools with settlement math built in."
 ---
 
 ## Why This Guide Exists
@@ -31,69 +44,65 @@ Here's what we looked at: games supported, scoring features, settlement math, pr
 
 Before we go deep on each app, here's the landscape at a glance:
 
+<ComparisonTable>
+
 | App | Price | Games | Rating | Best For |
 |-----|-------|-------|--------|----------|
 | **Stick Golf** | $59.99/yr | 12 | Pre-launch | Groups who play multiple game types |
-| **Skins App** | $39.99/yr | 13+ | 4.6 (280+) | Established groups, Troon-partnered courses |
-| **Beezer Golf** | $29.99/yr | ~30 | 3.7 (130+) | Variety seekers who want the most game options |
-| **18 Birdies** | $99.99/yr | ~10 | 4.7 (50K+) | GPS-first golfers who also want betting |
+| **Skins App** | $39.99/yr | 13+ | 4.6 (280+) | Established groups, Troon courses |
+| **Beezer Golf** | $29.99/yr | ~30 | 3.7 (130+) | Most game variety |
+| **18 Birdies** | $99.99/yr | ~10 | 4.7 (50K+) | GPS-first golfers |
 | **Golf Bettor** | $9.99/yr | 12 | ~4.0 | Budget-conscious groups |
-| **GolfApp** | Free | ~8 | ~3.5 | Casual bettors who don't want to pay |
-| **Fairgame Golf** | Free tier | ~6 | New | Groups wanting a free starting point |
+| **GolfApp** | Free | ~8 | ~3.5 | Casual bettors |
+| **Fairgame Golf** | Free tier | ~6 | New | Free starting point |
 
-## Stick Golf
+</ComparisonTable>
 
-**Price:** $59.99/year or $7.99/month (3-round free trial)
-**Games:** 12 — Nassau, Skins, Snake, Wolf, Match Play, Nine Point, Split Sixes, Sixes, Dots, Vegas, Scotch, Quota
-**Platform:** iOS
+## The Reviews
+
+<AppReview name="Stick Golf" price="$59.99/yr" games="12" rating="Pre-launch" platform="iOS" highlight>
 
 Stick was built to do one thing: track every golf money game accurately. The engine behind the app has been tested with over 1,448 automated tests — including property-based tests that verify every settlement is mathematically zero-sum. That means the total amount won always equals the total amount lost, down to the penny. No rounding errors. No "close enough."
 
-What sets Stick apart is depth within each game. Nassau doesn't just track front/back/overall — it handles automatic press tracking, press-the-press chains, and transparent settlement breakdowns. Wolf supports lone wolf, blind wolf, and hammer mode. Skins handles carryovers, pushes, and validation. These aren't simplified versions of the games — they're the real rules, with every edge case accounted for.
+What sets Stick apart is depth within each game. [Nassau](/games/nassau) doesn't just track front/back/overall — it handles automatic press tracking, press-the-press chains, and transparent settlement breakdowns. [Wolf](/games/wolf) supports lone wolf, blind wolf, and hammer mode. [Skins](/games/skins) handles carryovers, pushes, and validation. These aren't simplified versions of the games — they're the real rules, with every edge case accounted for.
 
 The app syncs across devices in real time, so everyone in the group can follow the action from their own phone. One person creates the round, everyone else joins. Settlement happens automatically when the round ends.
 
-**What's good:** Depth of game support, settlement accuracy, multi-device sync, clean design.
-**What to know:** Stick is pre-launch (coming spring 2026), so you can't download it yet. The 3-round free trial gives you full access before you decide to subscribe.
+<Good>Depth of game support, settlement accuracy, multi-device sync, clean design.</Good>
 
-## Skins App
+<Watch>Stick is pre-launch (coming spring 2026), so you can't download it yet. The 3-round free trial gives you full access before you decide to subscribe.</Watch>
 
-**Price:** $39.99/year
-**Games:** 13+ including Nassau, Skins, Wolf, Match Play, Stableford, and more
-**Platform:** iOS, Android
-**Rating:** 4.6 stars (280+ reviews)
+</AppReview>
+
+<AppReview name="Skins App" price="$39.99/yr" games="13+" rating="4.6" platform="iOS, Android">
 
 Skins App has been around for a few years and has built a solid reputation, particularly through its partnership with Troon Golf (one of the largest golf management companies in the world). That partnership gives it placement in pro shops and on course apps at Troon-managed facilities, which is a significant distribution advantage.
 
 The app supports a wide range of games and has a clean interface that most users find intuitive. It handles the fundamentals well: creating rounds, inviting players, tracking scores, and settling bets.
 
-User reviews are generally positive. Golfers praise the ease of setup and the variety of games available. The most common complaints in the App Store reviews relate to occasional syncing issues and wanting more granular control over game settings.
+User reviews are generally positive. Golfers praise the ease of setup and the variety of games available. The most common complaints in App Store reviews relate to occasional syncing issues and wanting more granular control over game settings.
 
-**What's good:** Troon partnership, proven track record, good variety of games, solid ratings.
-**What to know:** Some users report sync issues in reviews. The Troon partnership means you might already have it if you play Troon courses.
+<Good>Troon partnership, proven track record, good variety of games, solid ratings.</Good>
 
-## Beezer Golf
+<Watch>Some users report sync issues in reviews. The Troon partnership means you might already have it if you play Troon courses.</Watch>
 
-**Price:** $29.99/year
-**Games:** ~30 (the largest game library in the category)
-**Platform:** iOS
-**Rating:** 3.7 stars (130+ reviews)
+</AppReview>
+
+<AppReview name="Beezer Golf" price="$29.99/yr" games="~30" rating="3.7" platform="iOS">
 
 Beezer positions itself as the quantity play — more games than anyone else. With roughly 30 game types, they cover variations that other apps don't touch. If your group plays an obscure regional game, Beezer might be the only app that supports it.
 
-Beezer also has the strongest SEO presence of any competitor. Their website includes game guides and how-to content, which puts them ahead of most apps that have no content strategy at all. Their content tends to be brief (300-500 words per guide), but they're covering ground that nobody else is.
+Beezer also has the strongest SEO presence of any competitor. Their website includes game guides and how-to content, which puts them ahead of most apps that have no content strategy at all. Their content tends to be brief, but they're covering ground that nobody else is.
 
 The lower rating (3.7 stars) reflects some user frustration. Common complaints include interface design, occasional crashes, and scoring issues. Some users report that the large number of games comes at the cost of depth in each one.
 
-**What's good:** Largest game library, lowest price among paid apps, has website content.
-**What to know:** Lower App Store rating than competitors. Some users report interface and stability issues. Broad game coverage may come at the expense of depth per game.
+<Good>Largest game library, lowest price among paid apps, has website content.</Good>
 
-## 18 Birdies
+<Watch>Lower App Store rating than competitors. Some users report interface and stability issues. Broad game coverage may come at the expense of depth per game.</Watch>
 
-**Price:** $99.99/year (Ultimate plan)
-**Games:** ~10 betting games
-**Platform:** iOS, Android
-**Rating:** 4.7 stars (50,000+ reviews)
+</AppReview>
+
+<AppReview name="18 Birdies" price="$99.99/yr" games="~10" rating="4.7" platform="iOS, Android">
 
 18 Birdies is the most established app on this list, but it's not really a betting app — it's a GPS rangefinder that added betting features. The core product gives you distances, shot tracking, and course maps. The betting games are part of the premium tier.
 
@@ -101,62 +110,57 @@ If you're already paying for 18 Birdies for the GPS features, the betting games 
 
 The massive review count (50,000+) reflects the GPS user base, not betting-specific satisfaction. Most reviews are about rangefinder accuracy and course coverage.
 
-**What's good:** Best-in-class GPS features, huge user base, polished app overall.
-**What to know:** Betting is secondary to GPS. Price is steep if you only want betting. The betting game library isn't as deep as dedicated apps.
+<Good>Best-in-class GPS features, huge user base, polished app overall.</Good>
 
-## Golf Bettor
+<Watch>Betting is secondary to GPS. Price is steep if you only want betting. The betting game library isn't as deep as dedicated apps.</Watch>
 
-**Price:** $9.99/year
-**Games:** 12 including Nassau, Skins, Wolf, Match Play
-**Platform:** iOS
-**Rating:** ~4.0 stars
+</AppReview>
+
+<AppReview name="Golf Bettor" price="$9.99/yr" games="12" rating="~4.0" platform="iOS">
 
 Golf Bettor is the budget option. At $9.99/year, it's a fraction of the price of other paid apps, and it covers the core game types that most groups play.
 
 The tradeoff is in the details. The interface is more basic than Skins App or Stick, and the game implementations may not cover every edge case (press chains, hammer mode, etc.). For groups that play straightforward games without a lot of presses and side bets, it gets the job done.
 
-**What's good:** Very affordable, covers the core games, functional.
-**What to know:** More basic interface and fewer advanced features. Good value if your games are straightforward.
+<Good>Very affordable, covers the core games, functional.</Good>
 
-## GolfApp (GolfApp.com)
+<Watch>More basic interface and fewer advanced features. Good value if your games are straightforward.</Watch>
 
-**Price:** Free
-**Games:** ~8
-**Platform:** iOS, Android
-**Rating:** ~3.5 stars
+</AppReview>
+
+<AppReview name="GolfApp" price="Free" games="~8" rating="~3.5" platform="iOS, Android">
 
 GolfApp is a free option that covers basic betting games alongside GPS and scoring features. The free price point is appealing, but the game library is limited and the betting features are less polished than paid alternatives.
 
 For groups that play occasional casual bets and don't want to pay anything, it's functional. For serious betting groups, the limitations become apparent quickly.
 
-**What's good:** Free, includes GPS features, available on both platforms.
-**What to know:** Limited game library. Betting features are secondary to other functions.
+<Good>Free, includes GPS features, available on both platforms.</Good>
 
-## Fairgame Golf, GolfSnap, Unknown Golf & Others
+<Watch>Limited game library. Betting features are secondary to other functions.</Watch>
 
-A few newer apps have entered the space:
+</AppReview>
 
-**Fairgame Golf** offers a free tier with basic betting support. It's newer and still building out features, but worth watching if free access is important to your group.
+### Fairgame Golf, GolfSnap, Unknown Golf & Others
 
-**GolfSnap** and **Unknown Golf** are earlier-stage apps with smaller user bases. They cover basic game types but haven't yet built the depth or polish of the more established competitors.
+A few newer apps have entered the space. **Fairgame Golf** offers a free tier with basic betting support — it's newer and still building out features, but worth watching if free access is important to your group. **GolfSnap** and **Unknown Golf** are earlier-stage apps with smaller user bases. They cover basic game types but haven't yet built the depth or polish of the more established competitors.
 
-The golf betting app space is growing, which is good for golfers — more competition means better products.
+The golf betting app space is growing, which is good for golfers — more competition means better products for everyone.
 
 ## What to Look For in a Golf Betting App
 
 Based on reviewing every app in this space, here are the things that actually matter:
 
-**Does it support the games your group plays?** This is the obvious one. If you play Wolf with hammer mode and the app doesn't support it, the app is useless to you. Check the specific games, not just the count.
+**Does it support the games your group plays?** This is the obvious one. If you play [Wolf](/games/wolf) with hammer mode and the app doesn't support it, the app is useless to you. Check the specific games, not just the count.
 
-**Is the settlement math transparent?** You should be able to see exactly how every number was calculated. "You owe Marcus $14" isn't good enough — you need to see why you owe Marcus $14. Which presses? Which holes? What were the carries?
+**Is the settlement math transparent?** You should be able to see exactly how every number was calculated. "You owe Marcus $14" isn't good enough — you need to see *why* you owe Marcus $14. Which presses? Which holes? What were the carries?
 
 **Can multiple people follow the round?** If only one person can see the scores, you're basically using a calculator. Real-time sync means everyone stays informed and disputes happen less.
 
-**How does it handle presses?** Press tracking is where most apps fall short. A Nassau without proper press support is just three match-play bets. The press chain is what makes Nassau interesting — and complicated.
+**How does it handle presses?** Press tracking is where most apps fall short. A [Nassau](/games/nassau) without proper press support is just three match-play bets. The press chain is what makes Nassau interesting — and complicated.
 
 **What happens when someone misses a hole?** Pickup rules, equitable stroke control, partial rounds — these edge cases matter because they happen in every round. An app that can't handle them creates more problems than it solves.
 
-## The Bottom Line
+<Verdict>
 
 If you want a GPS rangefinder that also does betting, **18 Birdies** is the best option despite the price.
 
@@ -164,6 +168,36 @@ If you want the most game variety at the lowest price, **Beezer Golf** covers mo
 
 If you want a proven app with Troon course integration, **Skins App** is the established choice.
 
-If you want the deepest, most accurate game implementations with transparent math and multi-device sync, that's what we built **Stick Golf** to be. We're not live yet — launching spring 2026 — but you can [sign up to be notified](https://stickapp.golf) when we are.
+If you want the deepest, most accurate game implementations with transparent math and multi-device sync, that's what we built **Stick Golf** to be. We're launching spring 2026 — [sign up to be notified](https://stickapp.golf) when we go live.
 
 The best golf betting app is the one your whole group will actually use. Try a couple, see which one clicks with your foursome, and stop arguing about who pressed when.
+
+</Verdict>
+
+<FAQ>
+
+<QA question="What is the best free golf betting app?">
+GolfApp is currently the most functional free option, covering about 8 game types with GPS features included. Fairgame Golf also offers a free tier with basic betting support. For serious betting groups, the free options are limited — paid apps offer significantly more depth.
+</QA>
+
+<QA question="Do golf betting apps track handicaps?">
+Most golf betting apps let you enter player handicaps and calculate net scores. Stick Golf, Skins App, and 18 Birdies all support handicap-adjusted scoring. The quality of implementation varies — some apps just subtract strokes, while others handle stroke index allocation correctly across all 18 holes.
+</QA>
+
+<QA question="Can everyone in the group see scores on their own phone?">
+Not all apps support multi-device sync. Stick Golf and 18 Birdies offer real-time sync where every player sees live scores on their own device. Some apps only let the scorekeeper enter data, which means everyone else has to ask or wait.
+</QA>
+
+<QA question="What is Nassau in golf betting?">
+A Nassau is three separate bets in one: the front nine, the back nine, and the overall 18 holes. It's the most popular golf betting format. Most betting apps support Nassau, but the quality varies — especially around press tracking. Read our full [Nassau guide](/games/nassau) for the complete rules.
+</QA>
+
+<QA question="How much do golf betting apps cost?">
+Prices range from free (GolfApp, Fairgame Golf) to $99.99/year (18 Birdies). Most dedicated betting apps fall in the $10–$60/year range. Golf Bettor is the cheapest paid option at $9.99/year, while Stick Golf is $59.99/year with a 3-round free trial.
+</QA>
+
+<QA question="Are golf betting apps legal?">
+Golf betting apps track friendly wagers between players in your group — they don't involve sportsbooks or gambling operators. Tracking what your foursome owes each other is legal everywhere. The apps are essentially scorekeeping tools with settlement math built in.
+</QA>
+
+</FAQ>

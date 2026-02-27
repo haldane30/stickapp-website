@@ -40,6 +40,7 @@ export interface BlogPostMeta {
   readingTime: string;
   keywords: string[];
   featured?: boolean;
+  faq?: { question: string; answer: string }[];
 }
 
 // ─── Game Guides ────────────────────────────────────────────────────────────
@@ -119,6 +120,7 @@ export function getBlogPost(slug: string): { meta: BlogPostMeta; content: string
       readingTime: stats.text,
       keywords: data.keywords || [],
       featured: data.featured || false,
+      faq: data.faq || [],
     },
     content,
   };
