@@ -4,19 +4,19 @@
  * Design System — stickapp.golf
  *
  * FONTS:
- *   --font-serif: Source Serif 4 — body text, page titles (H1), content headings
- *   --font-sans:  Figtree — navigation, section labels (H2), metadata, buttons
+ *   --font-serif: Source Serif 4 — body text, page title (H1), section heads (H2)
+ *   --font-sans:  Figtree — sub-headings (H3), review names, nav, meta, buttons
  *
  * HIERARCHY (most prominent → least):
- *   H1 (page title):    Source Serif 4, 700, 32-48px — used once per page
- *   H3 (content head):  Source Serif 4, 600, 22-28px — review names, sub-topics
- *   H2 (section label): Figtree, 600, 11-12px uppercase — quiet wayfinding
- *   Body:               Source Serif 4, 400, 19px — the reading experience
- *   Meta:               Figtree, 400-500, 12-14px — specs, dates, labels
+ *   H1 (page title):    Source Serif 4, 700, 32–48px
+ *   H2 (section head):  Source Serif 4, 700, 24–30px — real, bold headings
+ *   H3 (sub-head):      Figtree, 700, 18–22px — sans contrast, still bold
+ *   Overline:           Figtree, 500, 11px uppercase — quiet labels only
+ *   Body:               Source Serif 4, 400, 19px
+ *   Meta:               Figtree, 400, 13–14px
  *
- * This inverts the typical H2 > H3 visual weight. H2s act as section dividers
- * (small, uppercase, sans) while H3s are the visually prominent content headings.
- * Think of H2 as a chapter tab and H3 as the chapter title.
+ * The serif → sans shift from H2 to H3 creates a natural hierarchy break.
+ * Both are bold so there's confidence at every level.
  */
 
 @theme inline {
@@ -96,8 +96,9 @@ body {
 /* ═══════════════════════════════════════════════════════════════════════════
    PROSE — Editorial typography for blog posts and game guides.
 
-   Source Serif 4 carries the reading — body, H1, content headings (H3).
-   Figtree handles structure — section labels (H2), metadata, tables.
+   Source Serif 4 for reading: body, H1, H2.
+   Figtree for structure: H3, tables, metadata.
+   The serif → sans shift from H2 to H3 creates natural hierarchy.
    ═══════════════════════════════════════════════════════════════════════════ */
 
 .prose {
@@ -111,9 +112,6 @@ body {
 
 /* ─── Headings ─── */
 
-/*
- * H1 — Page title. Largest, boldest. Used once in the hero.
- */
 .prose h1 {
   font-family: var(--font-serif);
   font-size: clamp(32px, 4vw, 44px);
@@ -126,36 +124,32 @@ body {
 }
 
 /*
- * H2 — Section label. Small, uppercase, sans-serif.
- * Acts as a quiet wayfinding marker: "The Reviews", "The Quick Comparison".
- * Visually subordinate to H3 — this is intentional.
+ * H2 — Bold serif section headings. These carry real weight.
+ * "Why This Guide Exists", "The Quick Comparison", "The Reviews"
  */
 .prose h2 {
-  font-family: var(--font-sans);
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 1.4;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--color-text-secondary);
-  margin-top: 3.5em;
-  margin-bottom: 1.5em;
-  padding-bottom: 0.75em;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 2.8vw, 30px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  margin-top: 2.25em;
+  margin-bottom: 0.5em;
+  color: var(--color-text-on-light);
 }
 
 /*
- * H3 — Content heading. Serif, medium-large, the main visual anchor.
- * Review names, subsection titles — the thing you're actually reading.
+ * H3 — Bold sans sub-headings. The font shift from serif H2 to sans H3
+ * creates an obvious hierarchy break without needing to go smaller.
  */
 .prose h3 {
-  font-family: var(--font-serif);
-  font-size: clamp(22px, 2.5vw, 28px);
-  font-weight: 600;
-  line-height: 1.3;
+  font-family: var(--font-sans);
+  font-size: clamp(18px, 2vw, 22px);
+  font-weight: 700;
+  line-height: 1.35;
   letter-spacing: -0.01em;
-  margin-top: 2em;
-  margin-bottom: 0.25em;
+  margin-top: 1.75em;
+  margin-bottom: 0.4em;
   color: var(--color-text-on-light);
 }
 
@@ -253,28 +247,27 @@ body {
 
 /* ═══════════════════════════════════════════════════════════════════════════
    BLOG COMPONENTS — Editorial-style components for MDX content.
-   Warm palette only. No cards, no boxes. Content flows like a magazine.
    ═══════════════════════════════════════════════════════════════════════════ */
 
 /* ─── App Review sections ─── */
 /*
- * The review-name uses the same style as prose H3 — it IS the content
- * heading. The H2 above it ("The Reviews") is just the section label.
+ * Review names use bold Figtree (same as H3) — they ARE content sub-heads.
+ * Specs line is quiet metadata underneath.
  */
 
 .review-section {
-  margin-top: 0.25em;
+  margin-top: 0.5em;
   margin-bottom: 3em;
 }
 
 .review-name {
-  font-family: var(--font-serif);
-  font-size: clamp(22px, 2.5vw, 28px);
-  font-weight: 600;
-  line-height: 1.3;
+  font-family: var(--font-sans);
+  font-size: clamp(18px, 2vw, 22px);
+  font-weight: 700;
+  line-height: 1.35;
   letter-spacing: -0.01em;
   color: var(--color-text-on-light);
-  margin: 0 0 0.15em 0;
+  margin: 0 0 0.2em 0;
 }
 
 .review-specs {
@@ -283,7 +276,7 @@ body {
   font-weight: 400;
   color: var(--color-text-secondary);
   letter-spacing: 0.01em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.25em;
 }
 
 .review-body {
@@ -314,10 +307,14 @@ body {
 }
 
 /* ─── Callout boxes ─── */
-/* Subtle left-border treatment. Uses our warm palette only. */
+/*
+ * Quiet left-border accent with a small overline label.
+ * The label is light (500 weight) — it should whisper, not shout.
+ * Tighter vertical spacing so the label and text feel unified.
+ */
 
 .callout {
-  margin: 1.5em 0;
+  margin: 1.75em 0;
   padding: 0 0 0 1.25em;
   border-left: 2px solid var(--color-text-secondary);
 }
@@ -333,11 +330,11 @@ body {
 .callout-label {
   font-family: var(--font-sans);
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   color: var(--color-text-secondary);
-  margin: 0 0 6px 0;
+  margin: 0 0 4px 0;
 }
 
 .callout-good .callout-label {
@@ -353,11 +350,13 @@ body {
 }
 
 /* ─── Verdict / Bottom Line ─── */
-/* Separated by rules, not boxed. Feels editorial. */
+/*
+ * Bordered top and bottom. Overline label, then serif body.
+ */
 
 .verdict {
   margin: 2.5em 0;
-  padding: 2em 0;
+  padding: 1.75em 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -365,11 +364,11 @@ body {
 .verdict-label {
   font-family: var(--font-sans);
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   color: var(--color-text-secondary);
-  margin: 0 0 1em 0;
+  margin: 0 0 0.75em 0;
 }
 
 .verdict-body {
@@ -408,13 +407,13 @@ body {
 }
 
 .faq-heading {
-  font-family: var(--font-sans);
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--color-text-secondary);
-  margin: 0 0 1.5em 0;
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 2.8vw, 30px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  color: var(--color-text-on-light);
+  margin: 0 0 1.25em 0;
 }
 
 .faq-list {
@@ -434,12 +433,12 @@ body {
 }
 
 .faq-question {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-weight: 600;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.4;
   color: var(--color-text-on-light);
-  margin: 0 0 0.5em 0;
+  margin: 0 0 0.4em 0;
 }
 
 .faq-answer {
