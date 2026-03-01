@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { games } from "@/lib/tokens";
 
@@ -11,11 +12,14 @@ export function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-12">
           {/* Brand column */}
           <div className="col-span-2 md:col-span-1">
-            <Link
-              href="/"
-              className="text-[var(--color-text-on-dark)] font-semibold text-lg tracking-tight"
-            >
-              Stick Golf
+            <Link href="/" className="block">
+              <Image
+                src="/stick-logo.svg"
+                alt="Stick Golf"
+                width={100}
+                height={57}
+                className="h-7 w-auto text-[var(--color-text-on-dark)]"
+              />
             </Link>
             <p className="mt-3 text-sm text-[var(--color-text-secondary)] leading-relaxed">
               Every bet. Every hole. Settled.
