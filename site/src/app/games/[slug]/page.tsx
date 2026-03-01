@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import { games } from "@/lib/tokens";
 import { getGameGuide, getGameGuideSlugs } from "@/lib/content";
 import { JsonLd } from "@/components/JsonLd";
+import { mdxComponents } from "@/components/mdx";
 
 // Generate static pages for all games
 export async function generateStaticParams() {
@@ -158,14 +161,17 @@ export default async function GameGuidePage({
       <section className="section-light" style={{ padding: "var(--section-padding-y) 0" }}>
         <div className="mx-auto max-w-[var(--content-max-width)] px-6">
           {guide ? (
-            <div className="prose mx-auto">
-              {/* MDX content will be rendered here once we have actual content files */}
-              <p className="text-[var(--color-text-secondary)] italic">
-                Full game guide content coming soon. This page will include
-                rules, scoring, settlement examples, variations, strategy tips,
-                and FAQ.
-              </p>
-            </div>
+            <article className="prose mx-auto">
+              <MDXRemote
+                source={guide.content}
+                components={mdxComponents}
+                options={{
+                  mdxOptions: {
+                    remarkPlugins: [remarkGfm],
+                  },
+                }}
+              />
+            </article>
           ) : (
             <div className="prose mx-auto">
               <p className="text-[var(--color-text-secondary)] italic">
