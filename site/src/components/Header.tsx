@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { StickLogo } from "./StickLogo";
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -11,14 +11,7 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-[var(--color-canvas-dark)]/90 backdrop-blur-md border-b border-white/5">
       <nav className="mx-auto flex max-w-[var(--content-max-width)] items-center justify-between px-6 py-4">
         <Link href="/" className="block">
-          <Image
-            src="/stick-logo.svg"
-            alt="Stick Golf"
-            width={100}
-            height={57}
-            className="h-8 w-auto text-[var(--color-text-on-dark)]"
-            priority
-          />
+          <StickLogo className="h-10 w-auto" />
         </Link>
 
         {/* Desktop nav */}

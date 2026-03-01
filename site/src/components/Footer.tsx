@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { games } from "@/lib/tokens";
+import { StickLogo } from "./StickLogo";
 
 export function Footer() {
   // Show a curated set of game links in the footer (not all 12)
@@ -13,13 +13,7 @@ export function Footer() {
           {/* Brand column */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="block">
-              <Image
-                src="/stick-logo.svg"
-                alt="Stick Golf"
-                width={100}
-                height={57}
-                className="h-7 w-auto text-[var(--color-text-on-dark)]"
-              />
+              <StickLogo className="h-9 w-auto" />
             </Link>
             <p className="mt-3 text-sm text-[var(--color-text-secondary)] leading-relaxed">
               Every bet. Every hole. Settled.
