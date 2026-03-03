@@ -1,0 +1,165 @@
+---
+title: "How to Play Nassau in Golf: Rules, Presses & Settlement"
+slug: nassau
+description: "Nassau is three golf bets in one round — front nine, back nine, and overall. Learn the rules, how presses work, and see a full settlement walkthrough with real numbers."
+keywords: ["nassau golf", "nassau bet", "nassau golf game", "how to play nassau", "golf press bet", "nassau golf rules"]
+datePublished: ""
+dateModified: ""
+---
+
+# How to Play Nassau in Golf: Rules, Presses & Settlement
+
+Nassau is golf's most popular betting format: three separate matches packed into one round. You're wagering on the front nine, back nine, and overall 18 independently, so losing the front doesn't mean you lost your money. Add presses when you're down and it gets competitive fast.
+
+```
+Players: 2 (1v1) or 4 (2v2 teams)
+Scoring: Match play, net or gross
+Common stakes: $2-$2-$2, $5-$5-$5, $5-$5-$10
+Also called: "2-2-2," "5-5-5," "Best Nines"
+```
+
+## The Three Bets
+
+You can win the front, lose the back, and halve the overall. Each bet stands on its own — three separate outcomes, three separate settlements.
+
+When someone says "$5 Nassau," they mean $5 on each. That's $15 total at stake before presses. Some groups weight them differently — a "$5-$5-$10 Nassau" puts more on the overall, which rewards consistency across the full round instead of one hot nine.
+
+Each segment uses [match play](/games/match-play/) scoring. Whoever is up at the end of a segment takes that bet.
+
+Justin and Jason playing a $5 Nassau. After 9 holes, Justin is 2 up on the front. He takes the front nine bet. But the back nine starts fresh at all square — Jason's rough front doesn't carry over. That reset is what makes Nassau feel fair.
+
+## Presses: The Reason Nassau Outlasted Everything Else
+
+The format dates back to 1900 at Nassau Country Club on Long Island. Club captain John B. Coles Tappan invented it because his members were so good that other clubs refused to play them. But the reason it stuck around for 125 years isn't the three-bet structure — it's the press.
+
+A press is a new side bet that starts when you're losing. It covers only the remaining holes in the segment, runs alongside the original bet, and starts fresh at all square. It's how the trailing player stays in the game.
+
+Justin is 2 down to Jason after hole 4 on the front nine. He presses. New $5 bet, holes 5 through 9. The original front nine bet still runs, and Justin is still 2 down on it. But the press starts clean. Justin now has a shot at winning $5 back even if he loses the original.
+
+This is the whole psychology of Nassau. You're never out of it. There's always a new bet to start.
+
+### Auto-Press vs. Manual
+
+Most groups play auto-press at 2-down. The moment someone falls two holes behind, the press triggers. No decision, no asking permission. You go 2 down, a new bet appears.
+
+Manual presses put that decision in the trailing player's hands. Do you press now with plenty of holes left, or wait? We play auto-press in most of our rounds because it keeps the pace moving, but the manual version adds its own strategic layer if your group enjoys the gamesmanship.
+
+### Press-the-Press (Where Things Get Expensive)
+
+When press-the-press is on, it cascades. You go 2 down on the original and a press fires. Then 2 down on that press and another one fires. Now three bets are running on the same nine.
+
+A $5 Nassau with full escalation:
+
+| Scenario | Front | Back | Overall | Total |
+|---|---|---|---|---|
+| No presses | $5 | $5 | $5 | $15 |
+| 1 press per nine | $10 | $10 | $5 | $25 |
+| 2 presses per nine | $15 | $15 | $5 | $35 |
+
+That's why some groups cap it — max number of presses per segment, or no new presses after hole 7. The "no press on the last hole" rule is nearly universal. A one-hole bet is basically a coin flip.
+
+## Handicaps
+
+Most groups play net Nassau. Justin is a 5, Jason is a 12 — Jason gets 7 strokes on the 7 hardest-rated holes by [stroke index](https://www.usga.org/handicapping/roh/Content/rules/Appendix%20C%20Stroke%20Allocation.htm). Jason bogies with a stroke (net par), Justin pars — hole halved.
+
+For 2v2 teams, adjust relative to the lowest handicap. Handicaps of 5, 8, 12, and 18 — the 5 plays scratch, the 8 gets 3, the 12 gets 7, the 18 gets 13. ([How handicaps work in golf betting →](/guides/handicaps/))
+
+## A Full Settlement Walkthrough
+
+Justin (5 handicap) and Jason (12 handicap), $5 Nassau, auto-press at 2-down. Jason gets 7 strokes.
+
+**Front nine:** After 3 holes Jason is 2 up, triggering an auto-press. The original ($5, holes 1-9) and the press ($5, holes 4-9 starting fresh) now run in parallel. Justin rallies. He wins holes 5 and 6 on the press, going 2 up there. Jason holds his lead on the original.
+
+After 9: Jason wins the original 1 up (Justin pays $5). Justin wins the press 2 up (Jason pays $5). Front nine net: $0. A wash.
+
+**Back nine:** Clean. Neither player goes 2 down at any point. Justin wins it 2 up. Jason pays $5.
+
+**Overall:** Justin's back nine rally overcame Jason's early lead. Justin wins 1 up. Jason pays $5.
+
+| Bet | Winner | Justin | Jason |
+|---|---|---|---|
+| Front 9 (original) | Jason, 1 up | -$5 | +$5 |
+| Front 9 (Press 1) | Justin, 2 up | +$5 | -$5 |
+| Back 9 | Justin, 2 up | +$5 | -$5 |
+| Overall | Justin, 1 up | +$5 | -$5 |
+| **Net** | | **+$10** | **-$10** |
+
+Four bets, each settled independently. Every dollar Justin won is a dollar Jason lost.
+
+> **Track your Nassau automatically with Stick** — the original three bets, every press, every press-the-press, with a line-item settlement showing exactly what everyone owes. [Download on the App Store →](#)
+
+### Team Settlement (2v2)
+
+In a team Nassau, each person on the losing side pays each person on the winning side. Team A (Justin and Evan) beats Team B (Jason and Todd) on the front nine of a $5 Nassau — that's Jason paying Justin $5, Jason paying Evan $5, Todd paying Justin $5, Todd paying Evan $5. Twenty dollars moving on a single $5 bet. Now do that times three bets plus presses.
+
+## Variations Worth Knowing
+
+**Weighting the overall.** A $5-$5-$10 Nassau puts extra pressure on consistency. You can catch fire on one nine and still lose the round if you can't hold it together for 18. We think the weighted overall makes for a better game, but plenty of groups prefer equal amounts across all three.
+
+**Ways games.** A "Ways" Nassau uses point values like 1-2-2 (1 for the front, 2 for the back, 2 for the overall). More common in organized club play than Saturday foursomes.
+
+**Doubling the back nine.** Some groups automatically double back nine stakes. The thinking: the front is warm-up, the back is where it counts.
+
+**Running [Junk](/games/junk/) alongside.** Greenies, sandies, barkies — the whole junk collection tracked separately from your Nassau and settled independently at the end. Common enough that it's almost expected at some clubs. If you're running [Skins](/games/skins/) or [Wolf](/games/wolf/) alongside your Nassau, make sure the handicap settings match across all games.
+
+## What New Players Get Wrong
+
+The number one argument in Nassau is about presses. Auto or manual? Press-the-press? Max number? Cutoff hole? Sort it out before the first tee. The fight on the 7th hole when someone goes 2 down and nobody agreed on rules is entirely preventable. We've seen it enough times that it's the first thing Stick asks you to configure.
+
+The second most common mistake: forgetting the overall is its own bet. Winning both nines usually means you won the overall too, but not always. You can win the front 1 up, lose the back 3 down, and lose the overall 2 down. That's three separate results, and the math might not be obvious until settlement.
+
+Press tracking gets messy fast. On hole 8 you might have the original, a press from hole 4, and a press-the-press from hole 7. Three different bets, three different standings. This is exactly the kind of thing people argue about, and exactly what an app should handle so you don't have to.
+
+One more: handicap strokes go on the hardest holes by stroke index, not by hole number. Hole 1 isn't necessarily stroke index 1. Check the scorecard.
+
+## Strategy
+
+Pressing 2-down with 5 holes left is almost always correct. You're probably losing that bet anyway — the press gives you a chance to recover half. But pressing 2 down on hole 8 just creates a one-hole bet that's hard to win.
+
+A lot of players fixate on the nines and forget the overall is its own bet. Steady play wins it even if you split the front and back. And know where the strokes fall — your opponent's bogey on a stroke hole nets to par, so if you bogeyed too, that hole is halved, not won.
+
+Press chains cut both ways. Three cascading presses sounds aggressive until you lose all three.
+
+## FAQ
+
+<FAQ>
+
+<QA question="How much does a Nassau bet cost?">
+A Nassau costs whatever your group agrees on, expressed as three amounts for front nine, back nine, and overall. A "$5 Nassau" means $5 on each — $15 at stake before presses. Common stakes range from $2-$2-$2 for friendly games to $20-$20-$20 for competitive club play.
+</QA>
+
+<QA question="What is a press in Nassau?">
+A press is a new side bet that starts when you're losing a segment. It covers the remaining holes and runs alongside the original bet. Most groups trigger presses automatically at 2-down. A $5 front nine with one press means two separate $5 bets running on the front.
+</QA>
+
+<QA question="Can you press the overall?">
+Yes. An overall press starts from the current hole and runs through 18. Because the overall covers all 18 holes, a press initiated on hole 6 would cover holes 7 through 18. Less common than pressing a nine, but a valid play.
+</QA>
+
+<QA question="What happens if the front nine ends tied?">
+A tied segment is halved — no money changes hands on that bet. The back nine starts fresh regardless. Some groups play sudden death on a halve, but that's rare in Nassau.
+</QA>
+
+<QA question="Is Nassau match play or stroke play?">
+Traditional Nassau uses match play scoring — you count holes won, not total strokes. Whoever is ahead at the end of a segment wins that bet. Some groups play stroke play Nassau, but match play is the standard.
+</QA>
+
+<QA question="What does 2-2-2 mean in golf?">
+Shorthand for a $2 Nassau — $2 on the front nine, $2 on the back, $2 on the overall. The three numbers always represent front/back/overall in that order. "$5-5-10" means $5 on each nine, $10 on the overall.
+</QA>
+
+<QA question="How do handicaps work in Nassau?">
+Take the difference between course handicaps. The higher handicap gets that many strokes on the hardest holes by stroke index. On those holes, their net score is one lower than gross. In 2v2, all handicaps adjust relative to the lowest player.
+</QA>
+
+<QA question="What is dormie in Nassau?">
+Dormie means you're up by exactly as many holes as remain — 3 up with 3 to play. You can't lose the bet, but your opponent can halve it by winning every remaining hole. The bet stays open until it's decided or all holes are played.
+</QA>
+
+</FAQ>
+
+## Track Your Nassau with Stick
+
+Nassau is the game where press chains create arguments. Stick tracks every bet — the original three, every press, every press-the-press — with a line-item settlement showing exactly what everyone owes.
+
+[Download Stick →]()

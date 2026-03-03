@@ -135,8 +135,8 @@ export const games: GameInfo[] = [
       "Nine points are distributed among three players on every hole. Best score gets 5, worst gets 1, middle gets 3. Ties split.",
   },
   {
-    slug: "dots",
-    name: "Dots",
+    slug: "junk",
+    name: "Junk",
     hook: "Score every detail.",
     players: "2–4 players",
     description:

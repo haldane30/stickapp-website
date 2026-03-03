@@ -1,0 +1,219 @@
+---
+title: "How to Play Snake in Golf: The Three-Putt Penalty Game"
+slug: snake
+description: "Snake is a golf penalty game where three-putts transfer a hot potato liability. Learn the rules, all three betting models, and settlement math with Stick."
+keywords: ["snake golf game", "snake putting game", "three putt game golf", "golf snake rules", "animal game golf", "zoo golf game", "penalty games golf"]
+datePublished: ""
+dateModified: ""
+---
+
+# How to Play Snake in Golf: The Three-Putt Penalty Game
+
+Snake is the opposite of a scoring game — it punishes three-putts. Someone three-putts, they hold the snake. Someone else three-putts, the snake moves. Last person holding it at the end of 18 pays everyone else. It's a side game, meaning it runs alongside Nassau, Skins, or any other format. And it's a hot potato game in the truest sense — nobody wants to be the one holding it when the round ends.
+
+```
+Players: 2+ (works with any size group)
+Type: Side bet (runs alongside other games)
+Scoring: Pure putting — only three-putts matter
+Common stakes: $5 fixed, $2-$3 per three-putt (pot), or doubling model
+Also called: Animal game, Zoo golf, Putting penalty
+```
+
+No handicaps apply. No gimmes. The game only cares about putts from the green — what happens on the course before you reach the green is irrelevant. Three putts on a par 5 counts exactly the same as three putts on a par 3. The putting green is the only stage that matters.
+
+## How the Snake Works
+
+One player gets assigned the snake at the start (or it stays unassigned until the first three-putt). When someone three-putts a hole, the snake transfers to them. When someone else three-putts later, the snake moves again. At the end of 18 holes, whoever holds the snake pays everyone else. If you run Snake alongside [Skins](/games/skins/) or [Nassau](/games/nassau/), the snake operates independently — nobody's scoring game impacts who has the snake.
+
+**Four holes with Justin, Jason, Evan, and Todd:**
+
+| Hole | Justin | Jason | Evan | Todd | Three-Puts | Snake Holder |
+|------|--------|-------|------|------|------------|--------------|
+| 1 | 2 putts | 3 putts | 2 putts | 2 putts | Jason | Jason |
+| 2 | 2 putts | 1 putt | 3 putts | 2 putts | Evan | Evan |
+| 3 | 3 putts | 2 putts | 2 putts | 2 putts | Justin | Justin |
+| 4 | 2 putts | 2 putts | 2 putts | 3 putts | Todd | Todd |
+
+Jason gets it on hole 1, loses it to Evan on hole 2, Evan loses it to Justin on hole 3, Justin loses it to Todd on hole 4. If Todd is still holding it after 18, he pays. If someone three-putts on hole 17, the snake transfers to them, and they have one hole to pass it on — or they take the hit.
+
+The snake only moves when someone three-putts. If holes 6 through 10 have zero three-putts, the snake doesn't move. Whoever had it on hole 5 still has it on hole 10.
+
+## What Counts as a Putt
+
+This matters because disputes happen here. **Only strokes taken from the putting green surface count.** If you chip from the fringe, those strokes don't count toward three-putts. If you're off the green — in the bunker, rough, or fairway — and you hit it on, that's not a putt. Once you step on the green for the first time, all subsequent strokes on the green are putts.
+
+Four putts count as three-putts (the snake still moves — you don't get worse penalties for worse play). Five putts, six putts, all the same from Snake's perspective: you three-putted or worse, the snake is yours.
+
+## When Multiple Players Three-Putt the Same Hole
+
+Two scenarios. One standard, one optional.
+
+**Last to hole out (default):** If two or three players three-putt on the same hole, the one who finishes putting last gets the snake. If Jason and Evan both three-putt hole 7, and Evan sinks his final putt after Jason does, Evan holds the snake leaving hole 7. This is the rule most groups use — it's clean, it's observable, no math required.
+
+**Higher putt count (optional):** If Jason three-putts (3 putts) and Evan four-putts (4 putts) on the same hole, Evan gets the snake because he had more putts. If both shot the same number of putts, the higher-putt-count rule falls back to last to hole out.
+
+Either way, someone's leaving that hole with the snake. There's no split or shared liability.
+
+## Three Betting Models
+
+How you settle Snake changes the entire character of the game.
+
+### Fixed Stake (Simplest)
+
+The snake is always worth the same amount. You agree on a value before teeing off — $5, $10, whatever — and that's what the final holder pays to each other player.
+
+Four players, $5 fixed stakes. Todd has the snake at the end. He pays $5 to Justin, $5 to Jason, $5 to Evan. That's $15 total, and he took all of it. It's clean math and you know the exact risk before you start.
+
+This is the game at its most straightforward. Low risk, consistent consequences, no surprises.
+
+### Per Three-Putt (Pot Model)
+
+The snake value equals the base amount times the total number of three-putts in the round.
+
+Four players, $2 per three-putt. Across 18 holes, there are eight three-putts total (Justin had two, Jason three, Evan two, Todd one). The pot is $2 × 8 = $16. Now whoever holds the snake pays $16 total, split among the other three players. That's roughly $5.33 each.
+
+The pot model self-calibrates — high-handicap groups with lots of three-putts end up with a bigger pot. Low-handicap groups with cleaner putting have a smaller pot. And because the pool includes all three-putts, not just who transferred the snake, bad putting by everyone else can make the holder's burden heavier.
+
+Todd with the snake pays $16 ÷ 3 = $5.33 to each other player. It's not evenly divisible, so Stick rounds to the nearest cent.
+
+### Doubling (The Escalation Model)
+
+Each three-putt event that occurs increases the snake value exponentially. The first three-putt of the round sets the snake at your base amount. The second three-putt doubles it. The third quadruples it. This continues until someone escapes by not three-putting.
+
+Start at $1:
+
+| Three-Putt # | Snake Value |
+|---|---|
+| 1st | $1 |
+| 2nd | $2 |
+| 3rd | $4 |
+| 4th | $8 |
+| 5th | $16 |
+| 6th | $32 |
+| 7th | $64 |
+| 8th | $128 |
+
+Hole 4: Jason three-putts, snake is $1, Jason holds it. Hole 6: Evan three-putts, snake doubles to $2, Evan holds it. Hole 9: Justin three-putts, snake doubles to $4, Justin holds it. Hole 14: Todd three-putts, snake doubles to $8. If Todd still has it at 18, he pays $8 to everyone else.
+
+**The escalation is dramatic.** By hole 8 three-putt, you're at $128. That's why doubling works best in groups where you can start at $0.10 or $0.25, not $5. A casual foursome playing doubling Snake at $1 starting value can produce $100+ liability.
+
+Doubling Snake is fun when everyone agrees it's funny. It's miserable when nobody expected the stakes.
+
+If nobody three-putts all round, the snake never activates and there's no settlement.
+
+## A Full Round Walkthrough
+
+Justin, Jason, Evan, and Todd playing fixed-stake Snake at $5. Here's every three-putt across 18 holes:
+
+| Hole | Three-Putter | Snake Holder After |
+|------|-------------|-------------------|
+| 3 | Jason | Jason |
+| 5 | Evan | Evan |
+| 8 | Evan (again) | Evan (no transfer — already holding) |
+| 10 | Justin | Justin |
+| 13 | Todd | Todd |
+| 14 | Jason | Jason |
+| 17 | Todd | Todd |
+
+Seven three-putts total. The snake changed hands five times. Todd three-putted on 17 and nobody three-putted on 18, so Todd is holding at the end.
+
+**Settlement:** Todd pays $5 to Justin, $5 to Jason, $5 to Evan. Total out: $15 from Todd. Total in: $5 each to three players. Net: Justin +$5, Jason +$5, Evan +$5, Todd −$15. Zero-sum — every dollar won is a dollar lost.
+
+Note that Evan three-putted twice but never held the snake at the end. Jason held it briefly and passed it. The only thing that matters is who's holding it on 18.
+
+> **Track Snake automatically with Stick** — every three-putt recorded in real time, snake transfers tracked automatically, and settlement calculated instantly at the end of the round. [Download on the App Store →](#)
+
+## No Gimmes
+
+This is core to Snake. Every putt must be holed out. The three-footer that would normally be "that's good" in a Nassau suddenly matters because it might be your third putt. You don't get to skip it.
+
+This is why Snake is a pace-of-play consideration. In a backed-up group where there's already a wait on every tee, adding "everyone must putt out every hole" adds time. The group behind you gets upset. On a clear day when you're moving briskly, it's fine — everyone putts out anyway. On a packed Saturday, Snake can slow things down.
+
+Some groups play Snake only on practice rounds or less crowded days because of this. It's worth having the conversation with your group.
+
+## The Zoo (Animal Game)
+
+Snake is often played as part of a larger "animal game" where different errors earn different animals. Each animal works like its own independent snake running in parallel. It's a well-known expansion in golf circles — [Long Bombs Golf](https://longbomfsgolf.com) and other betting game sites cover it regularly.
+
+**Common animals:**
+
+- **Snake** — Three-putt (the original)
+- **Camel** — Bunker
+- **Frog** or **Fish** — Water hazard
+- **Gorilla** — Out of bounds
+- **Skunk** — Double bogey or worse
+- **Badger** — Bunker (sometimes)
+
+Each animal has its own hot potato mechanic. You land in a bunker on hole 7? You get the camel. Someone else finds sand on hole 9? The camel transfers to them. Last person holding the camel at 18 pays. Meanwhile, Snake is operating independently — someone three-putts and the snake transfers. You could be holding both camel and snake simultaneously.
+
+**Going to the Vet:** A popular Zoo rule — if you hole out from off the green (chip in, bunker shot that goes in, pitch shot), you shed one animal of your choice. Instantly lose the snake, the camel, whatever penalty animal is hottest. This creates a tactical element: do you go aggressive for the chip-in to shed the snake, or play safe?
+
+Stick tracks Snake specifically. The full Zoo with all animals is a future possibility. For now, if your group plays the full animal game, you'll need to track the non-Snake animals manually — or rotate which animals Stick tracks each round.
+
+Some groups simplify and play just Snake + Camel, leaving the rest. Some play the full menagerie. The idea is the same: multiple penalties, multiple hot potatoes, the drama compounds.
+
+## Strategy Tips
+
+**Lag putting gets serious.** In a Nassau, a poor lag putt leaves you a long second putt but you're still fine. In Snake, a poor lag putt puts you at risk — one good putt to save par, one bad roll and you're now on putt three. Speed control beats line. Get the first putt close.
+
+**Know when you're holding the snake.** If you know you have it going into 17, you're going to be conscious of every putt. The psychology is different. On 18, if someone three-putts before you, the hot potato transfers to them and you escape. Don't press for a birdie you don't need on 17 if you're holding the snake. A safe par and you move to 18 without the liability.
+
+**Playing Snake actually improves your putting.** Because gimmes don't exist and three-putts have a real cost, you take every putt more seriously. Your lag putts get better. You spend more time reading short putts. Over a month of Snake rounds, your putting numbers actually trend better. The game is punitive in the moment and pedagogically sound over time. We play Snake in most of our rounds because it keeps everyone engaged on the greens — nobody zones out on a par 5 putt when the snake might be waiting.
+
+**In the doubling model, escape is the strategy.** If the snake is at $8 and it's your turn to hit, your goal isn't to win the hole — it's to not three-putt. Two putts and you keep it moving. A three-putt and it doubles to $16 on the next one. If you're a weaker putter and the doubling value is already high, you might lay up and guarantee par rather than attack for birdie.
+
+## Common Mistakes
+
+**Forgetting to agree on the model beforehand.** You start the round, two people assume fixed, one person assumes doubling. By hole 6 when the snake passes, you're arguing about what it's worth. Settle this before you tee off. "Fixed $5" or "doubling starting at $1" or "pot at $2 per three-putt." Write it down if you're not sure.
+
+**Starting the doubling model too high.** $5 starting value doubles to $10 to $20 to $40 to $80 to $160. That happened by hole 8 if the group can't putt. If someone three-putts on hole 12, the snake is worth $2,560. You thought you were playing a casual game. Now you're not. Start at $0.10 if you're nervous. Start at $0.25 if you're confident. $1 is aggressive for a casual group.
+
+**Not tracking putts separately.** You have the Nassau scorecard out, you're marking gross scores. But Snake only cares about putts. It's easy to lose count. Have someone designated as the Snake tracker — the one calling out three-putts as they happen. Or use Stick to handle it.
+
+**Counting a chip from the fringe as a putt.** Todd's in the fringe on a par 3. He chips it three feet from the hole. That's not a putt — that's a chip. He then putts twice to hole out. That's two putts, not three. If he'd been on the green and putted three times, yes — but the chip from off-green doesn't count. Clarify this before anyone gets the snake due to a disputed putt count.
+
+## FAQ
+
+<FAQ>
+
+<QA question="What is the snake in golf?">
+Snake is a golf betting game where three-putts are penalties. The player who three-putts gets the snake (a liability). When the next player three-putts, the snake transfers to them. At the end of 18 holes, whoever holds the snake pays every other player a pre-agreed amount. It's a side game, meaning it runs alongside other bets like Nassau or Skins.
+</QA>
+
+<QA question="How do you play the animal/zoo game in golf?">
+The animal game expands Snake by adding other penalties. Snake penalizes three-putts. Camel penalizes hitting trees. Frog/Fish penalize water hazards. Gorilla penalizes out of bounds. Skunk penalizes double bogeys. Each animal works like its own independent snake — last holder pays. The Zoo lets you play multiple animals simultaneously. A common rule: hole out from off the green and you shed an animal (chip in and you lose the snake).
+</QA>
+
+<QA question="Does a chip from the fringe count as a putt in Snake?">
+No. Only strokes taken from the putting green surface count as putts. If you're in the fringe and chip it onto the green, that's not a putt. Once you step on the green for the first time, all strokes on the green are putts. So a chip from fringe, then two putts on green = two putts total, not three.
+</QA>
+
+<QA question="What happens if nobody three-putts all round?">
+Nobody gets the snake, nobody settles. The snake value stays at zero. You and your group had a great putting day and there's no penalty for it. The game doesn't kick in unless someone three-putts.
+</QA>
+
+<QA question="What's the difference between fixed and doubling Snake?">
+Fixed means the snake is always worth the same amount ($5, $10, whatever). The holder pays that amount to everyone else at the end. Doubling means the snake value doubles every time someone three-putts: first three-putt = $1, second = $2, third = $4, continuing exponentially. Doubling gets dramatic fast — use it only if everyone's comfortable with potential wild swings.
+</QA>
+
+<QA question="Can you play Snake with just two players?">
+Yes. Two-player Snake works — one player three-putts, gets the snake, pays the other player if they still hold it at 18. The math is the simplest: one payment from holder to opponent. Less action than a foursome since there's only one other player to transfer it to, but it's still a legitimate game.
+</QA>
+
+<QA question="Does Snake work alongside other games like Nassau or Skins?">
+Yes. Snake is a side game designed to run in parallel with whatever else you're playing. You can play Nassau + Snake, Skins + Snake, Wolf + Snake, any combination. The games don't interfere — Nassau is about gross scoring, Skins is about hole-by-hole low score, Snake is purely about putting. You settle each independently at the end of the round.
+</QA>
+
+<QA question="How much can the doubling model escalate?">
+It depends on how many three-putts occur. Starting at $1: eight three-putts = $128 liability. Ten three-putts = $512. The math is 2^(n-1). A group of high-handicappers starting at $5 could theoretically hit $2,560 or more in a round of bad putting. That's why the doubling model works best with $0.10 or $0.25 starting values.
+</QA>
+
+</FAQ>
+
+## Track Snake with Stick
+
+Snake looks simple — three-putts move a liability around — until someone insists their three-putt was actually a two-putt and the other guy's count was wrong. We built Stick to handle this exact dispute: we track every putt from the green, record three-putt events in real time, handle transfers automatically, settle based on whichever model you chose (fixed, pot, or doubling), and show a line-item breakdown of who paid what and why. No more arguments on the 18th green.
+
+If you're running Snake alongside [Junk](/games/junk/) or other side games, Stick tracks them all independently in one round, with a total settlement that accounts for everything.
+
+[Download Stick →]()

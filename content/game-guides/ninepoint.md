@@ -1,0 +1,188 @@
+---
+title: "How to Play Nine Point (Nines): Rules, Scoring & Settlement"
+slug: ninepoint
+description: "Nine Point (5-3-1) is a three-player golf betting game where points distribute per hole. Learn the rules, tie scenarios, blitz, and settlement. Track with Stick."
+keywords: ["nine point golf", "nines golf game", "5-3-1 golf", "golf games for 3 players", "nine point golf rules", "nines golf betting game", "three player golf betting"]
+datePublished: ""
+dateModified: ""
+---
+
+# How to Play Nine Point (Nines) in Golf: Rules, Scoring & Settlement
+
+Nine Point — also called Nines or 5-3-1 — distributes nine points per hole based on score. Low score gets 5, middle gets 3, high gets 1. Three players, 18 holes, 162 total points. One player will end with more points than the other two, and you settle the difference. The math is clean, the holes all matter equally, and the game works perfectly for a tight threesome.
+
+```
+Players: Exactly 3
+Scoring: Net or gross per hole
+Common stakes: $1-$2 per point
+Also called: Nines, 5-3-1, Nines Game
+```
+
+Unlike [Skins](/games/skins/), where one lucky birdie on a stacked hole can swing a round, Nine Point forces consistency. You can't win big on one hole — the points are locked at 5-3-1 every time. The strategy shifts to steady play and knowing when the math favors aggression.
+
+## The Point System
+
+Every hole awards 9 points total. No exceptions.
+
+| Score Rank | Points |
+|---|---|
+| Low (best) | 5 |
+| Middle | 3 |
+| High (worst) | 1 |
+
+Play 18 holes, multiply 162 total points distributed. You can also play the front nine (54 points), back nine (54 points), and full 18 (162 points) as three separate matches — a Nassau structure. Some groups divide the stakes: $1 per point on the front, $2 on the back, $3 on the overall — a [Nassau](/games/nassau/)-style structure. That escalation means the back nine matters more and the full 18 is a separate story.
+
+## Ties: The Math That Actually Works
+
+Four scenarios. Every one distributes exactly 9 points.
+
+### No Tie: 5-3-1
+Justin (net par) beats Jason (bogey) and Evan (double). Justin gets 5, Jason gets 3, Evan gets 1. Straightforward.
+
+### Two Players Tie for Low: 4-4-1
+Justin and Jason both net par. Evan bogeys. The two low scores average: (5+3)/2 = 4 each. Evan gets 1. Both players with low scores are rewarded equally. The high player still gets something.
+
+### Two Players Tie for High: 5-2-2
+Justin nets par, Jason and Evan both bogey. Jason and Evan average the middle and high positions: (3+1)/2 = 2 each. Justin gets the full 5 for beating both.
+
+### All Three Tie: 3-3-3
+All three net par. Nobody distinguishes themselves. Each gets (5+3+1)/3 = 3 points. Nobody wins or loses the hole. Unlike Skins (where ties create carryovers), Nine Point just splits three ways and moves to the next hole.
+
+Play gross and the same math applies — no handicap adjustments, whoever shoots the lowest number wins 5.
+
+## Walkthrough: Four Holes
+
+Justin (5 handicap, gets strokes on 4 holes: 1, 5, 8, 14), Jason (12 handicap, gets strokes on 12 holes), Evan (20 handicap, gets strokes on 20 holes). All net scoring.
+
+| Hole | Par | Strokes Allowed | Justin | Jason | Evan | Net Scores | Result | Points |
+|---|---|---|---|---|---|---|---|---|
+| 1 | 4 | J(1), Ja(1), E(1) | 5 | 5 | 6 | 4, 4, 5 | J & Ja tie low | J gets 4, Ja gets 4, E gets 1 |
+| 2 | 4 | J(0), Ja(1), E(1) | 4 | 5 | 5 | 4, 4, 4 | All tie | J gets 3, Ja gets 3, E gets 3 |
+| 3 | 3 | J(0), Ja(0), E(1) | 3 | 2 | 3 | 3, 2, 2 | Ja & E tie low | J gets 1, Ja gets 4, E gets 4 |
+| 4 | 5 | J(0), Ja(1), E(1) | 5 | 5 | 5 | 5, 4, 4 | J high, Ja & E tie low | J gets 1, Ja gets 4, E gets 4 |
+
+After 4 holes: Justin 9 points, Jason 15 points, Evan 12 points. Jason's leading because he's converted his strokes into two big point wins (hole 3 and 4).
+
+## Handicaps
+
+Off-low-man is the standard. Justin plays scratch (5 handicap). Jason gets 12-5=7 strokes across 18 holes. Evan gets 20-5=15 strokes. Those strokes are allocated by [stroke index](https://www.usga.org/handicapping/roh/Content/rules/Appendix%20C%20Stroke%20Allocation.htm) — the hardest holes first, which is how the USGA does it. On a hole where Jason gets a stroke, his gross 5 becomes a net 4.
+
+If your group has one player at a 5 and another at a 25, play net. Gross means the low handicapper wins almost every hole and the game stops being fun by the turn. Net gives everyone a chance to actually compete.
+
+There's no half-handicap or partial handicap in the current engine — you're playing either full handicap (net) or no handicap (gross). Pick one before teeing off.
+
+## Blitz (Shutout)
+
+Beat both opponents by 2 or more net strokes on a single hole, and you take all 9 points. The hole is over before the other two even finish.
+
+Justin shoots a net 3. Jason shoots a 5. Evan shoots a 7. Justin beat both by 2+ strokes. Blitz triggered — Justin takes the full 9 instead of just the 5. If any of them had tied, blitz doesn't happen and points distribute normally.
+
+Blitz matters on par 5s where one player goes birdie and two others make par. It matters on par 3s when someone finds the middle of the green and the other two flail. It adds a single-hole threshold that rewards really good play, not just best play.
+
+## Birdie Double
+
+When any player makes a net birdie on a hole, all points on that hole double. 5-3-1 becomes 10-6-2. If two players tie at birdie, it's still a double for everyone.
+
+Jason makes net birdie on a par 4. All three players' points double. Justin had 5 points (low without the birdie double), now has 10. This stacks with blitz — a blitz on a hole with a birdie is 18 points instead of 9.
+
+Some groups think birdie double is too generous. Others love it because it creates a tactical element: if you're in position to birdie a hole, the points matter double, so you go for it. Turn it on before the round or leave it off depending on your group's style.
+
+## Settlement: Pairwise Model
+
+You settle between each pair of players. Three settlement lines.
+
+Justin, Jason, and Evan play $1 per point over 18 holes with the standard 5-3-1 distribution:
+
+| Player | Total Points | Calculation |
+|---|---|---|
+| Justin | 58 | |
+| Jason | 51 | |
+| Evan | 53 | |
+
+**Justin vs Jason:** 58 − 51 = 7 points. Jason pays Justin $7.
+**Justin vs Evan:** 58 − 53 = 5 points. Evan pays Justin $5.
+**Jason vs Evan:** 53 − 51 = 2 points. Evan pays Jason $2.
+
+**Net: Justin +$12, Jason +$5, Evan −$17.** Zero-sum — every dollar won is a dollar lost.
+
+If you're playing $2 per point, multiply the differentials. If you're playing Nassau structure (front nine, back nine, overall as separate matches with different per-point stakes), you run three independent settlements and add them together.
+
+> **Track Nine Point automatically with Stick** — points distributed correctly on every hole, blitz and birdie double applied when earned, and pairwise settlement calculated instantly. [Download on the App Store →](#)
+
+## Variations
+
+### Nassau Structure
+Front 9, back 9, and full 18 as three separate matches. Stake them differently: $1 front, $2 back, $3 overall. Forces the back nine to be distinct — players can lose the front and still win back and overall, or vice versa. We think the escalating stakes make the back nine more interesting than a flat-stakes game. Same point distribution and tie rules, just segmented like a traditional Nassau.
+
+### Blitz (On/Off)
+Covered above. Off is fine — some groups think the base game is already dynamic enough and don't need a shutout mechanic. On adds a single-hole threshold.
+
+### Birdie Double (On/Off)
+Also covered. The default off is clean. The on version adds volatility and rewards hot putters.
+
+### Par Bonus (7-1-1)
+Some groups use this variation: if you're the only player at par or better, you get 7 points instead of 5. The other two split the remaining 2 points (1 each). It rewards par-making specifically and adds incentive on harder holes. The original Nine Point doc lists this as a house rule, and we've found it in several golf sources. Stick doesn't track this automatically, but you can play it by manually adjusting at the end of a hole if your group agrees.
+
+### Press-Repress
+The player in last place can double points for the next hole (a press). The leader can double it again (a repress). Creates escalation — a pressed and repressed hole is worth 4× normal points. This is uncommon in casual threesomes and Stick doesn't support it, but it's out there.
+
+### Carryover on Three-Way Ties
+When all three players tie, instead of splitting 3-3-3, some groups carry the full 9 points to the next hole. Three-way ties are rare, so this variation is rarer still. Stick doesn't support it.
+
+## Strategy and Common Mistakes
+
+**Consistency beats heroics.** A birdie on one hole gets you 5 points. A birdie on a different hole gets you 5 points. There's no carryover drama like [Skins](/games/skins/) and no multiplier like [Match Play](/games/match-play/). The strategy is to grind out steady play and force your opponents into mistakes.
+
+With blitz on, the par 5s and short par 4s become interesting — if you can get to 2-under par and beat both opponents by 2+, the hole is over. More conservative groups might lay up and guarantee 5 points instead of pressing for blitz and risking 1 point.
+
+**Don't sandbag your handicap.** This is specific to Nine Point: if you're overhandicapped and you beat a lower-handicap player by 2+ strokes on a hard hole where you get a stroke, blitz fires and you take all 9. If you're claiming more strokes than you actually shoot, you'll win more blitzes and the game stops being close. Use your real handicap.
+
+**The Nassau back nine is not the same game.** If you're playing Nassau structure with different per-point stakes on the front and back, the back nine plays differently because the points are worth more. You might play more defensively on the front (accept a 1-point loss) and attack the back nine (try for blitz). Or you might press early on the front when you're down, knowing the back nine is where the real money is.
+
+**Three-way ties cost you nothing.** When all three tie and each gets 3 points, nobody gains ground. You see golfers upset about a 3-3-3 split on a par 5 they attacked. Don't be that golfer. A split means you're locked in a tie going forward, which is fine. The next hole is fresh.
+
+**Bad math happens.** The most common mistake is adding up points wrong mid-round and assuming you're winning when you're actually down. Do a math check at the turn. Verify who has how many points, what the running settlement looks like. Avoids surprises on 18.
+
+## FAQ
+
+<FAQ>
+
+<QA question="What is the difference between Nine Point and Split Sixes?">
+Nine Point uses 5-3-1 distribution (9 points per hole, 3 players, 162 total over 18). [Split Sixes](/games/split-sixes/) uses 4-2-0 distribution (6 points per hole). Both are three-player games, both are clean and zero-sum, but the point spread is different. Split Sixes is slightly harsher — the high player gets nothing, so the margin between 1st and 3rd is bigger. Both work great. Pick the point system you like and stick with it.
+</QA>
+
+<QA question="Can you play Nine Point with 4 players?">
+The game is specifically designed for three players — the math distributes exactly 9 points among three scorers every hole. With four players, you'd need a 4-way split and the points don't divide evenly without fractions. Some groups try a 5-3-1-0 split (adding a 0 for 4th place), but that forces the 4th player out of contention every hole. Better options for four: Wolf, Match Play, or Four-Ball. Stick's Nine Point engine is locked to three players, which is correct.
+</QA>
+
+<QA question="What is a blitz in Nine Point?">
+A blitz (sometimes called a shutout) happens when one player beats both opponents by 2 or more net strokes on a single hole. Instead of getting 5 points for low score, the blitz winner takes all 9 points. If anyone ties, blitz is blocked and points distribute normally. Blitz adds a threshold that rewards dominant play and creates hole-by-hole drama.
+</QA>
+
+<QA question="How do handicaps work in Nine Point?">
+Nine Point plays with off-low-man calculation, the same as [Nassau](/games/nassau/) and [Skins](/games/skins/). The lowest-handicap player plays scratch. Everyone else gets the difference. Those strokes are allocated hole-by-hole by stroke index (hardest holes first). On holes where you get a stroke, your gross score minus one becomes your net score, which is what gets ranked for points. Turn off handicaps entirely to play gross.
+</QA>
+
+<QA question="What is birdie double in Nine Point?">
+When any player makes a net birdie, all points on that hole double. A 5-3-1 split becomes 10-6-2. If two players tie with birdies, it's still a double. This happens rarely (maybe 2-3 times per round), but when it does, the points matter more. Turn this on if your group wants extra volatility, off if you prefer predictable 5-3-1 splits.
+</QA>
+
+<QA question="How do you settle Nine Point?">
+Nine Point settles as three separate pairwise matches. Count total points for each player across 18 holes, then each pair settles the point differential times the dollar-per-point stake. If Justin has 58 points and Jason has 51, Jason pays Justin $7 (at $1 per point). Do this for all three pairings and add them up. The result is always zero-sum — every dollar one player wins is lost by another.
+</QA>
+
+<QA question="Is Nine Point the same as Nines?">
+Yes. Nine Point, Nines, and 5-3-1 all refer to the same game — the 5-3-1 point distribution, three players, 18 holes. Regional names vary, but it's one game. Some groups call it "Nines" because of the nine points per hole. Others call it "5-3-1" because that's the distribution. Stick calls it Nine Point to be clear, but you'll hear both.
+</QA>
+
+<QA question="Can you play Nine Point Nassau (front/back/overall)?">
+Yes. The engine supports Nassau structure: front 9, back 9, and full 18 as three separate matches with independent stakes. You might play $1 per point on the front, $2 on the back, and $3 on the overall. The point distribution stays 5-3-1 every hole, but you settle each nine separately, then the full 18, then add it all up. This lets you win the front, lose the back, and still break even overall — or any combination.
+</QA>
+
+</FAQ>
+
+## Track Nine Point with Stick
+
+Nine Point is beautifully simple until someone argues about net scoring or your mental math on 162 total points gets fuzzy. Stick applies handicap strokes automatically, distributes points correctly on every hole — including the all-tie 3-3-3, triggers blitz when it's earned, doubles birdies if you have that on, and settles with a line-item breakdown showing exactly how every point was counted.
+
+[Download Stick →]()

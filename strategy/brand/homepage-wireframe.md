@@ -70,7 +70,7 @@
   if the press is live.            and settles the math
   The back-nine Nassau is          before you reach the
   two presses deep. Dave           parking lot.
-  thinks he's up. Marcus
+  thinks he's up. Justin
   thinks Dave's wrong.
   The scorecard is covered
   in arrows and question marks.
@@ -126,7 +126,7 @@
   ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
   │ [watercolor] │  │ [watercolor] │  │ [watercolor] │  │ [watercolor] │
   │             │  │             │  │             │  │             │
-  │  Match Play │  │    Vegas    │  │ Nine Point  │  │    Dots     │
+  │  Match Play │  │    Vegas    │  │ Nine Point  │  │    Junk     │
   │ Head to     │  │ Team up.    │  │ The perfect │  │ Score every │
   │ head.       │  │ Multiply    │  │ three-player│  │ detail.     │
   │ Hole by     │  │ the stakes. │  │ game.       │  │             │

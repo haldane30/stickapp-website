@@ -75,7 +75,7 @@
 | | Details |
 |--|---------|
 | **Price** | $7.99/week, $19.99/mo, $99.99/yr (7-day free trial) |
-| **Games** | 10 (Sixes, Skins, Wolf, Match Play, Points, Nassau, Vegas, Dots, Rolling Stroke, Targets) |
+| **Games** | 10 (Sixes, Skins, Wolf, Match Play, Points, Nassau, Vegas, Junk/Dots, Rolling Stroke, Targets) |
 | **Free tier** | GPS, scoring, stat tracking, Skins & Points free |
 | **Strengths** | Massive user base. Strong brand. GPS/analytics/club recommendations. |
 | **Weaknesses** | Betting is a side feature, not the focus. Nassau/Wolf locked behind $100/yr paywall. Expensive for betting-only users. |

@@ -1,0 +1,227 @@
+---
+title: "How to Play Wolf in Golf: Rules, Strategy & Settlement"
+slug: wolf
+description: "Wolf is golf's most strategic betting game — pick a partner or go alone each hole. Learn Pig, Hammer, Blind Wolf, and see full settlement math."
+keywords: ["wolf golf game", "how to play wolf golf", "wolf golf rules", "lone wolf golf", "blind wolf golf", "wolf golf strategy", "wolf golf betting game"]
+datePublished: ""
+dateModified: ""
+---
+
+# How to Play Wolf in Golf: Rules, Strategy & Settlement
+
+Wolf is the most strategic betting game in golf. One player is the Wolf each hole, and they face a choice: pick a partner based on the tee shots, or go it alone against the field. Partnerships shift every hole, alliances are temporary, and one bold Lone Wolf call can flip an entire round. Some groups call it Captain, Boss, or Ship.
+
+## Quick Reference
+
+```
+Players: 3, 4 (ideal), or 5
+Type: Rotating partnerships with solo option
+Scoring: Best ball per team, points per hole
+Difficulty: Moderate to learn, deep to master
+Common stakes: $1-$5 per point
+Also called: Captain, Boss, Manager, Ship
+Stick feature: Blind Wolf, Pig, Hammer, configurable multipliers, pairwise settlement
+```
+
+## How It Works
+
+### The Wolf Rotation
+
+Before the round, set a tee order. In a foursome with Justin, Jason, Evan, and Todd, the rotation cycles through all four players. Justin is Wolf on hole 1, Jason on hole 2, Evan on hole 3, Todd on hole 4, then back to Justin on hole 5. Everyone gets Wolf the same number of times across the round.
+
+The Wolf tees off and watches the other players hit. After seeing the drives, the Wolf makes the call: team up with someone, or play it alone.
+
+### Picking a Partner
+
+The traditional version adds a wrinkle that makes this more than just "pick the best drive." In a lot of groups, the Wolf has to decide after each player's tee shot — before seeing the next one. If you pass on a player, they're off the table.
+
+Say Justin is Wolf. Jason hits a solid drive down the fairway. Justin thinks "that's pretty good, but let me see what Evan does." He passes on Jason. Evan hooks it into the trees. Now Justin can pick Evan or Todd — but Jason is gone. He passed.
+
+This is the core tension of Wolf. Greed gets punished. The player you passed on might have been your best option.
+
+Once the Wolf picks, the hole plays 2v2: the Wolf and their partner versus the other two. Best ball on each side — the lower score between the two teammates counts. Same best-ball concept as a team [Nassau](/games/nassau/), just with teams that change every hole.
+
+### Going Alone: Lone Wolf
+
+If the Wolf passes on everyone (or just likes their own chances), they play alone against the other three. One score versus the best ball of three — but the payout is double. Standard Lone Wolf pays 2x the normal point value.
+
+When does going alone make sense? You crushed your drive, the other three are in trouble, and you feel good about the hole. Or you're behind in the standings and need a big swing. Lone Wolf is how comebacks happen.
+
+### Blind Wolf
+
+This is the high-risk, high-reward play. Before anyone tees off — before the Wolf has even seen their own drive — the Wolf declares "Blind Wolf" and commits to playing alone. No information, pure confidence.
+
+Blind Wolf pays 3x by default. It's the kind of call you make on a short par 3 you've been hitting well, or when you're deep in the red and need to gamble. Announce it, hit your shot, and find out how brave you actually are.
+
+### Pig: When Your Partner Says No
+
+Here's where Wolf gets personal. The Pig rule lets a chosen partner reject the Wolf's selection. The Wolf picks you — and you say no. You "pig" the Wolf.
+
+What happens: the Wolf is forced into Lone Wolf. They play alone against the other three. And the stakes double.
+
+Why would you reject a partnership? Because you think the Wolf is weak on this hole and you'd rather be on the other side. Maybe the Wolf hit a bad drive and is trying to draft off your good one. Pigging the Wolf says "I don't need you, and I think the three of us will beat you."
+
+It's a power move, and it creates the kind of moment groups talk about for weeks. "Remember when Todd pigged Justin on 15 and Justin still won the hole?"
+
+## Hammer: Doubling Mid-Hole
+
+Hammer is the mid-hole double. A $2 point becomes $4, then $8, then $16 if people keep going.
+
+Either team can throw a Hammer at any point during the hole. The other team can take it (doubling the stakes) or drop it (conceding the hole at the current stakes). If they take it, they can immediately re-hammer, doubling again.
+
+You can't throw two Hammers in a row — teams alternate. But there's no limit on the total escalation. A contentious par 5 with two re-hammers is worth 8x the base point value. Combined with a Lone Wolf call and carryover from a tied hole, the multipliers stack.
+
+This is why some groups set a multiplier cap. Stick lets you cap the total multiplier at whatever ceiling your group is comfortable with — the default is 32x, but you can set it as low as 2x if you want to keep things calm.
+
+## Scoring and Settlement: A Full Walkthrough
+
+### The Setup
+
+Justin (5 handicap), Jason (12 handicap), Evan (20 handicap), and Todd (28 handicap) play Wolf at $2 per point with net scoring — strokes allocated by the course's [stroke index](https://www.usga.org/handicapping/roh/Content/rules/Appendix%20C%20Stroke%20Allocation.htm). Standard multipliers: 1x for partner play, 2x for Lone Wolf, 3x for Blind Wolf. Carryover enabled, Pig enabled, Hammer off.
+
+### How Points Work
+
+The math depends on what the Wolf chose:
+
+**2v2 (Wolf + Partner):** Each player on the winning team earns 1 point from each opponent. That's +2 for each winner, -2 for each loser on a base hole.
+
+**1v3 (Lone Wolf or Blind Wolf):** If the Wolf wins, they earn 1 point from each opponent. That's +3 for the Wolf, -1 for each opponent. If the Wolf loses, it flips: -3 for the Wolf, +1 for each opponent. Then apply the status multiplier (2x lone, 3x blind).
+
+**Pig:** Same as Lone Wolf, but the pig multiplier (default 2x) stacks on top. So a pigged Lone Wolf that would have been 2x is now 4x.
+
+All multipliers stack: status × carryover × pig × hammer. A hole with carryover from two ties, a Lone Wolf call, and a Hammer hits 2 × 3 × 2 = 12x before anyone sinks a putt.
+
+### A Six-Hole Stretch
+
+| Hole | Wolf | Decision | Result | Base Pts | Mult | Justin | Jason | Evan | Todd |
+|------|------|----------|--------|----------|------|--------|-------|------|------|
+| 1 | Justin | Picks Jason | Wolf team wins | ±2 | 1x | +2 | +2 | -2 | -2 |
+| 2 | Jason | Picks Evan | Opponents win | ±2 | 1x | +2 | -2 | -2 | +2 |
+| 3 | Evan | Lone Wolf | Tie | 0 | — | 0 | 0 | 0 | 0 |
+| 4 | Todd | Picks Justin | Wolf team wins | ±2 | 2x¹ | +4 | -4 | -4 | +4 |
+| 5 | Justin | Blind Wolf | Wolf wins | ±3 | 3x | +9 | -3 | -3 | -3 |
+| 6 | Jason | Picks Todd | Opponents win | ±2 | 1x | +2 | -2 | +2 | -2 |
+
+¹ Hole 4 carries the tied skin from hole 3 (2x carryover multiplier).
+
+**Running totals after 6 holes:** Justin +19, Todd -1, Evan -9, Jason -9.
+
+That Blind Wolf on hole 5 is doing the heavy lifting. Justin went from ahead to way ahead with one bold call. But there are 12 holes left, and anyone who gets hot as Wolf can close the gap.
+
+### Final Settlement
+
+After 18 holes, each pair of players settles based on their point differential times the point value.
+
+| Player | Final Points |
+|--------|-------------|
+| Justin | +14 |
+| Jason | +4 |
+| Evan | -6 |
+| Todd | -12 |
+
+**Settlement at $2/point:**
+
+| Pair | Differential | Settlement |
+|------|-------------|-----------|
+| Justin vs Jason | 10 | Jason pays Justin $20 |
+| Justin vs Evan | 20 | Evan pays Justin $40 |
+| Justin vs Todd | 26 | Todd pays Justin $52 |
+| Jason vs Evan | 10 | Evan pays Jason $20 |
+| Jason vs Todd | 16 | Todd pays Jason $32 |
+| Evan vs Todd | 6 | Todd pays Evan $12 |
+
+**Net results:** Justin +$112, Jason +$32, Evan -$48, Todd -$96.
+
+Zero-sum check: $112 + $32 - $48 - $96 = $0. Every dollar won is a dollar lost.
+
+> **Track your Wolf game automatically with Stick** — Wolf rotation, partner selections, Blind Wolf, Pig, Hammer, carryover multipliers, and pairwise settlement all handled for you. [Download on the App Store →](#)
+
+## Carryover Ties
+
+When a hole ties — same best ball on both sides — you can play it two ways. With carryover off, tied holes are a wash and nobody earns anything. With carryover on, the next hole's points get a +1 multiplier. Two ties in a row means the third hole is worth 3x.
+
+Carryovers stack with everything else. A carryover of 3 on a Lone Wolf hole means 3 × 2 = 6x the base points. Add a Hammer and you're at 12x. This is where the multiplier cap earns its keep. If you like the carryover mechanic, [Skins](/games/skins/) is built entirely around it.
+
+## Variations
+
+### 3-Player Wolf
+
+Wolf works well with three. The Wolf watches two drives instead of three, picks a partner for a 2v1, or goes Lone Wolf for a 1v2. Every player is Wolf six times across 18 holes.
+
+The math adjusts: in a 2v1, the solo player pays or collects from two opponents instead of three. Lone Wolf is slightly less risky than in a foursome since you're only facing two instead of three. Strategy shifts accordingly — going alone is more viable, and the partner decision matters more because you're choosing between two options, not three.
+
+### 5-Player Wolf
+
+With five, the Wolf picks one partner for a 2v3. Going alone is 1v4, which is genuinely dangerous — you're facing the best ball of four opponents. The higher risk means higher reward, but most groups find that 4-player Wolf hits the sweet spot between strategy and chaos.
+
+### Last Place Wolf on 17-18
+
+Some groups give the trailing player Wolf on the final two holes. Hole 17 goes to whoever is in last place, hole 18 to second-to-last. It gives the trailing player two chances to go Lone Wolf or Blind Wolf for big multiplier swings. Not every group plays this, but it prevents a runaway leader from coasting through the finish.
+
+### Wolf Tees First vs. Last
+
+Groups disagree on this, and both versions work. If the Wolf tees last, they see all three drives before deciding — more information, more strategy. If the Wolf tees first, they're flying blind on their own shot but get to evaluate others after. Most instructional sources describe Wolf teeing last, but plenty of Saturday foursomes play it the other way. Since Stick doesn't enforce tee order, your group can play whichever feels right.
+
+## Strategy Tips
+
+**Don't always pick the best drive.** The obvious play is picking whoever hit the longest, straightest tee shot. But factor in who gets strokes on this hole. Evan's drive might be 30 yards shorter than Jason's, but if Evan has a handicap stroke here, his net birdie potential is higher. Think about net scores, not just raw distance.
+
+**Go Lone Wolf when the math supports it.** If you striped it and everyone else is scrambling, the 2x payout for winning alone is worth the risk. But if everyone hit decent drives and you just hit a slightly better one, taking a partner and locking in a likely 1x win is smarter than gambling on 2x.
+
+**Blind Wolf is a back-nine move.** Early in the round, there's no reason to take a 3x risk when you can gather information. Save Blind Wolf for when you're behind and need a swing, or when the hole sets up perfectly for your game — that short par 3 you've been hitting greens on all year.
+
+**Watch the standings before holes 15-18.** If your group plays with Last Place Wolf, the trailing player gets the final Wolf slots. If that's you, you've got two chances at big multipliers. If it's not you, play defense — don't hand the trailing player a cheap win by going Lone Wolf and losing.
+
+## Common Mistakes
+
+**Picking a partner too quickly.** In the traditional "watch and decide" version, the temptation is to grab the first good drive you see. But unless that drive was spectacular, waiting gives you more information. Patience is the Wolf's best tool.
+
+**Forgetting that Pig changes the risk calculus.** If Pig is on, picking a strong player has a downside — they might reject you. The best player at the table is the most likely to go Pig. Factor that into your decision. Sometimes the second-best drive from a player who actually wants to team up is worth more than a great drive from someone who'll throw you back.
+
+**Not tracking the multiplier stack.** Carryover × status × hammer can escalate fast. A seemingly harmless "let's turn on carryover and hammer" can produce 16x holes on the back nine. If your group isn't comfortable with that kind of swing, set the multiplier cap before you start.
+
+**Going Blind Wolf for ego, not math.** Blind Wolf is exciting. It's also -9 points when it doesn't work at 3x. One bad Blind Wolf call can undo four holes of good partner play. Use it when the situation calls for it, not because you want to look tough.
+
+## FAQ
+
+<FAQ>
+
+<QA question="What is Wolf in golf?">
+Wolf is a golf betting game where one player (the Wolf) decides each hole whether to pick a partner or play alone against the field. Partnerships rotate every hole. The Wolf earns more by going solo but risks losing to the combined best ball of multiple opponents. Works for 3 to 5 players. Also called Captain, Boss, or Ship.
+</QA>
+
+<QA question="How do you decide who is Wolf each hole?">
+The Wolf rotates in a fixed order set before the round. In a foursome, each player is Wolf once every four holes — player 1 on holes 1, 5, 9, 13, 17 and so on. Some groups override the rotation on the final two holes, giving the player in last place Wolf as a comeback mechanic.
+</QA>
+
+<QA question="What is a Lone Wolf in golf?">
+A Lone Wolf plays alone against the other three players. This happens when the Wolf passes on all available partners or deliberately goes solo. Lone Wolf pays double the normal point value — you collect from everyone at 2x if you win, but pay everyone at 2x if you lose. High risk, high reward.
+</QA>
+
+<QA question="What is Blind Wolf?">
+Blind Wolf means declaring you'll play alone before anyone tees off — including yourself. Zero information, pure commitment. It pays 3x the standard point value because the risk is higher than regular Lone Wolf. Most groups use it when trailing and needing a big swing, or on a hole that suits the Wolf's game.
+</QA>
+
+<QA question="What is the Pig rule in Wolf?">
+Pig means a chosen partner can reject the Wolf's pick. The Wolf selects you, you say no, and the Wolf is forced to play alone against all three opponents with doubled stakes. It's a power move — you're betting the Wolf is weak and you'd rather play against them. Also called "Spit" or "Divorce."
+</QA>
+
+<QA question="How does Hammer work in Wolf?">
+Hammer lets either team double the stakes mid-hole. The other team can take it (accepting the double) or drop it (conceding the hole at the current value). If they take it, they can re-hammer to double again. A hole with two re-hammers is worth 8x the base points. Multipliers stack with Lone Wolf and carryover.
+</QA>
+
+<QA question="Can you play Wolf with 3 players?">
+Yes. With three players, the Wolf picks one partner for a 2v1 or goes Lone Wolf for a 1v2. Each player is Wolf six times over 18 holes. The game plays faster and Lone Wolf is less risky since you're facing two opponents instead of three. [Nine Point](/games/nine-point/) is another strong option for threesomes if your group wants something different.
+</QA>
+
+<QA question="How do you settle a Wolf game?">
+Wolf settles pairwise — every pair of players compares total points and settles the difference times the point value. If Justin finished at +14 and Todd at -12, Todd owes Justin 26 × the point value. With four players there are six settlement pairs. Every dollar won is a dollar lost.
+</QA>
+
+</FAQ>
+
+## Track Your Wolf Game in Stick
+
+Wolf is the game where people lose track. Who's Wolf this hole? What's the multiplier after two carryover ties? Did someone Hammer on 14 or was that 13? Stick tracks the Wolf rotation, partner selections, multiplier stacking, and settlement math so your group can focus on the decisions that actually matter — like whether to go Blind Wolf on the 16th.
+
+[Download Stick →]()

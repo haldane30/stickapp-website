@@ -19,7 +19,7 @@ We know these games. We built calculators that handle every edge case. We've ver
 **Don't:** Hedge with "we think" or "it might be." If you're not sure, research it. Don't publish uncertainty.
 
 ### Approachable
-We write for the golfer who plays every Saturday, not the rules committee. We use real names in examples ("Marcus birdies the 7th"), not "Player A." We explain jargon the first time we use it.
+We write for the golfer who plays every Saturday, not the rules committee. We use real names in examples ("Justin birdies the 7th"), not "Player A." We explain jargon the first time we use it.
 
 **Do:** Use conversational language. Explain terms naturally. Write like you're talking to a friend.
 **Don't:** Dumb things down. Our audience is smart — they just might not know the specifics of how a press chain settles.
@@ -64,7 +64,7 @@ The voice stays the same. The tone adjusts:
 ### Do
 - Use contractions (it's, don't, you'll)
 - Use "you" and "your" — speak directly to the reader
-- Use named players in examples (Marcus, Sarah, Dev, Pam — our standard cast)
+- Use named players in examples (Justin, Jason, Evan, Todd — our standard cast)
 - Show real math and real numbers
 - Include the "why" — don't just explain rules, explain why they matter
 - Front-load the important information (inverted pyramid)
@@ -73,7 +73,7 @@ The voice stays the same. The tone adjusts:
 
 ### Don't
 - Use corporate speak ("leverage," "utilize," "functionality," "solution")
-- Use passive voice when active is clearer ("the bet was won" → "Marcus won the bet")
+- Use passive voice when active is clearer ("the bet was won" → "Justin won the bet")
 - Use exclamation points more than once per piece (they lose impact)
 - Start sentences with "At Stick, we..." more than once per page
 - Use the word "simply" (it's condescending — if it were simple, they wouldn't be reading a guide)
@@ -88,10 +88,10 @@ Use these names in game guide examples and settlement walkthroughs for consisten
 
 | Name | Notes |
 |------|-------|
-| **Marcus** | Low handicapper (5). Steady. Makes smart presses. |
-| **Sarah** | Mid handicapper (12). Aggressive player. Goes for it. |
-| **Dev** | Higher handicapper (20). Improving. Gets value from net scoring. |
-| **Pam** | Higher handicapper (28). New to betting games. The audience surrogate. |
+| **Justin** | Low handicapper (5). Steady. Makes smart presses. |
+| **Jason** | Mid handicapper (12). Aggressive player. Goes for it. |
+| **Evan** | Higher handicapper (20). Improving. Gets value from net scoring. |
+| **Todd** | Higher handicapper (28). New to betting games. The audience surrogate. |
 
 These aren't personas for the app — they're recurring characters in our content who make settlement examples feel real instead of abstract.
 

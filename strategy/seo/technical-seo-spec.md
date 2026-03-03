@@ -315,17 +315,17 @@ This prevents ad-hoc linking that creates an inconsistent structure.
 | Game | Related Games (Link To) | Why |
 |------|------------------------|-----|
 | Nassau | Skins, Match Play, Wolf | Most common pairings |
-| Skins | Nassau, Dots, Vegas | Often played as side bets |
+| Skins | Nassau, Junk, Vegas | Often played as side bets |
 | Wolf | Nassau, Nine Point | Strategy depth + player count overlap |
-| Snake | Skins, Dots | Side bet family |
+| Snake | Skins, Junk | Side bet family |
 | Match Play | Nassau, Skins | Head-to-head family |
 | Nine Point | Wolf, Split Sixes | 3-player games |
 | Split Sixes | Sixes, Nine Point | Scoring structure similarity |
 | Sixes | Split Sixes, Wolf | Rotating partner games |
-| Dots | Skins, Snake | Point-based side bets |
+| Junk | Skins, Snake | Point-based side bets |
 | Vegas | Nassau, Skins | Team game family |
 | Scotch | Nassau, Match Play | Alternate shot format |
-| Quota | Skins, Dots | Individual scoring games |
+| Quota | Skins, Junk | Individual scoring games |
 
 ---
 
@@ -436,7 +436,7 @@ import Image from 'next/image';
 
 - **Hero images**: Set `priority={true}` (disables lazy loading, preloads for LCP)
 - **Below-fold images**: Default lazy loading (automatic with next/image)
-- **Alt text**: Descriptive, keyword-relevant where natural. Not "nassau.png" — "Nassau settlement table showing Marcus winning the front nine and Sarah winning overall"
+- **Alt text**: Descriptive, keyword-relevant where natural. Not "nassau.png" — "Nassau settlement table showing Justin winning the front nine and Jason winning overall"
 - **Responsive**: Let next/image handle srcset generation
 - **File naming**: Descriptive slugs — `nassau-settlement-example.png` not `IMG_4523.png`
 

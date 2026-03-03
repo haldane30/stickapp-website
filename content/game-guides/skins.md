@@ -1,0 +1,160 @@
+---
+title: "How to Play Skins in Golf: Rules, Carryovers & Settlement"
+slug: skins
+description: "Skins is golf's hole-by-hole betting game. Win the hole outright and take the skin. Learn carryovers, settlement math, and every variation."
+keywords: ["golf skins", "skins game golf", "golf skins rules", "how to play skins golf", "skins golf carryover", "skins game rules", "PGA skins game"]
+datePublished: ""
+dateModified: ""
+---
+
+# How to Play Skins in Golf: Rules, Carryovers & Settlement
+
+Skins is one rule: make the lowest score on a hole and nobody ties you, you win the skin. Tie anyone, nobody wins, and the value carries to the next hole. That's the whole game. Three ties in a row and suddenly hole 4 has four skins riding on it — which is how a $5 game produces a $25 moment on a random Wednesday.
+
+```
+Players: 2-8+ (best with 3-4)
+Scoring: Lowest unique score wins (net or gross)
+Common stakes: $1-$5 per skin (fixed), or buy-in pot
+Also called: Cats, Scats, Syndicates
+```
+
+The format hit TV in 1983 when the PGA Tour put Arnold Palmer, Jack Nicklaus, Gary Player, and Tom Watson on Thanksgiving weekend for the [Skins Game](https://www.pgatour.com/news/2023/11/22/oral-history-skins-game-25th-anniversary-nicklaus-palmer-player-watson). It ran 25 years. Fred Couples won $4.4 million across 11 appearances. The reason it worked on national television is the same reason it works in your Saturday foursome — every single hole is its own drama, nobody gets eliminated, and one birdie on the right hole changes everything.
+
+## Carryovers Are the Whole Point
+
+When a hole ties and nobody wins, the skin doesn't disappear. It stacks onto the next hole. Two consecutive ties mean the third hole has three skins on it. A $5 skin that's been carrying for four holes is now worth $25, and everyone knows it standing on the tee.
+
+Justin (5 handicap), Jason (12 handicap), and Evan (20 handicap) playing $5 skins with net scoring:
+
+| Hole | Par | Justin (net) | Jason (net) | Evan (net) | Result | Skins at Stake |
+|------|-----|-------------|-------------|-----------|--------|----------------|
+| 1 | 4 | 4 | 4 | 5 | Tie (Justin & Jason) | 1 → carries |
+| 2 | 3 | 3 | 4 | 3 | Tie (Justin & Evan) | 2 → carries |
+| 3 | 5 | 4 | 5 | 6 | **Justin wins** | Justin takes 3 skins |
+| 4 | 4 | 5 | 4 | 4 | Tie (Jason & Evan) | 1 → carries |
+| 5 | 4 | 4 | 4 | 4 | Tie (all three) | 2 → carries |
+| 6 | 3 | 3 | 2 | 4 | **Jason wins** | Jason takes 3 skins |
+
+Six holes, only two skins awarded. Justin has 3, Jason has 3, Evan has 0. Hole 7 starts fresh because Jason won hole 6 clean.
+
+Some groups play without carryovers — tied holes are a wash and the skin is gone. Less drama, more predictable, but you lose the thing that makes skins feel different from everything else.
+
+## Handicaps and Tiebreakers
+
+Skins plays in two modes. Gross means raw scores, no adjustments — fine when everyone's within a few strokes of each other. Net applies handicap strokes across holes by [stroke index](https://www.usga.org/handicapping/roh/Content/rules/Appendix%20C%20Stroke%20Allocation.htm). Jason at a 12 gets strokes on the 12 hardest holes — his gross 5 becomes a net 4. Same idea as a net [Nassau](/games/nassau/).
+
+If your group has a 15+ handicap spread and you're playing gross, stop. The low handicapper will win most skins and everyone else will check out by the turn. Use net and let the system work.
+
+There's one optional setting worth knowing about: gross-beats-net as a tiebreaker. When two players tie on net score, the one with the lower gross score takes the skin. Justin makes 4 (net 4). Evan makes 5 with a stroke (net 4). Both net 4 — but with gross-beats-net on, Justin takes it because his raw score is lower. Without it, the hole pushes. Turn this on when you feel like handicap strokes are deciding too many skins. Turn it off when you want to give higher handicappers their full edge.
+
+## Settlement: Three Models
+
+How you settle changes the character of the game entirely.
+
+### Fixed Value (the standard)
+
+Each skin is worth a flat amount and you settle pairwise — the difference in skins between each pair of players, times the value.
+
+Justin, Jason, and Evan play $5 skins over 18 holes:
+
+| Player | Skins Won | Holes Won |
+|--------|-----------|----|
+| Justin | 6 | 3, 8, 11, 14, 15, 17 |
+| Jason | 4 | 6, 9, 12, 16 |
+| Evan | 2 | 7, 18 |
+
+Six skins went unclaimed. Now the settlement:
+
+Justin vs Jason: 6 − 4 = 2 skins. Jason pays Justin $10.
+Justin vs Evan: 6 − 2 = 4 skins. Evan pays Justin $20.
+Jason vs Evan: 4 − 2 = 2 skins. Evan pays Jason $10.
+
+**Net: Justin +$30, Jason $0, Evan −$30.** Zero-sum — every dollar won is a dollar lost.
+
+### Pot
+
+Everyone buys in. The total pot gets divided by skins won. Same results as above but with a $20 buy-in each:
+
+Total pot: $60. Twelve skins awarded, so $5 per skin. Justin gets $30 back (net +$10), Jason gets $20 (net $0), Evan gets $10 (net −$10). The pot model compresses the swings, which is why it works better for larger groups where pairwise settlement gets chaotic.
+
+> **Track your Skins game automatically with Stick** — carryovers, net scoring, validation, and settlement math all handled in real time. Every player sees the action from their own phone. [Download on the App Store →](#)
+
+### Escalating
+
+Skins get more valuable as the round goes on. Holes 1–6 are worth 1x, holes 7–12 are 2x, holes 13–18 are 3x the base value. Carryovers carry the multiplier from the hole they started on. A 3-skin carryover landing on hole 15 at 3x is worth nine base skins. That math changes how you play the closing stretch.
+
+## Validation (Proofs)
+
+When validation is on, winning a skin isn't final until you prove it on the next hole.
+
+Jason wins 4 carried-over skins on hole 14. Instead of banking them immediately, he has to validate on 15. He validates by scoring par or better, or by having the lowest score. If he posts a double bogey and someone else wins 15 outright, those 4 skins go back into the carryover pool.
+
+Why would anyone play with this? Because without it, one lucky birdie on a high-carryover hole can win you $30 you didn't earn. Validation says prove you're actually playing well, not just getting lucky once. We like it for competitive groups. It adds a layer of tension that rewards consistency.
+
+Hole 18 is the exception — if you win skins on the last hole, they're yours automatically since there's no 19 to validate on.
+
+## Max Score Threshold
+
+Some groups set a floor. If nobody scores below the threshold, the skin pushes regardless of who had the lowest score.
+
+Par or better means only pars and birdies can win. A bogey doesn't get to claim a 3-skin carryover no matter what everyone else shot. Bogey or better filters out the big numbers. Double bogey or better is the most generous — only filters out blowups. Useful when there's a wide handicap range and you want skins to reward good play, not just being the least bad on a hole.
+
+## What Happens When Hole 18 Ties
+
+If skins are stacked up and hole 18 pushes, you need a plan. This is the thing to sort out before the round, not after.
+
+The cleanest option is a split — unresolved skins simply aren't awarded. Nobody gets them, nobody argues. Carryback scans backwards to find the most recent winner. If Justin won hole 15 and holes 16–18 all pushed, Justin picks up the remaining skins. It rewards the last person who actually won something. Winner takes all means whoever wins hole 18 also sweeps any remaining carryovers. If 18 ties, it falls back to a split.
+
+## Getting the Most Out of Skins
+
+Pay attention to the carryover count. Skins is one of the few games where the value of a hole changes during the round. A hole with 5 carried-over skins deserves a completely different approach than a hole worth 1. Go at the pin on the big ones. Play the middle of the green on the small ones.
+
+With validation on, the hole after your win matters as much as the win itself. Winning 4 skins and then blowing up the validation hole is the most expensive mistake in the game. You don't need a birdie — par will do. Just don't make double.
+
+In a pot game with a lot of players, fewer skins get awarded because there are more players to tie with. That's not a problem — it's what makes each skin worth more. A 12-player pot game might only award 5 or 6 skins across the whole round, and each one is a story.
+
+One more: if you're the low handicapper in the group and you're tired of losing skins to bogeys that net to par, turn on gross-beats-net. It's a fair compromise — handicap strokes still apply, but raw skill breaks ties. If you're running skins alongside a [Nassau](/games/nassau/) or [Wolf](/games/wolf/) game, make sure the handicap settings match across everything.
+
+## FAQ
+
+<FAQ>
+
+<QA question="What is skins in golf?">
+Skins is a golf betting game where each hole is its own contest. The player with the lowest score wins the skin, but only if no one ties them. Tied holes carry their value to the next hole, building until someone wins one outright. It works for 2 or more players and is one of golf's most popular formats.
+</QA>
+
+<QA question="How do carryovers work in skins?">
+When a hole ties and no one wins, the skin carries to the next hole. Multiple ties stack, so three consecutive ties mean the fourth hole has four skins on it. When someone finally wins outright, they collect all accumulated skins at once. Carryovers create the big swings that make skins worth playing.
+</QA>
+
+<QA question="What is the difference between gross and net skins?">
+Gross skins use raw scores with no handicap adjustment — lower-handicap players have a clear edge. Net skins apply handicap strokes across holes by stroke index, giving higher-handicap players a fair chance. Most mixed-skill groups play net to keep it competitive for everyone.
+</QA>
+
+<QA question="How do you settle a skins game?">
+In fixed-value skins, each pair of players settles the difference in skins won times the skin value. In a pot game, everyone buys in and the total pot divides equally among skins won. Either way, every dollar won is a dollar lost by someone else.
+</QA>
+
+<QA question="What happens if all 18 holes tie in skins?">
+Rare but possible. Most groups decide before the round: split (nobody gets them), carryback (most recent winner takes the leftovers), or winner-takes-all on hole 18. Stick lets you configure this before you start so there's no argument on the 18th green.
+</QA>
+
+<QA question="Is skins the same as cats or scats?">
+Yes. "Cats," "scats," and "syndicates" are regional names for the same game — lowest unique score wins, ties push. "Skins" became dominant after the PGA Tour Skins Game debuted on TV in 1983, and now almost everyone calls it skins.
+</QA>
+
+<QA question="What is validation in skins?">
+Validation means winning a skin isn't final until you prove it on the next hole by scoring par or better or having the lowest score. If you fail, the skins go back into carryover. It prevents one lucky birdie on a stacked hole from deciding the whole game. Hole 18 wins are always awarded immediately.
+</QA>
+
+<QA question="Can you play skins with just two players?">
+Yes. Two-player skins plays almost like [match play](/games/match-play/) but with carryovers — tied holes carry value forward instead of being halved. With only two players ties happen more often, so carryovers build faster and individual skins tend to be worth more.
+</QA>
+
+</FAQ>
+
+## Track Your Skins Game in Stick
+
+Skins is simple until someone wins a 5-skin carryover and everyone argues about net scores. Stick handles every hole, applies handicap strokes automatically, tracks carryover chains, and settles with a line-item breakdown showing exactly how every dollar was calculated.
+
+[Download Stick →]()

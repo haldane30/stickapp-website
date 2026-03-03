@@ -1,0 +1,240 @@
+---
+title: "How to Play Junk (Dots) in Golf: Rules, Categories & Settlement"
+slug: junk
+description: "Junk (Dots, Trash) tracks side bets for birdies, greenies, sandies, and more. Learn the 11 categories, settlement math, and how to play."
+keywords: ["junk golf", "dots golf game", "how to play junk", "golf dots", "side bets golf", "junk golf rules"]
+datePublished: ""
+dateModified: ""
+---
+
+# How to Play Junk in Golf: Rules, Categories & Settlement
+
+Junk—also called Dots, Trash, or Garbage—is a points-based side betting game where players earn (and sometimes lose) points for specific achievements during a round. Unlike [Nassau](/games/nassau/) or [Skins](/games/skins/) where you're competing hole by hole, Junk is achievement-based: multiple players can earn dots on the same hole, and the game runs alongside any other format. At the end of 18 holes, point differentials are settled pairwise.
+
+```
+Players: 2-8
+Scoring: Achievement-based, gross score
+Common categories: 6-10 per round
+Common stakes: $0.25-$0.50 per dot
+Also called: "Dots," "Trash," "Garbage," "Supplemental Bets"
+```
+
+## What You Need
+
+Junk requires only three things: agreement on which categories count, agreement on the dollar value per dot, and a way to track dots as you play.
+
+You can play Junk with just a pencil and a scorecard—mark a dot next to a hole every time someone earns one. But tracking 11 different categories across eight players across 18 holes gets messy fast, which is why an app makes this painless. The [PGA Tour](https://www.pgatour.com/news) has played Junk variants in pro-am events for decades, which tells you all you need to know about its staying power.
+
+Junk runs alongside whatever other game you're playing. You might be in the middle of a Nassau or Skins match, running Wolf, or just playing casual golf. Junk sits on top. It's completely independent—if you have a bad hole and lose your Skins, you can still earn a dot for a great recovery shot.
+
+## How It Works: Three Types of Dots
+
+Stick supports 11 built-in categories grouped into three types, depending on how they're earned.
+
+**Auto-detected dots** fire automatically based on the score you post. The moment you type in a birdie, the dot appears—no one has to manually track it.
+
+**Exclusive dots** award one winner per hole per category. If two players both hit the green on a par 3, only one gets the greenie — the one closest to the pin. Same for closest to pin and long drive: one winner per hole.
+
+**Anyone dots** reward multiple players on the same hole. Justin and Todd both hit bunkers and both made par on a hole? Both get a Sandy. There's no limit to how many Barkies or Chippies are earned in a round.
+
+Let's break down all 11.
+
+## The 11 Categories
+
+| Category | Type | Positive? | How to Earn It |
+|----------|------|-----------|---|
+| **Birdie** | Auto | +1 | Score exactly one under par |
+| **Eagle** | Auto | +2 | Score two under par or better |
+| **Greenie** | Exclusive | +1 | Closest shot to the pin on par 3 and make par or better |
+| **Closest to Pin (Prox)** | Exclusive | +1 | Closest approach shot on any hole |
+| **Sandy (Sandie)** | Anyone | +1 | Make par from a greenside bunker |
+| **Chippie** | Anyone | +1 | Hole out from off the green |
+| **Barkie** | Anyone | +1 | Hit a tree and make par or better |
+| **Long Drive** | Exclusive | +1 | Longest drive on par 4 or longer |
+| **[Snake](/games/snake/) (3-Putt)** | Anyone | −1 | Three-putt any hole |
+| **Double+** | Auto | −1 | Double bogey or worse |
+| **Water/OB** | Anyone | −1 | Hit ball into water or out of bounds |
+
+**Positive Categories (Earning Dots):** The first 8. These are the achievements everyone likes to collect.
+
+**Negative Categories (Losing Dots):** The last 3. These penalize bad shots—three putts, double bogeys, and shots lost to water or out of bounds. Not all groups play with negatives, but they're the most common penalties.
+
+Most casual groups choose between 6 and 10 categories per round. Starting with just Birdie, Eagle, Greenie, Sandie, Barkie, and Snake gets you 60% of the fun without information overload. Adding Long Drive, Closest to Pin, and Chippie gets you to the "standard set" of 9. More than 10 categories and you need an app—or an accountant.
+
+## Scoring & Settlement
+
+Here's a 6-hole example with Justin, Jason, Evan, and Todd playing with these categories active: Birdie +1, Eagle +2, Greenie +1, Sandy +1, Barkie +1, Chippie +2, Snake −1, Water/OB −1. They're playing at $0.50 per dot.
+
+**Hole 1 (Par 4):** Justin birdies the hole. Justin earns +1 Birdie. No one else scores anything.
+- Justin: +1
+
+**Hole 2 (Par 3):** Evan hits his tee shot closest to the pin. He makes par. Evan earns +1 Greenie. Jason's tee shot finds the bunker. He gets up and down for par—Jason earns +1 Sandy.
+- Evan: +1 (running total: +1)
+- Jason: +1 (running total: +1)
+
+**Hole 3 (Par 5):** Justin eagles it (score of 3). Justin earns +2 Eagle. Evan's drive finds the water. He doesn't recover in time—Evan loses −1 Water.
+- Justin: +2 (running total: +3)
+- Evan: −1 (running total: 0)
+
+**Hole 4 (Par 4):** Todd hits a drive that catches a tree, but he still makes par. Todd earns +1 Barkie. Justin, coming off his hot streak, three-putts. Justin loses −1 Snake.
+- Todd: +1 (running total: +1)
+- Justin: −1 (running total: +2)
+
+**Hole 5 (Par 3):** Jason hits his tee shot closest to the pin. He makes a bogey—no Greenie (we'll explain this rule in a moment). Todd chips in from off the green for a par. Todd earns +2 Chippie.
+- Todd: +2 (running total: +3)
+
+**Hole 6 (Par 4):** No one earns anything. Clean hole.
+
+**After 6 holes:**
+- Justin: +2 (Birdie +1, Eagle +2, Snake −1) = +2 dots
+- Jason: +1 (Sandy +1) = +1 dot
+- Evan: 0 (Greenie +1, Water −1) = 0 dots
+- Todd: +3 (Barkie +1, Chippie +2) = +3 dots
+
+Now we settle pairwise. Each player calculates his net against every other player.
+
+**Justin vs. Jason:** Justin +2, Jason +1. Justin is +1 ahead. Justin wins $0.50.
+
+**Justin vs. Evan:** Justin +2, Evan 0. Justin is +2 ahead. Justin wins $1.00.
+
+**Justin vs. Todd:** Justin +2, Todd +3. Todd is +1 ahead. Todd wins $0.50.
+
+**Jason vs. Evan:** Jason +1, Evan 0. Jason is +1 ahead. Jason wins $0.50.
+
+**Jason vs. Todd:** Jason +1, Todd +3. Todd is +2 ahead. Todd wins $1.00.
+
+**Evan vs. Todd:** Evan 0, Todd +3. Todd is +3 ahead. Todd wins $1.50.
+
+**Net results:**
+- Justin: +$0.50 (vs Jason) +$1.00 (vs Evan) −$0.50 (vs Todd) = **+$1.00**
+- Jason: −$0.50 (vs Justin) +$0.50 (vs Evan) −$1.00 (vs Todd) = **−$1.00**
+- Evan: −$1.00 (vs Justin) −$0.50 (vs Jason) −$1.50 (vs Todd) = **−$3.00**
+- Todd: +$0.50 (vs Justin) +$1.00 (vs Jason) +$1.50 (vs Evan) = **+$3.00**
+
+**Total check:** +$1.00 −$1.00 −$3.00 +$3.00 = $0.00. Zero-sum verified. Every dollar won is a dollar lost.
+
+## Greenie Must-Make-Par
+
+Here's the rule you'll argue about: when someone hits closest to the pin on a par 3, do they get the greenie even if they bogey?
+
+Most groups play with a toggle called "must-make-par." When it's ON, the player needs to score a par or better to collect the greenie. A bogey voids it entirely—the dot disappears, no one gets it, and play moves on. When it's OFF, hitting closest to the pin guarantees the greenie regardless of what score you post.
+
+We recommend turning it ON. It rewards the player who not only hits a good tee shot but also finishes the hole. It also eliminates disputes. "I was closer" vs. "Yeah but you still missed the putt" never happens if the rule is: closest to the pin + par or better = Greenie. Everyone knows the standard.
+
+Some groups play that a voided greenie carries to the next par 3 — the dot rides until someone earns it. That's a common house rule worth discussing before the round.
+
+---
+
+Junk's real challenge isn't the rules—it's keeping track of them all while you're playing. Six categories are simple enough to track on a scorecard. Eight gets harder. Ten requires an app. Eleven demands one. That's exactly the problem Stick solves: automatic dot detection, category management, and zero-sum settlement math in seconds.
+
+[Track Junk automatically with Stick →]()
+
+---
+
+## Variations
+
+### Custom Categories
+
+The 11 categories Stick supports cover what 95% of groups use. But there are a few categories you might hear about around the 19th hole.
+
+**Poley.** Make a putt longer than the flagstick length (roughly 6 feet, depending on the pin). Common in competitive groups, rare in casual play. **Pollie** is the same thing—regional variation.
+
+**Murphy.** Call an up-and-down from off the green *before* you attempt it. If you make it, you earn 2 dots. The catch: you have to call it beforehand, which creates drama. Overlap with Chippie if both are enabled.
+
+**Nasty.** Hole out from off the green for par or better, but *automatic*—no call needed. Different from Murphy because it's automatic, not called. Both Murphy and Nasty in the same round cause arguments. Most groups pick one or the other.
+
+**Shark.** Hit a ball in water and still make par or better. Similar to Sandy but for water shots.
+
+**Arnie.** Make par on a par 4 or longer without hitting the fairway in regulation. Named for Arnold Palmer's magic from the rough.
+
+**Super Sandie and Exotic Sandie.** Make par from a fairway bunker (2 dots) or par with balls in both fairway and greenside bunker on the same hole (4 dots). Rare but fun house rules.
+
+None of these are built into Stick's 11 default categories. But your group can approximate them: use Long Drive for Poley (same idea: one achievement per hole), set Sandy to 2 points to simulate Super Sandie in house rules, etc.
+
+### Called vs. Automatic
+
+Some categories require you to "call" them before you attempt the shot (mainly Murphy and Poley). Others fire automatically the moment the score is posted. Discuss with your group before the round which categories require calls. This prevents disputes and keeps pace of play moving.
+
+### Positive-Only vs. Positive-and-Negative
+
+About 40% of casual groups play **positive-only**—everyone earns dots for good shots, no one loses dots for bad ones. It's simpler, friendlier, and takes the sting out of mistakes. Perfect for mixed-ability groups or your first time playing Junk.
+
+About 60% of experienced groups play **positive-and-negative**—you earn dots for achievements and lose dots for mistakes (snakes, doubles, water balls). This creates higher variance, more competitive tension, and bigger money shifts. Better for groups where everyone has similar skill.
+
+Pick one before teeing off and stick with it. Don't add negative categories mid-round.
+
+### Gross vs. Net
+
+Junk always uses **gross score**—the actual number of strokes you took, not adjusted for handicap. This is what 95% of groups do. Your eight-handicap and twenty-handicap playing in the same foursome both get birdies for scoring 4 on a par 5, regardless of handicap. Easy to track, no disputes.
+
+A few formal club competitions adjust for handicap, but that's rare. If your group goes full net scoring, you'll calculate it manually—Stick doesn't need to.
+
+## Strategy Tips
+
+**Start with 6-8 categories.** Too many and tracking becomes work. Too few and you lose the game's appeal. Six categories (Birdie, Eagle, Greenie, Sandie, Barkie, Snake) is the perfect intro. Add Long Drive, Closest to Pin, and Chippie if your group wants more action.
+
+**Enable negatives only if everyone's comfortable.** Snakes and doubles sting. In a casual Saturday foursome, positive-only keeps the mood light. Save negative dots for friends you know can take it.
+
+**Run Junk alongside [Nassau](/games/nassau/) or [Skins](/games/skins/).** They're orthogonal games. You might be neck-and-neck in a Nassau match, but someone hits a greenie and the dot ratio shifts. Junk adds a second layer of competition that keeps everyone engaged even when they're getting beat on the main game.
+
+**Adjust categories by playing style.** If your group is all long hitters, Long Drive becomes meaningless—everyone's driving past 250. Skip it. If your group is aggressive on par 3s, Greenie and Closest to Pin get all the attention. Match categories to your group's strengths.
+
+**Use point values to weight categories.** Eagle worth more than Birdie? Set Eagle to +2 points, Birdie to +1, same dollar per dot, and you've created the weightng. Same for negatives—make Water Ball worth −2 and Snake worth −1 if that's the house rule.
+
+## Common Mistakes
+
+**Including too many categories.** Twelve categories sounds fun in the clubhouse. On the back nine, with four players and eight different dots they've earned, you need an accountant. Limit yourself.
+
+**Forgetting must-make-par rules.** On hole 11 someone hits closest to the pin. Bogey. Everyone argues whether that's a greenie. Have the answer before teeing off on 1.
+
+**Not establishing rules before the round.** "Are poleys automatic or called?" "Can you earn a greenie if you bogey?" "What counts as a water ball?" The 7th hole is not the time to sort this out. The 1st tee is.
+
+**Playing Murphy and Nasty simultaneously.** Both reward hole-outs from off the green. Chaos ensues. Pick one.
+
+**Losing track of negative dots.** A player three-putts on 3 and loses a snake. Nobody writes it down. By hole 8, nobody remembers who was up or down. Use an app or mark it on the scorecard immediately.
+
+**Assuming net scoring.** Every once in a while someone new to Junk asks, "Wait, do I get a handicap stroke on that?" No. Junk is gross score. Done.
+
+## FAQ
+
+<FAQ>
+
+<QA question="What is junk in golf?">
+Junk is a points-based side betting game where players earn dots for specific achievements during the round—birdies, greenies, sandies, and more. At the end of 18 holes, point differentials are settled pairwise at an agreed dollar value per dot. Unlike Nassau or Skins, Junk runs alongside any other game and multiple players can earn the same achievement on the same hole.
+</QA>
+
+<QA question="Is Dots the same as Junk?">
+Yes. Dots, Junk, Trash, and Garbage are all names for the same game. Casual golfers usually call it "Junk." Apps like Stick and 18Birdies use "Dots." All names refer to the same achievement-based side betting format with categories like birdies, greenies, and sandies.
+</QA>
+
+<QA question="How many categories should we play with?">
+Start with six to eight categories. Birdie, Eagle, Greenie, Sandie, Barkie, and Snake are the universal set that 95% of groups use. Add Long Drive, Closest to Pin, and Chippie if you want more action. More than ten categories and you need an app (or an accountant) to track them all. Match the set to your group's skill level and how competitive they want to play.
+</QA>
+
+<QA question="Do you use net or gross scores for Junk?">
+Junk uses gross score—the actual number of strokes you took, no handicap adjustment. This is what 95% of groups do. A golfer with an eight handicap and a golfer with a twenty handicap both get the same dot for a birdie on a par 5, regardless of handicap. It's simple to track and never disputed.
+</QA>
+
+<QA question="Can you play Junk alongside Nassau or Skins?">
+Absolutely. Junk is completely independent—it runs on top of whatever other game you're playing. You might be down in a Nassau match but up on dots because you're hitting greens. Or you might win the Skins and lose the dots. Having two independent games keeps everyone engaged throughout the round, even during stretches where one game is decided.
+</QA>
+
+<QA question="What is a greenie in golf?">
+A greenie (or greenies) is hitting your tee shot closest to the pin on a par 3 and making a par or better. Some groups award the greenie even if you bogey, but most play with "must-make-par" on, which voids the greenie if you don't score par or better. It's worth 1 dot in most games.
+</QA>
+
+<QA question="How does settlement work in Junk?">
+Players tally their total dots (positive minus negative) at the end of 18 holes, then settle pairwise. If Justin has +3 dots and Jason has +1 dot, Justin wins $1 (the 2-dot difference at $0.50 per dot). Every two-player pairing settles this way. The result is zero-sum—every dollar won equals every dollar lost across the entire group.
+</QA>
+
+<QA question="What are the best categories for beginners?">
+Start with the "Starter Set": Birdie, Eagle, Greenie, Sandie, Barkie, and Snake. These six are instantly recognizable, require no special setup, and cover 80% of the game's appeal. Once your group gets comfortable, add Long Drive, Closest to Pin, and Chippie to get to the full "Standard Set" of nine. Avoid niche categories like Murphy, Nasty, and Shark until everyone knows the basics.
+</QA>
+
+</FAQ>
+
+## Track Your Junk with Stick
+
+Junk is simple to explain but a nightmare to calculate manually. Six players, nine categories, 18 holes—that's hundreds of individual points to track and settle. Stick handles the arithmetic instantly and shows you the running totals during the round so everyone knows where they stand.
+
+[Download Stick →]()

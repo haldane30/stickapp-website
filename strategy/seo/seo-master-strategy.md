@@ -36,7 +36,7 @@ This document is the master plan for stickapp.golf — the website, SEO strategy
 
 | Query | #1 | Apps in Top 5? | Content Quality | Opportunity |
 |-------|-----|------|------|------|
-| "dots golf game" | **Beezer (#1)** | Beezer, 18Birdies | Strong | Must compete |
+| "dots golf game" / "junk golf game" | **Beezer (#1)** | Beezer, 18Birdies | Strong | Must compete |
 | "split sixes golf" | **Beezer (#1)** | Beezer | Thin-medium | High — go deeper |
 | "scotch golf game rules" | Fried Egg | Beezer (#2) | Solid | Medium |
 | "vegas golf game rules" | Fried Egg | Beezer (#3) | Well-covered | Medium |
@@ -74,7 +74,7 @@ This document is the master plan for stickapp.golf — the website, SEO strategy
 - **Not a threat on SEO**
 
 #### 18Birdies (Passive SEO)
-- Support docs rank for some queries (dots, side games)
+- Support docs rank for some queries (junk/dots, side games)
 - Not actively pursuing SEO for betting content
 - Focus is GPS/scoring, not betting
 
@@ -121,7 +121,7 @@ stickapp.golf/
 │   ├── /games/nine-point/      # Deep guide: Nine Point
 │   ├── /games/split-sixes/     # Deep guide: Split Sixes
 │   ├── /games/sixes/           # Deep guide: Sixes
-│   ├── /games/dots/            # Deep guide: Dots
+│   ├── /games/junk/            # Deep guide: Junk (also Dots, Trash, Garbage)
 │   ├── /games/vegas/           # Deep guide: Vegas
 │   └── /games/scotch/          # Deep guide: Scotch
 ├── /blog/                      # Blog index
@@ -251,7 +251,7 @@ Every game guide follows this structure (targeting 1500-2500 words):
 | 4 | **Snake** | Popular side bet, good long-tail | snake golf game, 3 putt game |
 | 5 | **Vegas** | Strong search volume | vegas golf game rules |
 | 6 | **Nine Point** | **No app ranking — easy win** | nine point golf game |
-| 7 | **Dots** | Beezer #1 — need to compete | dots golf game |
+| 7 | **Junk** | Beezer #1 — need to compete | junk golf game, dots golf game |
 | 8 | **Sixes** | Moderate demand | sixes golf game, round robin golf |
 | 9 | **Match Play** | Well-covered but foundational | match play golf rules |
 | 10 | **Split Sixes** | **Beezer #1 — go deeper to win** | split sixes golf |
@@ -508,7 +508,7 @@ Before any page goes live:
 | wolf golf game | Medium | Medium | Tampa Bay Downs | Most comprehensive guide |
 | golf skins game | High | High | ESPN | Rules + calculator |
 | snake golf game | Medium | Medium | Live About | 3-putt tracking angle |
-| dots golf game | Low-Medium | Low | **Beezer** | Go deeper, outrank |
+| junk / dots golf game | Low-Medium | Low | **Beezer** | Go deeper, outrank |
 | split sixes golf | Low | Low | **Beezer** | Go deeper, outrank |
 | nine point golf game | Low | Low | Chicago Golf Guy | **No app competition** |
 | best golf betting apps | Medium | **None** | **Nobody** | **Own this** |

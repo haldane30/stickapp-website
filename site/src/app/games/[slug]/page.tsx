@@ -37,6 +37,7 @@ export async function generateMetadata({
       description,
       url: `https://stickapp.golf/games/${slug}/`,
       type: "article",
+      images: [{ url: `/og/${slug}.png`, width: 1200, height: 630 }],
     },
   };
 }
@@ -148,7 +149,7 @@ export default async function GameGuidePage({
           {/* CTA */}
           <div className="mt-10">
             <a
-              href="#download"
+              href={`https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=${slug}-guide`}
               className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white font-medium text-sm px-6 py-3 rounded-full transition-colors"
             >
               Track {game.name} with Stick
@@ -196,7 +197,7 @@ export default async function GameGuidePage({
           </p>
           <div className="mt-8">
             <a
-              href="#download"
+              href={`https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=${slug}-guide`}
               className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white font-medium text-base px-8 py-4 rounded-full transition-colors"
             >
               Download on the App Store

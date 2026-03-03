@@ -195,7 +195,7 @@ Each of Stick's 11 games gets a signature illustration — a watercolor painting
 | **Vegas** | A desert course at sunset with deep shadows between paired cacti | Partnership, the gamble |
 | **Match Play** | Two golfers walking opposite sides of a fairway | Head-to-head, mano a mano |
 | **Nine Point** | A triangular green with three approach shots converging | Three-way competition |
-| **Dots** | A scorecard with scattered ink dots — abstract, almost like a constellation | Detail, accumulation |
+| **Junk** | A scorecard with scattered ink dots — abstract, almost like a constellation | Detail, accumulation |
 | **Sixes** | Six golfers in two rotating threesomes on adjacent holes | Rotation, shifting alliances |
 | **Split Sixes** | A fairway splitting into two paths around a central bunker | Division, choice |
 | **Scotch** | A links-style pot bunker with a small bridge — the Scottish origins | Tradition, grit |
@@ -348,7 +348,7 @@ This isn't a rigid rule — some pages (like game guides) will be primarily ligh
 
 3. **How It Works (Light)**
    - Step-by-step rules with clear examples
-   - Use named players in examples (not "Player A" — say "Marcus" and "Sarah")
+   - Use named players in examples (not "Player A" — say "Justin" and "Jason")
    - Include a settlement walkthrough with real numbers
 
 4. **Variations & House Rules (Light)**

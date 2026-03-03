@@ -1,0 +1,227 @@
+---
+title: "Best Golf Betting Games for 3 Players (With Settlement Math)"
+slug: best-golf-betting-games-3-players
+description: "The 5 best golf betting games when you've got a threesome. Rules, settlement examples, and which game fits your group — from the team that built Stick."
+category: "recommendation"
+keywords:
+  - best golf games for 3 players
+  - golf betting games 3 players
+  - three player golf games
+  - golf games for threesome
+  - 3 man golf games
+  - split sixes golf
+  - nine point golf
+  - wolf golf 3 players
+  - best golf side bets three players
+publishedAt: ""
+updatedAt: ""
+faq:
+  - question: "What is the best golf betting game for 3 players?"
+    answer: "Split Sixes and Nine Point are the two games built specifically for threesomes. Split Sixes (4-2-0 points per hole) is more punitive and rewards aggressive play. Nine Point (5-3-1) is more forgiving since even the worst score earns a point. Both settle pairwise and are zero-sum. Pick Split Sixes for competitive groups, Nine Point for mixed handicaps."
+  - question: "Can you play Nassau with 3 players?"
+    answer: "Yes, but it changes the format. Instead of 2v2 teams, you play individual match play — each pair of players runs a separate Nassau. That means three simultaneous Nassaus: Justin vs Jason, Justin vs Evan, and Jason vs Evan. It works, but it's a lot of mental bookkeeping without an app tracking it for you."
+  - question: "What's the difference between Split Sixes and Nine Point?"
+    answer: "Both are three-player point games with pairwise settlement. Split Sixes distributes 6 points per hole (4-2-0) for 108 total. Nine Point distributes 9 points per hole (5-3-1) for 162 total. The key difference: in Split Sixes the worst score on a hole gets nothing. In Nine Point they still get 1 point. Split Sixes is harsher, Nine Point is friendlier."
+  - question: "Is Wolf a good game for 3 players?"
+    answer: "Wolf works well with 3 players. The Wolf each hole picks a partner or goes Lone Wolf against both opponents. With fewer players, the partner selection becomes more strategic — there's only one potential partner instead of two, so the Lone Wolf decision carries more weight. The rotation is every 3 holes instead of every 4."
+  - question: "How do you handle handicaps in 3-player golf games?"
+    answer: "Most three-player games use off-low-man handicapping. The lowest handicap plays scratch, and the other two get the difference in strokes. A 5, 12, and 20 handicap would play as 0, 7, and 15 strokes. Those strokes are allocated by stroke index — hardest holes first. Without handicap adjustments, the low handicap wins almost every hole."
+  - question: "Can you play Skins with 3 players?"
+    answer: "Skins works great with 3 players. Three-way ties are less common than two-way ties, so skins carry over less frequently than in a foursome. That means more skins get won outright and less builds up in the pot. Some groups prefer this because it keeps the value per skin more consistent across the round."
+---
+
+## Three Players Is the Sweet Spot Nobody Talks About
+
+A lot of golf betting content assumes you've got a foursome. But anyone who plays regularly knows the reality: someone bails Saturday morning, your regular fourth is out of town, or your club just pairs you as a threesome. Three players isn't a compromise — it's how a lot of rounds actually happen.
+
+The good news is that some of the best golf betting games were designed specifically for three. [Split Sixes](/games/split-sixes/) and [Nine Point](/games/nine-point/) exist because foursomes aren't guaranteed, and they play better with three than any four-player game crammed into a threesome.
+
+We've played all of these, built scoring engines for all of them, and settled thousands of test scenarios down to the penny. Here's what actually works for a threesome, ranked by how well the game fits three players — not how popular it is in general.
+
+## The Quick Comparison
+
+| Game | Players | Type | Variance | Handicap-Friendly? | Complexity |
+|------|---------|------|----------|---------------------|------------|
+| **[Split Sixes](/games/split-sixes/)** | Exactly 3 | Points (4-2-0) | Medium-High | Yes (net scoring) | Low |
+| **[Nine Point](/games/nine-point/)** | Exactly 3 | Points (5-3-1) | Medium | Yes (net scoring) | Low |
+| **[Wolf](/games/wolf/)** | 3-5 | Partner selection | High | Yes | Medium-High |
+| **[Skins](/games/skins/)** | 2-8+ | Hole-by-hole | Very High | Yes | Very Low |
+| **[Nassau](/games/nassau/)** | 2-4 | Match play | Low-Medium | Yes | Low-Medium |
+
+## 1. Split Sixes — Built for Three, Rewards Aggression
+
+Split Sixes distributes 6 points on every hole: 4 for the low score, 2 for the middle, 0 for the high. Play 18 holes and you've distributed exactly 108 points. Each pair settles independently based on the point differential.
+
+The reason it's our top pick for threesomes: it was designed from scratch for exactly three players. The point math only works with three. And the 0 for the worst score creates a tension that Nine Point doesn't — you really don't want to finish last on a hole.
+
+**Quick settlement example.** Justin (5 handicap), Jason (12), Evan (20). Playing net, $1 per point.
+
+| Player | Total Points |
+|--------|-------------|
+| Justin | 42 |
+| Jason | 38 |
+| Evan | 28 |
+
+Justin vs Jason: 4-point gap → Jason pays Justin $4.
+Justin vs Evan: 14-point gap → Evan pays Justin $14.
+Jason vs Evan: 10-point gap → Evan pays Jason $10.
+
+**Net: Justin +$18, Jason +$6, Evan −$24.** Zero-sum.
+
+Turn on **blitz** (sweep all 6 points when you beat both opponents by 2+ strokes) and **birdie double** (all points double when anyone makes net birdie) and the swings get real. A blitz on a birdie hole is worth 12 points to one player — that's two full holes of maximum output in a single swing.
+
+**Best for:** Competitive threesomes where everyone's close in ability. Groups that want every hole to matter.
+
+**Not ideal for:** Big handicap spreads without net scoring turned on. The 0-point punishment hits harder when one player is consistently outmatched.
+
+> [Read the full Split Sixes guide →](/games/split-sixes/)
+
+## 2. Nine Point — The Forgiving Alternative
+
+Nine Point uses the same structure as Split Sixes but with a 5-3-1 distribution. Low score gets 5, middle gets 3, high gets 1. The difference sounds small, but it changes the psychology of the game: the worst player on every hole still earns a point.
+
+That 1 point matters more than you'd think. In Split Sixes, three consecutive last-place finishes means 0-0-0 — twelve points behind the leader. In Nine Point, those three holes still earn 1-1-1, so you're only nine points back. The game stays closer, which keeps the back nine competitive even when someone has a rough front.
+
+**Quick settlement example.** Same group, $1 per point.
+
+| Player | Total Points |
+|--------|-------------|
+| Justin | 58 |
+| Jason | 51 |
+| Evan | 53 |
+
+Justin vs Jason: 7-point gap → Jason pays Justin $7.
+Justin vs Evan: 5-point gap → Evan pays Justin $5.
+Jason vs Evan: 2-point gap → Jason pays Evan $2.
+
+**Net: Justin +$12, Jason −$9, Evan −$3.** Zero-sum.
+
+Nine Point also supports a **Nassau structure** — settle the front 9, back 9, and overall 18 as three separate matches. Some groups escalate stakes: $1 per point on the front, $2 on the back, $3 on the overall. That makes the back nine a different game.
+
+**Best for:** Mixed-handicap threesomes. Groups where one player is significantly weaker and you want them to stay competitive. First time playing a three-player point game.
+
+**Not ideal for:** Groups that want maximum pressure on every hole. The 1-point floor softens the punishment for bad holes.
+
+> [Read the full Nine Point guide →](/games/nine-point/)
+
+## Split Sixes vs Nine Point: Which One?
+
+This is the question every threesome asks eventually, so here's the direct comparison:
+
+| | Split Sixes (4-2-0) | Nine Point (5-3-1) |
+|---|---|---|
+| **Worst score gets** | 0 | 1 |
+| **Max gap per hole** | 4 points | 4 points |
+| **Total points (18 holes)** | 108 | 162 |
+| **All-tie split** | 2-2-2 | 3-3-3 |
+| **Tone** | Punitive | Forgiving |
+| **Blitz available** | Yes | Yes |
+| **Birdie double** | Yes | Yes |
+
+The practical difference: Split Sixes makes bad holes cost more. If you're consistently the worst score, you're getting 0 while your opponents split 4 and 2. In Nine Point, that same hole gives you 1 while they split 5 and 3. Over 18 holes, those single points add up.
+
+We like Split Sixes for groups where everyone shoots within 5-6 strokes of each other. Nine Point is friendlier for the Saturday morning round where one player is a 22 handicap and the other two are single digits.
+
+Either way, both games settle pairwise, both are zero-sum, and Stick handles both with the same engine.
+
+## 3. Wolf — The Strategic Option
+
+[Wolf](/games/wolf/) isn't a three-player-only game — it works with 3, 4, or 5 — but it plays beautifully with three. The Wolf each hole watches the other two tee off, then decides: pick a partner for a 2v1, or go Lone Wolf against both.
+
+With three players instead of four, the partner decision gets sharper. There's only one potential partner. You either trust their tee shot or you don't. And when you go Lone Wolf, you're betting your score is better than their best ball. At three players, that means beating only two opponents instead of three — which makes going lone more viable and more frequent.
+
+The rotation works every 3 holes instead of every 4, so each player is Wolf 6 times during a full 18. Add **Blind Wolf** (declaring lone before anyone tees off, for double points) and the game gets psychological in a way that point games don't.
+
+**Best for:** Groups that want strategy and drama. Players who enjoy the mind game of partner selection. Threesomes that get bored with straightforward point distribution.
+
+**Not ideal for:** New players. The rules take a round or two to internalize. Groups that don't want the social dynamic of choosing — or not choosing — a partner.
+
+> [Read the full Wolf guide →](/games/wolf/)
+
+## 4. Skins — Simple and Universal
+
+[Skins](/games/skins/) doesn't care how many players you have. The rule is always the same: lowest unique score wins the skin. Tie anyone and it carries over.
+
+With three players, Skins actually plays better than with four. Three-way ties are less common than two-way ties, so skins get won more often and the carryover pots don't balloon as much. The game stays tighter and more predictable, with a few big carryover moments rather than a round where half the skins carry to 18.
+
+There's no point system, no math to track mid-round — just "did someone win this hole outright?" That simplicity is the whole appeal. It's the game you play when your group doesn't want to think about scoring mechanics. Just golf, and whoever plays the best holes takes the cash.
+
+**Best for:** Groups that want zero complexity. Rounds where you don't want to explain the rules. Mixed groups where someone is playing with your threesome for the first time.
+
+**Not ideal for:** Groups that want every hole to feel meaningful. In Skins, a tied hole just carries — there's nothing to play for on that hole itself. Some players find that frustrating.
+
+> [Read the full Skins guide →](/games/skins/)
+
+## 5. Nassau — Adapted, Not Designed, for Three
+
+[Nassau](/games/nassau/) is the most popular golf bet in the world — three matches (front nine, back nine, overall) rolled into one round. It's built for two players or two teams, but it works with three if you run individual match play: each pair of players has their own Nassau.
+
+That means three simultaneous Nassaus tracking at once: Justin vs Jason, Justin vs Evan, and Jason vs Evan. Add presses and you've got a lot of bets running. The math gets busy, which is why an app is almost required. Tracking three separate Nassaus with presses on a scorecard requires a level of attention that most groups don't want to give while they're trying to actually play golf.
+
+The advantage of Nassau for three is familiarity. Everyone knows what a Nassau is. Nobody needs a rules explanation on the first tee. If your threesome already plays Nassau regularly, just run the three-way version and keep rolling.
+
+**Best for:** Groups that already love Nassau and don't want to learn something new. Rounds where you want the press mechanic — Split Sixes and Nine Point don't have presses.
+
+**Not ideal for:** Groups looking for a game that's designed for three. Individual three-way Nassau creates six separate bet lines before you even add a press.
+
+> [Read the full Nassau guide →](/games/nassau/)
+
+## What About Bingo Bango Bongo?
+
+You'll see Bingo Bango Bongo on every "games for three players" list, and it is genuinely designed for any group size. Three points per hole: first on the green, closest to the pin once everyone's on, and first to hole out. It rewards pace of play and short game rather than raw scoring.
+
+We left it off our ranked list because Stick doesn't currently track it, and we'd rather recommend games where we can show you the exact settlement math. But if your group likes it, it works well for threesomes — especially with mixed handicaps, since shorter hitters can still reach the green first if they play smart.
+
+## Which Game Should You Actually Play?
+
+If you've never played a three-player game before, start with **Nine Point**. The 5-3-1 system is intuitive, the 1-point floor for last place keeps things friendly, and the settlement math is clean.
+
+If your threesome is competitive and close in skill, upgrade to **Split Sixes**. The 0-point punishment for worst score each hole adds an edge that Nine Point doesn't have.
+
+If you want strategy, partner dynamics, and unpredictability, play **Wolf**. It's the most engaging three-player game we know — but it takes a round to learn and it's not as clean mathematically as the point games.
+
+If you want something you can explain in one sentence, play **Skins**.
+
+And if your group already has a Nassau habit, run three individual Nassaus and let the app handle the tracking.
+
+Whatever you choose, the best three-player golf game is the one all three of you understand and enjoy. Don't overthink it. Pick one, play a round, and adjust next week.
+
+> **Stick tracks all five of these games** — points, handicaps, presses, carryovers, settlement. One person creates the round, everyone joins from their own phone, and the math is done before you reach the parking lot. [Download Stick →](#)
+
+## FAQ
+
+<FAQ>
+
+<QA question="What is the best golf betting game for 3 players?">
+Split Sixes and Nine Point are the two games designed specifically for threesomes. Split Sixes distributes 4-2-0 points per hole (108 total over 18) and is more punitive — worst score gets nothing. Nine Point uses 5-3-1 (162 total) and is friendlier since even last place earns a point. Both settle pairwise. Pick Split Sixes for competitive groups, Nine Point for mixed handicaps.
+</QA>
+
+<QA question="Can you play Nassau with 3 players?">
+Yes. Instead of 2v2 teams, you play individual match play — each pair of players runs a separate Nassau. That creates three simultaneous Nassaus: player A vs B, A vs C, and B vs C, each with front nine, back nine, and overall bets. Add presses and the bet count climbs fast. It works, but tracking three Nassaus with presses on a scorecard is a lot without an app.
+</QA>
+
+<QA question="What's the difference between Split Sixes and Nine Point?">
+Both distribute points per hole among three players and settle pairwise. Split Sixes awards 4-2-0 (6 per hole, 108 total). Nine Point awards 5-3-1 (9 per hole, 162 total). The practical difference: in Split Sixes, the worst score earns 0 — so bad holes cost more. In Nine Point, worst score still earns 1, keeping the game closer when one player is struggling.
+</QA>
+
+<QA question="Is Wolf a good game for 3 players?">
+Wolf plays well with 3 players. The Wolf picks one partner or goes lone against both — with only one potential partner instead of two, the Lone Wolf decision carries more weight. Rotation is every 3 holes instead of 4, so each player is Wolf 6 times per round. Blind Wolf (declaring lone before anyone tees off) gets more tactical since you're only facing two opponents.
+</QA>
+
+<QA question="How do you handle handicaps in 3-player golf games?">
+Most three-player games use off-low-man: the lowest handicap plays scratch, the other two get the difference in strokes. A 5, 12, and 20 handicap would play as 0, 7, and 15 strokes, allocated by [stroke index](https://www.usga.org/handicapping/roh/Content/rules/Appendix%20C%20Stroke%20Allocation.htm) — hardest holes first. Without handicap adjustments in a mixed-ability threesome, the low handicap wins almost every hole.
+</QA>
+
+<QA question="Can you play Skins with 3 players?">
+Skins works great with 3 players. Three-way ties happen less often than two-way ties, so more skins get won outright and less value builds up in carryover pots. The game stays tighter and more consistent. Some groups actually prefer three-player Skins because the per-hole drama is more frequent — someone wins more holes instead of ties forcing everything to the back nine.
+</QA>
+
+<QA question="What is the easiest golf betting game for 3 players?">
+Skins is the simplest: lowest unique score wins the hole. One rule, no points to track, no math until the end. Nine Point is the easiest structured game — 5 points for best score, 3 for middle, 1 for worst. The point system is intuitive and the ties are straightforward. Both work for groups playing a money game together for the first time.
+</QA>
+
+<QA question="Which 3-player golf game is fairest for mixed handicaps?">
+Nine Point with net scoring. The 5-3-1 distribution means even the worst score on a hole earns a point, and net scoring (off-low-man) gives higher handicaps strokes on the hardest holes. The combination keeps the game competitive even with a 15+ stroke handicap spread. Split Sixes works too but the 0-point punishment for worst score makes it harsher on weaker players.
+</QA>
+
+</FAQ>

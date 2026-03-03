@@ -19,7 +19,7 @@
 | **Nine Point** | 🏆 (blitz, birdie double, 5-3-1/4-2-0) | ❌ | ⚠️ | ❌ | ❌ | ❌ |
 | **Split Sixes** | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ |
 | **Sixes (Hollywood)** | ✅ (press support, rotating teams) | ✅ | ✅ | ✅ | ❌ | ❌ |
-| **Dots** | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| **Junk (Dots)** | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | **Vegas** | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
 | **Scotch** | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ |
 | **Quota** | 🔨 Building | ✅ | ✅ | ❌ | ❌ | ❌ |

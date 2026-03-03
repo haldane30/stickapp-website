@@ -48,15 +48,15 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
-  openGraph: {
-    type: "website",
-    siteName: "Stick Golf",
-    title: "Stick Golf — Every Bet. Every Hole. Settled.",
-    description:
-      "Track 12 golf betting games from one scorecard. Real-time scoring, automatic settlement, and the math that's always right.",
-    url: "https://stickapp.golf",
-    // images: [{ url: '/og/home.png', width: 1200, height: 630 }],
-  },
+    openGraph: {
+      type: "website",
+      siteName: "Stick Golf",
+      title: "Stick Golf — Every Bet. Every Hole. Settled.",
+      description:
+        "Track 12 golf betting games from one scorecard. Real-time scoring, automatic settlement, and the math that's always right.",
+      url: "https://stickapp.golf",
+      images: [{ url: '/og/home.png', width: 1200, height: 630 }],
+    },
   twitter: {
     card: "summary_large_image",
     title: "Stick Golf — Every Bet. Every Hole. Settled.",

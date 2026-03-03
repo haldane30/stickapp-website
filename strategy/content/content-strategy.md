@@ -59,7 +59,7 @@ Game guides are our most important content. They need to be definitively better 
 
 ### What Makes a Stick Game Guide Different
 
-- **Real settlement walkthroughs** with named players and actual math. Not "Player A wins" — "Marcus birdies the 7th and takes 3 points from the group."
+- **Real settlement walkthroughs** with named players and actual math. Not "Player A wins" — "Justin birdies the 7th and takes 3 points from the group."
 - **Edge case coverage** that other sites skip. What happens when someone picks up? What if all players tie? What about incomplete rounds?
 - **Variant documentation.** Nassau with presses, skins with carryover, wolf with lone wolf. Competitors mention variants exist; we explain exactly how each one works.
 - **Interactive calculators** (future). When the tech is ready, embed live calculators so readers can plug in their own scenarios.
@@ -73,7 +73,7 @@ Each game guide follows this structure:
 3. **How it works** — core rules explained clearly, with examples.
 4. **Handicap & scoring** — how handicaps apply, net vs gross, stroke allocation if relevant.
 5. **Variations** — each variant as its own subsection with full rules.
-6. **Settlement walkthrough** — full 18-hole example with our standard cast (Marcus, Sarah, Dev, Pam), showing every dollar.
+6. **Settlement walkthrough** — full 18-hole example with our standard cast (Justin, Jason, Evan, Todd), showing every dollar.
 7. **Strategy tips** — what experienced players know that beginners don't.
 8. **FAQ** — 5-8 questions pulled from real search queries (People Also Ask, forums).
 9. **CTA** — natural, non-pushy. "Track your next [game] in Stick" with download link.

@@ -29,7 +29,7 @@ This is a living tracker. Each month, spot-check the rankings below and update p
 
 | Query | #1 | Stick Position | Content Quality of #1 | Our Opportunity | Last Checked |
 |-------|-----|---|----|---|---|
-| "dots golf game" | Beezer | Not indexed | Strong | Must compete — go deeper | Feb 2026 |
+| "junk golf game" / "dots golf game" | Beezer | Not indexed | Strong | Must compete — go deeper | Feb 2026 |
 | "split sixes golf" | Beezer | Not indexed | Thin-medium | High — outrank with depth | Feb 2026 |
 | "scotch golf game rules" | Fried Egg | Not indexed | Solid | Medium | Feb 2026 |
 | "vegas golf game rules" | Fried Egg | Not indexed | Well-covered | Medium | Feb 2026 |
@@ -82,7 +82,7 @@ This is a living tracker. Each month, spot-check the rankings below and update p
 
 | Metric | Status | Notes |
 |--------|--------|-------|
-| **Rankings** | Some support docs rank | "dots golf game," "side games" |
+| **Rankings** | Some support docs rank | "junk/dots golf game," "side games" |
 | **Strategy** | None for betting content | GPS/scoring is their focus |
 | **Threat level** | Low | Not actively competing |
 

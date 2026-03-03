@@ -1,6 +1,6 @@
 # Content Calendar
 
-> Last updated: February 27, 2026
+> Last updated: February 28, 2026
 > Cadence: 2-4 pieces per month
 > All dates are targets, not commitments
 
@@ -35,7 +35,7 @@ Two game guides per week until all 12 are live, plus blog posts.
 |---|------|-------|---------------|--------|
 | 7 | Game Guide | Vegas: Rules & Scoring | vegas golf game rules | ⬜ Not started |
 | 8 | Game Guide | Nine Point: The Perfect Three-Player Game | nine point golf game | ⬜ Not started |
-| 9 | Game Guide | Dots: Scoring Every Detail | dots golf game | ⬜ Not started |
+| 9 | Game Guide | Junk: Scoring Every Detail | junk golf game, dots golf game | ⬜ Not started |
 | 10 | Game Guide | Sixes (Hollywood): Rotating Teams | sixes golf game | ⬜ Not started |
 | 11 | Game Guide | Match Play: Head-to-Head Betting | match play golf rules | ⬜ Not started |
 | 12 | Game Guide | Split Sixes: The Three-Way Challenge | split sixes golf | ⬜ Not started |
@@ -47,15 +47,26 @@ Two game guides per week until all 12 are live, plus blog posts.
 
 ---
 
+## Concept Linking Reference Pages (Priority — Publish Before Phase 2)
+
+These pages exist primarily as internal link targets. Every game guide links to them instead of re-explaining shared concepts inline. They also stand alone as high-value SEO targets and AI citation magnets. Publish these as soon as Phase 1 game guides are live.
+
+| # | Type | Title | Target Keyword | Status | Notes |
+|---|------|-------|---------------|--------|-------|
+| R1 | Reference | How Handicaps Work in Golf Betting | handicaps in golf betting, golf handicap strokes | ⬜ Not started | Replaces #20 from Phase 3. Covers handicap application, stroke index, net vs gross, when to use each. Every game guide links here. |
+| R2 | Reference | How Golf Betting Settlement Works | golf bet settlement, how to settle golf bets | ⬜ Not started | Pairwise settlement, zero-sum, pot models. Game guides show game-specific math, link here for the logic. |
+| R3 | Reference | What Are Presses in Golf Betting | golf press bet, what is a press in golf | ⬜ Not started | Replaces #15 from Phase 2. Deep explanation of presses, auto-press, press-the-press, cutoff rules. Linked from Nassau, and any game that supports presses. |
+
+---
+
 ## Phase 3: Authority Building (Weeks 7-12)
 
-Deeper strategy content, handicap explainers, and lifestyle/culture pieces.
+Deeper strategy content and lifestyle/culture pieces. (Note: #20 and #15 moved to Concept Linking Reference Pages above.)
 
 | # | Type | Title | Target Keyword | Status |
 |---|------|-------|---------------|--------|
 | 18 | Blog | Wolf Golf Strategy: Picking Partners and Going Lone | wolf golf strategy | ⬜ Not started |
 | 19 | Blog | The Unwritten Rules of Golf Betting Etiquette | golf betting etiquette | ⬜ Not started |
-| 20 | Blog | How Golf Handicaps Actually Work in Betting Games | handicaps in golf betting | ⬜ Not started |
 | 21 | Blog | 5 Best Golf Side Bets to Run Alongside Your Main Game | best golf side bets | ⬜ Not started |
 | 22 | Blog | What Happens When Someone Picks Up? Golf Betting Rules for Incomplete Holes | golf betting pickup rules | ⬜ Not started |
 | 23 | Blog | Skins Carryover Explained | skins carryover rules | ⬜ Not started |
