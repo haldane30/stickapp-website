@@ -1,9 +1,11 @@
 import { MetadataRoute } from "next";
 import { games } from "@/lib/tokens";
-import { getAllBlogPosts } from "@/lib/content";
+import { getAllBlogPosts, getAllGameGuides, getAllGuidePages } from "@/lib/content";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogPosts = getAllBlogPosts();
+  const gameGuides = getAllGameGuides();
+  const guidePages = getAllGuidePages();
 
   return [
     {
@@ -18,12 +20,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
-    ...games.map((game) => ({
-      url: `https://stickapp.golf/games/${game.slug}/`,
-      lastModified: new Date(),
-      changeFrequency: "weekly" as const,
-      priority: 0.9,
-    })),
+    ...games.map((game) => {
+      const guide = gameGuides.find((g) => g.slug === game.slug);
+      return {
+        url: `https://stickapp.golf/games/${game.slug}/`,
+        lastModified: guide ? new Date(guide.updatedAt) : new Date(),
+        changeFrequency: "weekly" as const,
+        priority: 0.9,
+      };
+    }),
     {
       url: "https://stickapp.golf/blog/",
       lastModified: new Date(),
@@ -35,6 +40,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(post.updatedAt),
       changeFrequency: "monthly" as const,
       priority: 0.7,
+    })),
+    ...guidePages.map((guide) => ({
+      url: `https://stickapp.golf/guides/${guide.slug}/`,
+      lastModified: new Date(guide.updatedAt),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
     })),
     {
       url: "https://stickapp.golf/pricing/",

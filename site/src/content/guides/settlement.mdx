@@ -1,0 +1,182 @@
+---
+title: "How Settlement Works in Golf Betting"
+description: "Settlement is how golf bets turn into dollars owed. Learn pairwise settlement, team settlement, and how each of the 12 major golf betting games resolves money at the end of a round."
+publishedAt: "2026-03-02"
+updatedAt: "2026-03-02"
+keywords:
+  - golf betting settlement
+  - how to settle golf bets
+  - pairwise settlement golf
+  - golf bet payout
+  - how to calculate golf bets
+  - golf betting math
+  - settle nassau golf
+  - golf wager settlement
+faq:
+  - question: "What is pairwise settlement in golf betting?"
+    answer: "Pairwise settlement means every pair of players in the group settles independently. In a 4-player game, there are 6 pairs. Each pair calculates their own difference (in points, skins, or dots) and multiplies by the agreed dollar value. This is the standard settlement method for Nassau, Skins (fixed value), Wolf, Match Play, Nine Point, Split Sixes, Junk, and Quota."
+  - question: "How do you verify that golf bet settlement math is correct?"
+    answer: "Add up every player's net result — the total must equal zero. Every dollar won comes from someone else's loss. If Justin is plus $14, Jason is plus $8, and Evan is minus $22, the sum is $14 + $8 + (-$22) = $0. If the total is not zero, there is a math error somewhere in the settlement."
+  - question: "What is the difference between fixed-value and pot-model settlement in Skins?"
+    answer: "Fixed-value Skins settles pairwise — each pair compares their skin count and settles the difference at the agreed rate per skin. Pot-model Skins pools a buy-in from each player, then divides the total pot by the number of skins awarded. Each player collects based on their share of the total skins. Fixed-value can produce larger swings; pot-model caps exposure at the buy-in amount."
+  - question: "How does settlement work in team golf betting games?"
+    answer: "In 2v2 team games like Vegas, Scotch, and Sixes, the losing team's total debt is split equally between its two players, and the winning team's total payout is split equally between its two players. Each loser pays each winner their share. In a $20 pot, each loser pays $5 to each winner (2 losers paying 2 winners = $20 total)."
+  - question: "How does Nassau settlement work with presses?"
+    answer: "Each bet in a Nassau — the front nine, back nine, overall, and every press — settles as an independent line item. A $5 Nassau with 2 presses on the front creates three separate $5 bets. You might lose the original front-nine bet but win both presses, netting plus $5 on the front alone. The settlement must list every bet individually for transparency."
+  - question: "What is zero-sum settlement?"
+    answer: "Zero-sum means the total money won across all players equals the total money lost. No money is created or destroyed — it transfers between players. Every golf betting game uses zero-sum settlement. If your group's net results do not add to zero, there is an error in the math."
+  - question: "How does Quota settlement differ from other games?"
+    answer: "In Quota, each player earns gross points and compares them against a personal target (36 minus their handicap). The difference between their points and their quota is their differential. Settlement is pairwise: each pair compares differentials and the difference, multiplied by the dollar value per point, changes hands. A player at plus 3 versus a player at minus 2 settles on 5 points."
+  - question: "What happens when a golf bet results in a tie?"
+    answer: "A tied bet means no money changes hands for that particular wager. In Nassau, a halved segment costs nothing. In Skins, a tied hole carries the skin value to the next hole. In Nine Point or Split Sixes, tied scores split the points between the tied players. In Wolf, a tied hole awards zero points to everyone. The specific tie rule depends on the game."
+---
+
+## What Settlement Means in Golf Betting
+
+Settlement is the math that turns 18 holes of golf into dollars owed. Every bet you made, every [press](/guides/presses) that fired, every skin that carried over, every point that accumulated — settlement resolves all of it into a single number per player: how much you won or how much you owe. The one rule that applies to every golf betting game: **the total must equal zero.** Every dollar won is a dollar someone else lost. If your group's numbers don't add to zero, the math is wrong.
+
+## The Three Settlement Methods
+
+Every golf betting game uses one of three settlement patterns. Once you understand the pattern, the math for any game is straightforward.
+
+### 1. Pairwise Differential
+
+This is the most common method. Every pair of players in the group settles independently based on the difference in their scores, points, skins, or dots.
+
+**Formula:** |Player A result - Player B result| × dollar value = amount owed
+
+**Games that use it:** [Nassau](/games/nassau), [Skins](/games/skins) (fixed value), [Wolf](/games/wolf), [Match Play](/games/match-play), [Nine Point](/games/nine-point), [Split Sixes](/games/split-sixes), [Junk](/games/junk), [Quota](/games/quota)
+
+**How many pairs?** In a 3-player game: 3 pairs. In a 4-player game: 6 pairs. Each pair settles independently, and the results naturally sum to zero.
+
+**Example — Nine Point at $1/point:**
+
+Justin finishes with 58 points, Jason with 51, Evan with 53.
+
+- Justin vs. Jason: 58 - 51 = 7 points → Jason pays Justin $7
+- Justin vs. Evan: 58 - 53 = 5 points → Evan pays Justin $5
+- Jason vs. Evan: 53 - 51 = 2 points → Jason pays Evan $2
+
+**Net:** Justin +$12, Jason -$5, Evan -$7. Total: $0. Verified.
+
+### 2. Team Pot Differential
+
+Used in 2v2 team games where both teams accumulate points across the round, then settle the difference.
+
+**Formula:** |Team A points - Team B points| × dollar value = total pot. Split equally: each loser pays each winner.
+
+**Games that use it:** [Vegas](/games/vegas), [Scotch](/games/scotch), [Sixes](/games/sixes)
+
+**Example — Scotch at $1/point:**
+
+Team A (Justin & Evan) finishes with 52 points. Team B (Jason & Todd) finishes with 44 points.
+
+- Difference: 52 - 44 = 8 points → $8 total pot
+- Each winner gets $4. Each loser pays $4.
+- Jason pays Justin $2, Jason pays Evan $2. Todd pays Justin $2, Todd pays Evan $2.
+
+**Net:** Justin +$4, Evan +$4, Jason -$4, Todd -$4. Total: $0. Verified.
+
+### 3. Single Liability
+
+One player holds the liability at the end and pays everyone else. Only one game uses this.
+
+**Game:** [Snake](/games/snake)
+
+**Example — Snake at $5 fixed:**
+
+Todd three-putted last. He holds the snake. In a 4-player group, Todd pays $5 to each of the other three players.
+
+**Net:** Justin +$5, Jason +$5, Evan +$5, Todd -$15. Total: $0.
+
+Snake also supports a doubling model where the value doubles on each three-putt event during the round — starting at $1, then $2, $4, $8, $16. The holder at the end pays the final accumulated value to everyone. Start small with the doubling model.
+
+> **Stick settles every game automatically** — pairwise math, team splits, press chains, carryovers, multipliers. Every number itemized. Every total verified to zero. [Download on the App Store →](https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=settlement-guide)
+
+## How Each Game Settles
+
+Here's a quick reference showing what gets counted and how it resolves for all 12 games:
+
+| Game | What Accumulates | Settlement Method | Typical Range |
+|------|-----------------|-------------------|---------------|
+| [Nassau](/games/nassau) | Holes won per segment + [presses](/guides/presses) | Pairwise, per bet | $15–$50/round |
+| [Skins](/games/skins) | Skins won (with carryovers) | Pairwise or pot | $20–$60/round |
+| [Wolf](/games/wolf) | Points (with multipliers) | Pairwise | $20–$100+/round |
+| [Match Play](/games/match-play) | Holes won | Pairwise, per match | $10–$30/round |
+| [Nine Point](/games/nine-point) | Points (5-3-1 per hole) | Pairwise | $10–$40/round |
+| [Split Sixes](/games/split-sixes) | Points (4-2-0 per hole) | Pairwise | $10–$30/round |
+| [Sixes](/games/sixes) | Holes won per 6-hole match | Team, per match | $20–$60/round |
+| [Scotch](/games/scotch) | Category points + umbrella | Team | $10–$50/round |
+| [Junk](/games/junk) | Dots earned/lost | Pairwise | $5–$25/round |
+| [Vegas](/games/vegas) | Two-digit score differences | Team | $20–$100+/round |
+| [Snake](/games/snake) | Three-putt liability | Single holder | $5–$30/round |
+| [Quota](/games/quota) | Points vs. personal target | Pairwise | $10–$40/round |
+
+## Nassau Settlement: The Line-Item Breakdown
+
+Nassau is the most complex settlement because [presses](/guides/presses) create multiple independent bets. A $5 Nassau between Justin and Jason with auto-press at 2 down might generate this settlement:
+
+| Bet | Result | Amount |
+|-----|--------|--------|
+| Front nine (original) | Jason wins 1 up | Justin pays $5 |
+| Front nine (press 1) | Justin wins 2 up | Jason pays $5 |
+| Back nine (original) | Justin wins 2 up | Jason pays $5 |
+| Back nine (press 1) | Justin wins 1 up | Jason pays $5 |
+| Overall (original) | Justin wins 1 up | Jason pays $5 |
+
+**Net:** Justin +$10, Jason -$10.
+
+Five separate bets, each settled independently. Justin lost the front but won the press. He swept the back and the overall. Without a line-item breakdown, "you owe me $10" doesn't explain how you got there — and that's where arguments start.
+
+## The Zero-Sum Verification
+
+This is the simplest and most important check in golf betting math. After settlement, add every player's net result. The total must be zero.
+
+- Justin +$14, Jason +$8, Evan -$22 → $14 + $8 + (-$22) = **$0** ✓
+- Team A +$40, Team B -$40 → $40 + (-$40) = **$0** ✓
+
+If the total is not zero, there is an error. Find it before anyone pays. Common sources of settlement errors: forgetting a press, miscounting skins carryovers, using the wrong [handicap](/guides/handicaps) strokes on a hole, or splitting team payouts incorrectly.
+
+> **Stick verifies every settlement to zero** — if the math doesn't balance, something is wrong and the app flags it. No more "I think you owe me $12" conversations. [Download on the App Store →](https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=settlement-guide)
+
+## Why Transparent Settlement Matters
+
+The best settlement isn't just a number — it's a receipt. "You owe Justin $14" should come with a breakdown: which bets, which holes, which presses, which multipliers. When everyone can see exactly how every dollar was calculated, disputes disappear.
+
+This is where most golf betting apps fail. They show a final number but hide the work. If you can't trace a $3 difference back to a specific hole and a specific bet, the settlement isn't transparent — it's a guess with a dollar sign.
+
+<FAQ>
+
+<QA question="What is pairwise settlement in golf betting?">
+Pairwise settlement means every pair of players in the group settles independently. In a 4-player game, there are 6 pairs. Each pair calculates their own difference (in points, skins, or dots) and multiplies by the agreed dollar value. This is the standard method for [Nassau](/games/nassau), [Skins](/games/skins) (fixed value), [Wolf](/games/wolf), [Match Play](/games/match-play), [Nine Point](/games/nine-point), [Split Sixes](/games/split-sixes), [Junk](/games/junk), and [Quota](/games/quota).
+</QA>
+
+<QA question="How do you verify that golf bet settlement math is correct?">
+Add up every player's net result — the total must equal zero. Every dollar won comes from someone else's loss. If Justin is plus $14, Jason is plus $8, and Evan is minus $22, the sum is $14 + $8 + (-$22) = $0. If the total is not zero, there is a math error somewhere in the settlement.
+</QA>
+
+<QA question="What is the difference between fixed-value and pot-model settlement in Skins?">
+Fixed-value [Skins](/games/skins) settles pairwise — each pair compares their skin count and settles the difference at the agreed rate per skin. Pot-model Skins pools a buy-in from each player, then divides the total pot by the number of skins awarded. Each player collects based on their share. Fixed-value can produce larger swings; pot-model caps exposure at the buy-in amount.
+</QA>
+
+<QA question="How does settlement work in team golf betting games?">
+In 2v2 team games like [Vegas](/games/vegas), [Scotch](/games/scotch), and [Sixes](/games/sixes), the losing team's total debt is split equally between its two players, and the winning team's total payout is split equally between its two players. Each loser pays each winner their share. In a $20 pot, each loser pays $5 to each winner (2 losers paying 2 winners = $20 total).
+</QA>
+
+<QA question="How does Nassau settlement work with presses?">
+Each bet in a [Nassau](/games/nassau) — the front nine, back nine, overall, and every [press](/guides/presses) — settles as an independent line item. A $5 Nassau with 2 presses on the front creates three separate $5 bets. You might lose the original front-nine bet but win both presses, netting plus $5 on the front alone. The settlement must list every bet individually for transparency.
+</QA>
+
+<QA question="What is zero-sum settlement?">
+Zero-sum means the total money won across all players equals the total money lost. No money is created or destroyed — it transfers between players. Every golf betting game uses zero-sum settlement. If your group's net results do not add to zero, there is an error in the math.
+</QA>
+
+<QA question="How does Quota settlement differ from other games?">
+In [Quota](/games/quota), each player earns gross points and compares them against a personal target (36 minus their [handicap](/guides/handicaps)). The difference is their differential. Settlement is pairwise: each pair compares differentials and the difference, multiplied by the dollar value per point, changes hands. A player at plus 3 versus a player at minus 2 settles on 5 points.
+</QA>
+
+<QA question="What happens when a golf bet results in a tie?">
+A tied bet means no money changes hands for that particular wager. In [Nassau](/games/nassau), a halved segment costs nothing. In [Skins](/games/skins), a tied hole carries the skin value to the next hole. In [Nine Point](/games/nine-point) or [Split Sixes](/games/split-sixes), tied scores split the points between the tied players. In [Wolf](/games/wolf), a tied hole awards zero points to everyone.
+</QA>
+
+</FAQ>

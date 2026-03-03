@@ -90,6 +90,61 @@ export function getAllGameGuides(): GameGuideMeta[] {
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 }
 
+// ─── Reference Guides ───────────────────────────────────────────────────────
+
+export interface GuidePageMeta {
+  slug: string;
+  title: string;
+  description: string;
+  publishedAt: string;
+  updatedAt: string;
+  readingTime: string;
+  keywords: string[];
+  faq: { question: string; answer: string }[];
+}
+
+export function getGuidePageSlugs(): string[] {
+  const dir = path.join(CONTENT_DIR, "guides");
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((file) => file.endsWith(".mdx"))
+    .map((file) => file.replace(/\.mdx$/, ""));
+}
+
+export function getGuidePage(slug: string): { meta: GuidePageMeta; content: string } | null {
+  const filePath = path.join(CONTENT_DIR, "guides", `${slug}.mdx`);
+  if (!fs.existsSync(filePath)) return null;
+
+  const raw = fs.readFileSync(filePath, "utf-8");
+  const { data, content } = matter(raw);
+  const stats = readingTime(content);
+
+  return {
+    meta: {
+      slug,
+      title: data.title || "",
+      description: data.description || "",
+      publishedAt: data.publishedAt || "",
+      updatedAt: data.updatedAt || data.publishedAt || "",
+      readingTime: stats.text,
+      keywords: data.keywords || [],
+      faq: data.faq || [],
+    },
+    content,
+  };
+}
+
+export function getAllGuidePages(): GuidePageMeta[] {
+  return getGuidePageSlugs()
+    .map((slug) => {
+      const guide = getGuidePage(slug);
+      return guide?.meta;
+    })
+    .filter((meta): meta is GuidePageMeta => meta !== undefined)
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+}
+
 // ─── Blog Posts ─────────────────────────────────────────────────────────────
 
 export function getBlogPostSlugs(): string[] {
