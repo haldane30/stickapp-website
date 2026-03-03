@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getAllBlogPosts } from "@/lib/content";
+import { getAllBlogPosts, getAllGuidePages } from "@/lib/content";
 import { JsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
@@ -38,6 +38,7 @@ const categoryLabels: Record<string, string> = {
 
 export default function BlogIndex() {
   const posts = getAllBlogPosts();
+  const guides = getAllGuidePages();
   const featured = posts.find((p) => p.featured);
   const rest = posts.filter((p) => p.slug !== featured?.slug);
 
@@ -140,6 +141,44 @@ export default function BlogIndex() {
                     </h3>
                     <p className="mt-2 text-sm text-[var(--color-text-secondary)] leading-relaxed">
                       {post.description}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ─── Reference Guides ───────────────────────────────────────────── */}
+      {guides.length > 0 && (
+        <section
+          className="section-light"
+          style={{ paddingBottom: "var(--section-padding-y)" }}
+        >
+          <div className="mx-auto max-w-[var(--content-max-width)] px-6">
+            <div className="border-t border-[var(--color-canvas-dark)]/10 pt-16">
+              <p className="text-xs font-semibold uppercase tracking-[0.15em] text-[var(--color-text-secondary)] mb-8">
+                Reference Guides
+              </p>
+              <div className="grid md:grid-cols-3 gap-8">
+                {guides.map((guide) => (
+                  <Link
+                    key={guide.slug}
+                    href={`/guides/${guide.slug}`}
+                    className="group"
+                  >
+                    <div className="aspect-[16/10] rounded-xl bg-[var(--color-canvas-dark)]/5 mb-5 overflow-hidden">
+                      <div className="w-full h-full bg-gradient-to-br from-[var(--color-gold)]/10 to-transparent" />
+                    </div>
+                    <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gold)] mb-2">
+                      Reference
+                    </p>
+                    <h3 className="font-serif text-xl text-[var(--color-text-on-light)] group-hover:text-[var(--color-coral)] transition-colors">
+                      {guide.title}
+                    </h3>
+                    <p className="mt-2 text-sm text-[var(--color-text-secondary)] leading-relaxed">
+                      {guide.description}
                     </p>
                   </Link>
                 ))}

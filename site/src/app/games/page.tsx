@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { games } from "@/lib/tokens";
+import { getAllGuidePages } from "@/lib/content";
 import { GameCard } from "@/components/GameCard";
 import { JsonLd } from "@/components/JsonLd";
 
@@ -20,6 +22,8 @@ const breadcrumbSchema = {
 };
 
 export default function GamesHub() {
+  const guides = getAllGuidePages();
+
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
@@ -54,6 +58,46 @@ export default function GamesHub() {
           </div>
         </div>
       </section>
+
+      {/* Reference guides */}
+      {guides.length > 0 && (
+        <section className="section-light" style={{ padding: "var(--section-padding-y) 0" }}>
+          <div className="mx-auto max-w-[var(--content-max-width)] px-6">
+            <h2
+              className="font-serif text-[var(--color-text-on-light)]"
+              style={{ fontSize: "clamp(24px, 3vw, 36px)", lineHeight: 1.2 }}
+            >
+              Before you play
+            </h2>
+            <p className="mt-4 text-[var(--color-text-secondary)] max-w-2xl leading-relaxed">
+              The concepts that apply across every game — handicaps, presses,
+              and settlement math.
+            </p>
+            <div className="mt-10 grid md:grid-cols-3 gap-8">
+              {guides.map((guide) => (
+                <Link
+                  key={guide.slug}
+                  href={`/guides/${guide.slug}`}
+                  className="group block p-6 rounded-xl border border-[var(--color-canvas-dark)]/10 hover:border-[var(--color-coral)]/30 transition-colors"
+                >
+                  <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gold)] mb-3">
+                    Reference
+                  </p>
+                  <h3 className="font-serif text-lg text-[var(--color-text-on-light)] group-hover:text-[var(--color-coral)] transition-colors">
+                    {guide.title}
+                  </h3>
+                  <p className="mt-2 text-sm text-[var(--color-text-secondary)] leading-relaxed">
+                    {guide.description}
+                  </p>
+                  <p className="mt-3 text-xs text-[var(--color-text-secondary)]">
+                    {guide.readingTime}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
     </>
   );
 }
