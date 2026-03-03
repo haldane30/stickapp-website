@@ -35,7 +35,7 @@ export function Header() {
             Pricing
           </Link>
           <a
-            href="#download"
+            href="https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=header-cta"
             className="bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white text-sm font-medium px-5 py-2.5 rounded-full transition-colors"
           >
             Download
@@ -90,7 +90,7 @@ export function Header() {
             Pricing
           </Link>
           <a
-            href="#download"
+            href="https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=header-cta"
             className="bg-[var(--color-coral)] text-white text-center font-medium px-5 py-3 rounded-full mt-2"
           >
             Download

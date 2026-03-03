@@ -28,7 +28,7 @@ export function Footer() {
             <ul className="space-y-2.5">
               <li>
                 <a
-                  href="#download"
+                  href="https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=footer-cta"
                   className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                 >
                   Download
@@ -75,6 +75,30 @@ export function Footer() {
                   className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                 >
                   Blog
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/guides/handicaps"
+                  className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
+                >
+                  Handicaps Guide
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/guides/presses"
+                  className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
+                >
+                  Presses Guide
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/guides/settlement"
+                  className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
+                >
+                  Settlement Guide
                 </Link>
               </li>
             </ul>
