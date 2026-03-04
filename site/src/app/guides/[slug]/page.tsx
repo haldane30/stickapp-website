@@ -40,6 +40,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: guide.meta.title,
       description: guide.meta.description,
+      images: [`/og/${slug}.png`],
     },
   };
 }

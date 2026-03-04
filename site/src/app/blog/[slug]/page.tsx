@@ -36,11 +36,13 @@ export async function generateMetadata({
       url: `https://stickapp.golf/blog/${slug}/`,
       publishedTime: post.meta.publishedAt,
       modifiedTime: post.meta.updatedAt,
+      images: [{ url: `/og/${slug}.png`, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
       title: post.meta.title,
       description: post.meta.description,
+      images: [`/og/${slug}.png`],
     },
   };
 }

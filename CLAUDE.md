@@ -25,12 +25,18 @@ stickapp-website/
 │   │   │   ├── layout.tsx       # Root layout
 │   │   │   ├── blog/            # Blog listing + [slug] dynamic routes
 │   │   │   ├── games/           # Games listing + [slug] dynamic routes
+│   │   │   ├── guides/          # Reference guide [slug] dynamic routes
 │   │   │   ├── robots.ts        # robots.txt generation
 │   │   │   ├── sitemap.ts       # Sitemap generation
 │   │   │   └── globals.css      # Global styles (Tailwind)
 │   │   ├── content/             # ⭐ WHERE CONTENT ACTUALLY LIVES
-│   │   │   └── blog/            # Blog posts as .mdx files
-│   │   │       └── best-golf-betting-apps-2026.mdx
+│   │   │   ├── blog/            # Blog posts as .mdx files
+│   │   │   │   ├── best-golf-betting-apps-2026.mdx
+│   │   │   │   └── best-golf-betting-games-3-players.mdx
+│   │   │   └── guides/          # Reference guide pages as .mdx files
+│   │   │       ├── handicaps.mdx
+│   │   │       ├── presses.mdx
+│   │   │       └── settlement.mdx
 │   │   ├── components/          # React components
 │   │   │   ├── Header.tsx
 │   │   │   ├── Footer.tsx
@@ -83,15 +89,15 @@ stickapp-website/
 
 ## Business Context
 
-### Current State (February 2026)
+### Current State (March 2026)
 
 | Dimension | Status |
 |-----------|--------|
 | **App** | Build 21, 12 games (Quota building), 1,448+ tests, pre-launch |
 | **Launch phase** | Phase 1 Closed Beta → Masters Week (April 7-13) target |
 | **Pricing** | 3-round reverse trial → $59.99/yr hard paywall |
-| **Website** | Next.js site built and live (site/ directory). Blog, game routes, components working. |
-| **Content** | "Best Golf Betting Apps 2026" blog post live. Nassau guide drafted. Strategy complete. |
+| **Website** | Next.js site live with blog, game routes, guide routes, OG images, UTM tracking, alias redirects |
+| **Content** | 12 game guide drafts complete (all waiting review). 2 blog posts live. 3 reference guides live. All 12 games audited. |
 | **Revenue** | $0. Pre-revenue. |
 
 ### Business Model
@@ -300,7 +306,15 @@ At-a-glance view of every content piece — what exists, where it lives, and wha
 | Post | Draft | Review | Published | Live URL |
 |------|-------|--------|-----------|----------|
 | **Best Golf Betting Apps 2026** | Done | Done | **Live** | `site/src/content/blog/best-golf-betting-apps-2026.mdx` |
-| Best Golf Betting Games for 3 Players | Not started | — | — | — |
+| **Best Golf Betting Games for 3 Players** | Done | Done | **Live** | `site/src/content/blog/best-golf-betting-games-3-players.mdx` |
+
+### Reference Guides
+
+| Guide | Draft | Review | Published | Live URL |
+|-------|-------|--------|-----------|----------|
+| **Handicaps in Golf Betting** | Done | **Waiting on Justin** | **Live** | `site/src/content/guides/handicaps.mdx` |
+| **Presses in Golf Betting** | Done | **Waiting on Justin** | **Live** | `site/src/content/guides/presses.mdx` |
+| **Settlement Methods** | Done | **Waiting on Justin** | **Live** | `site/src/content/guides/settlement.mdx` |
 
 ### Strategy Docs (Reference — All Complete)
 
@@ -502,11 +516,41 @@ Split Sixes guide + Quota audit:
 - Updated game-aliases.md with expanded Quota entry (FAQ candidates, Stableford/Modified Stableford distinction, large groups angle, 36-vs-39 explanation)
 - Updated Content Status Tracker: All 12 games now audited. Split Sixes guide drafted. Quota ready for research + guide.
 
+### Session 11 — March 4, 2026
+
+Gemini audit review + strategic SEO buildout:
+- Reviewed Gemini AI audit of the website — verified 4 technical fixes (sitemap updatedAt, OG image tags, UTM tracking, commented internal links)
+- Noted Gemini's OG image tags were pointing to nonexistent files — flagged for fix
+- Brainstormed 4 strategic ideas, ranked by ROI: D (alias redirects) → B (reference pages) → A (calculators, park) → C (video, park)
+- Built 22 permanent 301 alias redirects in `next.config.ts` (Dots→Junk, Hollywood→Sixes, Chicago→Quota, etc.)
+- Created `/guides/[slug]` content type infrastructure (GuidePageMeta type, content loading, routing, sitemap, JSON-LD schemas)
+- Wrote 3 reference guide pages:
+  - **Handicaps** (`site/src/content/guides/handicaps.mdx`) — off-low-man net scoring, which games use which model, team handicaps, 8 FAQ
+  - **Presses** (`site/src/content/guides/presses.mdx`) — auto vs manual, press chains, 5 rules to set, settlement walkthrough, 8 FAQ
+  - **Settlement** (`site/src/content/guides/settlement.mdx`) — 3 methods (pairwise, team pot, single liability), comparison table for all 12 games, 8 FAQ
+- Internal linking pass across all 12 game guides + both blog posts — added contextual links to reference pages
+- Added reference guides sections to blog listing page and games hub page (discovery surfaces)
+- Converted "Best Golf Betting Games for 3 Players" draft to deployed MDX blog post
+- Added reference guide links to Footer "Learn" column
+- Fixed UTM tracking on Header, Footer, and blog post Download CTAs (were pointing to `#download`, now App Store URLs with UTM params)
+- Uncommitted the Nassau handicaps internal link
+
+### Session 12 — March 4, 2026 (continued)
+
+OG images + CLAUDE.md update:
+- Generated 18 OG images (1200×630 PNG) for all pages: homepage, 12 game guides, 3 reference guides, 2 blog posts
+  - Brand-consistent: dark background (#0F0F0F), category color-coding (coral=games, forest=reference, gold=blog/home), serif titles
+  - Images saved to `site/public/og/[slug].png`
+- Added OG image references to blog post metadata (were missing)
+- Added twitter card image tags to all page types (games, guides, blog, homepage)
+- Updated CLAUDE.md with session history, folder structure, and content tracker
+
 ### What's Next
 
-1. **Quota guide** — Audit and gap analysis done. Needs web research (how golfers play Quota/Chicago in the wild), then draft. Last remaining game guide.
-2. **Guide reviews** — 11 guides waiting on Justin's voice/accuracy pass (Nassau, Skins, Wolf, Snake, Match Play, Nine Point, Split Sixes, Junk, Vegas, Sixes, Scotch)
-3. **Engine bug fixes** — Prompt written (`sixes-scotch-bugfix-prompt.md`). Ready to hand to Claude Code. 6 bugs across Sixes + Scotch. Scotch maxMultiplier is the highest priority (fix before launch).
-4. **Content calendar execution** — "Best Golf Betting Games for 3 Players" blog post next in queue (Split Sixes and Nine Point are natural features)
-5. **Build content skill** — After enough guides reviewed and published
-6. **Raw audit backfill** — Raw audit storage established for Scotch, Split Sixes, and Quota. Could backfill earlier games if re-audited.
+1. **Masters Week content** — April 7 launch target is 5 weeks away. Content needs to publish by mid-March for indexing. Brainstorm angle and write.
+2. **Guide reviews** — 12 game guides + 3 reference pages + 2 blog posts waiting on Justin's voice/accuracy pass
+3. **Quota guide** — Audit and gap analysis done. Needs web research, then draft. Last remaining game guide.
+4. **Engine bug fixes** — Prompt written (`sixes-scotch-bugfix-prompt.md`). Ready to hand to Claude Code. 6 bugs across Sixes + Scotch. Scotch maxMultiplier is highest priority (fix before launch).
+5. **Content calendar update** — Calendar shows "Not started" for items that are done. Needs refresh.
+6. **Build content skill** — After enough guides reviewed and published
+7. **Raw audit backfill** — Raw audit storage established for Scotch, Split Sixes, and Quota. Could backfill earlier games if re-audited.

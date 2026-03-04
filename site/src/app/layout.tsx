@@ -61,6 +61,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Stick Golf — Every Bet. Every Hole. Settled.",
     description: "Track 12 golf betting games from one scorecard.",
+    images: ["/og/home.png"],
   },
   robots: {
     index: true,
