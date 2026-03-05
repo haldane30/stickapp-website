@@ -77,6 +77,22 @@ export interface GameInfo {
   description: string;
 }
 
+// Game emojis — visual identity for each game across cards, lists, etc.
+export const gameEmojis: Record<string, string> = {
+  nassau: "🏆",
+  skins: "💰",
+  wolf: "🐺",
+  snake: "🐍",
+  "match-play": "⚔️",
+  vegas: "🎰",
+  "nine-point": "9️⃣",
+  junk: "🎯",
+  sixes: "6️⃣",
+  "split-sixes": "🔀",
+  scotch: "🥃",
+  quota: "🏹",
+};
+
 export const games: GameInfo[] = [
   {
     slug: "nassau",

@@ -19,6 +19,31 @@ const appSchema = {
   // downloadUrl: "https://apps.apple.com/app/stick-golf/id...",
 };
 
+// Published blog posts
+const blogPosts = [
+  {
+    slug: "best-golf-betting-apps-2026",
+    category: "Comparison",
+    title: "Best Golf Betting Apps in 2026",
+    excerpt:
+      "An honest look at every app that tracks your golf bets — including ours.",
+  },
+  {
+    slug: "best-golf-betting-games-3-players",
+    category: "Guide",
+    title: "Best Golf Betting Games for 3 Players",
+    excerpt:
+      "The 5 best formats when your foursome is short a player. Rules, math, and what actually works.",
+  },
+  {
+    slug: "golf-betting-games-masters-week",
+    category: "Guide",
+    title: "Best Golf Betting Games for Masters Week",
+    excerpt:
+      "6 games to play during the biggest week in golf. Settlement math, real stakes, and the right format for the energy.",
+  },
+];
+
 export default function Home() {
   return (
     <>
@@ -28,10 +53,10 @@ export default function Home() {
           SECTION 1: HERO (Dark, Full-Bleed)
           ═══════════════════════════════════════════════════════════════════ */}
       <section className="section-dark relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Background image placeholder — replace with editorial golf photography */}
+        {/* Background — replace with editorial golf photography or video loop */}
         <div className="absolute inset-0 animate-ken-burns">
           <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-canvas-dark)]/40 via-[var(--color-canvas-dark)]/20 to-[var(--color-canvas-dark)]/70" />
-          {/* TODO: Replace with <Image> when hero photo is ready
+          {/* TODO: Replace with <Image> or <video> when hero asset is ready
           <Image
             src="/images/hero.jpg"
             alt="Golf course at golden hour"
@@ -149,16 +174,15 @@ export default function Home() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════
-          SECTION 4: THE PRODUCT (Light)
+          SECTION 4: SOCIAL PROOF / TRUST (Dark)
           ═══════════════════════════════════════════════════════════════════ */}
       <section className="section-light" style={{ padding: "var(--section-padding-y) 0" }}>
-        <div className="mx-auto max-w-[var(--content-max-width)] px-6">
+        <div className="mx-auto max-w-[var(--content-max-width)] px-6 text-center">
           {/* Overline */}
           <p className="text-xs font-semibold uppercase tracking-[0.15em] text-[var(--color-text-secondary)] mb-4">
-            The App
+            Built to be trusted
           </p>
 
-          {/* Headline */}
           <h2
             className="font-serif text-[var(--color-text-on-light)]"
             style={{ fontSize: "clamp(32px, 4vw, 48px)", lineHeight: 1.15 }}
@@ -166,74 +190,12 @@ export default function Home() {
             The math is always right.
           </h2>
 
-          {/* Feature blocks */}
-          <div className="mt-14 grid md:grid-cols-2 gap-16 items-center">
-            {/* Text */}
-            <div>
-              <p className="text-[var(--color-text-on-light)] text-base md:text-lg leading-relaxed mb-6">
-                Stick handles the scoring so you can focus on the round.
-              </p>
-              <ul className="space-y-4">
-                {[
-                  "Real-time multi-device sync",
-                  "Automatic press tracking",
-                  "Transparent settlement — every dollar accounted for",
-                  "1,448 tests verify the math",
-                ].map((feature) => (
-                  <li key={feature} className="flex items-start gap-3">
-                    <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--color-coral)] flex-shrink-0" />
-                    <span className="text-[var(--color-text-on-light)] text-base">
-                      {feature}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          <p className="mt-4 text-[var(--color-text-secondary)] text-base md:text-lg max-w-xl mx-auto">
+            Every game engine is zero-sum verified. What one player wins, the others lose — to the cent.
+          </p>
 
-            {/* Screenshot placeholder */}
-            <div className="bg-[var(--color-canvas-dark)] rounded-2xl aspect-[9/16] max-w-[320px] mx-auto flex items-center justify-center">
-              <p className="text-[var(--color-text-secondary)] text-sm italic">
-                {/* TODO: Replace with actual app screenshot */}
-                App screenshot
-              </p>
-            </div>
-          </div>
-
-          {/* Second feature row — mirrored */}
-          <div className="mt-24 grid md:grid-cols-2 gap-16 items-center">
-            {/* Screenshot placeholder */}
-            <div className="bg-[var(--color-canvas-dark)] rounded-2xl aspect-[9/16] max-w-[320px] mx-auto flex items-center justify-center order-2 md:order-1">
-              <p className="text-[var(--color-text-secondary)] text-sm italic">
-                App screenshot
-              </p>
-            </div>
-
-            {/* Text */}
-            <div className="order-1 md:order-2">
-              <h3
-                className="font-serif text-[var(--color-text-on-light)]"
-                style={{ fontSize: "clamp(24px, 3vw, 36px)", lineHeight: 1.2 }}
-              >
-                One scorecard.
-                <br />
-                Multiple games.
-              </h3>
-              <p className="mt-6 text-[var(--color-text-on-light)] text-base md:text-lg leading-relaxed">
-                Run a Nassau, Skins, and Snake from the same round. Every game
-                tracks independently. Settle everything at once.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════════════════════════════════════════════════════════
-          SECTION 5: SOCIAL PROOF (Dark)
-          ═══════════════════════════════════════════════════════════════════ */}
-      <section className="section-dark" style={{ padding: "var(--section-padding-y) 0" }}>
-        <div className="mx-auto max-w-[var(--content-max-width)] px-6">
           {/* Stats row */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-8 text-center">
+          <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-8 max-w-3xl mx-auto">
             {[
               { number: "12", label: "games supported" },
               { number: "1,448", label: "tests verify the math" },
@@ -252,26 +214,13 @@ export default function Home() {
               </div>
             ))}
           </div>
-
-          {/* Pull quote */}
-          <div className="mt-20 text-center max-w-2xl mx-auto">
-            <blockquote
-              className="font-serif italic text-[var(--color-text-on-dark)]"
-              style={{ fontSize: "clamp(22px, 3vw, 32px)", lineHeight: 1.4 }}
-            >
-              &ldquo;Finally, an app that gets Nassau right.&rdquo;
-            </blockquote>
-            <p className="mt-4 text-sm text-[var(--color-text-secondary)]">
-              — Every golfer, eventually
-            </p>
-          </div>
         </div>
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════
-          SECTION 6: FROM THE BLOG (Light)
+          SECTION 5: FROM THE BLOG (Light)
           ═══════════════════════════════════════════════════════════════════ */}
-      <section className="section-light" style={{ padding: "var(--section-padding-y) 0" }}>
+      <section className="section-dark" style={{ padding: "var(--section-padding-y) 0" }}>
         <div className="mx-auto max-w-[var(--content-max-width)] px-6">
           {/* Overline */}
           <p className="text-xs font-semibold uppercase tracking-[0.15em] text-[var(--color-text-secondary)] mb-4">
@@ -279,62 +228,29 @@ export default function Home() {
           </p>
 
           <h2
-            className="font-serif text-[var(--color-text-on-light)]"
+            className="font-serif text-[var(--color-text-on-dark)]"
             style={{ fontSize: "clamp(32px, 4vw, 48px)", lineHeight: 1.15 }}
           >
             The golf betting playbook.
           </h2>
 
-          {/* Blog posts — mix of live + placeholder */}
+          {/* Blog posts — all published */}
           <div className="mt-14 grid md:grid-cols-3 gap-8">
-            {/* Live post */}
-            <a href="/blog/best-golf-betting-apps-2026" className="group">
-              <div className="aspect-[16/10] rounded-xl bg-[var(--color-canvas-dark)]/5 mb-5 overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/10 to-transparent" />
-              </div>
-              <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-secondary)] mb-2">
-                Comparison
-              </p>
-              <h3 className="font-serif text-xl text-[var(--color-text-on-light)] group-hover:text-[var(--color-coral)] transition-colors">
-                Best Golf Betting Apps in 2026
-              </h3>
-              <p className="mt-2 text-sm text-[var(--color-text-secondary)] leading-relaxed">
-                An honest look at every app that tracks your golf bets — including ours.
-              </p>
-            </a>
-
-            {/* Placeholder posts — replace with live links as content is published */}
-            {[
-              {
-                category: "Strategy",
-                title: "Nassau Press Strategy",
-                excerpt:
-                  "When to press, when to hold, and the math behind the decision.",
-              },
-              {
-                category: "Guide",
-                title: "Golf Betting for Beginners",
-                excerpt:
-                  "Everything you need to know to start betting with your group.",
-              },
-            ].map((post) => (
-              <article key={post.title} className="group cursor-pointer opacity-60">
-                <div className="aspect-[16/10] rounded-xl bg-[var(--color-canvas-dark)]/5 mb-5 overflow-hidden">
-                  <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/10 to-transparent" />
+            {blogPosts.map((post) => (
+              <a key={post.slug} href={`/blog/${post.slug}`} className="group">
+                <div className="aspect-[16/10] rounded-xl bg-white/5 border border-white/5 mb-5 overflow-hidden">
+                  <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/20 to-transparent" />
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-secondary)] mb-2">
                   {post.category}
                 </p>
-                <h3 className="font-serif text-xl text-[var(--color-text-on-light)]">
+                <h3 className="font-serif text-xl text-[var(--color-text-on-dark)] group-hover:text-[var(--color-coral)] transition-colors">
                   {post.title}
                 </h3>
                 <p className="mt-2 text-sm text-[var(--color-text-secondary)] leading-relaxed">
                   {post.excerpt}
                 </p>
-                <p className="mt-2 text-xs text-[var(--color-text-secondary)] italic">
-                  Coming soon
-                </p>
-              </article>
+              </a>
             ))}
           </div>
 
@@ -350,7 +266,7 @@ export default function Home() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════════════
-          SECTION 7: FINAL CTA (Dark)
+          SECTION 6: FINAL CTA (Dark)
           ═══════════════════════════════════════════════════════════════════ */}
       <section
         id="download"
