@@ -270,6 +270,32 @@ Every new session should:
 - **When Search Console data arrives, re-prioritize based on what's working.** Data beats assumptions.
 - **After publishing anything, update Pipeline status and Calendar dates.** Don't let docs go stale.
 
+### Weekly Intelligence Briefing
+
+When Justin asks "what should we focus on?" or "run the briefing," follow the protocol in `strategy/weekly-briefing-template.md`. This involves:
+1. Reading pipeline, calendar, and scoreboard
+2. Doing a quick web search for trending golf queries and competitor activity
+3. Checking if any Pounce List triggers are active (see pipeline)
+4. Writing a conversational briefing with recommended focus
+
+The briefing should surface things Justin wouldn't know to ask about — emerging search trends, competitive shifts, calendar deadlines approaching, and strategic observations.
+
+---
+
+## What Justin Should Know
+
+*Running list of insights, observations, and recommendations that surface during research and sessions. Add items here instead of burying them in session history.*
+
+- **Prox in Junk heavily favors low handicappers** (March 5, 2026) — Proximity in regulation rewards ball-striking ability, which correlates with low handicaps. High-handicap players almost never win prox bets. This is worth noting in the high-handicapper blog post and potentially as a future app feature (handicap-adjusted prox, or optional removal from Junk categories).
+
+- **"Fun golf games" is an untapped entry point** (March 5, 2026) — Golfers searching "fun golf games with friends" don't think of themselves as bettors, but they'd absolutely play Wolf or Skins if someone explained it. This is a massive top-of-funnel opportunity that nobody in the betting app space is capturing. Pipeline T1B-1 targets this.
+
+- **Dispute resolution is a content goldmine** (March 5, 2026) — Golfers standing in parking lots Googling "do skins carry over on the last hole" are the exact person who needs Stick. A category of short, definitive answer posts (T2B series) could capture these micro-moments. Zero competition.
+
+- **The group organizer is the customer** (March 5, 2026) — The person who texts the group chat, picks the game, explains the rules, and settles the bets is the person who pays $59.99/year. Content that speaks directly to this persona (T3B series) has zero competition and high conversion potential.
+
+- **Competitors are asleep** (March 5, 2026) — Beezer's last blog post is from 2020. Skins App has ~6 content pages. 18 Birdies treats betting as an afterthought. Nobody has a content strategy. Stick's 18 pages already exceeds every competitor's content library combined. The moat is real and growing.
+
 ---
 
 ## Competitive Intelligence Protocol

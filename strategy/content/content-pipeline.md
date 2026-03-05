@@ -228,6 +228,84 @@ These aren't new posts — they're targeted additions to existing content that c
 
 ---
 
+### TIER 1B — Top-of-Funnel Entry Points (Stage 1 Captures)
+
+These catch golfers who don't know they need Stick yet. They're searching for "fun golf games" not "golf betting app." The conversion path is: discover games → learn about structured formats → realize they need an app to track it.
+
+#### T1B-1: "12 Golf Games That Make Every Round More Interesting"
+- **Status:** Identified
+- **Type:** Blog post (2,000-2,500 words)
+- **Target keyword:** fun golf games, golf games with friends, golf games for groups
+- **Why:** This is the biggest untapped entry point. Search "fun golf games for 4 players" — results are scramble, best ball, generic. Nobody connects "fun golf games" to structured betting formats. A golfer searching this doesn't think of themselves as a "bettor" but would absolutely play Wolf or Skins if someone explained it.
+- **Competition:** MEDIUM (Golf Digest has roundups, but they're thin and don't explain rules deeply)
+- **Internal linking targets:** All 12 game guides, "Which Game Should You Play" decision framework
+- **Outline notes:** Don't lead with "betting" in the title — lead with "fun." Cover all 12 games in quick summaries (3-4 sentences each) organized by personality: "For the strategist" (Wolf, Nassau), "For the gambler" (Vegas, Skins), "For the group" (Quota, Sixes). Each links to the full guide.
+
+#### T1B-2: "How to Make Golf More Competitive (Without Losing Friends)"
+- **Status:** Identified
+- **Type:** Blog post (1,200-1,500 words)
+- **Target keyword:** make golf more competitive, competitive golf games
+- **Why:** Targets the golfer whose group just plays stroke play and it's getting stale. The answer is side games — but they don't know that yet. This is a gateway drug post.
+- **Competition:** WEAK. A few scattered articles, nothing definitive.
+- **Internal linking targets:** Nassau guide (start here), Wolf guide (for drama), Etiquette post
+- **Outline notes:** Frame around the problem: "your round feels flat." Solution: side games create stakes, drama, and memorable moments. Introduce 3-4 games at increasing complexity. End with "the easiest one to try this weekend" (Nassau or Skins).
+
+---
+
+### TIER 2B — Dispute Resolution Content (Stage 3 Captures)
+
+These catch golfers who just played, had an argument, and are standing in the parking lot Googling for the answer. They are *exactly* the person who needs Stick. This is a content category, not a single post.
+
+#### T2B-1: "5 Golf Betting Arguments (and How to Settle Them)"
+- **Status:** Identified
+- **Type:** Blog post (1,500-2,000 words)
+- **Target keyword:** golf betting rules, golf bet disputes, settle golf argument
+- **Why:** This is the anchor piece for dispute content. Covers the 5 most common arguments: carry-over on the last hole, when a press is valid, what happens when someone picks up, handicap stroke application, and "I thought we were playing net." Each argument gets a definitive answer with math.
+- **Competition:** ZERO. Nobody has written this.
+- **Internal linking targets:** Skins guide (carryover), Presses reference, Settlement reference, Nassau guide (net vs gross)
+- **Outline notes:** Each argument gets: "The situation" (relatable scenario), "The rule" (clear answer), "How Stick handles it" (natural product placement). Tone: "we've been in this exact argument."
+
+#### T2B-2: "What Happens When Someone Picks Up in a Golf Bet?"
+- **Status:** Identified
+- **Type:** Blog post (800-1,200 words) — tight, utility content
+- **Target keyword:** golf betting pickup rules, what happens when golfer picks up bet
+- **Why:** This comes up constantly in forums. The answer varies by game (in Nassau it's max double bogey, in Skins the hole doesn't count, in Match Play you concede). A definitive answer page would rank fast.
+- **Competition:** ZERO dedicated content.
+- **Internal linking targets:** Nassau guide, Skins guide, Match Play guide, Settlement reference
+
+#### T2B-3: "Can You Press on the Last Hole?"
+- **Status:** Identified
+- **Type:** Blog post (800-1,200 words) — tight, utility content
+- **Target keyword:** press last hole golf, when can you press in golf
+- **Why:** One of the most-argued rules in golf betting. The answer: depends on your house rules, but here are the 3 common approaches (yes always, only if losing, cutoff after 16). Extremely searchable micro-moment.
+- **Competition:** ZERO dedicated content.
+- **Internal linking targets:** Presses reference, Nassau guide
+
+---
+
+### TIER 3B — Group Organizer Content (The Customer Persona)
+
+The person who texts the group chat "tee time Saturday 9am, we're playing wolf" is your customer. They download Stick. They pay the $59.99. Content that speaks directly to them.
+
+#### T3B-1: "How to Run a Golf Betting Group (Without Losing Friends)"
+- **Status:** Identified
+- **Type:** Blog post (1,500-2,000 words)
+- **Target keyword:** golf betting group, how to organize golf bets
+- **Why:** Nobody talks to the organizer. This person handles logistics, explains rules, settles disputes, and collects money. Content that respects their role and makes it easier is incredibly sticky (pun intended).
+- **Competition:** ZERO.
+- **Internal linking targets:** Etiquette post, Settlement reference, Stakes post, all game guides
+- **Outline notes:** Cover: choosing games your group will enjoy (read the room), agreeing on rules before tee-off (the 5-minute setup), handling mixed skill levels, settling immediately (why waiting creates resentment), rotating formats to keep things fresh. The thesis: "the best organizer makes it feel effortless."
+
+#### T3B-2: "The 5-Minute Setup: Getting Your Group Ready for Any Game"
+- **Status:** Identified
+- **Type:** Blog post (1,000-1,500 words)
+- **Target keyword:** golf game setup, how to start golf side bet
+- **Why:** Practical, shareable, action-oriented. The golfer reads this on the drive to the course. It's a checklist: agree on game, agree on stakes, set handicap rules, set press rules (if applicable), start playing. Quick reference for every game.
+- **Competition:** ZERO.
+- **Internal linking targets:** Each game guide (link to "full rules" for each game), Stakes post, Handicaps reference
+
+---
+
 ### TIER 5 — Future Considerations (Park for Now)
 
 These are identified but not prioritized. Revisit quarterly.
@@ -242,6 +320,23 @@ These are identified but not prioritized. Revisit quarterly.
 | "Golf Season Betting Setup: Spring Edition" | Seasonal (March) | February 2027 |
 | Regional game variations (UK/Europe) | Stick is US-focused at launch | If international expansion happens |
 | Bingo Bango Bongo guide | Not in Stick's 12 games | If Stick adds this game |
+
+---
+
+## Pounce List — Pre-Loaded Triggers
+
+These are content frameworks ready to activate when an external event creates a search spike. We can't predict *what* will trend, but we can predict the *types* of things that trend in golf and have outlines ready.
+
+| Trigger Type | Example | Pre-Loaded Response | Lead Time |
+|-------------|---------|-------------------|-----------|
+| **Major tournament week** | Masters, US Open, Ryder Cup, PGA Championship | "Best Games to Play During [Tournament]" — template matches Masters Week post format | 2 weeks before |
+| **Celebrity golf event goes viral** | The Match, Capital One's The Match, celebrity scramble | "How [Format] Actually Works: Rules & Settlement" — explain the format being played | 48 hours |
+| **USGA rule change affecting scoring** | Handicap calculation update, stroke allocation change | "How [Rule Change] Affects Your Golf Bets" — explain impact on each game type | 1 week after announcement |
+| **Golf app competitor launches or raises** | New competitor enters market, major update from Skins/Beezer | Update "Best Golf Betting Apps" post with new entry, honest review | 1 week after news |
+| **Seasonal moment** | First warm weekend in spring, Father's Day, Labor Day | Activate relevant calendar content (beginners guide, group setup, etc.) | 2 weeks before |
+| **Viral golf moment** | Hole-in-one bet pays out, famous golf wager story | "The Math Behind [Moment]: How Golf Bets Actually Work" — educational angle | 48 hours |
+
+**How the Pounce List works:** When a trigger fires, we don't write from scratch. We grab the template, customize for the specific event, and publish fast. The weekly briefing scan checks for active triggers.
 
 ---
 
