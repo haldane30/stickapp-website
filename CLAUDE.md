@@ -241,6 +241,37 @@ Every game guide follows this structure (1500-2500 words):
 
 ---
 
+## Content Operations System
+
+Stick's content strategy runs on three documents that work together. **Read these at the start of every session before asking Justin what to work on.**
+
+| Document | Purpose | Location |
+|----------|---------|----------|
+| **Content Pipeline** | The active queue. Every content opportunity, organized by status and priority. Start here to know what's next. | `strategy/content/content-pipeline.md` |
+| **Content Calendar** | Timing layer. Content mapped to golf season moments with publish-by dates. | `strategy/content/content-calendar.md` |
+| **SEO Scoreboard** | Feedback loop. What's ranking, what's not, where to double down. Updated monthly with Search Console data. | `strategy/seo/seo-scoreboard.md` |
+
+**Pipeline** = what to write. **Calendar** = when to write it. **Scoreboard** = what's working.
+
+### Session Start Protocol
+
+Every new session should:
+
+1. Read `content-pipeline.md` — know what's next in the queue
+2. Read `content-calendar.md` — check if anything is time-sensitive (seasonal moment approaching)
+3. Read `seo-scoreboard.md` — check if new data changes priorities (striking-distance keywords, emerging queries)
+4. Be ready to draft — there should always be 3-4 pieces at "Researched + Outlined" status in the pipeline
+
+### Content Production Rules
+
+- **Always maintain 3-4 pieces at "Researched + Outlined" stage.** Any session can produce a draft without cold-starting research.
+- **Tier 1 before Tier 2 before Tier 3.** Exceptions for seasonal timing.
+- **Guide expansions (Tier 4) happen alongside other work.** They're quick wins.
+- **When Search Console data arrives, re-prioritize based on what's working.** Data beats assumptions.
+- **After publishing anything, update Pipeline status and Calendar dates.** Don't let docs go stale.
+
+---
+
 ## Competitive Intelligence Protocol
 
 When researching competitors, track:
@@ -570,10 +601,20 @@ Homepage rework:
 
 ### What's Next
 
-1. **Homepage hero image** — The hero is just text on a dark gradient. Even a single editorial golf photo with a dark overlay would transform it. Justin to provide the app's `splash_bg_warm.jpg` or similar. Video loop is the long-term goal.
-2. **App screenshots for homepage** — Once Justin provides real screenshots, rebuild the product section (removed because placeholders were hurting more than helping). Show a real Nassau settlement, a Wolf partner pick, the multi-game scorecard.
-3. **Games hub page (`/games`)** — Likely needs the same emoji card treatment as the homepage.
-4. **Engine bug fixes** — Prompt written (`sixes-scotch-bugfix-prompt.md`). 6 bugs across Sixes + Scotch. Scotch maxMultiplier is highest priority (fix before launch).
-5. **New blog content** — Masters Week post is live. What's the next angle? Could target "golf betting rules" or "how to play nassau" as standalone posts to build topical authority.
-6. **Content calendar update** — Calendar likely needs a refresh to reflect what's actually published vs. planned.
-7. **SEO monitoring** — Site has 18 pages of content. Should start tracking Google Search Console impressions/clicks to see what's indexing and ranking.
+**Content (see Content Pipeline for full queue):**
+1. **Next to write:** "Golf Betting for Beginners" (Pipeline T1-1) — highest priority, anchor piece for Tier 1
+2. **Guide expansions:** Wolf 3-player rules (T4-1), Skins carryover section (T4-2), Nassau handicap walkthrough (T4-3)
+3. **After that:** Golf Betting Glossary (T2-1), Which Game Should You Play decision framework (T1-4)
+4. **Full pipeline:** 13 new pieces identified across 4 tiers, scheduled through August 2026
+
+**Website:**
+5. **Homepage hero image** — Justin to provide `splash_bg_warm.jpg` or similar. Video loop is long-term goal.
+6. **App screenshots for homepage** — Once available, rebuild the product section.
+7. **Games hub page** — Already uses GameCard component, so emoji cards are live. No changes needed.
+
+**App:**
+8. **Engine bug fixes** — Prompt written (`sixes-scotch-bugfix-prompt.md`). 6 bugs across Sixes + Scotch. Scotch maxMultiplier is highest priority.
+
+**SEO:**
+9. **Search Console monitoring** — Scoreboard template ready (`strategy/seo/seo-scoreboard.md`). Expect meaningful data mid-April.
+10. **Quarterly competitive check** — Template in Scoreboard. First check due June 2026.

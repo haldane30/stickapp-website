@@ -1,125 +1,147 @@
 # Content Calendar
 
-> Last updated: February 28, 2026
-> Cadence: 2-4 pieces per month
-> All dates are targets, not commitments
+> **Purpose:** Map content to moments. Every piece is tied to either a golf season trigger (publish 2+ weeks early for indexing) or a strategic cadence (steady evergreen output). This is the timing layer — the Pipeline document says *what*, this says *when*.
+>
+> **Last updated:** March 5, 2026
+> **Target cadence:** 2 pieces per week (1 blog + 1 guide expansion, or 2 blogs)
 
 ---
 
-## Publishing Priority
+## Golf Season Moment Map
 
-Content is prioritized by: search demand × competition gap × conversion potential.
+These are the external triggers we plan content around. Content tied to a moment should publish **at least 2 weeks before** the moment to give Google time to index and rank.
 
----
-
-## Phase 1: Launch Content (Site Goes Live)
-
-These publish the same week the site launches. Goal: get indexed by Google with our highest-value pages immediately.
-
-| # | Type | Title | Target Keyword | Status |
-|---|------|-------|---------------|--------|
-| 1 | Game Guide | Nassau: The Complete Guide | nassau golf, nassau bet | ⬜ Not started |
-| 2 | Game Guide | Skins: Rules, Strategy & Settlement | golf skins game | ⬜ Not started |
-| 3 | Game Guide | Wolf: The Ultimate Strategy Game | wolf golf game | ⬜ Not started |
-| 4 | Game Guide | Snake: The Three-Putt Penalty Game | snake golf game | ⬜ Not started |
-| 5 | Blog | Best Golf Betting Apps in 2026 | best golf betting apps | ⬜ Not started |
-| 6 | Blog | Best Golf Betting Games for 3 Players | best golf games 3 players | ⬜ Not started |
-
----
-
-## Phase 2: Content Expansion (Weeks 3-6)
-
-Two game guides per week until all 12 are live, plus blog posts.
-
-| # | Type | Title | Target Keyword | Status |
-|---|------|-------|---------------|--------|
-| 7 | Game Guide | Vegas: Rules & Scoring | vegas golf game rules | ⬜ Not started |
-| 8 | Game Guide | Nine Point: The Perfect Three-Player Game | nine point golf game | ⬜ Not started |
-| 9 | Game Guide | Junk: Scoring Every Detail | junk golf game, dots golf game | ⬜ Not started |
-| 10 | Game Guide | Sixes (Hollywood): Rotating Teams | sixes golf game | ⬜ Not started |
-| 11 | Game Guide | Match Play: Head-to-Head Betting | match play golf rules | ⬜ Not started |
-| 12 | Game Guide | Split Sixes: The Three-Way Challenge | split sixes golf | ⬜ Not started |
-| 13 | Game Guide | Scotch: The Alternate Shot Bet | scotch golf game rules | ⬜ Not started |
-| 14 | Game Guide | Quota: Play Against Your Handicap | quota golf game | ⬜ Not started |
-| 15 | Blog | Nassau Press Strategy: When to Press and When to Hold | golf press bet strategy | ⬜ Not started |
-| 16 | Blog | How to Settle a Nassau Bet (With Examples) | how to settle nassau bet | ⬜ Not started |
-| 17 | Blog | Best Golf Betting Games for Beginners | golf betting games beginners | ⬜ Not started |
+| Moment | Date/Window | Content Opportunity | Publish By |
+|--------|------------|-------------------|------------|
+| **Golf season opens (South/Southwest)** | Late Feb–March | "Golf Betting for Beginners" (new groups forming) | Already relevant |
+| **Masters Week** | April 7–13, 2026 | Masters Week post (**published**) | ✅ Done |
+| **Stick App Launch** | Masters Week target | Update "Best Golf Betting Apps" post with live App Store link | April 1 |
+| **Golf season opens (Northeast/Midwest)** | Mid April–May | Player-count series (2, 5+ player posts) | Early April |
+| **Memorial Day weekend** | May 25, 2026 | "Bachelor Party Golf Games" (peak bachelor party season) | May 10 |
+| **Father's Day** | June 15, 2026 | Could tie to couples/family golf content | June 1 |
+| **US Open** | June 12–15, 2026 | Optional: tournament-adjacent content (low priority) | — |
+| **Peak golf season** | June–August | Steady evergreen publishing (Tier 2 & 3 content) | Ongoing |
+| **Club tournament season** | July–September | "Company Outing" and "Large Group" content | June |
+| **Ryder Cup** | Sept 26–28, 2026 | Team-format content (Scotch, Vegas, Best Ball) | Sept 10 |
+| **End of golf season (North)** | October–November | "End of Season Settlement" (Tier 5, park for now) | September |
+| **Black Friday / Holiday** | Late November | Potential pricing/gift angle (low priority) | — |
+| **New Year golf resolutions** | January 2027 | "Set Up Your 2027 Betting Group" | December 2026 |
 
 ---
 
-## Concept Linking Reference Pages (Priority — Publish Before Phase 2)
+## March 2026 (Now → Masters Week)
 
-These pages exist primarily as internal link targets. Every game guide links to them instead of re-explaining shared concepts inline. They also stand alone as high-value SEO targets and AI citation magnets. Publish these as soon as Phase 1 game guides are live.
+Focus: Lay the foundation. Beginners guide + guide expansions.
 
-| # | Type | Title | Target Keyword | Status | Notes |
-|---|------|-------|---------------|--------|-------|
-| R1 | Reference | How Handicaps Work in Golf Betting | handicaps in golf betting, golf handicap strokes | ⬜ Not started | Replaces #20 from Phase 3. Covers handicap application, stroke index, net vs gross, when to use each. Every game guide links here. |
-| R2 | Reference | How Golf Betting Settlement Works | golf bet settlement, how to settle golf bets | ⬜ Not started | Pairwise settlement, zero-sum, pot models. Game guides show game-specific math, link here for the logic. |
-| R3 | Reference | What Are Presses in Golf Betting | golf press bet, what is a press in golf | ⬜ Not started | Replaces #15 from Phase 2. Deep explanation of presses, auto-press, press-the-press, cutoff rules. Linked from Nassau, and any game that supports presses. |
+| Week | Piece | Pipeline ID | Type | Trigger |
+|------|-------|-------------|------|---------|
+| **Mar 10–14** | Golf Betting for Beginners | T1-1 | Blog (anchor) | Golf season opening |
+| **Mar 10–14** | Wolf: add 3-player rules + Hammer | T4-1 | Guide expansion | Supports pipeline |
+| **Mar 17–21** | Golf Betting Glossary | T2-1 | Reference page | Internal linking hub |
+| **Mar 17–21** | Skins: add carryover rules section | T4-2 | Guide expansion | High-search query |
+| **Mar 24–28** | Which Game Should You Play? | T1-4 | Blog/reference | Pre-Masters, decision content |
+| **Mar 24–28** | Nassau: add handicap walkthrough | T4-3 | Guide expansion | Supports beginners guide |
 
----
-
-## Phase 3: Authority Building (Weeks 7-12)
-
-Deeper strategy content and lifestyle/culture pieces. (Note: #20 and #15 moved to Concept Linking Reference Pages above.)
-
-| # | Type | Title | Target Keyword | Status |
-|---|------|-------|---------------|--------|
-| 18 | Blog | Wolf Golf Strategy: Picking Partners and Going Lone | wolf golf strategy | ⬜ Not started |
-| 19 | Blog | The Unwritten Rules of Golf Betting Etiquette | golf betting etiquette | ⬜ Not started |
-| 21 | Blog | 5 Best Golf Side Bets to Run Alongside Your Main Game | best golf side bets | ⬜ Not started |
-| 22 | Blog | What Happens When Someone Picks Up? Golf Betting Rules for Incomplete Holes | golf betting pickup rules | ⬜ Not started |
-| 23 | Blog | Skins Carryover Explained | skins carryover rules | ⬜ Not started |
-| 24 | Blog | Net vs Gross Scoring in Golf Betting | net vs gross golf betting | ⬜ Not started |
-| 25 | Blog | What Your Favorite Golf Betting Game Says About You | (shareable, low keyword) | ⬜ Not started |
+**End of March checkpoint:** 3 new pages published, 3 existing guides expanded. Beginners guide + Glossary become internal linking anchors for everything else.
 
 ---
 
-## Phase 4: Masters Week Push (April 7-13, 2026)
+## April 2026 (Masters Week → Season Ramp)
 
-Publish 2 weeks early so Google has time to index.
+Focus: Player-count series + launch preparation.
 
-| # | Type | Title | Target Keyword | Status |
-|---|------|-------|---------------|--------|
-| 26 | Blog | Your Masters Week Betting Guide: Games to Play While Watching | masters golf betting | ⬜ Not started |
-| 27 | Blog | Golf Season Betting Setup: Get Your Group Ready for Spring | golf season betting | ⬜ Not started |
+| Week | Piece | Pipeline ID | Type | Trigger |
+|------|-------|-------------|------|---------|
+| **Mar 31–Apr 4** | Update "Best Apps" post with live App Store link | — | Update | App launch |
+| **Apr 7–11** | Best Golf Betting Games for 2 Players | T1-2 | Blog | Season opening |
+| **Apr 7–11** | Match Play: clarify game vs. betting format | T4-4 | Guide expansion | Supports 2-player post |
+| **Apr 14–18** | Best Golf Betting Games for 5+ Players | T1-3 | Blog | Club groups forming |
+| **Apr 14–18** | Junk: add high-handicapper prox caveat | T4-5 | Guide expansion | Supports T2-3 |
+| **Apr 21–25** | Nassau vs. Skins vs. Wolf | T1-5 | Blog | Comparison content |
+| **Apr 28–May 2** | Golf Betting Etiquette | T2-2 | Blog | Season in full swing |
 
----
-
-## Phase 5: Sustained Growth (May 2026+)
-
-| # | Type | Title | Target Keyword | Status |
-|---|------|-------|---------------|--------|
-| 28 | Blog | The Complete Guide to Golf Presses | press the press golf | ⬜ Not started |
-| 29 | Blog | A History of Golf Gambling | history of golf gambling | ⬜ Not started |
-| 30 | Blog | The Math Behind Why You Always Lose Your Nassau | (shareable, linkable) | ⬜ Not started |
-| 31 | Blog | Best Golf Betting Games for Couples | couples golf games | ⬜ Not started |
-| 32 | Blog | Best Golf Betting Games for High Handicappers | golf games high handicappers | ⬜ Not started |
-| 33 | Blog | Course Handicap vs Handicap Index: What Matters for Bets | course handicap vs index | ⬜ Not started |
-| 34 | Blog | How Stroke Allocation Works | stroke allocation golf | ⬜ Not started |
-| 35 | Blog | The Saturday Morning Text: How Golf Groups Pick Their Games | (lifestyle) | ⬜ Not started |
-| 36 | Blog | End of Season Settlement: How to Close Out Your Betting Year | (seasonal, October) | ⬜ Not started |
+**End of April checkpoint:** Player-count series complete (2, 3, 5+). Comparison post live. App launched and "Best Apps" updated. Tier 1 pipeline largely complete.
 
 ---
 
-## Content Status Key
+## May 2026 (Peak Season Begins)
 
-| Status | Meaning |
-|--------|---------|
-| ⬜ Not started | In the plan, not yet written |
-| ✏️ Drafting | Work in progress in `content/blog/drafts/` or `content/game-guides/` |
-| 📝 In review | Draft complete, needs review |
-| ✅ Published | Live on the site |
-| 🔄 Needs update | Published but needs refresh (quarterly audit) |
+Focus: Tier 2 authority content + occasion-based pieces.
+
+| Week | Piece | Pipeline ID | Type | Trigger |
+|------|-------|-------------|------|---------|
+| **May 5–9** | Best Games for High Handicappers | T2-3 | Blog | Peak season |
+| **May 12–16** | How to Set Stakes for Your Group | T2-4 | Blog | New groups forming |
+| **May 19–23** | Best Games for a Bachelor Party | T3-1 | Blog | Memorial Day weekend |
+| **May 26–30** | *Buffer week — revisit scoreboard, re-prioritize* | — | — | — |
+
+**End of May checkpoint:** All Tier 1 published. Tier 2 well underway. First round of Search Console data should be meaningful (content indexed 2+ months). Use scoreboard to identify what's working.
 
 ---
 
-## Quarterly Content Audit
+## June–August 2026 (Peak Season)
 
-Every 3 months, review all published content:
-- [ ] Check rankings in Google Search Console — what's climbing, what's stuck?
-- [ ] Update any content with new information
-- [ ] Add FAQ questions based on actual search queries (GSC shows these)
-- [ ] Refresh titles/descriptions for pages not performing
-- [ ] Add internal links to newer content
-- [ ] Check for broken links
+Focus: Remaining Tier 2-3 content, guided by what Search Console shows is working.
+
+| Window | Piece | Pipeline ID | Type |
+|--------|-------|-------------|------|
+| **Early June** | Best Games for Couples | T3-3 | Blog (Father's Day adjacent) |
+| **Mid June** | Best Games for Company Outings | T3-2 | Blog (tournament season starting) |
+| **July** | Content refresh sprint — update top-performing pages with new sections, FAQs | — | Updates |
+| **August** | New content based on Search Console insights (Tier 5 items or new discoveries) | — | TBD |
+
+**Summer checkpoint:** All Tier 1-3 content published. 25-30 total pages of content. Shift from "publish new" to "optimize what's working." Use Search Console data to identify striking-distance keywords and double down.
+
+---
+
+## Quarterly Cadence (Ongoing)
+
+| Quarter | Focus | Key Actions |
+|---------|-------|------------|
+| **Q2 2026 (Apr–Jun)** | Launch + foundation | Publish Tier 1-2, launch app, get indexed |
+| **Q3 2026 (Jul–Sep)** | Optimize + expand | Tier 3 content, guide expansions, Search Console optimization |
+| **Q4 2026 (Oct–Dec)** | Authority + planning | Link-building content, end-of-season pieces, plan 2027 |
+| **Q1 2027 (Jan–Mar)** | Refresh + compound | Full content audit, update all guides, plan new season content |
+
+---
+
+## Content Audit Schedule
+
+| When | What |
+|------|------|
+| **Monthly** | Check Search Console: new queries driving impressions, click-through rates, ranking changes. Log in SEO Scoreboard. |
+| **Quarterly** | Full audit: update outdated content, add FAQ questions from actual search queries, refresh titles/descriptions for underperformers, add internal links to newer content, check for broken links. |
+| **Annually** | Refresh "Best Golf Betting Apps" post. Update competitor analysis. Review all game guides for accuracy against latest app build. |
+
+---
+
+## Publishing Checklist (Every Piece)
+
+Before marking anything as Published:
+
+- [ ] Target keyword in title, H1, first 100 words, meta description
+- [ ] Meta description: 140-155 chars, includes keyword + natural CTA
+- [ ] At least 3 internal links to other pages
+- [ ] At least 2 other pages link back to this new piece
+- [ ] FAQ section with 5+ questions (if applicable)
+- [ ] JSON-LD structured data
+- [ ] OG image generated
+- [ ] App Store CTA appears at least twice (if applicable)
+- [ ] All math verified (zero-sum where applicable)
+- [ ] Content passes the voice guide litmus test
+- [ ] Part 8 checklist from content-framework.md (kill list, outbound links, etc.)
+- [ ] Submitted to Google Search Console for indexing
+- [ ] Content Pipeline updated with new status
+- [ ] Content Calendar updated with publish date
+
+---
+
+## Related Documents
+
+| Document | Role |
+|----------|------|
+| [Content Pipeline](content-pipeline.md) | What to write — all opportunities, prioritized |
+| [SEO Scoreboard](../seo/seo-scoreboard.md) | What's working — rankings, traffic, insights |
+| [Content Framework](content-framework.md) | How to write — structure, voice, checklist |
+| [Voice & Tone Guide](voice-and-tone.md) | How it should sound |
+| [Content Strategy](content-strategy.md) | Why we write — strategic foundations |
