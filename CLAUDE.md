@@ -29,11 +29,18 @@ stickapp-website/
 │   │   │   ├── robots.ts        # robots.txt generation
 │   │   │   ├── sitemap.ts       # Sitemap generation
 │   │   │   └── globals.css      # Global styles (Tailwind)
-│   │   ├── content/             # ⭐ WHERE CONTENT ACTUALLY LIVES
-│   │   │   ├── blog/            # Blog posts as .mdx files
+│   │   ├── content/             # ⭐ WHERE CONTENT ACTUALLY LIVES (all deployed as .mdx)
+│   │   │   ├── blog/            # Blog posts (3 live)
 │   │   │   │   ├── best-golf-betting-apps-2026.mdx
-│   │   │   │   └── best-golf-betting-games-3-players.mdx
-│   │   │   └── guides/          # Reference guide pages as .mdx files
+│   │   │   │   ├── best-golf-betting-games-3-players.mdx
+│   │   │   │   └── golf-betting-games-masters-week.mdx
+│   │   │   ├── games/           # Game guides (all 12 live)
+│   │   │   │   ├── nassau.mdx, skins.mdx, wolf.mdx, snake.mdx
+│   │   │   │   ├── match-play.mdx, vegas.mdx, nine-point.mdx
+│   │   │   │   ├── junk.mdx, sixes.mdx, split-sixes.mdx
+│   │   │   │   ├── scotch.mdx, quota.mdx
+│   │   │   │   └── (loaded via lib/content.ts → getGameGuide())
+│   │   │   └── guides/          # Reference guides (3 live)
 │   │   │       ├── handicaps.mdx
 │   │   │       ├── presses.mdx
 │   │   │       └── settlement.mdx
@@ -96,8 +103,8 @@ stickapp-website/
 | **App** | Build 21, 12 games (Quota building), 1,448+ tests, pre-launch |
 | **Launch phase** | Phase 1 Closed Beta → Masters Week (April 7-13) target |
 | **Pricing** | 3-round reverse trial → $59.99/yr hard paywall |
-| **Website** | Next.js site live with blog, game routes, guide routes, OG images, UTM tracking, alias redirects |
-| **Content** | 12 game guide drafts complete (all waiting review). 2 blog posts live. 3 reference guides live. All 12 games audited. |
+| **Website** | Next.js site live with blog, game routes, guide routes, OG images, UTM tracking, alias redirects, game emojis on cards |
+| **Content** | **All 12 game guides live.** 3 blog posts live. 3 reference guides live. 18 pages of SEO content total. |
 | **Revenue** | $0. Pre-revenue. |
 
 ### Business Model
@@ -282,39 +289,42 @@ When writing game guide content, always reference the corresponding game rules d
 
 ## Content Status Tracker
 
-At-a-glance view of every content piece — what exists, where it lives, and what state it's in.
+All content is **live and deployed** on stickapp.golf. 18 pages of SEO content total.
 
-### Game Guides
+### Game Guides — All 12 Live
 
-| Game | Research | Audit | Gap Analysis | Draft | Review | Published |
-|------|----------|-------|-------------|-------|--------|-----------|
-| **Nassau** | Done (`content/game-guides/nassau.md` has inline research) | Done (`content/game-guides/nassau-audit.md`) | Done (in audit doc) | Done (`content/game-guides/nassau.md`) | **Waiting on Justin** | Not yet |
-| **Skins** | Done (`content/game-guides/skins-research.md`) | Done (`content/game-guides/skins-audit.md`) | Done (in audit doc) | Done (`content/game-guides/skins.md`) | **Waiting on Justin** | Not yet |
-| **Wolf** | Done | Done | Done | Done | **Waiting on Justin** | Not yet |
-| **Snake** | Done | Done (`content/game-guides/snake-audit.md`) | Done (in audit doc) | Done (`content/game-guides/snake.md`) | **Waiting on Justin** | Not yet |
-| **Match Play** | Done (`content/game-guides/matchplay-audit.md`) | Done (`content/game-guides/matchplay-audit.md`) | Done (in audit doc) | Done (`content/game-guides/matchplay.md`) | **Waiting on Justin** | Not yet |
-| **Nine Point** | Done (`content/game-guides/ninepoint-audit.md`) | Done (`content/game-guides/ninepoint-audit.md`) | Done (in audit doc) | Done (`content/game-guides/ninepoint.md`) | **Waiting on Justin** | Not yet |
-| **Split Sixes** | Done (`content/game-guides/sixes-research.md`, Game 2 section) | Done (`content/game-guides/splitsixes-audit.md`) | Done (in audit doc) | Done (`content/game-guides/splitsixes.md`) | **Waiting on Justin** | Not yet |
-| **Sixes** | Done (`content/game-guides/sixes-research.md`) | Done (`content/game-guides/sixes-audit.md`) | Done (in audit doc) | Done (`content/game-guides/sixes.md`) | **Waiting on Justin** | Not yet |
-| **Junk** | Done (`content/game-guides/junk-research.md`) | Done (`content/game-guides/junk-audit.md`) | Done (in audit doc) | Done (`content/game-guides/junk.md`) | **Waiting on Justin** | Not yet |
-| **Vegas** | Done (`content/game-guides/vegas-research.md`) | Done (`content/game-guides/vegas-audit.md`) | Done (in audit doc) | Done (`content/game-guides/vegas.md`) | **Waiting on Justin** | Not yet |
-| **Scotch** | Done (`content/game-guides/scotch-research.md`) | Done (`content/game-guides/scotch-audit.md` + `scotch-audit-raw.md`) | Done (in audit doc) | Done (`content/game-guides/scotch.md`) | **Waiting on Justin** | Not yet |
-| **Quota** | Not yet (will do alongside guide) | Done (`content/game-guides/quota-audit.md`) | Done (in audit doc) | Not started | — | — |
+All game guides are published at `/games/[slug]/` and served from `site/src/content/games/[slug].mdx`.
 
-### Blog Posts
+| Game | Live URL | Research/Audit Files |
+|------|----------|---------------------|
+| **Nassau** | `/games/nassau/` | `content/game-guides/nassau.md`, `nassau-audit.md` |
+| **Skins** | `/games/skins/` | `content/game-guides/skins-research.md`, `skins-audit.md` |
+| **Wolf** | `/games/wolf/` | `content/game-guides/wolf.md` |
+| **Snake** | `/games/snake/` | `content/game-guides/snake.md`, `snake-audit.md` |
+| **Match Play** | `/games/match-play/` | `content/game-guides/matchplay.md`, `matchplay-audit.md` |
+| **Nine Point** | `/games/nine-point/` | `content/game-guides/ninepoint.md`, `ninepoint-audit.md` |
+| **Split Sixes** | `/games/split-sixes/` | `content/game-guides/splitsixes.md`, `splitsixes-audit.md` |
+| **Sixes** | `/games/sixes/` | `content/game-guides/sixes.md`, `sixes-audit.md` |
+| **Junk** | `/games/junk/` | `content/game-guides/junk.md`, `junk-audit.md` |
+| **Vegas** | `/games/vegas/` | `content/game-guides/vegas.md`, `vegas-audit.md` |
+| **Scotch** | `/games/scotch/` | `content/game-guides/scotch.md`, `scotch-audit.md` |
+| **Quota** | `/games/quota/` | `content/game-guides/quota-audit.md` |
 
-| Post | Draft | Review | Published | Live URL |
-|------|-------|--------|-----------|----------|
-| **Best Golf Betting Apps 2026** | Done | Done | **Live** | `site/src/content/blog/best-golf-betting-apps-2026.mdx` |
-| **Best Golf Betting Games for 3 Players** | Done | Done | **Live** | `site/src/content/blog/best-golf-betting-games-3-players.mdx` |
+### Blog Posts — 3 Live
 
-### Reference Guides
+| Post | Live URL |
+|------|----------|
+| **Best Golf Betting Apps in 2026** | `/blog/best-golf-betting-apps-2026/` |
+| **Best Golf Betting Games for 3 Players** | `/blog/best-golf-betting-games-3-players/` |
+| **Best Golf Betting Games for Masters Week** | `/blog/golf-betting-games-masters-week/` |
 
-| Guide | Draft | Review | Published | Live URL |
-|-------|-------|--------|-----------|----------|
-| **Handicaps in Golf Betting** | Done | **Waiting on Justin** | **Live** | `site/src/content/guides/handicaps.mdx` |
-| **Presses in Golf Betting** | Done | **Waiting on Justin** | **Live** | `site/src/content/guides/presses.mdx` |
-| **Settlement Methods** | Done | **Waiting on Justin** | **Live** | `site/src/content/guides/settlement.mdx` |
+### Reference Guides — 3 Live
+
+| Guide | Live URL |
+|-------|----------|
+| **Handicaps in Golf Betting** | `/guides/handicaps/` |
+| **Presses in Golf Betting** | `/guides/presses/` |
+| **Settlement Methods** | `/guides/settlement/` |
 
 ### Strategy Docs (Reference — All Complete)
 
@@ -545,12 +555,25 @@ OG images + CLAUDE.md update:
 - Added twitter card image tags to all page types (games, guides, blog, homepage)
 - Updated CLAUDE.md with session history, folder structure, and content tracker
 
+### Session 13 — March 5, 2026
+
+Homepage rework:
+- Honest assessment of homepage: hero needs photo/video, game cards were 12 identical empty rectangles, app section was all placeholders, fake testimonial undermined credibility, blog section had 2 "coming soon" placeholders
+- Redesigned GameCard component: replaced 4:3 illustration placeholder with compact emoji-based cards (emoji + name + hook + players)
+- Added `gameEmojis` mapping to `tokens.ts` (🏆 Nassau, 💰 Skins, 🐺 Wolf, 🐍 Snake, ⚔️ Match Play, 🎰 Vegas, 9️⃣ Nine Point, 🎯 Junk, 6️⃣ Sixes, 🔀 Split Sixes, 🥃 Scotch, 🏹 Quota)
+- Removed "The App" section entirely (two phone-shaped placeholder divs with feature bullet list — will rebuild when real screenshots are available)
+- Removed fake testimonial ("Finally, an app that gets Nassau right." — "Every golfer, eventually")
+- Reworked social proof into "Built to be trusted" section with headline, supporting copy, and stats
+- Updated blog section: replaced 1 real + 2 "Coming soon" posts with all 3 published posts
+- Fixed dark/light section rhythm: Hero (dark) → Problem (light) → Games (dark) → Trust (light) → Blog (dark) → CTA (dark)
+- Updated CLAUDE.md: content status tracker now reflects reality (all 12 guides live, 3 blog posts, 3 reference guides), folder structure updated, current state corrected
+
 ### What's Next
 
-1. **Masters Week content** — April 7 launch target is 5 weeks away. Content needs to publish by mid-March for indexing. Brainstorm angle and write.
-2. **Guide reviews** — 12 game guides + 3 reference pages + 2 blog posts waiting on Justin's voice/accuracy pass
-3. **Quota guide** — Audit and gap analysis done. Needs web research, then draft. Last remaining game guide.
-4. **Engine bug fixes** — Prompt written (`sixes-scotch-bugfix-prompt.md`). Ready to hand to Claude Code. 6 bugs across Sixes + Scotch. Scotch maxMultiplier is highest priority (fix before launch).
-5. **Content calendar update** — Calendar shows "Not started" for items that are done. Needs refresh.
-6. **Build content skill** — After enough guides reviewed and published
-7. **Raw audit backfill** — Raw audit storage established for Scotch, Split Sixes, and Quota. Could backfill earlier games if re-audited.
+1. **Homepage hero image** — The hero is just text on a dark gradient. Even a single editorial golf photo with a dark overlay would transform it. Justin to provide the app's `splash_bg_warm.jpg` or similar. Video loop is the long-term goal.
+2. **App screenshots for homepage** — Once Justin provides real screenshots, rebuild the product section (removed because placeholders were hurting more than helping). Show a real Nassau settlement, a Wolf partner pick, the multi-game scorecard.
+3. **Games hub page (`/games`)** — Likely needs the same emoji card treatment as the homepage.
+4. **Engine bug fixes** — Prompt written (`sixes-scotch-bugfix-prompt.md`). 6 bugs across Sixes + Scotch. Scotch maxMultiplier is highest priority (fix before launch).
+5. **New blog content** — Masters Week post is live. What's the next angle? Could target "golf betting rules" or "how to play nassau" as standalone posts to build topical authority.
+6. **Content calendar update** — Calendar likely needs a refresh to reflect what's actually published vs. planned.
+7. **SEO monitoring** — Site has 18 pages of content. Should start tracking Google Search Console impressions/clicks to see what's indexing and ranking.
