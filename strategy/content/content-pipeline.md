@@ -204,9 +204,10 @@ These catch the group organizer in planning mode — the exact person who pays $
 These aren't new posts — they're targeted additions to existing content that capture specific queries.
 
 #### T4-1: Wolf Guide — Add 3-Player Rules + Wolf Hammer Variation
-- **Status:** Identified
+- **Status:** Published (March 10, 2026)
 - **Why:** "Wolf with 3 players" is a recurring search query with no good answers. Wolf Hammer has zero dedicated content anywhere online. Both are quick additions to the existing guide.
 - **Target queries:** wolf golf 3 players, wolf hammer golf
+- **What was added:** Expanded 3-player section with settlement example, strategy notes, rotation math. Hammer settlement example added. Two new FAQ questions targeting "wolf hammer golf" and "3 player wolf." Three new keywords in frontmatter.
 
 #### T4-2: Skins Guide — Add Carryover Rules Subsection
 - **Status:** Identified
