@@ -48,10 +48,11 @@ All content below is live and deployed. See SEO Scoreboard for performance track
 | Scotch | `/games/scotch/` | scotch golf game |
 | Quota | `/games/quota/` | quota golf game |
 
-### Blog Posts — 3 Live
+### Blog Posts — 4 Live
 
 | Post | URL | Primary Keyword |
 |------|-----|----------------|
+| Golf Betting for Beginners | `/blog/golf-betting-for-beginners/` | golf betting for beginners |
 | Best Golf Betting Apps in 2026 | `/blog/best-golf-betting-apps-2026/` | best golf betting apps |
 | Best Golf Betting Games for 3 Players | `/blog/best-golf-betting-games-3-players/` | golf games 3 players |
 | Best Golf Betting Games for Masters Week | `/blog/golf-betting-games-masters-week/` | masters golf betting games |
@@ -75,8 +76,9 @@ Organized by tier. Within each tier, items are ordered by priority (do the top o
 These target golfers deciding what game to play. They connect directly to Stick.
 
 #### T1-1: "Golf Betting for Beginners: Your First Round With Money on the Line"
-- **Status:** Identified
-- **Type:** Blog post (2,000-2,500 words — anchor piece)
+- **Status:** Published (March 10, 2026)
+- **Live URL:** `/blog/golf-betting-for-beginners/`
+- **Type:** Blog post (~2,100 words — anchor piece)
 - **Target keyword:** golf betting for beginners, how to bet on golf with friends
 - **Why now:** Every research source flagged this as the biggest gap. Existing content online conflates casual side games with DraftKings/PGA sportsbook betting. Nobody has written the definitive "Saturday morning foursome" beginner guide. This is the gateway piece that funnels new golfers into every game guide.
 - **Strategic value:** Captures top-of-funnel traffic. Every game guide can link back to this for context. High share potential (people send this to the friend who's new to betting).
@@ -363,4 +365,4 @@ Check quarterly (or when starting a new content sprint):
 | **Golf Digest** | New "how to play" game content (they occasionally publish) | March 5, 2026 |
 | **The Left Rough** | Side game content (one of few quality independent sources) | March 5, 2026 |
 
-**Key insight:** As of March 2026, Stick's 18 pages of deep content already exceeds every competitor's content library combined. The moat is real. Protect it by publishing consistently and expanding into adjacent topics before anyone else wakes up.
+**Key insight:** As of March 2026, Stick's 19 pages of deep content already exceeds every competitor's content library combined. The moat is real. Protect it by publishing consistently and expanding into adjacent topics before anyone else wakes up.

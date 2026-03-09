@@ -35,7 +35,7 @@ Focus: Lay the foundation. Beginners guide + guide expansions.
 
 | Week | Piece | Pipeline ID | Type | Trigger |
 |------|-------|-------------|------|---------|
-| **Mar 10–14** | Golf Betting for Beginners | T1-1 | Blog (anchor) | Golf season opening |
+| **Mar 10–14** | ✅ Golf Betting for Beginners | T1-1 | Blog (anchor) | Golf season opening — **Published Mar 10** |
 | **Mar 10–14** | Wolf: add 3-player rules + Hammer | T4-1 | Guide expansion | Supports pipeline |
 | **Mar 17–21** | Golf Betting Glossary | T2-1 | Reference page | Internal linking hub |
 | **Mar 17–21** | Skins: add carryover rules section | T4-2 | Guide expansion | High-search query |

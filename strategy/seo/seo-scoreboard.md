@@ -114,6 +114,35 @@ Quarterly manual check: search our primary keywords and note who ranks where.
 
 ---
 
+## Content Refresh Tracker
+
+Every published page needs a substantive update at least once per month (GEO data: 76.4% of ChatGPT citations come from content updated in the last 30 days). A "substantive update" means: new FAQ added, settlement example updated, new variation documented, strategy tip added, section rewritten, or new internal link to recently published content. Changing the date alone doesn't count.
+
+**Rule:** During the monthly scoreboard review, check this table. Anything older than 30 days gets flagged for refresh in the next session.
+
+| Page | Last Refreshed | What Was Updated | Next Refresh Due |
+|------|---------------|-----------------|-----------------|
+| `/games/nassau/` | — (initial publish) | — | Apr 5 |
+| `/games/skins/` | — (initial publish) | — | Apr 5 |
+| `/games/wolf/` | — (initial publish) | — | Apr 5 |
+| `/games/snake/` | — (initial publish) | — | Apr 5 |
+| `/games/match-play/` | — (initial publish) | — | Apr 5 |
+| `/games/vegas/` | — (initial publish) | — | Apr 5 |
+| `/games/nine-point/` | — (initial publish) | — | Apr 5 |
+| `/games/junk/` | — (initial publish) | — | Apr 5 |
+| `/games/sixes/` | — (initial publish) | — | Apr 5 |
+| `/games/split-sixes/` | — (initial publish) | — | Apr 5 |
+| `/games/scotch/` | — (initial publish) | — | Apr 5 |
+| `/games/quota/` | — (initial publish) | — | Apr 5 |
+| `/blog/best-golf-betting-apps-2026/` | — (initial publish) | — | Apr 5 |
+| `/blog/best-golf-betting-games-3-players/` | — (initial publish) | — | Apr 5 |
+| `/blog/golf-betting-games-masters-week/` | — (initial publish) | — | Apr 5 |
+| `/guides/handicaps/` | — (initial publish) | — | Apr 5 |
+| `/guides/presses/` | — (initial publish) | — | Apr 5 |
+| `/guides/settlement/` | — (initial publish) | — | Apr 5 |
+
+---
+
 ## Content ROI Tracking
 
 Once the app is live and UTM tracking is flowing, track which content drives downloads.
