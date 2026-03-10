@@ -1,4 +1,5 @@
-import { games } from "@/lib/tokens";
+import Image from "next/image";
+import { games, contentImages, heroImage } from "@/lib/tokens";
 import { GameCard } from "@/components/GameCard";
 import { JsonLd } from "@/components/JsonLd";
 
@@ -53,19 +54,16 @@ export default function Home() {
           SECTION 1: HERO (Dark, Full-Bleed)
           ═══════════════════════════════════════════════════════════════════ */}
       <section className="section-dark relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Background — replace with editorial golf photography or video loop */}
-        <div className="absolute inset-0 animate-ken-burns">
-          <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-canvas-dark)]/40 via-[var(--color-canvas-dark)]/20 to-[var(--color-canvas-dark)]/70" />
-          {/* TODO: Replace with <Image> or <video> when hero asset is ready
+        {/* Background — editorial golf photography */}
+        <div className="absolute inset-0">
           <Image
-            src="/images/hero.jpg"
-            alt="Golf course at golden hour"
+            src={heroImage.src}
+            alt={heroImage.alt}
             fill
             className="object-cover"
             priority
           />
-          */}
-          <div className="absolute inset-0 bg-[var(--color-canvas-dark)]/60" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[var(--color-canvas-dark)]/50 via-[var(--color-canvas-dark)]/30 to-[var(--color-canvas-dark)]/80" />
         </div>
 
         <div className="relative z-10 text-center px-6 max-w-3xl mx-auto pt-20">
@@ -239,7 +237,17 @@ export default function Home() {
             {blogPosts.map((post) => (
               <a key={post.slug} href={`/blog/${post.slug}`} className="group">
                 <div className="aspect-[16/10] rounded-xl bg-white/5 border border-white/5 mb-5 overflow-hidden">
-                  <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/20 to-transparent" />
+                  {contentImages[post.slug] ? (
+                    <Image
+                      src={contentImages[post.slug].card}
+                      alt={contentImages[post.slug].alt}
+                      width={1200}
+                      height={800}
+                      className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/20 to-transparent" />
+                  )}
                 </div>
                 <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-secondary)] mb-2">
                   {post.category}

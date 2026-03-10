@@ -67,6 +67,56 @@ export const typography = {
   },
 } as const;
 
+// ─── Content Images ─────────────────────────────────────────────────────────
+// Central mapping of content slugs → processed image filenames.
+// All images live in /images/blog/ and have -card (3:2, 1200px) and -hero (2:1, 1600px) variants.
+
+export const contentImages: Record<string, { card: string; hero: string; alt: string }> = {
+  // Blog posts
+  "golf-betting-for-beginners": {
+    card: "/images/blog/bobby-jones-Scq-tbV_jjs-unsplash-card.jpg",
+    hero: "/images/blog/bobby-jones-Scq-tbV_jjs-unsplash-hero.jpg",
+    alt: "Morning light filtering through cypress trees on a golf course fairway",
+  },
+  "golf-betting-games-masters-week": {
+    card: "/images/blog/welcome-r1NYKtFS6VQ-unsplash-card.jpg",
+    hero: "/images/blog/welcome-r1NYKtFS6VQ-unsplash-hero.jpg",
+    alt: "Aerial view of a links golf course at golden hour",
+  },
+  "best-golf-betting-games-3-players": {
+    card: "/images/blog/sugar-golf-mqQ0BuJ5dsA-unsplash-card.jpg",
+    hero: "/images/blog/sugar-golf-mqQ0BuJ5dsA-unsplash-hero.jpg",
+    alt: "Three golfers cheersing beers on the course at sunset",
+  },
+  "best-golf-betting-apps-2026": {
+    card: "/images/blog/andrew-anderson-6I0LxsA7Pd4-unsplash-card.jpg",
+    hero: "/images/blog/andrew-anderson-6I0LxsA7Pd4-unsplash-hero.jpg",
+    alt: "Two golfers on a coastal course overlooking the ocean",
+  },
+  // Reference guides
+  handicaps: {
+    card: "/images/blog/peter-drew-9idjx1KAyTU-unsplash-card.jpg",
+    hero: "/images/blog/peter-drew-9idjx1KAyTU-unsplash-hero.jpg",
+    alt: "Golf ball at the edge of the hole with putter in the background",
+  },
+  presses: {
+    card: "/images/blog/andrew-shelley-Yu6Z_Fia1Ls-unsplash-card.jpg",
+    hero: "/images/blog/andrew-shelley-Yu6Z_Fia1Ls-unsplash-hero.jpg",
+    alt: "Golfer hitting an iron shot on a links course with bunkers",
+  },
+  settlement: {
+    card: "/images/blog/adrian-hernandez-b8JAAnEEPG8-unsplash-card.jpg",
+    hero: "/images/blog/adrian-hernandez-b8JAAnEEPG8-unsplash-hero.jpg",
+    alt: "Red 18th hole flag waving against the sky",
+  },
+};
+
+// Homepage hero image
+export const heroImage = {
+  src: "/images/blog/dan-congdon-gJeusCuFyYA-unsplash-hero.jpg",
+  alt: "Mountain golf course at golden hour with dramatic peaks in the background",
+};
+
 // ─── Game Data ──────────────────────────────────────────────────────────────
 
 export interface GameInfo {

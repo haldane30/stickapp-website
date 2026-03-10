@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { getAllBlogPosts, getAllGuidePages } from "@/lib/content";
 import { JsonLd } from "@/components/JsonLd";
+import { contentImages } from "@/lib/tokens";
 
 export const metadata: Metadata = {
   title: "Blog — Golf Betting Strategy, Guides & Tips",
@@ -74,9 +76,19 @@ export default function BlogIndex() {
           <div className="mx-auto max-w-[var(--content-max-width)] px-6">
             <Link href={`/blog/${featured.slug}`} className="group block">
               <div className="grid md:grid-cols-2 gap-10 items-center">
-                {/* Image placeholder */}
+                {/* Image */}
                 <div className="aspect-[16/10] rounded-xl bg-[var(--color-canvas-dark)]/5 overflow-hidden">
-                  <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/10 to-transparent" />
+                  {contentImages[featured.slug] ? (
+                    <Image
+                      src={contentImages[featured.slug].card}
+                      alt={contentImages[featured.slug].alt}
+                      width={1200}
+                      height={800}
+                      className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/10 to-transparent" />
+                  )}
                 </div>
 
                 {/* Text */}
@@ -131,7 +143,17 @@ export default function BlogIndex() {
                     className="group"
                   >
                     <div className="aspect-[16/10] rounded-xl bg-[var(--color-canvas-dark)]/5 mb-5 overflow-hidden">
-                      <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/10 to-transparent" />
+                      {contentImages[post.slug] ? (
+                        <Image
+                          src={contentImages[post.slug].card}
+                          alt={contentImages[post.slug].alt}
+                          width={1200}
+                          height={800}
+                          className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
+                        />
+                      ) : (
+                        <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/10 to-transparent" />
+                      )}
                     </div>
                     <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-secondary)] mb-2">
                       {categoryLabels[post.category] || post.category}
@@ -169,7 +191,17 @@ export default function BlogIndex() {
                     className="group"
                   >
                     <div className="aspect-[16/10] rounded-xl bg-[var(--color-canvas-dark)]/5 mb-5 overflow-hidden">
-                      <div className="w-full h-full bg-gradient-to-br from-[var(--color-gold)]/10 to-transparent" />
+                      {contentImages[guide.slug] ? (
+                        <Image
+                          src={contentImages[guide.slug].card}
+                          alt={contentImages[guide.slug].alt}
+                          width={1200}
+                          height={800}
+                          className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
+                        />
+                      ) : (
+                        <div className="w-full h-full bg-gradient-to-br from-[var(--color-gold)]/10 to-transparent" />
+                      )}
                     </div>
                     <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gold)] mb-2">
                       Reference

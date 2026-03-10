@@ -5,7 +5,9 @@ import remarkGfm from "remark-gfm";
 import { getBlogPost, getBlogPostSlugs, getAllBlogPosts } from "@/lib/content";
 import { JsonLd } from "@/components/JsonLd";
 import { mdxComponents } from "@/components/mdx";
+import { contentImages } from "@/lib/tokens";
 import Link from "next/link";
+import Image from "next/image";
 
 // ─── Static params for all blog posts ──────────────────────────────────────
 
@@ -318,7 +320,17 @@ export default async function BlogPostPage({
                   className="group"
                 >
                   <div className="aspect-[16/10] rounded-xl bg-[var(--color-canvas-dark)]/5 mb-5 overflow-hidden">
-                    <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/10 to-transparent" />
+                    {contentImages[p.slug] ? (
+                      <Image
+                        src={contentImages[p.slug].card}
+                        alt={contentImages[p.slug].alt}
+                        width={1200}
+                        height={800}
+                        className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
+                      />
+                    ) : (
+                      <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/10 to-transparent" />
+                    )}
                   </div>
                   <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-secondary)] mb-2">
                     {categoryLabels[p.category] || p.category}
