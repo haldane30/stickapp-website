@@ -2,7 +2,7 @@
 
 > **Purpose:** The active queue. Every content opportunity we've identified, organized by status and priority. When a new session starts, read this first. You'll know immediately what's next without asking.
 >
-> **Last updated:** March 5, 2026
+> **Last updated:** March 11, 2026
 > **Owner:** Justin + Claude (co-managed)
 
 ---
@@ -27,7 +27,7 @@ The goal is to always have 3-4 pieces in "Researched + Outlined" status so we ca
 
 ---
 
-## Currently Published (18 pages)
+## Currently Published (19 pages)
 
 All content below is live and deployed. See SEO Scoreboard for performance tracking.
 
@@ -57,13 +57,14 @@ All content below is live and deployed. See SEO Scoreboard for performance track
 | Best Golf Betting Games for 3 Players | `/blog/best-golf-betting-games-3-players/` | golf games 3 players |
 | Best Golf Betting Games for Masters Week | `/blog/golf-betting-games-masters-week/` | masters golf betting games |
 
-### Reference Guides — 3 Live
+### Reference Guides — 4 Live
 
 | Guide | URL | Primary Keyword |
 |-------|-----|----------------|
 | Handicaps in Golf Betting | `/guides/handicaps/` | handicaps in golf betting |
 | Presses in Golf Betting | `/guides/presses/` | what is a press in golf |
 | Settlement Methods | `/guides/settlement/` | how to settle golf bets |
+| Golf Betting Glossary | `/guides/glossary/` | golf betting glossary, golf betting terms |
 
 ---
 
@@ -129,13 +130,14 @@ These target golfers deciding what game to play. They connect directly to Stick.
 These catch golfers who already bet and want to level up. They build topical authority that helps everything rank better.
 
 #### T2-1: "Golf Betting Glossary: Every Term You Need to Know"
-- **Status:** Identified
+- **Status:** Published (March 11, 2026)
+- **Live URL:** `/guides/glossary/`
 - **Type:** Reference page (`/guides/glossary/`)
 - **Target keyword:** golf betting terms, golf betting glossary, what is a press in golf
-- **Why now:** No comprehensive glossary exists anywhere. 30-40 terms (press, hammer, carryover, validation, sandy, greenie, lone wolf, blitz, umbrella, dormie, etc.) each linking to the relevant game guide. This becomes an internal linking powerhouse and catches dozens of long-tail "what is X in golf" queries.
+- **Why now:** No comprehensive glossary exists anywhere. 40+ terms grouped by category (betting formats, mechanics, scoring, junk categories, settlement, common phrases, aliases) each linking to the relevant game guide. 67 internal links total — the internal linking powerhouse we planned.
 - **Competition:** ZERO for a dedicated glossary.
-- **Internal linking targets:** Every game guide, every reference guide. This page will have 40+ outbound internal links.
-- **Outline notes:** Alphabetical, each term gets 2-3 sentences plus a link. Cross-reference related terms. Add FAQ schema for the most-searched terms.
+- **Internal linking targets:** Every game guide, every reference guide. 67 outbound internal links confirmed.
+- **Backlinks added:** nassau.mdx, skins.mdx, junk.mdx, wolf.mdx, match-play.mdx, golf-betting-for-beginners.mdx
 
 #### T2-2: "Golf Betting Etiquette: How to Propose, Settle, and Stay Friends"
 - **Status:** Identified

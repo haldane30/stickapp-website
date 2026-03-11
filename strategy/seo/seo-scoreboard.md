@@ -21,7 +21,7 @@ Track these monthly to see the overall trajectory.
 
 | Month | Total Impressions | Total Clicks | Avg CTR | Avg Position | Pages Indexed | Notes |
 |-------|------------------|-------------|---------|-------------|--------------|-------|
-| Mar 2026 | — | — | — | — | — | Site live, 18 pages submitted |
+| Mar 2026 | — | — | — | — | — | Site live, 20 pages submitted |
 | Apr 2026 | | | | | | First data expected |
 | May 2026 | | | | | | |
 | Jun 2026 | | | | | | |
@@ -84,6 +84,7 @@ These are the keywords each page is built to rank for. Track monthly.
 | handicaps in golf betting | `/guides/handicaps/` | — | | | | | |
 | what is a press in golf | `/guides/presses/` | — | | | | | |
 | how to settle golf bets | `/guides/settlement/` | — | | | | | |
+| golf betting glossary | `/guides/glossary/` | — | | | | | |
 
 ### Emerging Keywords (Discovered in Search Console)
 
@@ -140,6 +141,7 @@ Every published page needs a substantive update at least once per month (GEO dat
 | `/guides/handicaps/` | — (initial publish) | — | Apr 5 |
 | `/guides/presses/` | — (initial publish) | — | Apr 5 |
 | `/guides/settlement/` | — (initial publish) | — | Apr 5 |
+| `/guides/glossary/` | — (initial publish) | — | Apr 11 |
 
 ---
 

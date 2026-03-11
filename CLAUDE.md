@@ -104,7 +104,7 @@ stickapp-website/
 | **Launch phase** | Phase 1 Closed Beta → Masters Week (April 7-13) target |
 | **Pricing** | 3-round reverse trial → $59.99/yr hard paywall |
 | **Website** | Next.js site live with blog, game routes, guide routes, OG images, UTM tracking, alias redirects, game emojis on cards |
-| **Content** | **All 12 game guides live.** 3 blog posts live. 3 reference guides live. 18 pages of SEO content total. |
+| **Content** | **All 12 game guides live.** 4 blog posts live. 4 reference guides live. 20 pages of SEO content total. |
 | **Revenue** | $0. Pre-revenue. |
 
 ### Business Model
@@ -367,21 +367,23 @@ All game guides are published at `/games/[slug]/` and served from `site/src/cont
 | **Scotch** | `/games/scotch/` | `content/game-guides/scotch.md`, `scotch-audit.md` |
 | **Quota** | `/games/quota/` | `content/game-guides/quota-audit.md` |
 
-### Blog Posts — 3 Live
+### Blog Posts — 4 Live
 
 | Post | Live URL |
 |------|----------|
+| **Golf Betting for Beginners** | `/blog/golf-betting-for-beginners/` |
 | **Best Golf Betting Apps in 2026** | `/blog/best-golf-betting-apps-2026/` |
 | **Best Golf Betting Games for 3 Players** | `/blog/best-golf-betting-games-3-players/` |
 | **Best Golf Betting Games for Masters Week** | `/blog/golf-betting-games-masters-week/` |
 
-### Reference Guides — 3 Live
+### Reference Guides — 4 Live
 
 | Guide | Live URL |
 |-------|----------|
 | **Handicaps in Golf Betting** | `/guides/handicaps/` |
 | **Presses in Golf Betting** | `/guides/presses/` |
 | **Settlement Methods** | `/guides/settlement/` |
+| **Golf Betting Glossary** | `/guides/glossary/` |
 
 ### Strategy Docs (Reference — All Complete)
 
