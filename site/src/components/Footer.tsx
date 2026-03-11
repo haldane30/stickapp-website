@@ -110,14 +110,14 @@ export function Footer() {
               Company
             </h3>
             <ul className="space-y-2.5">
-              <li>
+              {/* <li>
                 <Link
                   href="/about"
                   className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                 >
                   About
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/privacy"

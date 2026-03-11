@@ -16,7 +16,7 @@ keywords:
   - penalty games golf
 faq:
   - question: "What is the snake in golf?"
-    answer: "Snake is a golf betting game where three-putts are penalties. The player who three-putts gets the snake (a liability). When the next player three-putts, the snake transfers to them. At the end of 18 holes, whoever holds the snake pays every other player a pre-agreed amount. It's a side game, meaning it runs alongside other bets like Nassau or Skins."
+    answer: "Snake is a golf betting game where three-putts are penalties. The player who three-putts gets the snake (a liability). When the next player three-putts, the snake transfers to them and its value grows. At the end of 18 holes, whoever holds the snake pays every other player the accumulated value. In the fixed model, each three-putt adds a set dollar amount — so $1 per three-putt with 5 three-putts means the holder pays $5 to each opponent. It's a side game, meaning it runs alongside other bets like Nassau or Skins."
   - question: "How do you play the animal/zoo game in golf?"
     answer: "The animal game expands Snake by adding other penalties. Snake penalizes three-putts. Camel penalizes hitting trees. Frog/Fish penalize water hazards. Gorilla penalizes out of bounds. Skunk penalizes double bogeys. Each animal works like its own independent snake — last holder pays. The Zoo lets you play multiple animals simultaneously. A common rule: hole out from off the green and you shed an animal (chip in and you lose the snake)."
   - question: "Does a chip from the fringe count as a putt in Snake?"
@@ -24,7 +24,7 @@ faq:
   - question: "What happens if nobody three-putts all round?"
     answer: "Nobody gets the snake, nobody settles. The snake value stays at zero. You and your group had a great putting day and there's no penalty for it. The game doesn't kick in unless someone three-putts."
   - question: "What's the difference between fixed and doubling Snake?"
-    answer: "Fixed means the snake is always worth the same amount ($5, $10, whatever). The holder pays that amount to everyone else at the end. Doubling means the snake value doubles every time someone three-putts: first three-putt = $1, second = $2, third = $4, continuing exponentially. Doubling gets dramatic fast — use it only if everyone's comfortable with potential wild swings."
+    answer: "In fixed, every three-putt adds a set dollar amount to the snake's value. At $1 per three-putt with 7 three-putts during the round, the snake is worth $7 — the holder pays $7 to each opponent. In doubling, the snake's value doubles on each three-putt: first = $1, second = $2, third = $4, fourth = $8, continuing exponentially. The holder pays the final accumulated value to each opponent. Doubling gets dramatic fast — use it only if everyone's comfortable with potential wild swings."
   - question: "Can you play Snake with just two players?"
     answer: "Yes. Two-player Snake works — one player three-putts, gets the snake, pays the other player if they still hold it at 18. The math is the simplest: one payment from holder to opponent. Less action than a foursome since there's only one other player to transfer it to, but it's still a legitimate game."
   - question: "Does Snake work alongside other games like Nassau or Skins?"
@@ -39,7 +39,7 @@ Snake is the opposite of a scoring game — it punishes three-putts. Someone thr
 Players: 2+ (works with any size group)
 Type: Side bet (runs alongside other games)
 Scoring: Pure putting — only three-putts matter
-Common stakes: $5 fixed, $2-$3 per three-putt (pot), or doubling model
+Common stakes: $1–$5 per three-putt (fixed), or doubling starting at $0.25–$1
 Also called: Animal game, Zoo golf, Putting penalty
 ```
 
@@ -78,27 +78,17 @@ Two scenarios. One standard, one optional.
 
 Either way, someone's leaving that hole with the snake. There's no split or shared liability.
 
-## Three Betting Models
+## Two Betting Models
 
 How you settle Snake changes the entire character of the game.
 
-### Fixed Stake (Simplest)
+### Fixed (Per Three-Putt)
 
-The snake is always worth the same amount. You agree on a value before teeing off — $5, $10, whatever — and that's what the final holder pays to each other player.
+Every three-putt during the round adds a fixed dollar amount to the snake's value. You agree on the per-three-putt amount before teeing off — $1, $2, $5 — and the snake accumulates from there.
 
-Four players, $5 fixed stakes. Todd has the snake at the end. He pays $5 to Justin, $5 to Jason, $5 to Evan. That's $15 total, and he took all of it. It's clean math and you know the exact risk before you start.
+Four players, $1 per three-putt. Across 18 holes, 7 three-putts happen. The snake is worth $1 × 7 = $7. Todd is holding it at the end, so he pays $7 to Justin, $7 to Jason, $7 to Evan. That's $21 total out of Todd's pocket.
 
-This is the game at its most straightforward. Low risk, consistent consequences, no surprises.
-
-### Per Three-Putt (Pot Model)
-
-The snake value equals the base amount times the total number of three-putts in the round.
-
-Four players, $2 per three-putt. Across 18 holes, there are eight three-putts total (Justin had two, Jason three, Evan two, Todd one). The pot is $2 × 8 = $16. Now whoever holds the snake pays $16 total, split among the other three players. That's roughly $5.33 each.
-
-The pot model self-calibrates — high-handicap groups with lots of three-putts end up with a bigger pot. Low-handicap groups with cleaner putting have a smaller pot. And because the pool includes all three-putts, not just who transferred the snake, bad putting by everyone else can make the holder's burden heavier.
-
-Todd with the snake pays $16 ÷ 3 = $5.33 to each other player. It's not evenly divisible, so Stick rounds to the nearest cent.
+The math is always: **stake × total three-putts = snake value.** You know the per-three-putt cost going in; the only variable is how many three-putts happen during the round. High-handicap groups with shaky putting end up with a bigger snake. Low-handicap groups keep it modest. The game self-calibrates.
 
 ### Doubling (The Escalation Model)
 
@@ -127,21 +117,21 @@ If nobody three-putts all round, the snake never activates and there's no settle
 
 ## A Full Round Walkthrough
 
-Justin, Jason, Evan, and Todd playing fixed-stake Snake at $5. Here's every three-putt across 18 holes:
+Justin, Jason, Evan, and Todd playing fixed Snake at $1 per three-putt. Here's every three-putt across 18 holes:
 
-| Hole | Three-Putter | Snake Holder After |
-|------|-------------|-------------------|
-| 3 | Jason | Jason |
-| 5 | Evan | Evan |
-| 8 | Evan (again) | Evan (no transfer — already holding) |
-| 10 | Justin | Justin |
-| 13 | Todd | Todd |
-| 14 | Jason | Jason |
-| 17 | Todd | Todd |
+| Hole | Three-Putter | Snake Holder After | Snake Value |
+|------|-------------|-------------------|-------------|
+| 3 | Jason | Jason | $1 (1 three-putt) |
+| 5 | Evan | Evan | $2 (2 three-putts) |
+| 8 | Evan (again) | Evan (no transfer — already holding) | $3 (3 three-putts) |
+| 10 | Justin | Justin | $4 (4 three-putts) |
+| 13 | Todd | Todd | $5 (5 three-putts) |
+| 14 | Jason | Jason | $6 (6 three-putts) |
+| 17 | Todd | Todd | $7 (7 three-putts) |
 
-Seven three-putts total. The snake changed hands five times. Todd three-putted on 17 and nobody three-putted on 18, so Todd is holding at the end.
+Seven three-putts total. Each one added $1 to the snake's value, so the snake is worth $1 × 7 = $7. The snake changed hands five times. Todd three-putted on 17 and nobody three-putted on 18, so Todd is holding at the end.
 
-**Settlement:** Todd pays $5 to Justin, $5 to Jason, $5 to Evan. Total out: $15 from Todd. Total in: $5 each to three players. Net: Justin +$5, Jason +$5, Evan +$5, Todd −$15. Zero-sum — understand [settlement](/guides/settlement/) and you know why every dollar won is a dollar lost.
+**Settlement:** Todd pays $7 to Justin, $7 to Jason, $7 to Evan. Total out: $21 from Todd. Total in: $7 each to three players. Net: Justin +$7, Jason +$7, Evan +$7, Todd −$21. Zero-sum — understand [settlement](/guides/settlement/) and you know why every dollar won is a dollar lost.
 
 Note that Evan three-putted twice but never held the snake at the end. Jason held it briefly and passed it. The only thing that matters is who's holding it on 18.
 
@@ -188,7 +178,7 @@ Some groups simplify and play just Snake + Camel, leaving the rest. Some play th
 
 ## Common Mistakes
 
-**Forgetting to agree on the model beforehand.** You start the round, two people assume fixed, one person assumes doubling. By hole 6 when the snake passes, you're arguing about what it's worth. Settle this before you tee off. "Fixed $5" or "doubling starting at $1" or "pot at $2 per three-putt." Write it down if you're not sure.
+**Forgetting to agree on the model beforehand.** You start the round, two people assume fixed, one person assumes doubling. By hole 6 when the snake passes, you're arguing about what it's worth. Settle this before you tee off. "$1 per three-putt, fixed" or "doubling starting at $1." Write it down if you're not sure.
 
 **Starting the doubling model too high.** $5 starting value doubles to $10 to $20 to $40 to $80 to $160. That happened by hole 8 if the group can't putt. If someone three-putts on hole 12, the snake is worth $2,560. You thought you were playing a casual game. Now you're not. Start at $0.10 if you're nervous. Start at $0.25 if you're confident. $1 is aggressive for a casual group.
 
@@ -199,7 +189,7 @@ Some groups simplify and play just Snake + Camel, leaving the rest. Some play th
 <FAQ>
 
 <QA question="What is the snake in golf?">
-Snake is a golf betting game where three-putts are penalties. The player who three-putts gets the snake (a liability). When the next player three-putts, the snake transfers to them. At the end of 18 holes, whoever holds the snake pays every other player a pre-agreed amount. It's a side game, meaning it runs alongside other bets like Nassau or Skins.
+Snake is a golf betting game where three-putts are penalties. The player who three-putts gets the snake (a liability). When the next player three-putts, the snake transfers to them and its value grows. At the end of 18 holes, whoever holds the snake pays every other player the accumulated value. In the fixed model, each three-putt adds a set dollar amount — so $1 per three-putt with 5 three-putts means the holder pays $5 to each opponent. It's a side game, meaning it runs alongside other bets like Nassau or Skins.
 </QA>
 
 <QA question="How do you play the animal/zoo game in golf?">
@@ -215,7 +205,7 @@ Nobody gets the snake, nobody settles. The snake value stays at zero. You and yo
 </QA>
 
 <QA question="What's the difference between fixed and doubling Snake?">
-Fixed means the snake is always worth the same amount ($5, $10, whatever). The holder pays that amount to everyone else at the end. Doubling means the snake value doubles every time someone three-putts: first three-putt = $1, second = $2, third = $4, continuing exponentially. Doubling gets dramatic fast — use it only if everyone's comfortable with potential wild swings.
+In fixed, every three-putt adds a set dollar amount to the snake's value. At $1 per three-putt with 7 three-putts during the round, the snake is worth $7 — the holder pays $7 to each opponent. In doubling, the snake's value doubles on each three-putt: first = $1, second = $2, third = $4, fourth = $8, continuing exponentially. The holder pays the final accumulated value to each opponent. Doubling gets dramatic fast — use it only if everyone's comfortable with potential wild swings.
 </QA>
 
 <QA question="Can you play Snake with just two players?">

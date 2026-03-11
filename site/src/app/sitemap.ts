@@ -41,6 +41,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
+    {
+      url: "https://stickapp.golf/guides/",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
     ...guidePages.map((guide) => ({
       url: `https://stickapp.golf/guides/${guide.slug}/`,
       lastModified: new Date(guide.updatedAt),
