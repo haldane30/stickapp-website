@@ -72,6 +72,10 @@ stickapp-website/
 │   │   ├── content-strategy.md         # Overall content approach and guidelines
 │   │   ├── content-calendar.md         # What to publish and when
 │   │   └── voice-and-tone.md           # Writing guidelines for all Stick content
+│   ├── marketing/                # Growth & influencer strategy
+│   │   ├── influencer-and-social-media-strategy.md  # Complete micro-influencer + social media playbook (16-part guide)
+│   │   ├── 90day-social-calendar.md    # Week-by-week tactical calendar (April–June, Phase 1)
+│   │   └── creator-outreach-templates.md             # Copy-paste emails, templates, and execution guide
 │   └── brand/                   # Brand and design direction
 │       └── design-brief.md             # Website design brief (visual direction, brand territory)
 │
@@ -167,6 +171,99 @@ stickapp-website/
 - Launch with 4 game guides + 2 blog posts, then add 2 game guides/week until all 12 live
 - Voice: Authoritative but approachable. "We know because we built the calculators."
 - Brand voice: "Stick Golf" (not personal brand)
+
+---
+
+## Growth & Influencer Marketing Strategy
+
+### Phase 1: Zero-Budget Outreach (April–June 2026)
+
+**Overview:** Stick has no marketing budget but massive competitive advantage: every competitor (18 Birdies, Arccos, Skins App, Beezer) has minimal to zero social media presence. Stick can own the space cheaply through micro-influencers + owned content.
+
+**Micro-Influencer Strategy (TikTok + Instagram):**
+- Target: 10K–100K follower creators in golf niche
+- Outreach: Free 1-year Stick Pro access ($59.99 value) in exchange for gameplay content
+- Phase 1 goal: 10–15 micro-influencers posting about Stick (estimated 500K–1.5M impressions)
+- Cash spend: $0 (access = already paid)
+- Expected new users from Phase 1: 15–25
+
+**Owned Content (TikTok + Instagram):**
+- Post 3x/week: education (game rules), gameplay (clips from your rounds), funny moments
+- Build to 3K–5K followers by end of Phase 1
+- YouTube channel: Long-form videos (settlement walkthroughs, game guides)
+- Owned content compounds — ranks on YouTube, shared on Reddit, links back to website
+
+**Grassroots Seeding:**
+- Reddit: Authentic comments in r/golf, r/GolfBetting (not spam, just helpful)
+- Email: Build list from homepage, weekly value (settlement guides, game tips)
+- Referral program: Every user gets unique link, earn 1 month free per 2 referrals
+
+**Key Insight:** Golf betting is inherently shareable. People love showing friends their results. The app does the marketing — your job is getting it in front of the right micro-influencers who'll naturally share.
+
+### Phase 2: Performance-Based Spend (July–Sept 2026, Only If Revenue)
+
+**Flat-Fee Campaigns:**
+- Budget: $3K–5K (only if generating revenue)
+- Offer: $300–400 per creator for 2 guaranteed posts (TikTok + Reels)
+- Target: 8–10 top-performing creators from Phase 1
+- Expected cost per acquisition: <$50 per new user
+
+**Ambassador Program:**
+- Formalize: 5–8 top creators get official "Stick Ambassador" title
+- Commission: 10–15% of revenue from their referral code
+- Long-term: Creates recurring income stream for creators, aligned incentives for you
+
+**Content Partnerships:**
+- Co-created content with 2–3 creators (no money, mutual promotion)
+- Example: "Settlement Guide" video featuring micro-influencer + Stick walkthrough
+- Reach: Leverages both audiences, 2x visibility
+
+### Phase 3: Reinvestment Model (October–December 2026)
+
+**Budget Allocation:**
+- If Stick hits 100+ paid users by Month 6, allocate 10% of monthly revenue back to influencer marketing
+- Example: 300 users × $59.99/year ÷ 12 = $1,500/month → 10% = $150/month for creators
+- As revenue grows, capital availability grows. Test and scale what works.
+
+**Long-Term Partnerships:**
+- Target mega-influencers (500K–1M followers) once you have traction
+- Budget: $2K–5K per collab (only if revenue supports)
+- Goal: Partner with NLU, Good Good, or Bob Does Sports once Stick has proved traction
+
+---
+
+### Complete Marketing Playbook
+
+All three marketing documents live in `strategy/marketing/`:
+
+1. **influencer-and-social-media-strategy.md** (16 parts, ~8,000 words)
+   - Complete research-backed strategy (2026 market rates, platform performance, deal structures)
+   - Golf micro-influencer landscape analysis
+   - TikTok/Instagram viral content principles
+   - Grassroots tactics (Reddit seeding, golf club partnerships, email)
+   - 90-day action plan with metrics
+
+2. **90day-social-calendar.md** (Week-by-week tactical guide)
+   - April: Foundation + outreach begins
+   - May: Amplifying influencer content
+   - June: Scale what works + Phase 2 planning
+   - Daily/weekly checklists for content, outreach, analytics
+
+3. **creator-outreach-templates.md** (Copy-paste ready)
+   - 10 email templates (cold outreach, follow-up, flat-fee offers, partnerships)
+   - Creator discovery strategy (how to find micro-influencers)
+   - Red flags & green flags (who to partner with)
+   - Measurement framework (ROI, conversion rates, CAC)
+
+---
+
+### Why This Works for Stick
+
+1. **Zero competition.** No competitor is doing social media. Stick owns the space by default.
+2. **Inherently shareable.** Golf betting results are social currency. People text screenshots.
+3. **Micro-influencers are hungry.** They want early product access. Free year is attractive.
+4. **Grassroots = authentic.** "Founder reaching out directly" beats corporate sponsorship.
+5. **Reinvestment model aligns incentives.** Don't spend until revenue arrives. When it does, you have capital to scale.
 
 ---
 
