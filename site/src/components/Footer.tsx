@@ -134,6 +134,14 @@ export function Footer() {
                   Terms
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/support"
+                  className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
+                >
+                  Support
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
