@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "Q86ZJ7LPMG.com.stick.golfapp",
+        "paths": ["/round/*"]
+      }
+    ]
+  }
+}
