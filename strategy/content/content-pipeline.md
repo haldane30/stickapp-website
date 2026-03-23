@@ -2,7 +2,7 @@
 
 > **Purpose:** The active queue. Every content opportunity we've identified, organized by status and priority. When a new session starts, read this first. You'll know immediately what's next without asking.
 >
-> **Last updated:** March 11, 2026
+> **Last updated:** March 23, 2026
 > **Owner:** Justin + Claude (co-managed)
 
 ---
@@ -212,14 +212,16 @@ These aren't new posts — they're targeted additions to existing content that c
 - **What was added:** Expanded 3-player section with settlement example, strategy notes, rotation math. Hammer settlement example added. Two new FAQ questions targeting "wolf hammer golf" and "3 player wolf." Three new keywords in frontmatter.
 
 #### T4-2: Skins Guide — Add Carryover Rules Subsection
-- **Status:** Identified
-- **Why:** "Skins carryover rules" and "what happens if the last hole ties in skins" are heavily searched. The current guide covers basics but doesn't address edge cases (proofs, playoff, split).
-- **Target queries:** skins carryover rules, skins last hole tie
+- **Status:** Published (March 23, 2026)
+- **Why:** "Skins carryover rules" and "what happens if the last hole ties in skins" are heavily searched. The current guide covers basics but didn't address edge cases (proofs, playoff, split).
+- **What was added:** New "Carryover Edge Cases" section covering: carryovers through the turn, bogey wins on stacked holes, validation + carryover interaction, hole 18 validation rules. New FAQ: "Do skins carry over from the front nine to the back nine?" Two new keywords in frontmatter.
+- **Target queries:** skins carryover rules, skins last hole tie, do skins carry over front nine back nine
 
 #### T4-3: Nassau Guide — Add Handicap Walkthrough
-- **Status:** Identified
-- **Why:** "Nassau with handicaps" is a high-volume query with weak answers. The current guide mentions handicaps but doesn't walk through a full example with strokes applied per hole.
-- **Target queries:** nassau golf handicaps, net nassau rules
+- **Status:** Published (March 23, 2026)
+- **Why:** "Nassau with handicaps" is a high-volume query with weak answers. The current guide mentioned handicaps but didn't walk through a full example with strokes applied per hole.
+- **What was added:** Full 6-hole walkthrough table showing stroke index, gross scores, net scores, and match play results for Justin (5 hcp) vs Jason (12 hcp). Explains how stroke index differs from hole number. Shows the specific swing where a handicap stroke halves a hole. Expanded 2v2 team handicap explanation. Three new keywords in frontmatter.
+- **Target queries:** nassau golf handicaps, net nassau rules, nassau stroke index
 
 #### T4-4: Match Play Guide — Clarify Game vs. Betting Format
 - **Status:** Identified
@@ -227,9 +229,10 @@ These aren't new posts — they're targeted additions to existing content that c
 - **Target queries:** match play golf betting explained
 
 #### T4-5: Junk Guide — Add High-Handicapper Caveat for Prox
-- **Status:** Identified
+- **Status:** Published (March 23, 2026)
 - **Why:** Justin's insight — proximity in regulation heavily favors low handicaps. Worth adding a note about which Junk categories are skill-neutral vs. skill-skewed. Unique content nobody else has.
-- **Target queries:** (supports T2-3 high handicapper post)
+- **What was added:** New strategy tip explaining which categories favor low vs. high handicappers (prox = most skewed, Sandy/Barkie/Chippie = most fair). Recommendation to drop prox for wide handicap spreads. New FAQ: "Which Junk categories are fair for high handicappers?" Two new keywords in frontmatter.
+- **Target queries:** junk categories high handicap, fair golf side bets (supports T2-3 high handicapper post)
 
 ---
 
