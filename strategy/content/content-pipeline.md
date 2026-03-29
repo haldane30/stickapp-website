@@ -260,6 +260,22 @@ These catch golfers who don't know they need Stick yet. They're searching for "f
 
 ---
 
+### TIER 1C — Cultural Moment Captures (Ride the Wave)
+
+These capture search traffic from trending golf events and connect it back to Stick.
+
+#### T1C-1: "What Is the Hammer in Golf? TGL's Signature Move Explained (And How to Play It)"
+- **Status:** Identified
+- **Type:** Blog post (1,500-2,000 words)
+- **Target keyword:** tgl hammer, tgl hammer meaning, tgl hammer explained, hammer golf, what is hammer in golf
+- **Why NOW:** TGL (Tiger Woods / Rory McIlroy's indoor simulator league) is currently in season and hugely popular. Their signature "hammer" mechanic — a mid-hole double that the other team accepts or declines — is generating massive search interest (Google autocomplete shows 6+ "tgl hammer" variants: meaning, strategy, throw rules, explained, flag). This is the EXACT same mechanic Stick supports in Wolf. Nobody is connecting "TGL hammer" to "golf betting hammer you can play with your friends." This is a bridge piece: TV viewer → learns the mechanic → realizes they can play it → downloads Stick.
+- **Competition:** WEAK. A few TGL rules explainers exist but none connect it to recreational golf betting.
+- **Internal linking targets:** Wolf guide (hammer section), Scotch guide (roll/hammer), Golf Betting for Beginners
+- **Outline notes:** Open with "If you've been watching TGL, you've seen the hammer." Explain TGL's version, then pivot: "Here's the thing — hammer isn't new. Golf groups have been playing it for years." Explain Wolf Hammer, Scotch roll/hammer. Settlement example showing how a hammer changes a $2 hole into an $8 hole. End with "Track hammer multipliers automatically with Stick." Time-sensitive: TGL season creates search spikes. Content remains evergreen for future seasons.
+- **Seasonal window:** TGL season runs January–March. Publish while interest is high. Content remains evergreen for future seasons.
+
+---
+
 ### TIER 2B — Dispute Resolution Content (Stage 3 Captures)
 
 These catch golfers who just played, had an argument, and are standing in the parking lot Googling for the answer. They are *exactly* the person who needs Stick. This is a content category, not a single post.

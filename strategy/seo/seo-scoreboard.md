@@ -2,8 +2,8 @@
 
 > **Purpose:** The feedback loop. Track what's working, what's not, and where to double down. This document turns us from guessing to data-driven. Updated monthly once Search Console data is flowing.
 >
-> **Last updated:** March 5, 2026
-> **Status:** Template ready. Awaiting first meaningful Search Console data (expect mid-April after 4-6 weeks of indexing).
+> **Last updated:** March 29, 2026
+> **Status:** LIVE — First Search Console data logged. Monthly reviews active.
 
 ---
 
@@ -21,8 +21,8 @@ Track these monthly to see the overall trajectory.
 
 | Month | Total Impressions | Total Clicks | Avg CTR | Avg Position | Pages Indexed | Notes |
 |-------|------------------|-------------|---------|-------------|--------------|-------|
-| Mar 2026 | — | — | — | — | — | Site live, 20 pages submitted |
-| Apr 2026 | | | | | | First data expected |
+| Mar 2026 | 944 | 3 | 0.3% | 48.5 | 22 | First 28 days. 167 unique queries. Impressions trending up in final week. |
+| Apr 2026 | | | | | | |
 | May 2026 | | | | | | |
 | Jun 2026 | | | | | | |
 | Jul 2026 | | | | | | |
@@ -92,7 +92,16 @@ Keywords we didn't target but are getting impressions for. These often reveal ne
 
 | Keyword | Page Ranking | Impressions | Position | Opportunity |
 |---------|-------------|------------|----------|------------|
-| *(awaiting data)* | | | | |
+| golf betting app | `/blog/best-golf-betting-apps-2026/` | 67 | ~48 | High — commercial intent, zero-competition roundup |
+| best app for golf betting | `/blog/best-golf-betting-apps-2026/` | 61 | ~48 | High — same cluster as above, validate title match |
+| golf betting apps | `/blog/best-golf-betting-apps-2026/` | 28 | ~48 | High — plural variant, same page |
+| best golf betting app | `/blog/best-golf-betting-apps-2026/` | 26 | ~48 | High — singular variant |
+| wolf points | `/games/wolf/` | 21 | ~48 | Medium — unexpected query, check if guide addresses "points" angle |
+| best betting app for golf | `/blog/best-golf-betting-apps-2026/` | 20 | ~48 | High — another variant in the cluster |
+| wolf-points | `/games/wolf/` | 13 | ~48 | Medium — hyphenated variant of above |
+| wolf golf game | `/games/wolf/` | 12 | ~48 | High — exact target keyword for Wolf guide |
+| golf skins | `/games/skins/` | 11 | ~48 | High — exact target keyword for Skins guide |
+| skins in golf | `/games/skins/` | 10 | ~48 | High — variant, check if guide opens with this phrasing |
 
 ---
 
@@ -198,6 +207,40 @@ Copy this template each month when updating:
 2. [specific action]
 3. [specific action]
 ```
+
+---
+
+## Monthly Reviews
+
+### March 2026 Review (First Data)
+
+**Overall:** 944 impressions, 3 clicks, 0.3% CTR, 48.5 avg position
+**Pages indexed:** 22
+**New content published this month:** Golf Betting for Beginners, Glossary, 2-Player guide, 5-Player guide, 3 guide expansions (Wolf 3-player, Skins carryover, Nassau handicap, Junk high-handicapper)
+
+**Wins:**
+- 167 unique queries in first 28 days — broad keyword surface established
+- "Golf betting app" cluster generating 182+ combined impressions — roundup post is working
+- Wolf guide ranking for 3 variants (wolf points, wolf-points, wolf golf game = 46 impressions)
+- Skins guide showing early traction (golf skins + skins in golf = 21 impressions)
+- Impression trend line climbing sharply in final week — Google is increasing visibility
+
+**Striking distance opportunities:**
+- Cannot isolate per-page positions yet (avg 48.5 is sitewide). Need Justin to check Pages tab in Search Console next month for per-page position data.
+- "Golf betting app" cluster is highest-volume opportunity — focus title/meta optimization on roundup post.
+
+**Underperformers:**
+- Too early to judge. All pages are in Google's sandbox period (0-3 months for new domains). Position 48.5 is expected.
+- Flag for April: Check which of the 12 game guides have 0 impressions. Those may need title or internal linking help.
+
+**Emerging keywords:**
+- "wolf points" (21 impressions) — not an explicitly targeted term. People searching for Wolf scoring/points, not just "wolf golf game." Consider expanding Wolf guide's points section or adding a "How Wolf Points Work" FAQ.
+- "best app for golf betting" / "best betting app for golf" — people are searching for this in multiple phrasings. The roundup post's title should match the most common variant.
+
+**Actions for April:**
+1. Get per-page Search Console data (Pages tab screenshot) to identify which specific pages are gaining traction
+2. Run first content refresh on Wolf guide (add "wolf points" coverage) and roundup post (tighten title for "golf betting app" query cluster)
+3. Check if "golf betting for beginners" is getting impressions yet — that post targets a high-value keyword
 
 ---
 
