@@ -165,7 +165,7 @@ export default async function GameGuidePage({
       </section>
 
       {/* Content area */}
-      <section className="section-light" style={{ padding: "var(--section-padding-y) 0" }}>
+      <section className="section-light" style={{ padding: "80px 0 var(--section-padding-y)" }}>
         <div className="mx-auto max-w-[var(--content-max-width)] px-6">
           {guide ? (
             <article className="prose mx-auto">

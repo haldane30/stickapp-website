@@ -110,6 +110,29 @@ export function QA({
   );
 }
 
+// ─── Quick Facts ─────────────────────────────────────────────────────────────
+// At-a-glance card for the top of game guides. Replaces the old code-fence
+// blocks that rendered as monospaced text with broken links.
+
+export function QuickFacts({ children }: { children: React.ReactNode }) {
+  return <div className="quick-facts">{children}</div>;
+}
+
+export function Fact({
+  label,
+  children,
+}: {
+  label: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="quick-facts-row">
+      <span className="quick-facts-label">{label}</span>
+      <span className="quick-facts-value">{children}</span>
+    </div>
+  );
+}
+
 // ─── Component map for MDXRemote ─────────────────────────────────────────────
 
 export const mdxComponents = {
@@ -120,4 +143,6 @@ export const mdxComponents = {
   FAQ,
   QA,
   PhoneMockup,
+  QuickFacts,
+  Fact,
 };

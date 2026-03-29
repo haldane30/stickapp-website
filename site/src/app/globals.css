@@ -107,6 +107,7 @@ body {
   line-height: 1.75;
   color: var(--color-text-on-light);
   letter-spacing: -0.003em;
+  overflow: visible; /* Allow phone mockups to break into right margin */
 }
 
 /* ─── Headings ─── */
@@ -237,6 +238,71 @@ body {
 
 .prose tbody tr:last-child td {
   border-bottom: none;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   LEDE — Styled opening paragraph for editorial content.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.prose > p:first-child {
+  font-size: 21px;
+  line-height: 1.7;
+  color: var(--color-text-on-light);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   QUICK FACTS — At-a-glance card for game guides.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.prose .quick-facts {
+  margin: 1.75em 0 2em;
+  padding: 1.25em 1.5em;
+  background: rgba(0, 0, 0, 0.025);
+  border-left: 2px solid var(--color-coral);
+  border-radius: 0 6px 6px 0;
+}
+
+.prose .quick-facts-row {
+  display: flex;
+  gap: 0.75em;
+  padding: 0.35em 0;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.prose .quick-facts-label {
+  flex-shrink: 0;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  min-width: 110px;
+}
+
+.prose .quick-facts-value {
+  color: var(--color-text-on-light);
+}
+
+.prose .quick-facts-value a {
+  color: var(--color-coral);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+.prose .quick-facts-value a:hover {
+  color: var(--color-coral-hover);
+}
+
+@media (max-width: 480px) {
+  .prose .quick-facts-row {
+    flex-direction: column;
+    gap: 0.15em;
+    padding: 0.4em 0;
+  }
+
+  .prose .quick-facts-label {
+    min-width: unset;
+  }
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -463,27 +529,43 @@ body {
 
 /*
  * In prose context (game guides, blog posts), small phone mockups float
- * right on desktop and go full-width centered on mobile. This keeps the
- * editorial flow intact while showing the app inline.
+ * right and break out of the reading column into the right margin.
+ * The reading column is 720px inside a 1280px container, giving ~280px
+ * of margin on each side. The phone sits in that right gutter so text
+ * wraps naturally on the left.
  */
 
 .prose .phone-mockup-sm {
   float: right;
-  margin: 0 0 1.5em 2em;
-  max-width: 240px;
+  width: 220px;
+  margin: 0.25em 0 1.5em 2em;
+  /* Pull into the right margin area — half in reading column, half in gutter */
+  margin-right: -140px;
+  position: relative;
+  z-index: 1;
 }
 
+/* On tablets, less margin to break into */
+@media (max-width: 1100px) {
+  .prose .phone-mockup-sm {
+    margin-right: -60px;
+    width: 200px;
+  }
+}
+
+/* On mobile, go full-width centered — no float */
 @media (max-width: 767px) {
   .prose .phone-mockup-sm {
     float: none;
     margin: 2em auto;
-    max-width: 220px;
+    margin-right: auto;
+    width: 200px;
   }
 }
 
-/* Clear floats after phone mockups in prose */
-.prose h2,
-.prose h3 {
+/* Only clear floats on major section breaks (H2), not subsections (H3).
+   This lets text in a subsection wrap around the phone naturally. */
+.prose h2 {
   clear: both;
 }
 
