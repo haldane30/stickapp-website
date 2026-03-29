@@ -2,6 +2,7 @@ import Image from "next/image";
 import { games, contentImages, heroImage } from "@/lib/tokens";
 import { GameCard } from "@/components/GameCard";
 import { JsonLd } from "@/components/JsonLd";
+import { PhoneMockup } from "@/components/PhoneMockup";
 
 // SoftwareApplication schema for homepage
 const appSchema = {
@@ -135,6 +136,124 @@ export default function Home() {
                 Stick tracks every bet, every press, every stroke — and settles
                 the math before you reach the parking lot.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════
+          SECTION 2.5: PRODUCT SHOWCASE (Dark)
+          Three phones showing the app in action.
+          ═══════════════════════════════════════════════════════════════════ */}
+      <section className="section-dark" style={{ padding: "var(--section-padding-y) 0" }}>
+        <div className="mx-auto max-w-[var(--content-max-width)] px-6">
+          {/* Overline */}
+          <p className="text-xs font-semibold uppercase tracking-[0.15em] text-[var(--color-text-secondary)] mb-4">
+            See It in Action
+          </p>
+
+          <h2
+            className="font-serif text-[var(--color-text-on-dark)]"
+            style={{ fontSize: "clamp(32px, 4vw, 48px)", lineHeight: 1.15 }}
+          >
+            Every hole tells a story.
+          </h2>
+
+          <p className="mt-4 text-[var(--color-text-secondary)] text-base md:text-lg max-w-xl">
+            Real-time results as you play. Stack multiple games in one round. Settle the math before you reach the parking lot.
+          </p>
+
+          {/* Three-phone showcase */}
+          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 lg:gap-12 items-start">
+            {/* Phone 1: Narrative moment */}
+            <div className="text-center">
+              <PhoneMockup
+                src="/screenshots/narrative-swept-the-board.png"
+                alt="Stick app showing Swept the Board result on the final hole with Snake, Nassau, and Skins updates"
+                size="md"
+                priority
+              />
+              <h3 className="mt-6 text-[var(--color-text-on-dark)] font-semibold text-base">
+                Hole-by-hole narrative
+              </h3>
+              <p className="mt-2 text-sm text-[var(--color-text-secondary)] max-w-xs mx-auto">
+                After every hole, see exactly what happened — who won, what shifted, and where the money moved.
+              </p>
+            </div>
+
+            {/* Phone 2: Game picker */}
+            <div className="text-center">
+              <PhoneMockup
+                src="/screenshots/game-picker.png"
+                alt="Stick app game selection showing 12 available golf betting games"
+                size="md"
+                priority
+              />
+              <h3 className="mt-6 text-[var(--color-text-on-dark)] font-semibold text-base">
+                12 games, your rules
+              </h3>
+              <p className="mt-2 text-sm text-[var(--color-text-secondary)] max-w-xs mx-auto">
+                Nassau, Skins, Wolf, Snake, Vegas, and 7 more. Every format your group plays, with every house rule.
+              </p>
+            </div>
+
+            {/* Phone 3: Round summary */}
+            <div className="text-center">
+              <PhoneMockup
+                src="/screenshots/round-summary.png"
+                alt="Stick app round summary showing course, players with handicaps, and three stacked games"
+                size="md"
+              />
+              <h3 className="mt-6 text-[var(--color-text-on-dark)] font-semibold text-base">
+                Stack multiple games
+              </h3>
+              <p className="mt-2 text-sm text-[var(--color-text-secondary)] max-w-xs mx-auto">
+                Run Nassau, Skins, and Snake in the same round. One scorecard tracks everything.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════════════
+          SECTION 2.75: GAME CONFIG DETAIL (Light)
+          Deeper look at a single game's configuration depth.
+          ═══════════════════════════════════════════════════════════════════ */}
+      <section className="section-light" style={{ padding: "var(--section-padding-y) 0" }}>
+        <div className="mx-auto max-w-[var(--content-max-width)] px-6">
+          <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center max-w-5xl mx-auto">
+            {/* Phone — Skins config */}
+            <div className="flex justify-center md:order-2">
+              <PhoneMockup
+                src="/screenshots/skins-config.png"
+                alt="Stick app Skins game configuration showing payout model, handicap strokes, carryovers, and validation options"
+                size="lg"
+              />
+            </div>
+
+            {/* Text */}
+            <div className="md:order-1">
+              <p className="text-xs font-semibold uppercase tracking-[0.15em] text-[var(--color-text-secondary)] mb-4">
+                Your House Rules
+              </p>
+              <h2
+                className="font-serif text-[var(--color-text-on-light)]"
+                style={{ fontSize: "clamp(28px, 3.5vw, 44px)", lineHeight: 1.15 }}
+              >
+                Every setting. Every variation.
+              </h2>
+              <p className="mt-4 text-[var(--color-text-secondary)] text-base md:text-lg max-w-md">
+                Fixed, pot, or escalating skins. Full or half handicap strokes. Carryovers on or off.
+                Validation requiring net par to keep a skin. Your group&apos;s rules, not ours.
+              </p>
+              <div className="mt-8">
+                <a
+                  href="/games/skins/"
+                  className="text-sm font-medium text-[var(--color-coral)] hover:text-[var(--color-coral-hover)] transition-colors"
+                >
+                  Read the Skins guide &rarr;
+                </a>
+              </div>
             </div>
           </div>
         </div>

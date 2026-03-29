@@ -458,6 +458,36 @@ body {
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
+   PHONE MOCKUP — Inline app screenshots in editorial content
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/*
+ * In prose context (game guides, blog posts), small phone mockups float
+ * right on desktop and go full-width centered on mobile. This keeps the
+ * editorial flow intact while showing the app inline.
+ */
+
+.prose .phone-mockup-sm {
+  float: right;
+  margin: 0 0 1.5em 2em;
+  max-width: 240px;
+}
+
+@media (max-width: 767px) {
+  .prose .phone-mockup-sm {
+    float: none;
+    margin: 2em auto;
+    max-width: 220px;
+  }
+}
+
+/* Clear floats after phone mockups in prose */
+.prose h2,
+.prose h3 {
+  clear: both;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
    UTILITY STYLES
    ═══════════════════════════════════════════════════════════════════════════ */
 

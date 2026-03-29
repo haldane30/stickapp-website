@@ -258,28 +258,28 @@ export default function SupportPage() {
               Game Guides
             </Link>
             <Link
-              href="/guides/handicaps"
+              href="/guides/handicaps/"
               className="inline-block text-sm font-medium px-6 py-3 rounded-full border border-[var(--color-canvas-dark)]/[0.12] text-[var(--color-text-on-light)] hover:border-[var(--color-coral)]/40 hover:text-[var(--color-coral)] transition-all"
               style={{ fontFamily: "var(--font-sans)" }}
             >
               Handicaps
             </Link>
             <Link
-              href="/guides/presses"
+              href="/guides/presses/"
               className="inline-block text-sm font-medium px-6 py-3 rounded-full border border-[var(--color-canvas-dark)]/[0.12] text-[var(--color-text-on-light)] hover:border-[var(--color-coral)]/40 hover:text-[var(--color-coral)] transition-all"
               style={{ fontFamily: "var(--font-sans)" }}
             >
               Presses
             </Link>
             <Link
-              href="/guides/settlement"
+              href="/guides/settlement/"
               className="inline-block text-sm font-medium px-6 py-3 rounded-full border border-[var(--color-canvas-dark)]/[0.12] text-[var(--color-text-on-light)] hover:border-[var(--color-coral)]/40 hover:text-[var(--color-coral)] transition-all"
               style={{ fontFamily: "var(--font-sans)" }}
             >
               Settlement
             </Link>
             <Link
-              href="/guides/glossary"
+              href="/guides/glossary/"
               className="inline-block text-sm font-medium px-6 py-3 rounded-full border border-[var(--color-canvas-dark)]/[0.12] text-[var(--color-text-on-light)] hover:border-[var(--color-coral)]/40 hover:text-[var(--color-coral)] transition-all"
               style={{ fontFamily: "var(--font-sans)" }}
             >

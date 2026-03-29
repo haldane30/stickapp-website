@@ -59,8 +59,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.6,
     },
-    // Note: /privacy/ and /terms/ are standalone HTML pages served outside
-    // the Next.js app. Excluded from sitemap to avoid 404s in crawl audits.
-    // They remain accessible at stickapp.golf/privacy/ and stickapp.golf/terms/.
+    {
+      url: "https://stickapp.golf/support/",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.4,
+    },
+    {
+      url: "https://stickapp.golf/privacy/",
+      lastModified: new Date("2026-02-21"),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: "https://stickapp.golf/terms/",
+      lastModified: new Date("2026-02-21"),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
   ];
 }

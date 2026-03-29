@@ -11,6 +11,7 @@
  */
 
 import React from "react";
+import { PhoneMockup } from "@/components/PhoneMockup";
 
 // ─── App Review ──────────────────────────────────────────────────────────────
 // Renders as a section with the app name as a content heading (h3) and a
@@ -118,4 +119,5 @@ export const mdxComponents = {
   Verdict,
   FAQ,
   QA,
+  PhoneMockup,
 };

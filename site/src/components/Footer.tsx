@@ -79,7 +79,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/guides/handicaps"
+                  href="/guides/handicaps/"
                   className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                 >
                   Handicaps Guide
@@ -87,7 +87,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/guides/presses"
+                  href="/guides/presses/"
                   className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                 >
                   Presses Guide
@@ -95,7 +95,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/guides/settlement"
+                  href="/guides/settlement/"
                   className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                 >
                   Settlement Guide
