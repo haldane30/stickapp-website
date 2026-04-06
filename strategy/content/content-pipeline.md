@@ -2,7 +2,7 @@
 
 > **Purpose:** The active queue. Every content opportunity we've identified, organized by status and priority. When a new session starts, read this first. You'll know immediately what's next without asking.
 >
-> **Last updated:** March 23, 2026
+> **Last updated:** April 1, 2026 (Q2 quarterly keyword discovery sweep)
 > **Owner:** Justin + Claude (co-managed)
 
 ---
@@ -166,6 +166,31 @@ These catch golfers who already bet and want to level up. They build topical aut
 - **Internal linking targets:** Nassau guide (example stakes), Settlement reference, Golf Betting for Beginners
 - **Outline notes:** Cover: typical stakes ranges by game ($2-$5 casual, $10-$25 standard, $50+ high stakes), how to scale for your group's comfort, the "buy-in mentality" vs per-hole/per-point, why automatic presses can escalate fast, Stick's role in transparency.
 
+#### T2-5: "Is Golf Betting Legal? What Casual Golfers Need to Know"
+- **Status:** Identified (added Q2 2026 quarterly sweep)
+- **Type:** Blog post (800-1,200 words)
+- **Target keyword:** is golf betting legal, are golf wagers legal, golf betting laws US, friendly golf bets legal
+- **Why:** Zero competition for the casual-golfer framing. Multiple forum threads ask this. Every sportsbook result that appears for "is golf betting legal" is about DraftKings/FanDuel — nobody addresses "can my group play a $5 Nassau?" The answer (yes, generally — casual non-commercial wagers are tolerated) is simple and reassuring. Builds trust and E-E-A-T.
+- **Competition:** ZERO dedicated content for friendly wagers.
+- **Internal linking targets:** Settlement reference, Golf Betting for Beginners, Nassau guide
+- **Outline notes:** Explain the distinction between recreational betting and organized commercial gambling. Note which states are stricter. Affirm that casual golf wagers between friends have essentially zero legal risk. Include standard legal disclaimer. Close with "Stick handles the math — you handle the fun."
+
+#### T2-6: "Bingo Bango Bongo: How to Play Golf's Most Beginner-Friendly Betting Game"
+- **Status:** Identified (added Q2 2026 quarterly sweep)
+- **Type:** Blog post (1,200-1,500 words)
+- **Target keyword:** bingo bango bongo golf, how to play bingo bango bongo, bingo bango bongo rules
+- **Why:** Bingo Bango Bongo is one of the most-searched golf betting games. Golf Digest, Golf.com, The Fried Egg, Left Rough, 18Birdies, and Beezer all have content. Stick does not. An educational guide with honest disclosure ("Stick doesn't track this yet") keeps us in the conversation. The natural end section compares BBB to Junk, which Stick does support.
+- **Competition:** MEDIUM. Multiple thin pieces. No deep guide.
+- **Internal linking targets:** Junk guide (most similar Stick game), Golf Betting for Beginners, Which Game Should You Play (T1-4)
+
+#### T2-7: "Stableford Golf Scoring: The Points System (And Why Quota Is Better for Betting)"
+- **Status:** Identified (added Q2 2026 quarterly sweep)
+- **Type:** Blog post (1,200-1,800 words)
+- **Target keyword:** stableford golf, stableford scoring, how does stableford work, stableford points system
+- **Why:** "Stableford" has genuine search volume — Golf Digest and 18Birdies have dedicated pieces. Our Quota guide covers the Stableford connection in FAQ, but a standalone Stableford piece captures the parent keyword and funnels to Quota. Bridge content that converts Stableford-curious golfers into Quota fans.
+- **Competition:** MEDIUM. Several quality pieces, but none connect Stableford to Quota as a betting game.
+- **Internal linking targets:** Quota guide, Handicaps reference, Golf Betting for Beginners
+
 ---
 
 ### TIER 3 — Occasion-Based Content (Expands the Funnel)
@@ -189,6 +214,14 @@ These catch the group organizer in planning mode — the exact person who pays $
 - **Competition:** WEAK. Generic "scramble" advice; nothing about side games.
 - **Internal linking targets:** Quota guide, Scotch guide, Skins guide, 5+ Players post
 - **Outline notes:** Frame for the organizer. "You're running a 20-person outing. Here's how to make it competitive." Cover Quota (purpose-built for large fields), Scramble + Skins side bet, team formats. Tease Events feature.
+
+#### T3-4: "Golf Betting Games for Odd Groups: 3, 5, and 7 Players"
+- **Status:** Identified (added Q2 2026 quarterly sweep)
+- **Type:** Blog post (1,500-2,000 words)
+- **Target keyword:** golf games for 5 players, golf games odd number players, golf game fivesome, golf betting 5 players
+- **Why:** GolfWRX has a thread "Golf Games for fivesome?" with 276+ replies — still getting traffic from 2013. The Left Rough has a thin "More than a Foursome: Golf Games for Five Players" piece. Nobody covers 3, 5, and 7 players together under the "odd number" framing. This expands on T1-3 (5+ players) while capturing the broader odd-number query pattern.
+- **Competition:** WEAK. Scattered thin articles. No comprehensive guide.
+- **Internal linking targets:** Quota guide, Wolf guide (works with 3+), Split Sixes/Nine Point (3-player), all 12 game guides
 
 #### T3-3: "Best Golf Betting Games for Couples"
 - **Status:** Identified
@@ -222,6 +255,18 @@ These aren't new posts — they're targeted additions to existing content that c
 - **Why:** "Nassau with handicaps" is a high-volume query with weak answers. The current guide mentioned handicaps but didn't walk through a full example with strokes applied per hole.
 - **What was added:** Full 6-hole walkthrough table showing stroke index, gross scores, net scores, and match play results for Justin (5 hcp) vs Jason (12 hcp). Explains how stroke index differs from hole number. Shows the specific swing where a handicap stroke halves a hole. Expanded 2v2 team handicap explanation. Three new keywords in frontmatter.
 - **Target queries:** nassau golf handicaps, net nassau rules, nassau stroke index
+
+#### T4-6: "Best Golf Betting Apps 2026" — Add New Competitors
+- **Status:** Identified (added Q2 2026 quarterly sweep — HIGH URGENCY)
+- **Why:** Q2 quarterly sweep found 4 new competitors appearing in our target searches that are not in the current post: GolfApp.com (free, growing), BetCaddie (free, no account required), Fairway Funds (has own betting guide content), Chirp Golf. Also: Skins App blog is now confirmed active — our review should note this.
+- **What to add:** GolfApp.com and BetCaddie as free-tier options; Fairway Funds as a mid-tier option; note Skins App blog activity; verify all existing app pricing/features are current.
+- **Effort:** LOW — 30-60 min update to existing post.
+
+#### T4-7: Handicaps Guide — Confirm "Net vs. Gross" H2 Capture
+- **Status:** Identified (added Q2 2026 quarterly sweep)
+- **Why:** "Net vs gross golf" is a medium-high search volume query. Multiple dedicated articles exist. Our Handicaps guide covers this but may not have it as an explicit H2 or in the meta description.
+- **What to do:** Check that "net vs. gross" appears prominently in the H2 structure and meta description of `/guides/handicaps/`. Add if missing.
+- **Effort:** VERY LOW — quick audit.
 
 #### T4-4: Match Play Guide — Clarify Game vs. Betting Format
 - **Status:** Identified
@@ -273,6 +318,25 @@ These capture search traffic from trending golf events and connect it back to St
 - **Internal linking targets:** Wolf guide (hammer section), Scotch guide (roll/hammer), Golf Betting for Beginners
 - **Outline notes:** Open with "If you've been watching TGL, you've seen the hammer." Explain TGL's version, then pivot: "Here's the thing — hammer isn't new. Golf groups have been playing it for years." Explain Wolf Hammer, Scotch roll/hammer. Settlement example showing how a hammer changes a $2 hole into an $8 hole. End with "Track hammer multipliers automatically with Stick." Time-sensitive: TGL season creates search spikes. Content remains evergreen for future seasons.
 - **Seasonal window:** TGL season runs January–March. Publish while interest is high. Content remains evergreen for future seasons.
+
+#### T1C-2: "Hammer vs Press: What's the Difference in Golf Betting?"
+- **Status:** Identified
+- **Type:** Blog post (1,200-1,800 words) or reference guide
+- **Target keyword:** hammer vs press golf, golf hammer vs press, press vs hammer golf betting, what is hammer in golf betting, hammer press difference golf
+- **Why:** Golfers use "press" and "hammer" as if they're interchangeable, but they're mechanically different. Press is the classic Nassau move — you're 2-down, you start a new parallel side bet that runs alongside the original. Hammer (also called "roll" depending on the group) is different — you double the stakes on the current hole, opponent takes it or folds. Hammer and roll are the same mechanic with different regional names; no group uses both terms in the same round. The confusion is everywhere in forums and nobody has written a definitive explainer. This piece sorts it out: two distinct mechanics, and the vocabulary that maps to each.
+- **Competition:** ZERO. Forums are full of "is hammer the same as pressing?" with conflicting answers. No definitive content exists.
+- **Internal linking targets:** Presses reference guide, Wolf guide (hammer section), Scotch guide (roll/hammer), TGL Hammer post (T1C-1), Nassau guide (press chains)
+- **Outline notes:** Open with "Your group plays presses. Then someone says 'hammer' and the argument starts." Two mechanics, clearly defined: Press = new parallel bet when you're down, original bet keeps running (Nassau, Match Play). Hammer/Roll = double the current hole's stakes, opponent takes it or folds, can re-double back (Wolf, Scotch). Same mechanic, different name — your group calls it one or the other, never both. Comparison table: when it triggers, what it affects, whether opponent can decline, how stakes compound differently. Settlement example showing the same scenario under each system — press creates multiple smaller parallel bets, hammer escalates a single hole. Note which Stick games support which (Nassau/Match Play = presses, Wolf = hammer, Scotch = roll). Close with "Stick tracks both automatically."
+- **Pairs with:** T1C-1 (TGL Hammer). Could publish same week — TGL piece captures trending traffic, this piece captures the evergreen confusion.
+
+#### T1C-3: "What Is the Hammer in Golf Betting? (The Definitive Guide)"
+- **Status:** Identified (added Q2 2026 quarterly sweep)
+- **Type:** Blog post or reference guide (1,200-1,500 words)
+- **Target keyword:** hammer golf game, what is hammer in golf betting, golf hammer rules, how does the hammer work in golf
+- **Why:** Golf Digest, Tampa Bay Downs, LiveAbout, and Own the Fairway all have hammer pieces — but none make the connection "you can play this with your friends." TGL Season 2 (Jan–March 2026) elevated search interest. This is the foundational evergreen piece that stands apart from T1C-1 (TGL bridge) and T1C-2 (hammer vs press). The standalone guide is the definitive reference that both T1C-1 and T1C-2 link to.
+- **Competition:** MEDIUM. Several thin pieces (300-500 words). No comprehensive guide connecting the mechanic to recreational play.
+- **Internal linking targets:** Wolf guide (hammer section), Scotch guide (roll/hammer), T1C-1 (TGL bridge piece), T1C-2 (hammer vs press), Presses guide
+- **Publish timing:** High urgency now (TGL Season 2 just ended, interest elevated). Remains evergreen for TGL Season 3.
 
 ---
 
@@ -336,14 +400,17 @@ These are identified but not prioritized. Revisit quarterly.
 
 | Idea | Why It's Parked | Revisit When |
 |------|----------------|-------------|
-| Interactive settlement calculators (web tool) | High dev effort, strong search demand for "golf nassau calculator" | Post-launch, when app is stable |
+| Interactive settlement calculators (web tool) | High dev effort, strong search demand for "golf nassau calculator" — GolfBetSettler.com already exists as free competitor | Post-launch; Nassau calculator first |
 | "History of Golf Gambling" | Interesting but low conversion intent | When we need link-building content |
 | "What Your Favorite Golf Game Says About You" | Fun/shareable but no SEO value | When we have social media presence |
 | "The Math Behind Why You Always Lose Your Nassau" | Great angle but needs real data/modeling | When we have app usage data |
-| "End of Season Settlement" | Seasonal (October) | August 2026 |
+| "End of Season Settlement" | Seasonal (October) — Q2 sweep confirmed real search interest | August 2026 |
 | "Golf Season Betting Setup: Spring Edition" | Seasonal (March) | February 2027 |
 | Regional game variations (UK/Europe) | Stick is US-focused at launch | If international expansion happens |
-| Bingo Bango Bongo guide | Not in Stick's 12 games | If Stick adds this game |
+| Bingo Bango Bongo guide | Not in Stick's 12 games — PROMOTED: see T2-6 | Active in pipeline now |
+| "Banker Golf Game: How to Play" | Not in Stick's 12 games | When T2-6 performs — same strategy |
+| "Aces and Deuces (Acey Ducey)" | Not in Stick's 12 games | When Banker performs |
+| "Golf Season-Long Tracking" | Niche — some search interest confirmed | September 2026 |
 
 ---
 
@@ -381,10 +448,56 @@ Check quarterly (or when starting a new content sprint):
 
 | Competitor | What to Check | Last Checked |
 |-----------|--------------|-------------|
-| **Beezer Golf** | Blog posts, new game guides, keyword rankings | March 5, 2026 (last blog: 2020) |
-| **Skins App** | Website content, App Store description changes | March 5, 2026 (~6 content pages) |
-| **18 Birdies** | Blog activity, SEO expansion into betting content | March 5, 2026 (GPS-first, minimal betting content) |
-| **Golf Digest** | New "how to play" game content (they occasionally publish) | March 5, 2026 |
-| **The Left Rough** | Side game content (one of few quality independent sources) | March 5, 2026 |
+| **Beezer Golf** | Blog posts, new game guides, keyword rankings | April 1, 2026 (last blog still ~2020; game pages active for 30+ games) |
+| **Skins App** | Website content, App Store description changes | April 1, 2026 (blog now active at skinsapp.com/blog; Troon partnership intact) |
+| **18 Birdies** | Blog activity, SEO expansion into betting content | April 1, 2026 (GPS-first; ~10 side games; knowledge base thin but active) |
+| **Golf Digest** | New "how to play" game content | April 1, 2026 (has Hammer, Banker, Chicago, BBB, Stableford dedicated pieces) |
+| **The Left Rough** | Side game content | April 1, 2026 (has 5-player post — thin, beatable) |
+| **GolfApp.com** | NEW: Free app, showing up in target searches | April 1, 2026 (free, GPS + betting, growing) |
+| **BetCaddie** | NEW: Free, no-account calculator app | April 1, 2026 (free, no signup — competes on low friction) |
+| **GolfBetSettler.com** | NEW: Free web calculators (Nassau/Skins/Wolf/9-Point) | April 1, 2026 (validates FP-1 demand; their version exists but thin branding) |
+| **Fairway Funds** | NEW: App with own betting guide content | April 1, 2026 (has betting guide at fairwayfunds.io/golf-betting-guide) |
 
-**Key insight:** As of March 2026, Stick's 19 pages of deep content already exceeds every competitor's content library combined. The moat is real. Protect it by publishing consistently and expanding into adjacent topics before anyone else wakes up.
+**Key insight:** As of April 2026, Stick's 22 pages of deep content still exceeds every competitor's content library combined. However, new free-tier competitors (GolfApp, BetCaddie) are now appearing in target searches. The moat is real but requires consistent publishing to maintain. Priority: update the Best Apps post this week with new competitors.
+
+---
+
+## Future Projects (Non-Content — Parked Until Ready)
+
+These aren't blog posts or guides — they're website features and assets that require development or critical mass before they make sense. Captured here so they don't get lost. Sourced from Gemini AI framework review (March 29, 2026) and internal brainstorming.
+
+### FP-1: Interactive Settlement Calculators (Post-Launch)
+- **Priority:** HIGH — single biggest domain authority accelerator
+- **What:** Lightweight web versions of Stick's settlement engines. e.g., `stickapp.golf/tools/nassau-calculator` where users input scores and see settlement math live.
+- **Why:** Interactive tools attract organic backlinks from golf blogs, forums, and Reddit. "Use the Stick calculator to settle your Nassau" becomes a natural recommendation. Backlinks supercharge domain authority faster than content alone.
+- **Prerequisites:** App engines stable, design for web input (mobile-first), separate from app codebase
+- **Internal linking value:** Every game guide links to the relevant calculator. Calculators link back to guides. Creates a powerful hub-and-spoke cluster.
+- **When:** After app launch, when engines are stable. Could start with Nassau (highest volume) as proof of concept.
+
+### FP-2: Proprietary Data Journalism (Needs 1,000+ Rounds)
+- **Priority:** HIGH — ultimate E-E-A-T and AI citation play
+- **What:** Blog posts and guide additions using anonymized, aggregated data from the Stick app. "Based on 10,000 rounds logged in Stick, 62% of Nassau matches see a press on hole 14." "The average Wolf round pays out $47. The most expensive Wolf round we've seen: $312."
+- **Why:** Proprietary data that no competitor can replicate. AI systems and journalists cite original data heavily. This is the kind of content that gets picked up by Golf Digest, MyGolfSpy, etc.
+- **Prerequisites:** Critical mass of app usage (minimum ~1,000 rounds with diverse game types), data pipeline for anonymized aggregation, Justin's approval on privacy/anonymization approach
+- **Content types:** "By the Numbers" annual reports, data-enriched additions to existing game guides, standalone data posts (e.g., "The Most Expensive Hole in Golf Betting: What Our Data Shows")
+- **When:** Target Q4 2026 at earliest, depends on user growth trajectory.
+
+### FP-3: Visual Content — Diagrams & Scorecards
+- **Priority:** MEDIUM — improves existing content + AI citation
+- **What:** Clean, branded visual diagrams for key concepts: Nassau press chain flowchart, Skins carryover timeline, Wolf rotation order, settlement comparison graphics. Minimalist SVG style matching Stick brand (dark background, coral/forest/gold accents).
+- **Why:** Guides are currently all text. Visuals improve engagement, dwell time, and shareability. AI systems increasingly surface visual content. Golfers share scorecards and settlement graphics in group chats (free marketing).
+- **Where to start:** Top 3 highest-traffic guides (likely Nassau, Wolf, Skins based on Search Console data). One key diagram per guide.
+- **When:** Can start anytime — doesn't require app launch. Good project for a design-focused session.
+
+### FP-4: App Store Review Schema (After Launch + Reviews)
+- **Priority:** MEDIUM — massive CTR boost on commercial intent pages
+- **What:** Update the SoftwareApplication schema on the homepage and "Best Golf Betting Apps" blog post to dynamically include App Store ratings and review count.
+- **Why:** A 4.9-star rating displayed directly in Google search results for "best golf betting app" is one of the most powerful conversion signals possible.
+- **Prerequisites:** App launched, meaningful review count (20+ reviews), stable rating
+- **When:** 1-2 months after App Store launch, once reviews accumulate.
+
+### FP-5: Alias-Forward Title Tags (During Retroactive Audit)
+- **Priority:** LOW EFFORT — do during retroactive audit
+- **What:** Update title tags on game guides to carry top aliases more aggressively. Example: "Junk Golf Rules (Also Called Dots, Trash & Garbage) | Stick Golf" instead of just "Junk Golf Betting Game."
+- **Why:** If someone searches "dots golf game" and sees a title that only says "Junk," they may not click because it doesn't visually match their search. Aliases in titles improve CTR on alias searches.
+- **When:** Roll into the retroactive audit (Tier A pages first). Low effort, high signal.

@@ -251,7 +251,7 @@ export default function SupportPage() {
 
           <div className="flex flex-wrap justify-center gap-3">
             <Link
-              href="/games"
+              href="/games/"
               className="inline-block text-sm font-medium px-6 py-3 rounded-full border border-[var(--color-canvas-dark)]/[0.12] text-[var(--color-text-on-light)] hover:border-[var(--color-coral)]/40 hover:text-[var(--color-coral)] transition-all"
               style={{ fontFamily: "var(--font-sans)" }}
             >

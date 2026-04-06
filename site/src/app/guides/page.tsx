@@ -134,14 +134,14 @@ export default function GuidesIndex() {
           </p>
           <div className="mt-8 flex items-center justify-center gap-4 flex-wrap">
             <Link
-              href="/games"
+              href="/games/"
               className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white text-sm font-medium px-8 py-3.5 rounded-full transition-colors"
               style={{ fontFamily: "var(--font-sans)" }}
             >
               Browse all games
             </Link>
             <Link
-              href="/blog"
+              href="/blog/"
               className="inline-block border border-white/[0.15] text-[var(--color-text-on-dark)] hover:border-white/30 hover:bg-white/[0.04] text-sm font-medium px-8 py-3.5 rounded-full transition-all"
               style={{ fontFamily: "var(--font-sans)" }}
             >

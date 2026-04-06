@@ -383,7 +383,7 @@ export default function Home() {
 
           <div className="mt-10">
             <a
-              href="/blog"
+              href="/blog/"
               className="text-sm font-medium text-[var(--color-coral)] hover:text-[var(--color-coral-hover)] transition-colors"
             >
               View all posts &rarr;

@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.stick.golfapp",
+      "sha256_cert_fingerprints": [
+        "A7:1D:14:19:78:42:16:49:E4:FF:53:A6:31:81:3F:04:EC:2C:17:CE:1E:CE:84:BC:49:CB:B1:38:55:FE:2F:66"
+      ]
+    }
+  }
+]

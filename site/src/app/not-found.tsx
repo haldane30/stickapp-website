@@ -23,7 +23,7 @@ export default function NotFound() {
             Back to Home
           </Link>
           <Link
-            href="/games"
+            href="/games/"
             className="inline-block border border-white/10 text-[var(--color-text-on-dark)] hover:border-white/20 font-medium text-sm px-6 py-3 rounded-full transition-colors"
           >
             Browse Games

@@ -150,7 +150,7 @@ export default async function GuidePageRoute({
             </Link>
             <span className="mx-2 opacity-40">/</span>
             <Link
-              href="/guides"
+              href="/guides/"
               className="hover:text-[var(--color-coral)] transition-colors"
             >
               Guides

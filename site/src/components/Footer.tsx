@@ -36,7 +36,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/pricing"
+                  href="/pricing/"
                   className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                 >
                   Pricing
@@ -44,7 +44,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/games"
+                  href="/games/"
                   className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                 >
                   All Games
@@ -62,7 +62,7 @@ export function Footer() {
               {featuredGames.map((game) => (
                 <li key={game.slug}>
                   <Link
-                    href={`/games/${game.slug}`}
+                    href={`/games/${game.slug}/`}
                     className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                   >
                     {game.name} Guide
@@ -71,7 +71,7 @@ export function Footer() {
               ))}
               <li>
                 <Link
-                  href="/blog"
+                  href="/blog/"
                   className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                 >
                   Blog
@@ -120,7 +120,7 @@ export function Footer() {
               </li> */}
               <li>
                 <Link
-                  href="/privacy"
+                  href="/privacy/"
                   className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                 >
                   Privacy
@@ -128,7 +128,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/terms"
+                  href="/terms/"
                   className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                 >
                   Terms
@@ -136,7 +136,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/support"
+                  href="/support/"
                   className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                 >
                   Support

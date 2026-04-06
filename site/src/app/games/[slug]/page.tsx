@@ -123,7 +123,7 @@ export default async function GameGuidePage({
               Home
             </a>
             <span className="mx-2">/</span>
-            <a href="/games" className="hover:text-[var(--color-text-on-dark)]">
+            <a href="/games/" className="hover:text-[var(--color-text-on-dark)]">
               Games
             </a>
             <span className="mx-2">/</span>

@@ -167,7 +167,7 @@ export default async function BlogPostPage({
             </Link>
             <span className="mx-2 opacity-40">/</span>
             <Link
-              href="/blog"
+              href="/blog/"
               className="hover:text-[var(--color-coral)] transition-colors"
             >
               Blog
@@ -316,7 +316,7 @@ export default async function BlogPostPage({
               {allPosts.slice(0, 3).map((p) => (
                 <Link
                   key={p.slug}
-                  href={`/blog/${p.slug}`}
+                  href={`/blog/${p.slug}/`}
                   className="group"
                 >
                   <div className="aspect-[16/10] rounded-xl bg-[var(--color-canvas-dark)]/5 mb-5 overflow-hidden">

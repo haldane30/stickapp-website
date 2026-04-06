@@ -1,7 +1,7 @@
 # Stick Golf — Content Framework
 
 > The operating system for how Stick writes everything. Structure, voice, SEO, AI search optimization, and quality control.
-> Last updated: February 28, 2026
+> Last updated: March 29, 2026
 
 ---
 
@@ -535,6 +535,15 @@ Track AI citations weekly (not monthly — the pace of AI search is faster than 
 
 Every page must pass this checklist before publishing. This updates the checklist from the SEO master strategy with GEO requirements.
 
+### Pre-Draft (Must Complete Before Outlining)
+
+- [ ] Part 11 Pre-Draft Research Protocol completed
+- [ ] Content brief assembled and stored in `content/briefs/`
+- [ ] Keyword brief includes primary keyword, 5-10 secondary keywords, all PAA questions
+- [ ] Top 5 competitor results documented with gap analysis
+- [ ] Internal linking pre-plan completed (outbound + inbound maps)
+- [ ] Search intent classified and content type confirmed
+
 ### Content
 
 - [ ] Opening paragraph answers the core question in 40-60 words
@@ -556,9 +565,10 @@ Every page must pass this checklist before publishing. This updates the checklis
 - [ ] Meta description 150-160 characters with keyword and soft CTA
 - [ ] Open Graph tags (title, description, image at 1200x630)
 - [ ] Self-referencing canonical URL
-- [ ] JSON-LD: Article schema
-- [ ] JSON-LD: FAQPage schema (on game guides)
+- [ ] JSON-LD: Article schema (with accurate dateModified)
+- [ ] JSON-LD: FAQPage schema (on all pages with FAQ — no longer generates Google rich snippets for non-government sites, but gives 3.2x AI citation lift for GEO. Keep using it.)
 - [ ] JSON-LD: BreadcrumbList schema
+- [ ] JSON-LD: Do NOT add HowTo schema (deprecated by Google, no rich results since 2024)
 - [ ] All images have descriptive alt text (keyword-relevant where natural)
 - [ ] Mobile formatting verified (no tables breaking on small screens)
 - [ ] Table of contents with anchor links (for pages over 1,000 words)
@@ -582,6 +592,7 @@ Every page must pass this checklist before publishing. This updates the checklis
 - [ ] No cheesy phrases (Part 5 Cheesy Phrases list)
 - [ ] Scoring scenarios use golf shorthand with parentheticals (Part 4 Golf Shorthand Rule)
 - [ ] Link-back log updated for all existing pages that should link to this new page
+- [ ] Post-publish inbound linking pass completed (all pages from pre-plan updated with links to this new page)
 
 ---
 
@@ -642,38 +653,108 @@ See `strategy/content/game-aliases.md` for the complete alias map. Quick referen
 
 ### How a Piece Gets Written
 
-1. **Pick the next piece** from the content calendar
-2. **App feature audit (REQUIRED for game guides)** — Before writing anything about a game, get a complete feature audit from the app repo (via Claude Code). The audit must confirm: what the engine actually supports, what's configurable, what edge cases are handled, and what variations are NOT implemented. This prevents the guide from claiming Stick does something it doesn't. See "The Audit-First Rule" below.
-3. **Gap analysis** — Compare the feature audit against research (game rules docs, competitor coverage, forum discussions, how golfers actually play). Identify: features the app has that competitors don't (highlight in guide), variations golfers play that the app doesn't support yet (document as "house rule" in guide, flag as potential feature for app), and edge cases the app might be missing (flag for app development).
-4. **Alias and keyword research** — Research all known alternate names, check current top-ranking pages, People Also Ask, Reddit threads, golf forum discussions. Document aliases in `game-aliases.md`. Identify what existing content covers and what it misses.
-5. **Outline** — Map the sections, note which keywords each section targets, identify where internal links will go. Mark which sections reference specific app features (these must match the audit).
-6. **Draft** — Write following this framework. AI-assisted is fine; AI-generated is not. The draft should sound like Stick, not like a language model. Any claim about what Stick does must be verified against the feature audit.
+1. **Pick the next piece** from the content pipeline or calendar
+2. **Pre-Draft Research Protocol (REQUIRED)** — Complete the full Part 11 protocol (Steps 1-8) before outlining. This includes keyword harvesting, competitor content audit, search intent classification, internal linking pre-plan, schema strategy, app context loading, and the Research Review checkpoint with Justin. Output: an approved content brief stored in `content/briefs/`. No outline gets written without this brief and Justin's sign-off.
+3. **App feature audit (REQUIRED for game guides, if not already done)** — If a current audit doesn't exist for this game, get one from the app repo (via Claude Code) before proceeding. The audit must confirm: what the engine actually supports, what's configurable, what edge cases are handled, and what variations are NOT implemented. For blog posts that reference multiple games, read the audits for all referenced games. See "The Audit-First Rule" below.
+4. **Gap analysis** — Compare the feature audit against research (game rules docs, competitor coverage, forum discussions, how golfers actually play). Merge with the competitive brief from the research protocol. Produce the three lists: "Stick Does This" (highlight in guide), "Common Variation" (document honestly, no false product claims), "Feature Gap" (flag for app development). Any contradictions or product opportunities should already be in the brief from Step 6 of Part 11.
+5. **Outline** — Map the sections using the content brief as the blueprint. Each H2 should target a specific keyword or PAA question from the brief. Note where internal links will go (pre-planned in the research protocol). Mark which sections reference specific app features (these must match the audit).
+6. **Draft** — Write following this framework. AI-assisted is fine; AI-generated is not. The draft should sound like Stick, not like a language model. Any claim about what Stick does must be verified against the feature audit. Every FAQ answer should correspond to a real PAA question or Search Console query from the research. Product mentions should reflect Justin's direction from the Research Review.
 7. **Foursome test (read-aloud pass)** — Read the entire draft out loud. Every sentence where you stumble, where it sounds formal, or where you'd naturally say it differently gets flagged and rewritten. This catches things no automated checker finds — the difference between "Jason makes bogey on a stroke hole, that nets to par" and "Jason bogies with a stroke (net par)." Do this before Justin's review, not after.
-8. **Human pass** — Justin reviews for voice, accuracy, and "would I share this?" factor
-9. **Technical pass** — Verify schema, metadata, internal links, alt text, mobile formatting
-10. **Publish** — Deploy, submit to Google Search Console for indexing, share on social
-11. **Link back (REQUIRED)** — Go to every existing published page and add contextual links to the new piece where relevant. Document each update in a link-back log (see below).
+8. **Part 8 checklist** — Run the full on-page SEO checklist. Every item must pass.
+9. **Human pass** — Justin reviews for voice, accuracy, and "would I share this?" factor
+10. **Technical pass** — Verify schema validates in Google Rich Results Test, metadata complete, alt text on images, mobile formatting
+11. **Publish** — Deploy, submit to Google Search Console for indexing, share on social
+12. **Link back (REQUIRED)** — Execute the inbound linking plan from Step 2. Go to every existing published page identified in the pre-plan and add contextual links to the new piece. Document each update in a link-back log (see below).
+13. **Post-publish validation (within 72 hours)** — Verify the piece is working. See "Post-Publish Validation" section below.
 
-### The Link-Back Step
+### Post-Publish Validation (Step 13)
 
-Step 10 is not optional and not a quick scan. When a new page publishes, every existing page is a potential linking opportunity. The process:
+Within 72 hours of publishing, run this lightweight check. Takes 10-15 minutes. Claude can do most of it; Justin does the Perplexity/ChatGPT checks.
+
+**Indexing check (Claude):**
+- Verify the page appears in Google Search Console's "Pages" report (URL Inspection tool)
+- If not indexed after 48 hours, re-submit via "Request Indexing"
+- Confirm the page appears in our sitemap.xml
+
+**AI citation check (Justin — 5 minutes):**
+- Search the primary keyword on Perplexity. Are we cited? If yes, which passage was extracted? (This tells us what AI systems value most on the page.)
+- Search the primary keyword on ChatGPT. Are we cited?
+- If cited: note which passage and what it got right/wrong. This informs how we write future passages.
+- If not cited: not a failure — new pages take time. Check again at the 2-week mark.
+
+**Rich results check (Claude):**
+- Run the page URL through Google's Rich Results Test
+- Confirm Article, FAQPage, and BreadcrumbList schemas validate with no errors
+- Screenshot or note any warnings
+
+**Render check (Claude):**
+- Verify the page renders correctly on mobile (check via Chrome DevTools or real device)
+- Confirm OG image displays correctly (use opengraph.xyz or similar)
+- Verify all internal links resolve (no 404s)
+
+**First impressions log:**
+Add an entry to the SEO Scoreboard's "New Content Published" section:
+
+```
+| Date | Page | Primary Keyword | Indexed | AI Cited (72hr) | Schema Valid | Notes |
+```
+
+This creates a record we can compare against 30-day and 90-day performance. If a page gets cited by Perplexity within 72 hours, that's a strong signal our GEO approach is working. If it doesn't get indexed within 48 hours, something is wrong technically.
+
+### The Ecosystem Update (Step 12 — Think Holistically)
+
+Step 12 is more than just adding links. Every new piece of content exists within an ecosystem of 20+ published pages, and research done for the new piece often reveals insights that improve existing pages too. The agent must think holistically — not just "what does the new article need?" but "what does the new article's research tell us about the rest of the site?"
+
+**There are three layers to this step, in order:**
+
+#### Layer 1: Content Updates to Existing Pages
+
+During research (Part 11), the agent will learn things that are relevant to pages we've already published. These aren't just linking opportunities — they're content improvements.
+
+**Ask:** "Did my research reveal anything that makes an existing page more useful, more timely, or more complete?"
+
+Examples of what this looks like in practice:
+- Writing a TGL Hammer article → research shows TGL has made hammer mainstream → the Wolf guide's hammer section should acknowledge this ("If you've watched TGL, you've seen the hammer — it's the same mechanic"). One sentence. Huge relevance boost.
+- Writing a 3-player games post → research surfaces a Wolf 3-player variation you didn't know about → the Wolf guide should add it to its variations section.
+- Writing a beginners guide → research reveals golfers confuse "press" and "hammer" → the Presses reference guide could add a one-line clarifier: "A press is different from a hammer — see [Hammer vs Press](/blog/hammer-vs-press/) for the distinction."
+- Research surfaces a trending YouTube channel (Good Good, Bob Does Sports) playing a game Stick supports → existing game guide should mention it as a cultural reference point.
+
+**The rule:** If research for the new piece reveals something that would make an existing page better, update the existing page too. Don't hoard the insight for just the new article.
+
+**Document every ecosystem update:**
+```
+## Ecosystem Updates from [New Article Title] — [Date]
+| Page Updated | What Changed | Why |
+|---|---|---|
+| /games/wolf/ | Added TGL reference to hammer section | TGL popularized hammer; acknowledging it makes the guide more current |
+| /blog/nassau-vs-skins-vs-wolf/ | Added note about TGL hammer in Wolf section | Cultural moment connection |
+| /guides/presses/ | Added one-line hammer distinction | Prevents confusion surfaced in research |
+```
+
+#### Layer 2: Link Integration (Bidirectional)
+
+After content updates are done, add the links:
 
 1. **Check the Internal Link Relatedness Map** (Appendix B) for which pages should link to the new one.
-2. **Open each related page** and find a natural place to add a contextual link. Not a "see also" footer — a link woven into a sentence where the new page is genuinely relevant.
+2. **Open each related page** and find a natural place to add a contextual link. Not a "see also" footer — a link woven into a sentence where the new page is genuinely relevant. If you made content updates in Layer 1, the links often fit naturally into those updates.
 3. **Document what you changed** in a link-back log entry:
 
 ```
 ## [New Page Title] — Published [Date]
 | Updated Page | Anchor Text | Location in Page |
 |---|---|---|
-| /games/nassau/ | "Snake is a good side bet to run alongside Nassau" | Variations section |
-| /games/skins/ | "if you're running Snake alongside skins" | Getting the Most Out of Skins section |
+| /games/wolf/ | "TGL brought hammer to a national audience" | Hammer section |
+| /guides/presses/ | "different from a hammer" | Opening section |
 | /blog/best-golf-betting-apps-2026/ | (no natural link found) | — |
 ```
 
-4. **Check for reverse opportunities** — does the new page link back to existing pages? Every game guide should link to at least 3 other pages. If the new guide only links to 1-2, find places to add more.
+4. **Check for reverse opportunities** — does the new page link back to existing pages? Every page should link to at least 5 other pages. If the new piece only links to 2-3, find places to add more.
 
-This creates a deliberate, traceable link graph instead of a haphazard one. The log lives at `content/link-back-log.md` and gets checked during quarterly audits.
+#### Layer 3: Freshness Timestamps
+
+Every existing page that received a substantive content update (Layer 1) or meaningful new context (not just a link addition) should get its `updatedAt` frontmatter bumped to today's date. This signals freshness to AI crawlers (76.4% of ChatGPT citations come from content updated in the last 30 days). A single link addition doesn't warrant a date bump, but adding a TGL reference to the Wolf guide does.
+
+This creates a deliberate, traceable ecosystem rather than a collection of isolated pages. The log lives at `content/link-back-log.md` and gets checked during quarterly audits.
 
 ### The Audit-First Rule
 
@@ -705,9 +786,23 @@ This three-list output should be documented per game and stored alongside the ga
 
 ### Monthly Content Refresh (GEO Critical)
 
-76.4% of ChatGPT citations come from content updated in the last 30 days. This makes monthly refreshes non-negotiable.
+Content freshness is a major signal for AI citation. This makes regular refreshes non-negotiable — but "regular" doesn't mean "every page every month." As our content library grows, we need a tiered model to stay sustainable.
 
-Every published page gets a substantive update at least once per month. A "substantive update" means one or more of: new FAQ question added, settlement example updated or added, new variation documented, strategy tip added based on real play experience, section rewritten for clarity, new internal link to recently published content. Changing the date without changing the content doesn't count — AI crawlers are smarter than that.
+**Tiered Refresh Model:**
+
+| Tier | Which pages | Refresh cadence | Why |
+|---|---|---|---|
+| **Tier 1** | Pages with Search Console impressions, commercial intent pages, pages cited by AI | Every 30 days | These are working. Keep them fresh to maintain and grow citations. |
+| **Tier 2** | Mid-tail game guides, supporting blog posts | Every 60-90 days | Important but not urgent. Refresh when new research or a new content piece creates a natural reason to update. |
+| **Tier 3** | Long-tail niche pages with minimal impressions | Every 6 months | Don't waste effort on pages that aren't getting traction. If a Tier 3 page starts getting impressions, promote it to Tier 2. |
+
+**Right now (20 pages):** Everything is effectively Tier 1 or 2. The monthly-content-refresh scheduled task picks the top 5 pages to refresh each month — that's sustainable and focuses effort where it matters.
+
+**At 40+ pages:** The tiered model prevents an operational bottleneck. You can't substantively update 40 pages monthly — but you can update 8-10 high-performing ones and let the rest cycle on a longer cadence.
+
+**What counts as a "substantive update":** New FAQ question added, settlement example updated or added, new variation documented, strategy tip added based on real play experience, section rewritten for clarity, new internal link to recently published content, cultural reference added (e.g., TGL mention). Changing the date without changing the content doesn't count — AI crawlers are smarter than that.
+
+**Tier assignment happens during the monthly Search Console review.** Pages that gain impressions get promoted. Pages that flatline get demoted. Data drives the schedule.
 
 Update `dateModified` in frontmatter with every substantive edit.
 
@@ -724,6 +819,299 @@ Every three months, do a deeper review of all published content:
 - Verify all math is still correct
 - Check for broken links
 - Review which passages are getting cited and optimize similar passages across other guides
+
+---
+
+## Part 11: Pre-Draft Research Protocol (REQUIRED)
+
+> **Added March 29, 2026.** Every piece of content must go through this protocol before outlining begins. No exceptions. The research shapes the outline — not the other way around. This is the difference between writing what we think golfers want and writing what we can prove they're searching for.
+
+### Why This Exists
+
+We were writing content informed by intuition and our game-aliases doc. That produced good content, but it left gaps: we weren't systematically checking what currently ranks, we weren't harvesting the actual queries people type, and we weren't studying what the top results cover so we could beat them. The Wolf "wolf points" signal from Search Console proved the point — that was a keyword we didn't know existed until we saw the data. This protocol catches those signals before we write, not after.
+
+### Step 1: Keyword Harvesting (30 minutes)
+
+Before writing a single word, build the complete keyword map for this piece.
+
+**Google Autocomplete (Alphabet Method):**
+Type the target keyword into Google followed by each letter a-z. Record every suggestion. Then try the keyword with common golf prefixes: "how to," "what is," "best," "rules for," "how to play," "how to bet on."
+
+Example for a Nassau piece: "nassau golf a..." "nassau golf b..." through z, plus "how to play nassau," "nassau betting rules," "nassau press rules," etc.
+
+**People Also Ask (PAA):**
+Search the target keyword. Expand every PAA question. Click into 2-3 of them — Google loads new PAA questions when you do. Record all of them. These are real questions real people ask, and many of them become FAQ entries or H2 headings.
+
+**Related Searches:**
+Scroll to the bottom of the SERP. Record all related searches. These are variant phrasings and adjacent topics Google associates with your keyword.
+
+**Search Console Check (for refreshes):**
+If the page already exists, pull the Queries report for that page. Sort by impressions. Every query with impressions that we didn't explicitly target is a signal. These queries are people finding us by accident — build them into the refresh intentionally.
+
+**Game Aliases Doc:**
+Check `strategy/content/game-aliases.md` for all known alternate names. Verify each alias still autocompletes. Add any new ones discovered during autocomplete harvesting.
+
+**Output:** A keyword brief documenting:
+- Primary keyword (highest volume, best intent match)
+- Secondary keywords (5-10 variants and related terms)
+- PAA questions (all of them — these feed the FAQ section and H2 headings)
+- Related searches
+- New aliases discovered
+- Any Search Console queries (for existing pages)
+
+### Step 2: Competitor Content Audit (30 minutes)
+
+Search the primary keyword. Open the top 5 ranking results. For each one, document:
+
+**Content inventory:**
+- URL, title, word count
+- What topics/sections they cover
+- What questions they answer
+- What examples or math they include (if any)
+- What they miss or get wrong
+- Their schema markup (check via View Source → search for "application/ld+json")
+- Whether they have FAQ sections
+
+**Gap identification:**
+After reviewing all 5, answer these questions:
+- What do ALL of them cover? (Table stakes — we must cover this too)
+- What do NONE of them cover? (Our opportunity to be the only result with this information)
+- What do they cover poorly? (Surface-level explanations we can go deeper on)
+- Do any of them show settlement math? (Almost certainly not — this is our consistent edge)
+- Do any of them include interactive elements, tables, or tools?
+
+**The displacement question:**
+For each ranking result, ask: "Why would Google replace this result with our page?" The answer needs to be specific. "Because ours is better" isn't enough. "Because ours includes actual settlement math with named players, covers 3 variations they skip, and answers 8 questions they don't address" — that's a displacement case.
+
+**Output:** A competitive brief documenting what we must include, what we can uniquely add, and the specific reasons our content deserves to rank higher.
+
+### Step 3: Search Intent Classification
+
+Not every keyword has the same intent. Misreading intent means writing the wrong type of content.
+
+**Informational:** "What is nassau in golf" → The searcher wants to learn. Write an explainer. Lead with the definition. This is most of our game guide traffic.
+
+**Navigational:** "Stick golf app" → They're looking for us specifically. Homepage and app store links handle this.
+
+**Commercial investigation:** "Best golf betting apps" → They're comparing options before buying. Write a comparison with honest pros/cons. This is our roundup post.
+
+**Transactional:** "Download golf betting app" → They're ready to act. CTA-heavy landing pages, not long-form content.
+
+**The SERP tells you the intent.** If the top results are all listicles, Google thinks the intent is comparison. If they're all how-to guides, the intent is educational. If they're product pages, the intent is transactional. Match what Google is already rewarding — don't fight the SERP.
+
+**Output:** One sentence declaring the search intent and what content type matches it.
+
+### Step 4: Internal Linking Pre-Plan
+
+Before writing, map the link architecture for this piece. This happens before the outline so links can be woven naturally into the structure, not bolted on afterward.
+
+**Outbound links (from this new piece):**
+- Which existing Stick pages should this piece link to? Minimum 5.
+- For each link, note which section of the new piece it belongs in and what the natural anchor text would be.
+- Include at least 1 outbound link to an external authoritative source (USGA, PGA Tour, established golf publication).
+
+**Inbound links (from existing pages TO this new piece):**
+- Which existing pages should add a link to this new piece once published?
+- For each, note where in the existing page the link fits naturally and draft the anchor text.
+- This becomes the post-publish linking pass checklist.
+
+**Hub connection:**
+- Which content cluster does this piece belong to? (Game guides cluster, betting strategy cluster, app comparison cluster)
+- Does it connect to the hub page for that cluster?
+- Does it create a bridge between two clusters? (e.g., a "Hammer vs Press" post bridges Wolf and Nassau clusters)
+
+**Output:** A link map with two columns — outbound links planned for the new piece, and inbound links to add to existing pages after publishing.
+
+### Step 5: Schema Strategy
+
+Decide which structured data schemas this specific piece needs. Not every page gets the same treatment.
+
+**What's currently working for us (keep using):**
+
+| Schema Type | When to Use | Status |
+|---|---|---|
+| **Article** | Every page (games, blog, guides) | Active on all pages |
+| **FAQPage** | Every page with FAQ section | Active — no longer generates Google rich snippets for non-government sites, but gives 3.2x AI citation lift. This is our primary reason for using it. |
+| **BreadcrumbList** | Every page | Active on all pages |
+| **SoftwareApplication** | Homepage only | Active |
+
+**What NOT to use:**
+
+| Schema Type | Why Not |
+|---|---|
+| **HowTo** | Google deprecated HowTo rich results entirely (2023-2024). No visual benefit. Don't add it to game guides. |
+| **VideoObject** | Only when we actually have embedded video content |
+
+**Per-piece schema decisions:**
+- Blog posts: Article + FAQPage + BreadcrumbList (standard)
+- Game guides: Article + FAQPage + BreadcrumbList (standard)
+- Reference guides: Article + FAQPage + BreadcrumbList (standard)
+- Homepage: Organization + SoftwareApplication + BreadcrumbList
+
+**Schema quality rules:**
+- Article `dateModified` must reflect the actual last substantive edit, not the build date
+- FAQPage answers must match the inline FAQ content exactly (frontmatter = source of truth)
+- All schema must validate clean in Google's Rich Results Test (no errors, warnings acceptable)
+- Author/publisher must consistently be `"Stick Golf"` with `url: "https://stickapp.golf"`
+
+**Output:** A one-line note in the content brief confirming which schemas apply (usually "standard: Article + FAQ + Breadcrumb").
+
+### Step 6: App & Existing Content Loading (REQUIRED)
+
+Before writing anything, Claude must have a complete picture of (a) what Stick actually does today and (b) what we've already published on the topic. This is not optional — it prevents false claims, avoids contradicting our own content, and ensures the new piece builds on rather than duplicates what exists.
+
+**Part A: Read our own published content first.**
+
+Before touching any external research or app audits, read every existing page on stickapp.golf that relates to the topic. This includes:
+
+1. **Game guides** (`site/src/content/games/[slug].mdx`) — Read any game guide that covers mechanics relevant to this piece. For a TGL Hammer article, that means reading the Wolf guide (hammer section) and the Scotch guide (roll/hammer section) in full.
+2. **Reference guides** (`site/src/content/guides/[slug].mdx`) — Read any reference guide the new piece should link to or build on. For anything involving presses or stakes doubling, read the Presses guide.
+3. **Blog posts** (`site/src/content/blog/[slug].mdx`) — Read any existing blog post that overlaps with this topic to avoid repeating the same examples, angles, or settlement walkthroughs.
+4. **Content pipeline** (`strategy/content/content-pipeline.md`) — Check if there are other planned pieces on adjacent topics. The new piece should complement them, not cannibalize them.
+
+**Why this matters:** If the Wolf guide already explains hammer in 200 words with a settlement example, the TGL Hammer blog post should reference and link to that section — not rewrite the same explanation. If the Presses guide already defines what a press is, the Hammer vs Press post should link to it for depth rather than re-explaining from scratch. Reading our own content first also reveals natural linking opportunities and prevents the new piece from contradicting terminology, examples, or advice we've already published.
+
+**Cannibalization check (CRITICAL):**
+
+After reading all related published content, explicitly answer this question: **"Could Google confuse this new page with an existing page?"** If two pages target the same primary keyword or answer the same core question, they compete with each other instead of with competitors. This is called keyword cannibalization and it dilutes ranking power across both pages.
+
+**How to check:**
+- Compare the new piece's primary keyword against the `keywords` frontmatter array of every related published page
+- If there's a match or near-match, you have potential cannibalization
+- Check the new piece's core question (what the first 60 words answer) against the opening paragraphs of related pages
+
+**What to do when overlap exists (and it often will):**
+
+1. **Different intent = no problem.** The Wolf game guide targets "wolf golf game" (informational — how to play). A TGL Hammer blog post targets "tgl hammer meaning" (cultural — what is this thing on TV). Different intent, different searcher, no conflict. Document why they don't cannibalize in the content brief.
+
+2. **Same intent but different angle = manage carefully.** If two pages could both rank for "hammer golf betting," decide which page is the canonical authority. The other page should cover the topic more briefly and link to the authority page for depth. Example: the Wolf guide owns "how hammer works in Wolf." The TGL Hammer post briefly explains the mechanic (2-3 sentences max) and links to the Wolf guide's hammer section for the full rules.
+
+3. **Same intent, same angle = don't write it.** If the new piece would essentially be a rewrite of something we already have, either expand the existing page instead or find a genuinely different angle.
+
+**The rule of thumb:** Every page on stickapp.golf should have a unique primary purpose that no other page serves. If you can't articulate why this new page exists independently of pages we already have, it shouldn't be a separate page.
+
+**Output from Part A:** A note in the content brief documenting:
+- Which existing pages were reviewed
+- Any overlap identified and how it will be managed
+- The unique angle this new piece provides that no existing page covers
+- Specific sections from existing pages to link to rather than rewrite
+
+**Part B: Read app audit materials.**
+
+**For game-specific content (game guides, game blog posts, comparison posts):**
+
+Read the relevant materials in this order:
+1. **The game audit file** (`content/game-guides/[game]-audit.md`) — what the engine supports, what's configurable, known bugs, feature gaps
+2. **The raw audit** (`content/game-guides/[game]-audit-raw.md`) if it exists — full Claude Code output with test counts and edge case detail
+3. **The game doc** from the app repo (`Stick/docs/games/[game].md`) if accessible — the original rules the engine was built from
+4. **The capabilities spec** (`Stick/docs/STICK-CAPABILITIES-SPEC.md`) if accessible — cross-game feature matrix
+
+**For general content (beginners guide, app comparison, glossary):**
+Read the capabilities spec and any relevant game audits to ensure claims are accurate across all 12 games.
+
+**Why this matters beyond accuracy:**
+
+Research in Steps 1-2 will surface how golfers play these games in the real world. Comparing that against what the app actually does reveals three categories of insight:
+
+1. **Contradictions** — Research says most groups play a mechanic one way, but Stick does it differently. These need a content decision (explain both? lead with Stick's approach?) AND a product flag (should the app change?).
+
+2. **Missing configurations** — Golfers commonly play with a setting or variation that Stick doesn't support. Flag for product roadmap. In content, document the variation honestly without claiming Stick handles it.
+
+3. **New game types or features** — Research occasionally surfaces game types or hybrid formats that aren't in Stick's lineup. Flag these as potential product opportunities.
+
+**Output:** A "Product Intelligence" section in the content brief:
+
+```
+PRODUCT INTELLIGENCE:
+- Contradictions: [anything research shows that conflicts with how Stick works]
+- Missing configs: [common real-world variations Stick doesn't support]
+- Product opportunities: [new games, features, or formats worth considering]
+- Relevant bugs: [any known bugs from audit that affect this content]
+```
+
+This section gets reviewed by Justin during the Research Review (Step 7) and relevant items get added to the app's issue tracker.
+
+### Step 7: Research Review (Checkpoint with Justin)
+
+**This is a mandatory pause between research and writing.** After completing Steps 1-6, Claude presents a summary to Justin for review before any outlining begins. This is not a rubber stamp — it's a brainstorming moment.
+
+**What Claude presents:**
+
+1. **Research summary** (3-5 key findings) — What did the keyword harvest and competitor audit reveal? What's the biggest opportunity? What surprised you?
+
+2. **Strategic questions** — Any decisions that need Justin's input before writing. Examples:
+   - "Research shows most groups play [mechanic] this way, but Stick does it differently. Do we lead with the common approach and explain Stick's version as an alternative, or lead with Stick's approach?"
+   - "There are two strong angles for this piece — [angle A] targets higher volume but lower intent, [angle B] targets lower volume but the reader is closer to downloading. Which feels right?"
+   - "Competitor X covers [topic] in a way that contradicts what our audit says. Should we address this directly?"
+   - "I found a forum thread where golfers are confused about [thing]. This could be its own piece — worth adding to the pipeline?"
+
+3. **Proposed angle and structure** — A 2-3 sentence pitch for the piece: "Here's what I think this should be, here's the angle, here's why." Justin can redirect before 1,800 words go in the wrong direction.
+
+4. **Product intelligence flags** — Any contradictions, missing configs, or opportunities from Step 6.
+
+5. **Content brief** — The assembled brief from all research steps, ready for Justin to skim.
+
+**Justin's role:** Skim the summary, answer questions, approve or redirect the angle. This should take 5-10 minutes. If Justin has no changes, a quick "looks good, go" is all that's needed.
+
+**What this prevents:**
+- Writing a full draft that misses the real opportunity because Claude didn't know about a group chat conversation Justin had
+- Content that contradicts a product decision Justin already made
+- Wasted effort on an angle that doesn't fit the brand
+- Missing a chance to flag a product improvement while the context is fresh
+
+**Output:** Justin's approval (possibly with redirections) documented at the top of the content brief.
+
+### Step 8: Content Brief Assembly
+
+Combine all outputs from Steps 1-7 into a single content brief. The brief should contain:
+
+```
+CONTENT BRIEF: [Title]
+Date: [Date]
+Type: [Game guide / Blog post / Reference guide]
+Justin approved: [Yes / Yes with notes]
+
+PRIMARY KEYWORD: [keyword]
+SECONDARY KEYWORDS: [list]
+SEARCH INTENT: [informational / commercial / etc.]
+
+COMPETITOR GAPS:
+- [What top results miss that we'll cover]
+- [What they cover poorly that we'll do better]
+- [Our unique angle]
+
+PAA QUESTIONS → FAQ CANDIDATES:
+- [Question 1]
+- [Question 2]
+- [etc.]
+
+INTERNAL LINKS OUT: [list of pages to link to]
+INTERNAL LINKS IN: [list of existing pages to update post-publish]
+EXTERNAL LINKS: [authoritative source(s) to cite]
+
+SCHEMA: [Article + FAQ + Breadcrumb]
+
+PRODUCT INTELLIGENCE:
+- Contradictions: [list or "none"]
+- Missing configs: [list or "none"]
+- Product opportunities: [list or "none"]
+
+DISPLACEMENT CASE: [1-2 sentences on why this deserves to outrank current results]
+
+RESEARCH REVIEW NOTES: [Justin's feedback, redirections, or "approved as-is"]
+```
+
+Store completed briefs in `content/briefs/` for reference. These briefs become the institutional memory of why each piece was written the way it was.
+
+### When to Skip Steps
+
+**Blog posts about games we've already audited:** Skip Step 6 app context loading if the audit is recent (within 60 days) and no engine changes have shipped. Still do the full keyword + competitor research. The keyword landscape for a blog post is different from the game guide even if the topic overlaps.
+
+**Content refreshes:** Skip the full competitor audit but do a fresh autocomplete + PAA harvest. Skip the Research Review if the refresh is minor (adding 1-2 FAQs, updating a date). Do the Research Review if the refresh changes the page's angle or adds a major new section.
+
+**Time-sensitive cultural pieces (T1C):** Compress the timeline but don't skip the Research Review. Justin needs to approve the angle even on fast-turnaround pieces — a wrong take on a trending topic does more harm than a late but correct one.
+
+**Retroactive audits:** Use an abbreviated version — keyword harvest + internal linking audit + FAQ check. Skip competitor audit unless the page is underperforming (low impressions relative to keyword volume). Skip Research Review unless audit reveals something surprising.
 
 ---
 

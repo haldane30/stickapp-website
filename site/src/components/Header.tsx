@@ -17,19 +17,19 @@ export function Header() {
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-8">
           <Link
-            href="/games"
+            href="/games/"
             className="text-[var(--color-text-secondary)] hover:text-[var(--color-text-on-dark)] transition-colors text-sm"
           >
             Games
           </Link>
           <Link
-            href="/blog"
+            href="/blog/"
             className="text-[var(--color-text-secondary)] hover:text-[var(--color-text-on-dark)] transition-colors text-sm"
           >
             Blog
           </Link>
           <Link
-            href="/pricing"
+            href="/pricing/"
             className="text-[var(--color-text-secondary)] hover:text-[var(--color-text-on-dark)] transition-colors text-sm"
           >
             Pricing
@@ -69,21 +69,21 @@ export function Header() {
       {mobileOpen && (
         <div className="md:hidden bg-[var(--color-canvas-dark)] border-t border-white/5 px-6 py-6 flex flex-col gap-4">
           <Link
-            href="/games"
+            href="/games/"
             onClick={() => setMobileOpen(false)}
             className="text-[var(--color-text-on-dark)] text-lg"
           >
             Games
           </Link>
           <Link
-            href="/blog"
+            href="/blog/"
             onClick={() => setMobileOpen(false)}
             className="text-[var(--color-text-on-dark)] text-lg"
           >
             Blog
           </Link>
           <Link
-            href="/pricing"
+            href="/pricing/"
             onClick={() => setMobileOpen(false)}
             className="text-[var(--color-text-on-dark)] text-lg"
           >

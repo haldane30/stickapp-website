@@ -359,8 +359,69 @@ These FAQ entries capture searches from people who are confused about game names
 
 ---
 
+## Games Stick Doesn't Track (But We Cover Educationally)
+
+These are popular golf betting games that appear regularly in searches but are not in Stick's 12-game lineup. We should have content about them to maintain topical authority, with honest disclosure that Stick doesn't currently track them.
+
+### Bingo Bango Bongo (BBB)
+- **Search volume:** HIGH — Golf Digest, Golf.com, Left Rough, 18Birdies, Beezer all have dedicated content
+- **How it works:** 3 points per hole — Bingo (first on green), Bango (closest to pin once all on green), Bongo (first to hole out)
+- **Why it matters for us:** Beginner-friendly, favors new golfers, often recommended as an entry-level betting game. Our Junk guide covers similar ground.
+- **Content plan:** OPP-3 in Q2-2026 discovery. Educational blog post ending with Junk comparison.
+- **Key alias:** BBB
+
+### Banker
+- **Search volume:** MEDIUM — Golf Digest has a standalone piece ("The game that requires you to carry cash")
+- **How it works:** One player per hole is the Banker. Others bet against the Banker. Banker role passes to whoever birdied last hole.
+- **Why it matters for us:** Supported by Beezer, 18Birdies, Skins App. Comes up in "best golf betting games" roundups.
+- **Content plan:** OPP-5 in Q2-2026 discovery. Educational blog post.
+
+### Aces and Deuces (Acey Ducey)
+- **Search volume:** LOW-MEDIUM — Beezer has dedicated page. GolfCompendium, GolfWeGo have coverage.
+- **How it works:** Low score on each hole (Ace) wins from all three others. High score (Deuce) pays all three others.
+- **Why it matters for us:** Beezer differentiator. Appears in "all golf betting games" lists.
+- **Content plan:** OPP-6 in Q2-2026 discovery. Short educational blog post.
+
+### Amigos
+- **Search volume:** LOW — GolfWRX thread, Beezer page
+- **How it works:** Rotating partner format that scales to any group size (5, 6, 7, 8+). Players pay up the finishing order each hole.
+- **Why it matters for us:** Strong angle for "golf games for 5+ players" content.
+- **Content plan:** Mention in T3-4 (Odd Numbers post).
+
+---
+
+## Newly Discovered Aliases (Q2 2026 Update)
+
+### Nassau additions
+- **Aloha bet:** A one-hole side bet sometimes paired with Nassau on the final hole. People search "what is an Aloha bet in golf."
+
+### Skins additions
+- **Validated Skins:** A variant where you must match or beat your score on the following hole to "validate" the skin you just won. Prevents one hot hole from winning everything.
+- **Stooges:** Very rare regional slang for Skins. Low search value, worth documenting.
+
+### Wolf additions
+- **Boss Man:** Occasionally used for the Wolf role itself ("who's Boss Man this hole?"). Very low frequency.
+- **Wolfpack:** Used loosely when playing Wolf with 5+ players.
+
+### Junk/Dots additions
+- **Poleys:** Alternate spelling of "Polies" for the longest-putt side bet category. Both spellings appear in forums.
+- **Closest in Regulation:** How some groups describe a Greenie-style bet on par 3s without using the term "greenie."
+
+### Vegas additions
+- **Flip Vegas / Vegas with Flip:** When a team with a birdie can "flip" their two-digit score (34 becomes 43). Creates a scoring variant some groups call "Flip."
+
+### Scotch additions
+- **Umbriago:** A very niche variant of the Umbrella rule that appears in some Chicago-area club traditions. GolfCompendium has a dedicated page. Very low frequency.
+
+### Quota/Chicago additions
+- **Quota 36:** How players refer to the standard version (36 minus handicap = target).
+- **Chicago 39 / Chicago Points:** The harder variant using 39 as the base. Stick supports this as a toggle. Both terms search separately.
+
+---
+
 ## Update Log
 
 | Date | What Changed |
 |---|---|
 | Feb 27, 2026 | Initial research from web search, Reddit, golf forums, competitor sites |
+| Apr 1, 2026 | Q2 quarterly sweep: added BBB/Banker/Aces & Deuces/Amigos as educational games; added Aloha, Validated Skins, Boss Man, Wolfpack, Poleys, Flip Vegas, Umbriago, Quota 36/Chicago 39 alias entries |
