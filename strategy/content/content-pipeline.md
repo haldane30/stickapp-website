@@ -88,8 +88,9 @@ These target golfers deciding what game to play. They connect directly to Stick.
 - **Outline notes:** Open with "Your group wants to play for money this weekend. Here's everything you need to know." Cover: picking a game (decision tree by group size and vibe), agreeing on stakes, handicap basics, keeping score, settling up. End with "Pick your first game" section linking to top 4 guides.
 
 #### T1-2: "Best Golf Betting Games for 2 Players"
-- **Status:** Identified
-- **Type:** Blog post (1,500-2,000 words)
+- **Status:** Published (April 24, 2026)
+- **Live URL:** `/blog/best-golf-betting-games-2-players/`
+- **Type:** Blog post (~1,900 words)
 - **Target keyword:** golf games for 2 players, best golf betting game for two
 - **Why now:** Completes the player-count trilogy (you have 3-player, this adds 2-player, then 5+ below). Twosomes are extremely common — couples, one buddy bails, morning round before work. Nobody has a definitive 2-player guide.
 - **Competition:** WEAK. A few listicles mention Match Play; none go deep.
@@ -97,8 +98,9 @@ These target golfers deciding what game to play. They connect directly to Stick.
 - **Outline notes:** Cover Match Play (the obvious one), heads-up Nassau, Skins for two, Scotch as alternate shot. Each format gets: rules summary, why it works for two, settlement example. Comparison table at the end.
 
 #### T1-3: "Best Golf Betting Games for 5+ Players"
-- **Status:** Identified
-- **Type:** Blog post (1,500-2,000 words)
+- **Status:** Published (April 24, 2026)
+- **Live URL:** `/blog/best-golf-betting-games-5-players/`
+- **Type:** Blog post (~2,000 words)
 - **Target keyword:** golf games for 5 players, golf betting large groups
 - **Why now:** Completes the player-count series. Fivesomes are common (extra joins, scramble events, club outings). Nobody covers this well — every guide assumes foursomes.
 - **Competition:** WEAK. A few mentions of Quota and Skins for big groups; no dedicated guides.
@@ -115,8 +117,9 @@ These target golfers deciding what game to play. They connect directly to Stick.
 - **Outline notes:** Could be a blog post with a structured decision tree, or a React interactive component. Start with blog format, consider upgrading to interactive later. Structure by decision factors: group size, competitiveness, complexity tolerance, time available.
 
 #### T1-5: "Nassau vs. Skins vs. Wolf: Choosing the Right Game"
-- **Status:** Identified
-- **Type:** Blog post (1,500-2,000 words)
+- **Status:** Published (April 24, 2026)
+- **Live URL:** `/blog/nassau-vs-skins-vs-wolf/`
+- **Type:** Blog post (~1,900 words)
 - **Target keyword:** nassau vs wolf, skins vs nassau, best golf betting game
 - **Why now:** Comparison queries have moderate search volume and almost zero competition. People searching "nassau vs wolf" are choosing between games right now. Capturing all three in one comparison post is efficient and authoritative.
 - **Competition:** WEAK. A few forum threads; no structured comparison content.
@@ -257,10 +260,9 @@ These aren't new posts — they're targeted additions to existing content that c
 - **Target queries:** nassau golf handicaps, net nassau rules, nassau stroke index
 
 #### T4-6: "Best Golf Betting Apps 2026" — Add New Competitors
-- **Status:** Identified (added Q2 2026 quarterly sweep — HIGH URGENCY)
+- **Status:** Published (updated April 20, 2026)
 - **Why:** Q2 quarterly sweep found 4 new competitors appearing in our target searches that are not in the current post: GolfApp.com (free, growing), BetCaddie (free, no account required), Fairway Funds (has own betting guide content), Chirp Golf. Also: Skins App blog is now confirmed active — our review should note this.
-- **What to add:** GolfApp.com and BetCaddie as free-tier options; Fairway Funds as a mid-tier option; note Skins App blog activity; verify all existing app pricing/features are current.
-- **Effort:** LOW — 30-60 min update to existing post.
+- **What was added:** GolfApp and BetCaddie as full review entries; Fairway Funds and Chirp Golf covered in "Others Worth Knowing About" section; Skins App "Back Nine Press" blog noted in their review; At a Glance table updated with all new entries. Fairgame Golf added as additional free option.
 
 #### T4-7: Handicaps Guide — Confirm "Net vs. Gross" H2 Capture
 - **Status:** Identified (added Q2 2026 quarterly sweep)
