@@ -142,19 +142,6 @@ export default function BlogIndex() {
                     href={`/blog/${post.slug}`}
                     className="group"
                   >
-                    <div className="aspect-[16/10] rounded-xl bg-[var(--color-canvas-dark)]/5 mb-5 overflow-hidden">
-                      {contentImages[post.slug] ? (
-                        <Image
-                          src={contentImages[post.slug].card}
-                          alt={contentImages[post.slug].alt}
-                          width={1200}
-                          height={800}
-                          className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
-                        />
-                      ) : (
-                        <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/10 to-transparent" />
-                      )}
-                    </div>
                     <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-secondary)] mb-2">
                       {categoryLabels[post.category] || post.category}
                     </p>
@@ -190,19 +177,6 @@ export default function BlogIndex() {
                     href={`/guides/${guide.slug}`}
                     className="group"
                   >
-                    <div className="aspect-[16/10] rounded-xl bg-[var(--color-canvas-dark)]/5 mb-5 overflow-hidden">
-                      {contentImages[guide.slug] ? (
-                        <Image
-                          src={contentImages[guide.slug].card}
-                          alt={contentImages[guide.slug].alt}
-                          width={1200}
-                          height={800}
-                          className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
-                        />
-                      ) : (
-                        <div className="w-full h-full bg-gradient-to-br from-[var(--color-gold)]/10 to-transparent" />
-                      )}
-                    </div>
                     <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gold)] mb-2">
                       Reference
                     </p>
