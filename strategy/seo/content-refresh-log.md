@@ -4,6 +4,43 @@
 
 ---
 
+## May 4, 2026 Monthly Refresh
+
+**Source data:** April 2026 scoreboard data not yet logged (no new Search Console pull since March). Prioritized by age of last update and April notes' explicit recommendations. All changes verified for FAQ count parity between frontmatter and body.
+
+### Pages Updated:
+
+1. **Quota** (`/games/quota/`) — Added FAQ: "How does Quota work for a golf outing or tournament?" — this covers the large-group use case that's already referenced in the body but wasn't surfaced as a direct answer for someone searching "quota golf outing." Also added "quota golf outing" to the keywords list and a contextual internal link to the five-player betting guide in the "Why Quota Works for Large Groups" section. Previous FAQ count: 8. Now: 9. `updatedAt` bumped to 2026-05-04. Last updated: 2026-03-01 (64 days — most overdue game guide).
+
+2. **Vegas** (`/games/vegas/`) — Added FAQ: "How do handicaps work in Vegas golf?" — the guide covers net vs. gross in the body but had no FAQ surfacing it. The answer explains the off-low-man system and when each mode makes sense, with internal links to Nassau, Skins, and the handicaps guide. Also added "daytona golf game" to the keywords list — Daytona is already defined in an FAQ but wasn't in the keyword list. Previous FAQ count: 8. Now: 9. `updatedAt` bumped to 2026-05-04. Last updated: 2026-03-01 (64 days — tied most overdue).
+
+3. **Handicaps Guide** (`/guides/handicaps/`) — Added FAQ: "What if someone in my group doesn't have an official handicap?" — one of the most common situations in casual golf betting and a genuine gap in the guide. The answer walks through the estimated handicap approach with rough stroke-over-par benchmarks. Internal link added to the settlement guide at the end of the answer. Previous FAQ count: 8. Now: 9. `updatedAt` bumped to 2026-05-04. Last updated: 2026-03-02 (63 days).
+
+4. **Settlement Guide** (`/guides/settlement/`) — Added FAQ: "When is the right time to settle after a round of golf?" — a practical question the guide doesn't address. The answer covers same-day settlement as the default, the running-tab alternative for regular groups, and why transparent line-item math closes the tab cleanly. Previous FAQ count: 8. Now: 9. `updatedAt` bumped to 2026-05-04. Last updated: 2026-03-02 (63 days).
+
+5. **Best Golf Betting Apps** (`/blog/best-golf-betting-apps-2026/`) — Added FAQ: "Do golf betting apps work with no cell signal on the course?" — a practical question that differentiates apps on a real dimension. BetCaddie's offline model is its clearest differentiator; this FAQ acknowledges it accurately while being honest about Stick's cloud-sync requirement. Brings the blog post to its FAQ cap of 8. `updatedAt` bumped to 2026-05-04. Last updated: 2026-04-20 (14 days, but highest-impression page so kept in rotation).
+
+### Pages Skipped (already healthy or recently updated):
+
+- **Wolf** — 11 FAQs (at cap), updated 2026-04-25. No changes needed.
+- **Skins** — 10 FAQs (at cap), updated 2026-04-25. No changes needed.
+- **Nassau** — 9 FAQs, updated 2026-04-25. Recent update, not overdue.
+- **Presses Guide** — 9 FAQs, updated 2026-04-01. Could be considered for June if nothing more urgent.
+- **Golf Betting for Beginners** — updated 2026-04-25. No changes needed this cycle.
+- **Glossary** — updated 2026-04-11. Not yet at 30 days past due.
+
+### Notes:
+
+- **App Store rating needed.** The Best Golf Betting Apps comparison table still shows Stick as "New (Apr 2026)" with no rating. Once reviews accumulate, the table row should be updated with a real star rating and review count. This is probably the highest-leverage single update on the whole site.
+
+- **Opportunity: "golf outing games" keyword cluster.** While refreshing Quota, it's clear this page should be ranking for group-event queries. Consider a dedicated blog post: "Best Golf Games for Outings and Company Events" — Quota, Skins, and Nassau in a format that speaks to event organizers rather than Saturday foursomes. This is a distinct audience with high intent.
+
+- **Vegas "Daytona" angle.** Now that "daytona golf game" is in the keywords list, watch Search Console over the next 60 days to see if Vegas starts picking up Daytona-intent queries. If it does, consider expanding the Daytona FAQ answer or adding a short "Daytona vs. Vegas" comparison section.
+
+- **June refresh priorities:** Presses guide (30+ days by June), Junk guide (hasn't been updated since initial publish — check date), Match Play and Nine Point (both likely in the same boat as Quota/Vegas). Also worth checking if the "golf betting for beginners" post should have a link to the new 5-player or 2-player guides added — the content existed before those posts were published.
+
+---
+
 ## April 1, 2026 Monthly Refresh
 
 **Source data:** March 2026 scoreboard (944 impressions, 3 clicks, 0.3% CTR, 48.5 avg position across 22 pages, 167 unique queries). All 19 tracked pages past their April 5 refresh due date.

@@ -132,25 +132,25 @@ Every published page needs a substantive update at least once per month (GEO dat
 
 | Page | Last Refreshed | What Was Updated | Next Refresh Due |
 |------|---------------|-----------------|-----------------|
-| `/games/nassau/` | — (initial publish) | — | Apr 5 |
-| `/games/skins/` | — (initial publish) | — | Apr 5 |
-| `/games/wolf/` | — (initial publish) | — | Apr 5 |
-| `/games/snake/` | — (initial publish) | — | Apr 5 |
-| `/games/match-play/` | — (initial publish) | — | Apr 5 |
-| `/games/vegas/` | — (initial publish) | — | Apr 5 |
-| `/games/nine-point/` | — (initial publish) | — | Apr 5 |
-| `/games/junk/` | — (initial publish) | — | Apr 5 |
-| `/games/sixes/` | — (initial publish) | — | Apr 5 |
-| `/games/split-sixes/` | — (initial publish) | — | Apr 5 |
-| `/games/scotch/` | — (initial publish) | — | Apr 5 |
-| `/games/quota/` | — (initial publish) | — | Apr 5 |
-| `/blog/best-golf-betting-apps-2026/` | — (initial publish) | — | Apr 5 |
-| `/blog/best-golf-betting-games-3-players/` | — (initial publish) | — | Apr 5 |
-| `/blog/golf-betting-games-masters-week/` | — (initial publish) | — | Apr 5 |
-| `/guides/handicaps/` | — (initial publish) | — | Apr 5 |
-| `/guides/presses/` | — (initial publish) | — | Apr 5 |
-| `/guides/settlement/` | — (initial publish) | — | Apr 5 |
-| `/guides/glossary/` | — (initial publish) | — | Apr 11 |
+| `/games/nassau/` | Apr 25, 2026 | Added 3-player FAQ | May 25 |
+| `/games/skins/` | Apr 25, 2026 | Added large-group FAQ, keyword | May 25 |
+| `/games/wolf/` | Apr 25, 2026 | Added Wolf points FAQ, keywords | May 25 |
+| `/games/snake/` | — (initial publish) | — | Overdue |
+| `/games/match-play/` | — (initial publish) | — | Overdue |
+| `/games/vegas/` | May 4, 2026 | Added handicaps FAQ, Daytona keyword | Jun 4 |
+| `/games/nine-point/` | — (initial publish) | — | Overdue |
+| `/games/junk/` | — (initial publish) | — | Overdue |
+| `/games/sixes/` | — (initial publish) | — | Overdue |
+| `/games/split-sixes/` | — (initial publish) | — | Overdue |
+| `/games/scotch/` | — (initial publish) | — | Overdue |
+| `/games/quota/` | May 4, 2026 | Added outing FAQ, keyword, internal link | Jun 4 |
+| `/blog/best-golf-betting-apps-2026/` | May 4, 2026 | Added offline/cell signal FAQ | Jun 4 |
+| `/blog/best-golf-betting-games-3-players/` | — (initial publish) | — | Overdue |
+| `/blog/golf-betting-games-masters-week/` | Apr 1, 2026 | Updated dates for 2026 | May 1 (overdue) |
+| `/guides/handicaps/` | May 4, 2026 | Added no-handicap-index FAQ | Jun 4 |
+| `/guides/presses/` | Apr 1, 2026 | Added front-to-back FAQ | May 1 (overdue) |
+| `/guides/settlement/` | May 4, 2026 | Added when-to-settle FAQ | Jun 4 |
+| `/guides/glossary/` | Apr 11, 2026 | — | May 11 (overdue) |
 
 ---
 
