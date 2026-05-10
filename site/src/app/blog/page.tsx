@@ -140,15 +140,15 @@ export default function BlogIndex() {
                   <Link
                     key={post.slug}
                     href={`/blog/${post.slug}`}
-                    className="group"
+                    className="group block border border-[var(--color-canvas-dark)]/10 rounded-xl p-6 hover:border-[var(--color-coral)]/40 transition-colors"
                   >
-                    <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-secondary)] mb-2">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-coral)] mb-3">
                       {categoryLabels[post.category] || post.category}
                     </p>
-                    <h3 className="font-serif text-xl text-[var(--color-text-on-light)] group-hover:text-[var(--color-coral)] transition-colors">
+                    <h3 className="font-serif text-xl text-[var(--color-text-on-light)] group-hover:text-[var(--color-coral)] transition-colors leading-snug">
                       {post.title}
                     </h3>
-                    <p className="mt-2 text-sm text-[var(--color-text-secondary)] leading-relaxed">
+                    <p className="mt-3 text-sm text-[var(--color-text-secondary)] leading-relaxed">
                       {post.description}
                     </p>
                   </Link>
@@ -175,15 +175,15 @@ export default function BlogIndex() {
                   <Link
                     key={guide.slug}
                     href={`/guides/${guide.slug}`}
-                    className="group"
+                    className="group block border border-[var(--color-canvas-dark)]/10 rounded-xl p-6 hover:border-[var(--color-gold)]/40 transition-colors"
                   >
-                    <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gold)] mb-2">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-gold)] mb-3">
                       Reference
                     </p>
-                    <h3 className="font-serif text-xl text-[var(--color-text-on-light)] group-hover:text-[var(--color-coral)] transition-colors">
+                    <h3 className="font-serif text-xl text-[var(--color-text-on-light)] group-hover:text-[var(--color-coral)] transition-colors leading-snug">
                       {guide.title}
                     </h3>
-                    <p className="mt-2 text-sm text-[var(--color-text-secondary)] leading-relaxed">
+                    <p className="mt-3 text-sm text-[var(--color-text-secondary)] leading-relaxed">
                       {guide.description}
                     </p>
                   </Link>

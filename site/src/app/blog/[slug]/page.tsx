@@ -5,9 +5,7 @@ import remarkGfm from "remark-gfm";
 import { getBlogPost, getBlogPostSlugs, getAllBlogPosts } from "@/lib/content";
 import { JsonLd } from "@/components/JsonLd";
 import { mdxComponents } from "@/components/mdx";
-import { contentImages } from "@/lib/tokens";
 import Link from "next/link";
-import Image from "next/image";
 
 // ─── Static params for all blog posts ──────────────────────────────────────
 
@@ -317,28 +315,15 @@ export default async function BlogPostPage({
                 <Link
                   key={p.slug}
                   href={`/blog/${p.slug}/`}
-                  className="group"
+                  className="group block border border-[var(--color-canvas-dark)]/10 rounded-xl p-6 hover:border-[var(--color-coral)]/40 transition-colors"
                 >
-                  <div className="aspect-[16/10] rounded-xl bg-[var(--color-canvas-dark)]/5 mb-5 overflow-hidden">
-                    {contentImages[p.slug] ? (
-                      <Image
-                        src={contentImages[p.slug].card}
-                        alt={contentImages[p.slug].alt}
-                        width={1200}
-                        height={800}
-                        className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500"
-                      />
-                    ) : (
-                      <div className="w-full h-full bg-gradient-to-br from-[var(--color-forest)]/10 to-transparent" />
-                    )}
-                  </div>
-                  <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-secondary)] mb-2">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-coral)] mb-3">
                     {categoryLabels[p.category] || p.category}
                   </p>
-                  <h3 className="font-serif text-xl text-[var(--color-text-on-light)] group-hover:text-[var(--color-coral)] transition-colors">
+                  <h3 className="font-serif text-xl text-[var(--color-text-on-light)] group-hover:text-[var(--color-coral)] transition-colors leading-snug">
                     {p.title}
                   </h3>
-                  <p className="mt-2 text-sm text-[var(--color-text-secondary)] leading-relaxed">
+                  <p className="mt-3 text-sm text-[var(--color-text-secondary)] leading-relaxed">
                     {p.description}
                   </p>
                 </Link>
