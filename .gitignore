@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Claude / editor internals
+.claude/settings.local.json
+
+# Temporary working files
+temp images/
+screenshots/
+
+# Node
+node_modules/
+.next/
+
+# Env
+.env
+.env.local
+.env*.local
+
+# Vercel
+.vercel
