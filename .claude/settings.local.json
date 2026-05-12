@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -1 /Users/justin/Development/Stick/src/engine/src/games/*/index.ts)",
+      "Bash(npm test:*)",
+      "Bash(npm run:*)",
+      "Bash(ls -la /Users/justin/Development/Stick/ios/Stick/SplashScreen*)",
+      "Bash(identify /Users/justin/Development/Stick/assets/images/splash_bg_warm.jpg)",
+      "Bash(sips --help)",
+      "Bash(sips -s format jpeg -s formatOptions 82 /Users/justin/Development/Stick/assets/images/splash_bg_warm.jpg --out /tmp/splash_test_82.jpg)",
+      "Read(//tmp/**)",
+      "Bash(sips -s format jpeg -s formatOptions 75 /Users/justin/Development/Stick/assets/images/splash_bg_warm.jpg --out /tmp/splash_test_75.jpg)",
+      "Bash(sips -s format jpeg -s formatOptions 70 /Users/justin/Development/Stick/assets/images/splash_bg_warm.jpg --out /tmp/splash_test_70.jpg)",
+      "Bash(convert --version)",
+      "Bash(ffmpeg -version)",
+      "Bash(python3 -c \"from PIL import Image; print\\('pillow ok'\\)\")",
+      "Bash(cp /Users/justin/Development/Stick/assets/images/splash_bg_warm.jpg /Users/justin/Development/Stick/assets/images/splash_bg_warm.jpg.bak)",
+      "Bash(jpegtran -optimize -progressive -copy none /Users/justin/Development/Stick/assets/images/splash_bg_warm.jpg)",
+      "Bash(cp /tmp/splash_final.jpg /Users/justin/Development/Stick/assets/images/splash_bg_warm.jpg)"
+    ]
+  }
+}

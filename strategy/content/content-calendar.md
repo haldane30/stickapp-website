@@ -71,8 +71,8 @@ Focus: Tier 2 authority content + occasion-based pieces.
 | Week | Piece | Pipeline ID | Type | Trigger |
 |------|-------|-------------|------|---------|
 | **May 5–9** | Best Games for High Handicappers | T2-3 | Blog | Peak season |
-| **May 12–16** | How to Set Stakes for Your Group | T2-4 | Blog | New groups forming |
-| **May 19–23** | Best Games for a Bachelor Party | T3-1 | Blog | Memorial Day weekend |
+| **May 12–16** | ✅ How to Set Stakes for Your Group | T2-4 | Blog | Published May 12, 2026 |
+| **May 19–23** | ✅ Best Games for a Bachelor Party | T3-1 | Blog | Published (pre-Memorial Day) |
 | **May 26–30** | *Buffer week — revisit scoreboard, re-prioritize* | — | — | — |
 
 **End of May checkpoint:** All Tier 1 published. Tier 2 well underway. First round of Search Console data should be meaningful (content indexed 2+ months). Use scoreboard to identify what's working.

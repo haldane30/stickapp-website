@@ -5,7 +5,7 @@ gameName: "Snake"
 players: "2+ players"
 difficulty: "Low"
 publishedAt: "2026-03-01"
-updatedAt: "2026-03-01"
+updatedAt: "2026-05-12"
 keywords:
   - snake golf game
   - snake putting game
@@ -31,6 +31,8 @@ faq:
     answer: "Yes. Snake is a side game designed to run in parallel with whatever else you're playing. You can play Nassau + Snake, Skins + Snake, Wolf + Snake, any combination. The games don't interfere — Nassau is about gross scoring, Skins is about hole-by-hole low score, Snake is purely about putting. You settle each independently at the end of the round."
   - question: "How much can the doubling model escalate?"
     answer: "It depends on how many three-putts occur. Starting at $1: eight three-putts = $128 liability. Ten three-putts = $512. The math is 2^(n-1). A group of high-handicappers starting at $5 could theoretically hit $2,560 or more in a round of bad putting. That's why the doubling model works best with $0.10 or $0.25 starting values."
+  - question: "What happens when someone picks up during a Snake round?"
+    answer: "Picking up means not completing the hole — no three-putt, no snake transfer. The ball is lifted before a third putt is made, so the snake stays where it is. Same result if someone has a putt conceded before reaching three: no transfer. The snake only moves when a player makes three or more strokes on the green. A pickup is effectively a pass in Snake."
 ---
 
 Snake is the opposite of a scoring game — it punishes three-putts. Someone three-putts, they hold the snake. Someone else three-putts, the snake moves. Last person holding it at the end of 18 pays everyone else. It's a side game, meaning it runs alongside Nassau, Skins, or any other format. And it's a hot potato game in the truest sense — nobody wants to be the one holding it when the round ends.
@@ -218,6 +220,10 @@ Yes. Snake is a side game designed to run in parallel with whatever else you're 
 
 <QA question="How much can the doubling model escalate?">
 It depends on how many three-putts occur. Starting at $1: eight three-putts = $128 liability. Ten three-putts = $512. The math is 2^(n-1). A group of high-handicappers starting at $5 could theoretically hit $2,560 or more in a round of bad putting. That's why the doubling model works best with $0.10 or $0.25 starting values.
+</QA>
+
+<QA question="What happens when someone picks up during a Snake round?">
+Picking up means not completing the hole — no three-putt, no snake transfer. The ball is lifted before a third putt is made, so the snake stays where it is. Same result if someone has a putt conceded before reaching three: no transfer. The snake only moves when a player makes three or more strokes on the green. A pickup is effectively a pass in Snake.
 </QA>
 
 </FAQ>

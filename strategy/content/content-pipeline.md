@@ -161,13 +161,14 @@ These catch golfers who already bet and want to level up. They build topical aut
 - **Outline notes:** Frame around "games that level the playing field." Quota (handicap is baked in), handicapped Nassau (net scoring), Best Ball formats. Call out games where high handicaps struggle despite adjustment (Junk/prox, Skins where one birdie dominates). The angle: "shoot 95 and still win."
 
 #### T2-4: "How to Set Stakes for Your Golf Group"
-- **Status:** Identified
-- **Type:** Blog post (1,000-1,500 words)
+- **Status:** Published (May 12, 2026)
+- **Live URL:** `/blog/how-to-set-golf-betting-stakes/`
+- **Type:** Blog post (~1,400 words)
 - **Target keyword:** golf betting stakes, how much to bet golf
 - **Why now:** One of the most common unasked questions. New groups don't know what's "normal." Experienced groups wonder if they're playing for too much or too little. No good content exists.
 - **Competition:** ZERO dedicated content.
-- **Internal linking targets:** Nassau guide (example stakes), Settlement reference, Golf Betting for Beginners
-- **Outline notes:** Cover: typical stakes ranges by game ($2-$5 casual, $10-$25 standard, $50+ high stakes), how to scale for your group's comfort, the "buy-in mentality" vs per-hole/per-point, why automatic presses can escalate fast, Stick's role in transparency.
+- **Internal linking targets:** Nassau guide, Settlement reference, Golf Betting for Beginners, Presses guide, Wolf guide, Skins guide
+- **Key feature:** Stakes exposure table showing per-player swing ranges at $2/$5/$10 units across Nassau, Skins, Wolf, Wolf+Hammer, Nine Point. Unique content nobody else has.
 
 #### T2-5: "Is Golf Betting Legal? What Casual Golfers Need to Know"
 - **Status:** Identified (added Q2 2026 quarterly sweep)
