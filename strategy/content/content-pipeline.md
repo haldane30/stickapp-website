@@ -152,13 +152,15 @@ These catch golfers who already bet and want to level up. They build topical aut
 - **Outline notes:** Cover: how to propose stakes (and accept a "no" gracefully), agreeing on rules before the first tee, settling immediately (don't let it linger), handling disputes, the role of handicaps in fair play, the guy who always "forgets his wallet." Voice: warm, knowing, "we've all been there."
 
 #### T2-3: "Best Golf Betting Games for High Handicappers"
-- **Status:** Identified
-- **Type:** Blog post (1,500-2,000 words)
+- **Status:** Drafted (May 18, 2026) — awaiting Justin review
+- **Live URL (pending):** `/blog/best-golf-betting-games-high-handicappers/`
+- **File:** `site/src/content/blog/best-golf-betting-games-high-handicappers.mdx`
+- **Type:** Blog post (~1,900 words)
 - **Target keyword:** golf games for high handicappers, fair golf betting games
 - **Why now:** High handicappers are the majority of recreational golfers. They want to know which games give them a fair shot. Underserved query — existing content is generic "games for all skill levels." Justin's prox insight (proximity rewards ball-striking, skews toward low handicaps) adds a unique angle nobody else has.
 - **Competition:** WEAK. Generic roundups only.
-- **Internal linking targets:** Quota guide, Nassau guide (handicap-adjusted), Handicaps reference, Junk guide (with prox caveat)
-- **Outline notes:** Frame around "games that level the playing field." Quota (handicap is baked in), handicapped Nassau (net scoring), Best Ball formats. Call out games where high handicaps struggle despite adjustment (Junk/prox, Skins where one birdie dominates). The angle: "shoot 95 and still win."
+- **Internal linking targets:** Quota guide, Nassau guide (handicap-adjusted), Handicaps reference, Junk guide (with prox caveat), Match Play guide, Skins guide, Wolf guide
+- **Internal links IN the post:** All confirmed — Quota, Nassau, Match Play, Skins, Wolf, Junk all linked. Handicaps guide linked for estimated handicap chart.
 
 #### T2-4: "How to Set Stakes for Your Golf Group"
 - **Status:** Published (May 12, 2026)
