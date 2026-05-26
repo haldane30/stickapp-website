@@ -287,7 +287,7 @@ export default async function BlogPostPage({
           </p>
           <div className="mt-8">
             <a
-              href={`https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=blog-${slug}`}
+              href={`https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=blog-${slug}`}
               className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white text-sm font-medium px-8 py-4 rounded-full transition-colors"
               style={{ fontFamily: "var(--font-sans)" }}
             >

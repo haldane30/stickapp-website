@@ -28,7 +28,7 @@ export function Footer() {
             <ul className="space-y-2.5">
               <li>
                 <a
-                  href="https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=footer-cta"
+                  href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=footer-cta"
                   className="text-sm text-[var(--color-text-on-dark)] hover:text-[var(--color-coral)] transition-colors"
                 >
                   Download

@@ -91,7 +91,7 @@ export default function Home() {
           {/* CTA */}
           <div className="mt-10">
             <a
-              href="https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=homepage"
+              href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=homepage"
               className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white font-medium text-base px-8 py-4 rounded-full transition-colors"
             >
               Download on the App Store
@@ -415,7 +415,7 @@ export default function Home() {
 
           <div className="mt-10">
             <a
-              href="https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=homepage"
+              href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=homepage"
               className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white font-medium text-base px-8 py-4 rounded-full transition-colors"
             >
               Download on the App Store

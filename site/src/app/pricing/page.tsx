@@ -176,7 +176,7 @@ export default function PricingPage() {
               </div>
 
               <a
-                href="https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=pricing-free"
+                href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=pricing-free"
                 className="mt-8 block w-full text-center text-sm font-medium px-6 py-3.5 rounded-full border border-white/[0.15] text-[var(--color-text-on-dark)] hover:border-white/30 hover:bg-white/[0.04] transition-all"
                 style={{ fontFamily: "var(--font-sans)" }}
               >
@@ -276,7 +276,7 @@ export default function PricingPage() {
               </div>
 
               <a
-                href="https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=pricing-annual"
+                href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=pricing-annual"
                 className="mt-8 block w-full text-center text-sm font-medium px-6 py-3.5 rounded-full bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white transition-colors"
                 style={{ fontFamily: "var(--font-sans)" }}
               >
@@ -368,7 +368,7 @@ export default function PricingPage() {
               </div>
 
               <a
-                href="https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=pricing-monthly"
+                href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=pricing-monthly"
                 className="mt-8 block w-full text-center text-sm font-medium px-6 py-3.5 rounded-full border border-white/[0.15] text-[var(--color-text-on-dark)] hover:border-white/30 hover:bg-white/[0.04] transition-all"
                 style={{ fontFamily: "var(--font-sans)" }}
               >
@@ -640,7 +640,7 @@ export default function PricingPage() {
           </p>
           <div className="mt-8">
             <a
-              href="https://apps.apple.com/app/stick-golf/id-placeholder?utm_source=stickapp.golf&utm_medium=website&utm_campaign=pricing-bottom-cta"
+              href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=pricing-bottom-cta"
               className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white text-sm font-medium px-8 py-4 rounded-full transition-colors"
               style={{ fontFamily: "var(--font-sans)" }}
             >
