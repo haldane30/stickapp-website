@@ -71,7 +71,7 @@ export default function PrivacyPage() {
               maxWidth: "480px",
             }}
           >
-            Last updated: February 21, 2026
+            Last updated: September 7, 2026
           </p>
         </div>
       </section>
@@ -96,7 +96,9 @@ export default function PrivacyPage() {
           <ul>
             <li>Your name</li>
             <li>Your email address</li>
-            <li>Your profile picture (if available from your sign-in provider)</li>
+            <li>
+              Your profile picture (if available from your sign-in provider)
+            </li>
           </ul>
           <p>
             You can also use the App without signing in. In that case, we
@@ -107,21 +109,25 @@ export default function PrivacyPage() {
           <h3>Golf Data</h3>
           <p>When you use the App, we store:</p>
           <ul>
-            <li>Round information (course played, date, players in the group)</li>
+            <li>
+              Round information (course played, date, players in the group)
+            </li>
             <li>Hole-by-hole scores and putt counts</li>
             <li>Betting game configurations and results</li>
             <li>Settlement calculations (who owes whom)</li>
             <li>
               Your preferences (handicap index, preferred tee box, avatar color)
             </li>
-            <li>Players you&apos;ve recently played with (for quick re-selection)</li>
+            <li>
+              Players you&apos;ve recently played with (for quick re-selection)
+            </li>
             <li>Courses you&apos;ve recently played</li>
           </ul>
 
           <h3>Device Information</h3>
           <p>
-            We generate and store a random unique identifier on your device. This
-            identifier is used to associate your rounds and data with your
+            We generate and store a random unique identifier on your device.
+            This identifier is used to associate your rounds and data with your
             device, enable multi-device sync, and support anonymous usage before
             sign-in. We do not collect your device model, operating system
             version, or other hardware identifiers for tracking purposes.
@@ -129,10 +135,30 @@ export default function PrivacyPage() {
 
           <h3>Location Data (Optional)</h3>
           <p>
-            If you choose to search for nearby golf courses, we request access to
-            your device&apos;s location. This data is used only in real-time to find
-            courses near you and is not stored on our servers. You can deny this
-            permission and search for courses by name instead.
+            If you choose to search for nearby golf courses, we request access
+            to your device&apos;s location. This data is used only in real-time
+            to find courses near you and is not stored on our servers. You can
+            deny this permission and search for courses by name instead.
+          </p>
+
+          <h3>Contacts (Optional)</h3>
+          <p>
+            The App can search your device contacts to help you add playing
+            partners to a round. This is optional &mdash; you can always add
+            players by typing a name, and the App works fully without granting
+            contacts access.
+          </p>
+          <p>
+            Your contact list is <strong>never uploaded</strong>. It is read on
+            your device only, so that you can search it, and is discarded when
+            you close the screen. When you select a specific person to add as a
+            player, we store{" "}
+            <strong>that one person&apos;s name and phone number</strong> so
+            they appear in your &ldquo;Recent Players&rdquo; list and can be
+            added again in one tap, and so the same playing partner can be
+            recognized across rounds. We do not access contacts you have not
+            selected, and we never sell or share contact data with advertisers
+            or other third parties.
           </p>
 
           <h3>Feedback</h3>
@@ -147,7 +173,9 @@ export default function PrivacyPage() {
 
           <p>We use your information to:</p>
           <ul>
-            <li>Provide the core scorekeeper and betting tracker functionality</li>
+            <li>
+              Provide the core scorekeeper and betting tracker functionality
+            </li>
             <li>Save your rounds, preferences, and game history</li>
             <li>
               Enable multiplayer features (inviting others to follow a round in
@@ -183,29 +211,51 @@ export default function PrivacyPage() {
               </thead>
               <tbody className="text-[var(--color-text-secondary)]">
                 <tr className="border-b border-[var(--color-canvas-dark)]/5">
-                  <td className="py-3 pr-4 font-medium text-[var(--color-text-on-light)]">Clerk</td>
-                  <td className="py-3 pr-4">Authentication (Google/Apple sign-in)</td>
+                  <td className="py-3 pr-4 font-medium text-[var(--color-text-on-light)]">
+                    Clerk
+                  </td>
+                  <td className="py-3 pr-4">
+                    Authentication (Google/Apple sign-in)
+                  </td>
                   <td className="py-3">Name, email, profile picture</td>
                 </tr>
                 <tr className="border-b border-[var(--color-canvas-dark)]/5">
-                  <td className="py-3 pr-4 font-medium text-[var(--color-text-on-light)]">Convex</td>
+                  <td className="py-3 pr-4 font-medium text-[var(--color-text-on-light)]">
+                    Convex
+                  </td>
                   <td className="py-3 pr-4">Cloud database</td>
-                  <td className="py-3">All App data (rounds, scores, user profiles)</td>
+                  <td className="py-3">
+                    All App data (rounds, scores, user profiles, saved playing-partner names and phone numbers)
+                  </td>
                 </tr>
                 <tr className="border-b border-[var(--color-canvas-dark)]/5">
-                  <td className="py-3 pr-4 font-medium text-[var(--color-text-on-light)]">Sentry</td>
+                  <td className="py-3 pr-4 font-medium text-[var(--color-text-on-light)]">
+                    Sentry
+                  </td>
                   <td className="py-3 pr-4">Error and crash monitoring</td>
-                  <td className="py-3">Error messages, stack traces, device identifier</td>
+                  <td className="py-3">
+                    Error messages, stack traces, device identifier
+                  </td>
                 </tr>
                 <tr className="border-b border-[var(--color-canvas-dark)]/5">
-                  <td className="py-3 pr-4 font-medium text-[var(--color-text-on-light)]">RevenueCat</td>
+                  <td className="py-3 pr-4 font-medium text-[var(--color-text-on-light)]">
+                    RevenueCat
+                  </td>
                   <td className="py-3 pr-4">Subscription management</td>
-                  <td className="py-3">App user ID, purchase tokens from Apple</td>
+                  <td className="py-3">
+                    App user ID, purchase tokens from Apple
+                  </td>
                 </tr>
                 <tr>
-                  <td className="py-3 pr-4 font-medium text-[var(--color-text-on-light)]">GolfCourseAPI</td>
-                  <td className="py-3 pr-4">Golf course data (hole info, ratings)</td>
-                  <td className="py-3">Search queries (course names or locations)</td>
+                  <td className="py-3 pr-4 font-medium text-[var(--color-text-on-light)]">
+                    GolfCourseAPI
+                  </td>
+                  <td className="py-3 pr-4">
+                    Golf course data (hole info, ratings)
+                  </td>
+                  <td className="py-3">
+                    Search queries (course names or locations)
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -240,8 +290,8 @@ export default function PrivacyPage() {
               App.
             </li>
             <li>
-              <strong>If required by law.</strong> We may disclose information if
-              required by a valid legal process.
+              <strong>If required by law.</strong> We may disclose information
+              if required by a valid legal process.
             </li>
           </ul>
 
@@ -250,8 +300,9 @@ export default function PrivacyPage() {
           <p>
             We retain your data for as long as your account is active. Completed
             rounds are kept indefinitely so you can review your history. If you
-            delete your account, all your data is permanently removed (see
-            Section 7).
+            delete your account, your personal information is removed, but
+            completed rounds are preserved in anonymized form for the other
+            players who took part in them (see Section 7).
           </p>
 
           <h2>6. Data Security</h2>
@@ -272,12 +323,17 @@ export default function PrivacyPage() {
 
           <h3>Delete Your Account</h3>
           <p>
-            You can permanently delete your account and all associated data
-            directly within the App. Go to Settings and tap &ldquo;Delete
-            Account.&rdquo; This will remove your user profile, all rounds you
-            created, player connections, course history, saved game
-            configurations, feedback submissions, and device mappings. This
-            action cannot be undone.
+            You can delete your account directly within the App. Go to Settings
+            and tap &ldquo;Delete Account.&rdquo; This removes your user
+            profile, player connections, course history, saved game
+            configurations, feedback submissions, and device mappings, and
+            clears data stored on your device. This action cannot be undone.
+          </p>
+          <p>
+            Completed rounds are <strong>not</strong> deleted. A round is shared
+            history between everyone who played it, so rounds you took part in
+            are preserved in anonymized form for the other players. Your name is
+            removed from them.
           </p>
 
           <h3>Location Permission</h3>
@@ -310,10 +366,11 @@ export default function PrivacyPage() {
           <p>
             Stick Golf is a scorekeeper that tracks friendly wagers between
             players. The App calculates who owes whom based on the betting games
-            you configure. <strong>No real money is exchanged through the App.</strong>{" "}
-            We do not process payments between players, and we have no access to
-            your bank account, credit card, or payment apps. Settlement amounts
-            are informational only.
+            you configure.{" "}
+            <strong>No real money is exchanged through the App.</strong> We do
+            not process payments between players, and we have no access to your
+            bank account, credit card, or payment apps. Settlement amounts are
+            informational only.
           </p>
 
           <p>
@@ -355,7 +412,7 @@ export default function PrivacyPage() {
           <hr className="my-10 border-[var(--color-canvas-dark)]/10" />
 
           <p className="text-sm text-[var(--color-text-secondary)]">
-            This privacy policy is effective as of February 21, 2026.
+            This privacy policy is effective as of September 7, 2026.
           </p>
         </div>
       </section>
