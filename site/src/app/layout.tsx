@@ -4,6 +4,8 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
+import { Analytics } from "@vercel/analytics/next";
+import { APP_STORE_ID } from "@/lib/appStore";
 
 /**
  * FONTS
@@ -43,7 +45,7 @@ export const metadata: Metadata = {
     template: "%s | Stick Golf",
   },
   description:
-    "Track 12 golf betting games from one scorecard. Real-time scoring, automatic settlement, and the math that's always right.",
+    "Track 13 golf betting games from one scorecard. Real-time scoring, automatic settlement, and the math that's always right.",
   metadataBase: new URL("https://stickapp.golf"),
   alternates: {
     canonical: "/",
@@ -53,20 +55,23 @@ export const metadata: Metadata = {
       siteName: "Stick Golf",
       title: "Stick Golf — Every Bet. Every Hole. Settled.",
       description:
-        "Track 12 golf betting games from one scorecard. Real-time scoring, automatic settlement, and the math that's always right.",
+        "Track 13 golf betting games from one scorecard. Real-time scoring, automatic settlement, and the math that's always right.",
       url: "https://stickapp.golf",
       images: [{ url: '/og/home.png', width: 1200, height: 630 }],
     },
   twitter: {
     card: "summary_large_image",
     title: "Stick Golf — Every Bet. Every Hole. Settled.",
-    description: "Track 12 golf betting games from one scorecard.",
+    description: "Track 13 golf betting games from one scorecard.",
     images: ["/og/home.png"],
   },
   robots: {
     index: true,
     follow: true,
   },
+  // Smart App Banner on every page: one tap to the App Store from Safari on
+  // iPhone, and "Open" instead when Stick is already installed.
+  itunes: { appId: APP_STORE_ID },
 };
 
 // Organization schema — site-wide
@@ -76,7 +81,7 @@ const organizationSchema = {
   name: "Stick Golf",
   url: "https://stickapp.golf",
   description:
-    "The golf betting app with 12 games, real-time scoring, and automatic settlement.",
+    "The golf betting app with 13 games, real-time scoring, and automatic settlement.",
   sameAs: [],
 };
 
@@ -92,6 +97,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

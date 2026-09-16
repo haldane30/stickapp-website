@@ -12,7 +12,7 @@ const appSchema = {
   operatingSystem: "iOS",
   applicationCategory: "SportsApplication",
   description:
-    "Track 12 golf betting games with real-time scoring, automatic settlement, and multi-device sync.",
+    "Track 13 golf betting games with real-time scoring, automatic settlement, and multi-device sync.",
   offers: {
     "@type": "Offer",
     price: "59.99",
@@ -85,13 +85,16 @@ export default function Home() {
 
           {/* Subtitle */}
           <p className="mt-6 text-lg md:text-xl text-[var(--color-text-secondary)] max-w-lg mx-auto">
-            Track 12 golf betting games from one scorecard.
+            Track 13 golf betting games from one scorecard.
+          </p>
+          <p className="mt-3 text-base text-[var(--color-text-on-dark)]/80 max-w-lg mx-auto">
+            3 free rounds, no card. Only the scorekeeper pays — your group plays free.
           </p>
 
           {/* CTA */}
           <div className="mt-10">
             <a
-              href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=homepage"
+              href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?pt=126765100&ct=homepage&mt=8"
               className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white font-medium text-base px-8 py-4 rounded-full transition-colors"
             >
               Download on the App Store
@@ -185,15 +188,15 @@ export default function Home() {
             <div className="text-center">
               <PhoneMockup
                 src="/screenshots/game-picker.png"
-                alt="Stick app game selection showing 12 available golf betting games"
+                alt="Stick app game selection showing 13 available golf betting games"
                 size="md"
                 priority
               />
               <h3 className="mt-6 text-[var(--color-text-on-dark)] font-semibold text-base">
-                12 games, your rules
+                13 games, your rules
               </h3>
               <p className="mt-2 text-sm text-[var(--color-text-secondary)] max-w-xs mx-auto">
-                Nassau, Skins, Wolf, Snake, Vegas, and 7 more. Every format your group plays, with every house rule.
+                Nassau, Skins, Wolf, Snake, Vegas, Banker, and 7 more. Every format your group plays, with every house rule.
               </p>
             </div>
 
@@ -266,7 +269,7 @@ export default function Home() {
         <div className="mx-auto max-w-[var(--content-max-width)] px-6">
           {/* Overline */}
           <p className="text-xs font-semibold uppercase tracking-[0.15em] text-[var(--color-text-secondary)] mb-4">
-            12 Games
+            The Games
           </p>
 
           {/* Headline */}
@@ -314,8 +317,8 @@ export default function Home() {
           {/* Stats row */}
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-8 max-w-3xl mx-auto">
             {[
-              { number: "12", label: "games supported" },
-              { number: "1,448", label: "tests verify the math" },
+              { number: "13", label: "games supported" },
+              { number: "3,000+", label: "tests verify the math" },
               { number: "$0.00", label: "rounding errors — ever" },
             ].map((stat) => (
               <div key={stat.label}>
@@ -415,7 +418,7 @@ export default function Home() {
 
           <div className="mt-10">
             <a
-              href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=homepage"
+              href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?pt=126765100&ct=homepage&mt=8"
               className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white font-medium text-base px-8 py-4 rounded-full transition-colors"
             >
               Download on the App Store
