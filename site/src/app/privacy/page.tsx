@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { JsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
@@ -334,6 +335,17 @@ export default function PrivacyPage() {
             history between everyone who played it, so rounds you took part in
             are preserved in anonymized form for the other players. Your name is
             removed from them.
+          </p>
+          <p>
+            If you no longer have the App installed, you can also request
+            deletion by email. See{" "}
+            <Link
+              href="/delete-account/"
+              className="text-[var(--color-coral)] hover:underline"
+            >
+              Delete Your Account
+            </Link>{" "}
+            for the full process and exactly what is removed.
           </p>
 
           <h3>Location Permission</h3>
