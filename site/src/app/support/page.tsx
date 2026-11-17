@@ -58,7 +58,7 @@ const faqItems = [
   },
   {
     q: "How do I delete my account?",
-    a: "Open Stick, go to Settings, and tap Delete Account. This permanently removes your account and all associated data. If you have an active subscription, make sure to cancel it separately through the App Store first — deleting your account doesn't automatically cancel billing.",
+    a: "Open Stick, go to Settings, and tap Delete Account. This permanently removes your account, profile, playing partners, and history. Rounds you played in are kept for the other players, with your account unlinked — see our Delete Your Account page for the full list. If you have an active subscription, make sure to cancel it separately through the App Store or Google Play first — deleting your account doesn't automatically cancel billing.",
   },
 ];
 

@@ -72,6 +72,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
     {
+      url: "https://stickapp.golf/delete-account/",
+      lastModified: new Date("2026-09-22"),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
       url: "https://stickapp.golf/terms/",
       lastModified: new Date("2026-02-21"),
       changeFrequency: "yearly",
