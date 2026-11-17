@@ -32,7 +32,7 @@ export default function GamesHub() {
       <section className="section-dark pt-32 pb-16">
         <div className="mx-auto max-w-[var(--content-max-width)] px-6">
           <p className="text-xs font-semibold uppercase tracking-[0.15em] text-[var(--color-text-secondary)] mb-4">
-            12 Games
+            The Games
           </p>
           <h1
             className="font-serif text-[var(--color-text-on-dark)]"

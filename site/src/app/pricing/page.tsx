@@ -36,7 +36,7 @@ const breadcrumbSchema = {
 
 // Features included in every tier
 const allFeatures = [
-  "All 12 games",
+  "All 13 games",
   "Real-time scoring",
   "Automatic settlement",
   "Multi-device sync",
@@ -176,7 +176,7 @@ export default function PricingPage() {
               </div>
 
               <a
-                href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=pricing-free"
+                href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?pt=126765100&ct=pricing-free&mt=8"
                 className="mt-8 block w-full text-center text-sm font-medium px-6 py-3.5 rounded-full border border-white/[0.15] text-[var(--color-text-on-dark)] hover:border-white/30 hover:bg-white/[0.04] transition-all"
                 style={{ fontFamily: "var(--font-sans)" }}
               >
@@ -276,7 +276,7 @@ export default function PricingPage() {
               </div>
 
               <a
-                href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=pricing-annual"
+                href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?pt=126765100&ct=pricing-annual&mt=8"
                 className="mt-8 block w-full text-center text-sm font-medium px-6 py-3.5 rounded-full bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white transition-colors"
                 style={{ fontFamily: "var(--font-sans)" }}
               >
@@ -368,7 +368,7 @@ export default function PricingPage() {
               </div>
 
               <a
-                href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=pricing-monthly"
+                href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?pt=126765100&ct=pricing-monthly&mt=8"
                 className="mt-8 block w-full text-center text-sm font-medium px-6 py-3.5 rounded-full border border-white/[0.15] text-[var(--color-text-on-dark)] hover:border-white/30 hover:bg-white/[0.04] transition-all"
                 style={{ fontFamily: "var(--font-sans)" }}
               >
@@ -491,7 +491,7 @@ export default function PricingPage() {
         <div className="mx-auto max-w-[960px] px-6">
           <div className="text-center mb-14">
             <p className="text-xs font-semibold uppercase tracking-[0.15em] text-[var(--color-text-secondary)] mb-4">
-              12 Games Included
+              13 Games Included
             </p>
             <h2
               className="font-serif text-[var(--color-text-on-light)]"
@@ -570,7 +570,7 @@ export default function PricingPage() {
               },
               {
                 q: "What's the difference between monthly and annual?",
-                a: "Same features, different billing. Annual works out to about $5/month and saves you 37% compared to monthly. Both include unlimited rounds and all 12 games.",
+                a: "Same features, different billing. Annual works out to about $5/month and saves you 37% compared to monthly. Both include unlimited rounds and all 13 games.",
               },
               {
                 q: "Can I switch between monthly and annual?",
@@ -640,7 +640,7 @@ export default function PricingPage() {
           </p>
           <div className="mt-8">
             <a
-              href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=pricing-bottom-cta"
+              href="https://apps.apple.com/us/app/stick-golf-betting/id6758226317?pt=126765100&ct=pricing-bottom-cta&mt=8"
               className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white text-sm font-medium px-8 py-4 rounded-full transition-colors"
               style={{ fontFamily: "var(--font-sans)" }}
             >

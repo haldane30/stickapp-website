@@ -155,11 +155,14 @@ export default async function GameGuidePage({
           {/* CTA */}
           <div className="mt-10">
             <a
-              href={`https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=${slug}-guide`}
+              href={`https://apps.apple.com/us/app/stick-golf-betting/id6758226317?pt=126765100&ct=${slug}-guide&mt=8`}
               className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white font-medium text-sm px-6 py-3 rounded-full transition-colors"
             >
               Track {game.name} with Stick
             </a>
+            <p className="mt-3 text-xs text-[var(--color-text-secondary)]">
+              3 free rounds, no card. Your group plays free — only the scorekeeper pays.
+            </p>
           </div>
         </div>
       </section>
@@ -203,7 +206,7 @@ export default async function GameGuidePage({
           </p>
           <div className="mt-8">
             <a
-              href={`https://apps.apple.com/us/app/stick-golf-betting/id6758226317?utm_source=stickapp.golf&utm_medium=website&utm_campaign=${slug}-guide`}
+              href={`https://apps.apple.com/us/app/stick-golf-betting/id6758226317?pt=126765100&ct=${slug}-guide&mt=8`}
               className="inline-block bg-[var(--color-coral)] hover:bg-[var(--color-coral-hover)] text-white font-medium text-base px-8 py-4 rounded-full transition-colors"
             >
               Download on the App Store

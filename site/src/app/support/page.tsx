@@ -246,7 +246,7 @@ export default function SupportPage() {
             }}
           >
             Not sure how a game works? Our guides cover rules, scoring,
-            settlement math, and strategy for all 12 games.
+            settlement math, and strategy for every game.
           </p>
 
           <div className="flex flex-wrap justify-center gap-3">
